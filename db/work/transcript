@@ -1,0 +1,34 @@
+# Reading pref.tcl
+# Loading project CURRENT_WAV_CTRL_FPGA
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 10:36:00 on Jul 22,2022
+# //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Lattice FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# End time: 10:44:05 on Jul 22,2022, Elapsed time: 0:08:05
+# Errors: 0, Warnings: 1

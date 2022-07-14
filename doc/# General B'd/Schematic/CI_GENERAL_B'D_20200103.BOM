@@ -1,0 +1,107 @@
+ALASKA_BTE_Battery pack								Rev code : 1.0								
+								2018.10.11								
+No.	Part Type	Descripstion	Part Name	Package	Vendor	Process	Q'ty	Location Number								
+1	Bead	"Ferrite Bead, BK1608HM121-T, 650mOhm 250mA"	BK1608HM121-T	L1608	TDK	SMT	3	"FB1,FB2,FB3"								
+2	Capacitor	"MLCC 0.1uF,10%,25V,1608,X7R"	0.1uF	C1608		SMT	33	"C21,C76,C77,C78,C79,C80,C81,C82,C83,C84,C85,C86,C87,C88,C89,C90,C91,C92,C93,C94,C95,C96,C97,C98,C99,C100,C101,C102,C103,C104,C105,C106,C107"								
+3	Capacitor	"MLCC 1.5pF,5%,6.3V,1608,X5R"	1.5pF/5%	C1608		SMT	1	C14								
+4	Capacitor	"MLCC 100nF,10%,25V,1608,X5R"	100nF	C1608		SMT	4	"C109,C110,C111,C112"								
+5	Capacitor	"MLCC 10nF,10%,25V,1608,X5R"	10nF	C1608		SMT	4	"C15,C17,C18,C19"								
+6	Capacitor	"MLCC 10nF,10%,25V,1608,X5R"	10nF/NC	C1608		SMT	1	C66								
+7	Capacitor	"MLCC 10pF,10%,25V,1608,X5R"	10pF	C1608		SMT	2	"C30,C34"								
+8	Capacitor	"MLCC 10uF,20%,25V,1608,X5R"	10uF	C1608		SMT	13	"C1,C3,C5,C6,C9,C31,C32,C33,C58,C59,C63,C64,C70"								
+9	Capacitor	"MLCC 1nF,5%,25V,1608,X7R"	1nF/5%	C1608		SMT	1	C22								
+10	Capacitor	"MLCC 1pF,5%,25V,1608,X7R"	1pF/5%	C1608		SMT	1	C13								
+11	Capacitor	"MLCC 1uF,10%,25V,1608,X5R"	1uF	C1608		SMT	17	"C10,C12,C23,C25,C26,C27,C28,C29,C35,C36,C37,C38,C39,C74,C75,C108,C113"								
+12	Capacitor	"MLCC 2.2nF,10%,25V,1608,X5R"	2.2nF	C1608		SMT	1	C16								
+13	Capacitor	"MLCC 2.2uF,10%,10V,1608,X5R"	2.2uF	C1608		SMT	7	"C20,C55,C56,C61,C62,C67,C69"								
+14	Capacitor	"MLCC 220nF,10%,10V,1608,X5R"	220nF	C1608		SMT	1	C65								
+15	Capacitor	"MLCC 22nF,10%,25V,1608,X5R"	22nF	C1608		SMT	2	"C60,C71"								
+16	Capacitor	"MLCC 4.7uF,10%,25V,1608,X5R"	4.7uF	C1608		SMT	8	"C2,C4,C7,C8,C11,C51,C52,C68"								
+17	Capacitor	"MLCC 470nF,10%,25V,1608,X5R"	470nF	C1608		SMT	1	C57								
+18	Capacitor	"MLCC 47nF,10%,25V,1608,X5R"	47nF	C1608		SMT	4	"C49,C50,C53,C54"								
+19	Capacitor	"MLCC 51pF,10%,25V,1608,X5R"	51pF	C1608		SMT	4	"C44,C45,C46,C47"								
+20	Capacitor	"MLCC 550pF,10%,25V,1608,X7R"	550pF	C1608		SMT	1	C72								
+21	Capacitor	"MLCC 80pF,10%,25V,1608,X7R"	80pF	C1608		SMT	1	C73								
+22	Capacitor	"Trimmer capacitor, GYC65004F,4.5-65pF,100V"	GYC65004	GYC65004	Sprague-Goodman	DIP	1	C48								3929
+24	Connector	SMA connector 50ohm	PCB.SMAFRA.HT	SMA-R_RA		DIP	1	CONA1								
+25	Connector	"Micro-B connector, ZX62-B-5PA(33)"	ZX62-B-5PA(33)	ZX62-B-5PA(33)	HIROSE	SMT	1	CON1								
+26	Connector	"Connector SMD type, 1.25mm pitch, 1x2P for Battery"	12505WR-02	SMD_2P	YEONHO	SMT	1	CON4								
+27	Diode	"Diode Schottky, PMEG2010BELD, 40V / 0.5A low VF"	PMEG2010BELD	SOD882D	NXP	SMT	8	"D1,D2,D3,D4,D5,D6,D7,D8"								
+28	Diode	"Zener, MM3Z5V1ST1G, zener voltage regulator"	MM3Z5V1ST1G	SOD-323	On semiconductor	SMT	2	"D9,D10"								
+29	Header	"Header, 2.54mm pitch, 1x10P, SMD, male type"	Header/2.54mm/1x10P	DIP		DIP	6	"CON96,CON97,CON98,CON119,CON120,CON121"								
+30	Header	"Header, 2.54mm pitch, 1x2P, SMD, male type"	Header/2.54mm/1x2P	DIP		DIP	69	"CH1,CH2,CON3,CH3,CH4,CH5,CH6,CON7,CH7,CON8,CH8,CH9,CON10,CH10,CH11,CH12,CH13,CH14,CON15,CH15,CON16,CH16,CH17,CH18,CON19,CH19,CH20,CH21,CH22,CH23,CH24,CH25,CH26,CH27,CH28,CH29,CH30,CH31,CON32,CH32,CON33,CON34,CON35,CON37,CON38,CON54,CON57,CON60,CON70,CON71,CON72,CON73,CON75,CON78,CON79,CON80,CON81,CON84,CON101,CON103,CON105,CON107,CON108,CON109,CON111,CON116,CON122,CON129,CON130"								
+31	Header	"Header, 2.54mm pitch, 1x3P, SMD, male type"	Header/2.54mm/1x3P	DIP		DIP	54	"AI1,CON2,AI2,AI3,CON9,CON11,CON12,CON14,CON17,CON18,CON28,CON29,CON30,CON31,CON41,CON42,CON45,CON46,CON47,CON48,CON49,CON50,CON52,CON53,CON55,CON56,CON58,CON59,CON68,CON69,CON74,CON76,CON77,CON82,CON83,CON85,CON86,CON87,CON100,CON102,CON104,CON106,CON110,CON112,CON113,CON114,CON115,CON125,CON126,CON127,CON128,CON131,CON132,AI0"								
+32	Header	"Header, 2.54mm pitch, 1x4P, SMD, male type"	Header/2.54mm/1x4P	DIP		DIP	7	"CON6,CON13,CON26,CON27,CON36,CON133,CON134"								
+33	Header	"Header, 2.54mm pitch, 1x5P, SMD, male type"	Header/2.54mm/1x5P	DIP		DIP	2	"CON39,CON40"								
+34	Header	"Header, 2.54mm pitch, 1x6P, SMD, male type"	Header/2.54mm/1x6P	DIP		DIP	1	CON65								
+35	Header	"Header, 2.54mm pitch, 1x8P, SMD, male type"	Header/2.54mm/1x8P	DIP		DIP	13	"CON5,CON43,CON44,CON51,CON91,CON92,CON93,CON94,CON95,CON99,CON117,CON118,CON124"								
+36	Header	"Header, 2.54mm pitch, 2x16P, DIP, male type"	Header/2.54mm/2x16P	DIP		DIP	1	CON123								
+37	Header	"Header, 2.54mm pitch, 2x6P, SMD, male type"	Header/2.54mm/2x6P	DIP		DIP	2	"CON24,CON25"								
+38	Header	"Header, 2.54mm pitch, 2x8P, DIP, male type"	Header/2.54mm/2x8P	DIP		DIP	2	"CON88,CON89"								
+39	Header	"Header, 2.54mm pitch, 2x8P, SMD, male type"	Header/2.54mm/2x8P	DIP		DIP	5	"CON61,CON62,CON63,CON64,CON90"								
+40	Holder	"Holder, LR44 battery holder, SMD type"	2996TR	2996TR	Keystone	SMT	4	"BT1,BT2,BT3,BT4"								
+41	IC	"IC, TPS62743TFP, 0.3A adjustable Buck converter"	TPS62743YFPR	DSBGA8	TI	SMT	4	"U1,U3,U4,U5"								
+42	IC	"IC, BQ24072, 1.5A USB-Friendlby Battery Charger with Power Path"	BQ24072RGT	QFN16_3x3	TI	SMT	1	U2								
+43	IC	"Buck, TPS62675, Generate fixed 1.2V Output"	TPS62675YFD	DSBGA6	TI	SMT	1	U6								
+44	IC	"IC, E7150 SL, Wireless-Enabled Audio Processor for Digital Hearing Aids"	E7150_SL	SIP49	On Semiconductor	SMT	1	U7								
+45	IC	"Balun, BAL-nRF51822, 50ohm nominal input"	BAL-nRF02D3	Flip-5bumps	ST	SMT	1	U8								
+46	IC	"Antenna, 2450AT07A0100, Ceramic Chip Antenna for Bluetooth"	2450AT07A0100	2450AT07A0100	Pulse Electronics	SMT	1	U9								
+47	IC	"FPGA, LCMXO2-2000ZE-1TG100C"	LCMXO2-2000ZE-1TG100C	100-TQFP	Lattice	SMT	1	U10								
+48	IC	"IC, 74LVC8T245PW, Level shifter 8-ch"	74LVC8T245PW	TSSOP24	NXP	SMT	3	"U11,U12,U13"								
+49	IC	"IC, TPS61099, Adjustable output DC-DC Converter"	TPS61099YFF	WCSP(6)	TI	SMT	1	U14								
+50	IC	"IC, INA214AIDCK, 100V/V current shunt monitor"	INA214AIDCK	SC70-6	TI	SMT	1	U15								
+51	IC	"IC, 74AXP1T125GMH, 3-state level shifter"	74AXP1T125GMH	SOT886	NXP	SMT	3	"U16,U17,U24"								
+52	IC	"Buck, TPS62671, Generate fixed 1.8V Output"	TPS62671YFD	DSBGA6	TI	SMT	1	U18								
+53	IC	"Boost, MAX17220, Nanopower boost converter"	MAX17220ELT	uDFN6	MAXIM	SMT	3	"U19,U23,U27"								
+54	IC	"IC, TPS61046, Low power DC-DC Boost converter"	TPS61046YFF	WCSP6	TI	SMT	2	"U20,U21"								
+55	IC	"IC, PCA9306DCUR, I2C Level shifter"	PCA9306DCUR	VSSOP8	TI	SMT	1	U25								
+56	IC	"IC, ADG3304BRUZ, Bi-directional Level shifter"	ADG3304BRUZ	TSSOP14	Analog device	SMT	1	U26								
+57	Inductor	"Inductor, LQM18PN2R2MGHD, 2.2uH 1.05A 1608"	LQM18PN2R2MGHD	L1608	Murata	SMT	5	"L1,L2,L3,L4,L7"								
+58	Inductor	"Inductor, 2.2uH,500mA,110m§Ù,1608"	2.2uH	L1608		SMT	1	L5								
+59	Inductor	"Inductor, LQP15MN3N3W02D, 3.3nH, 1608 size"	3.3nH	L1608		SMT	1	L6								
+60	Inductor	"Inductor, 1uH,700mA,140m§Ù,1608"	1uH	L1608		SMT	6	"L8,L9,L10,L11,L12,L13"								
+61	LED	"LED, SML-LX0603SRW-TR, 1608size RED color LED"	SML-LX0603SRW-TR	LED1608	Lumex	SMT	5	"LED1,LED2,LED3,LED4,LED5"								
+62	LED	"LED, APTF1616LSEEZGKQBKC , RGB TOP MT SMD"	APTF1616LSEEZGKQBKC 	APTF1616LSEEZGKQBKC	Kingbright	SMT	1	LED6								
+63	PAD	PCB PAD 2x1mm	Pad	PCB_PAD			12	"J1,J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12"								
+64	Resistor	"Resistor 0ohm,1%,1608, 1/10W"	0R	R1608		SMT	44	"R1,R2,R4,R5,R6,R7,R12,R13,R14,R15,R16,R17,R18,R19,R20,R27,R28,R43,R46,R47,R48,R59,R60,R61,R62,R63,R64,R65,R66,R68,R69,R70,R72,R73,R76,R82,R93,R94,R95,R100,R101,R102,R103,R147"								
+66	Resistor	"Resistor 100Kohm,1%,1608, 1/10W"	100K	R1608		SMT	15	"R30,R31,R34,R35,R36,R39,R41,R45,R53,R87,R91,R92,R96,R97,R104"								
+67	Resistor	"Resistor 100ohm,1%,1608, 1/10W"	100R	R1608		SMT	5	"R3,R32,R33,R37,R38"								
+68	Resistor	"Resistor 300ohm,1%,1608, 1/10W"	300R	R1608		SMT	1	R139								
+69	Resistor	"Resistor 10Kohm,1%,1608, 1/10W"	10K	R1608		SMT	12	"R8,R21,R22,R25,R26,R42,R52,R138,R143,R144,R145,R146"								
+70	Resistor	"Resistor 12ohm,1%,1608, 1/10W"	12R	R1608		SMT	1	R29								
+71	Resistor	"Resistor 1K2ohm,1%,1608, 1/10W"	1.2K	R1608		SMT	1	R11								
+72	Resistor	"Resistor 1K8ohm,1%,1608, 1/10W"	1.8K	R1608		SMT	1	R10								
+73	Resistor	"Resistor 1M58ohm,1%,1608, 1/10W"	1.58M	R1608		SMT	1	R83								
+74	Resistor	"Resistor 1M5ohm,1%,1608, 1/10W"	1.5M	R1608		SMT	1	R57								
+75	Resistor	"Resistor 1Mohm,1%,1608, 1/10W"	1M	R1608		SMT	1	R50								
+76	Resistor	"Resistor 200Kohm,1%,1608, 1/10W"	200K	R1608		SMT	3	"R58,R105,R142"								
+77	Resistor	"Resistor 20Kohm,1%,1608, 1/10W"	20K	R1608		SMT	4	"R71,R74,R77,R78"								
+78	Resistor	"Resistor 324Kohm,1%,1608, 1/10W"	324K	R1608		SMT	1	R23								
+79	Resistor	"Resistor 402kohm,1%,1608, 1/10W"	402K	R1608		SMT	1	R55								
+81	Resistor	"Resistor 499Kohm,1%,1608, 1/10W"	499K	R1608		SMT	4	"R79,R80,R84,R89"								
+82	Resistor	"Resistor 49R9ohm,1%,1608, 1/10W"	49.9R	R1608		SMT	2	"R140,R141"								
+83	Resistor	"Resistor 4K7ohm,1%,1608, 1/10W"	4.7K	R1608		SMT	1	R44								
+84	Resistor	"Resistor 5K1ohm,1%,1608, 1/10W"	5.1K	R1608		SMT	32	"R106,R107,R108,R109,R110,R111,R112,R113,R114,R115,R116,R117,R118,R119,R120,R121,R122,R123,R124,R125,R126,R127,R128,R129,R130,R131,R132,R133,R134,R135,R136,R137"								
+85	Resistor	"Resistor 73K2ohm,1%,1608, 1/10W"	73.2K	R1608		SMT	4	"R85,R86,R98,R99"								
+86	Resistor	"Resistor 750Kohm,1%,1608, 1/10W"	750K	R1608		SMT	1	R81								
+87	Resistor	"Resistor 75Kohm,1%,1608, 1/10W"	75K	R1608		SMT	1	R88								
+88	Resistor	"Resistor 806kohm,1%,1608, 1/10W"	806K	R1608		SMT	1	R56								
+89	Resistor	"Resistor 80K6ohm,1%,1608, 1/10W"	80.6K	R1608		SMT	2	"R24,R90"								
+90	Resistor	"Resistor, potentiometer 0.15W 0-200K§Ù"	3362P-1-204LF	3362P-1-204LF		DIP	1	RP2								
+91	Resistor	"Resistor, potentiometer 0.15W 0-500K§Ù"	PTV09A-4020F-A504	PTV09A-4020F-A504		DIP	5	"RP1,RP3,RP4,RP5,RP6"								
+92	Resistor	"Shunt Resistor 1ohm,1%,1608,1/5W"	RL0816S-1R0-F	R1608	SUSUMU	SMT	1	R49								
+93	Switch	"Switch, S202031MS02Q, DPDT slide switch 1A"	S202031MS02Q	S202031MS02Q	C&K	SMT	1	SW1								
+94	Switch	"Switch, EVQ-Q2P03W, thin type SMD tact switch"	EVQ-Q2P03W	EVQ-Q2P03W	Panasonic	SMT	5	"SW2,SW3,SW4,SW5,SW6"								
+95	TR	"FET, FDV301NCT, N-ch 10V 0.4A"	FDV301NCT	SOT23-3	DIODES Inc	SMT	9	"Q1,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11"								
+96	TR	"FET, DMP510DL, 50V P-channel Trench MOSFET"	DMP510DL	SOT23-3	DIODES Inc	SMT	2	"Q2,Q3"								
+																
+																
+																
+23	Capcitor	"Capacitor, chip variable capacitor 5.5-30pF"	JR300/NC	JR300	Knowles	SMT	4	"C40,C41,C42,C43"								
+80	Resistor	"Resistor 47Kohm,1%,1608, 1/10W"	47K/NC	C1608		SMT	1	R9								
+65	Resistor	"Resistor 0ohm,1%,1608, 1/10W"	0R/NC	R1608		SMT	4	"R51,R54,R67,R75"								
+																
+																
+																
+																
+																
