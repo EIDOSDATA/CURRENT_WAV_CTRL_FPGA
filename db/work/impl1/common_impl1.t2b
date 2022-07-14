@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work"  

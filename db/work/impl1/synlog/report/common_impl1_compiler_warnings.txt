@@ -1,0 +1,43 @@
+@W: CG133 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":100:11:100:15|Object r_led is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":101:5:101:15|Object r_err_debug is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":300:1:300:6|Pruning unused register r_state[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":275:1:275:6|Pruning unused register r_idle[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":275:1:275:6|Pruning unused register r_duty[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":275:1:275:6|Pruning unused register r_idle_phase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":275:1:275:6|Pruning unused register r_anode_phase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":275:1:275:6|Pruning unused register r_cathod_phase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":275:1:275:6|Pruning unused register r_interphase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_idle_cnt[23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_duty_cnt[23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_interphase_cnt[23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_idle[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_duty[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_idle_phase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_anode_phase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_interphase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":231:1:231:6|Pruning unused register r_cathod_phase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Pruning unused register r_run_state. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Pruning unused register r_init_ok. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Pruning unused register r_idle_cnt[23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Pruning unused register r_duty_cnt[23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Pruning unused register r_interphase_cnt[23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Pruning unused register r_idle[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Pruning unused register r_duty[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Feedback mux created for signal r_curr_ena[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Latch generated from always block for signal r_curr_ena[3:0]; possible missing assignment in an if or case statement.
+@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Feedback mux created for signal r_cat_top[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Latch generated from always block for signal r_cat_top[3:0]; possible missing assignment in an if or case statement.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Sharing sequential element r_cat_top and merging r_curr_ena. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Feedback mux created for signal r_cat_bot[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Latch generated from always block for signal r_cat_bot[3:0]; possible missing assignment in an if or case statement.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Sharing sequential element r_cat_bot and merging r_curr_ena. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Feedback mux created for signal r_ano_top[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Latch generated from always block for signal r_ano_top[3:0]; possible missing assignment in an if or case statement.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Sharing sequential element r_ano_top and merging r_curr_ena. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Feedback mux created for signal r_ano_bot[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Latch generated from always block for signal r_ano_bot[3:0]; possible missing assignment in an if or case statement.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Sharing sequential element r_ano_bot and merging r_curr_ena. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL168 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":191:31:191:42|Removing instance internal_osc because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL182 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":84:14:84:76|Signal read but some bits are never set, assigning initial value to unassigned bits: o_led
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":201:4:201:9|Pruning register bits 3 to 1 of o_curr_ena[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
