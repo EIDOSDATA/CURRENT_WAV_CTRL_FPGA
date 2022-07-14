@@ -1,0 +1,21 @@
+@W: CL169 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":839:1:839:6|Pruning unused register r_cb_phase. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning register bits 7 to 4 of r_interval_value[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning register bit 2 of r_interval_value[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL168 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":639:10:639:24|Removing instance u_div64x4x4_clk because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":633:10:633:22|Removing instance u_div64x4_clk because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL259 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":680:19:680:22|Duplicate LOC attributes found on net
+@W: CL259 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":680:19:680:22|Duplicate LOC attributes found on net
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_cb_on_0 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_cb_on_1 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning register bit 1 of r_interval_value[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning unused register r_interval_value[3]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning unused register r_cb_on_0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning unused register r_cb_on_1. Make sure that there are no unused intermediate registers.
+

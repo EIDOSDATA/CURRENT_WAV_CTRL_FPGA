@@ -1,0 +1,4 @@
+@E: CG389 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":207:31:207:42|Reference to undefined module OSCE
+@E: CG389 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":207:31:207:42|Illegal or Unsupported Syntax within black box. Use: // synthesis translate_off {  unsupported Verilog } // synthesis translate_on 
+@E: CG389 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":207:31:207:42|Alternatively, set the builtin compiler directive IGNORE_VERILOG_BLACKBOX_GUTS in the Verilog tab of the UI or set `define IGNORE_VERILOG_BLACKBOX_GUTS in any Verilog file.
+

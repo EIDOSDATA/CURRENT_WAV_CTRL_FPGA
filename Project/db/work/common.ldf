@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="common" device="LCMXO2-2000ZE-1TG100C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options VERILOG_DIRECTIVES="XO2" def_top="ci_stim_fpga_wrapper" top="ci_stim_fpga_wrapper"/>
+        <Source name="../design/ci_if_cdc.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../design/debounce.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../design/fpga_clk_modules.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../design/stim_cg_fsm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../top/ci_stim_fpga.v" type="Verilog" type_short="Verilog">
+            <Options top_module="ci_stim_fpga_wrapper"/>
+        </Source>
+        <Source name="../sdc/common.sdc" type="Synplify Design Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+        <Source name="common.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="common1.sty"/>
+</BaliProject>

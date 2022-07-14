@@ -1,0 +1,77 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Jul 14 15:33:30 2022 *
+NOTE DESIGN NAME: ci_stim_fpga_wrapper *
+NOTE DEVICE NAME: LCMXO2-2000ZE-1TQFP100 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led_out[0] : 77 : out *
+NOTE PINS i_rst_n : 96 : in *
+NOTE PINS stim_bcg1_sel[2] : 29 : out *
+NOTE PINS stim_bcg1_sel[1] : 35 : out *
+NOTE PINS stim_bcg1_sel[0] : 84 : out *
+NOTE PINS stim_bcg0_sel[2] : 38 : out *
+NOTE PINS stim_bcg0_sel[1] : 58 : out *
+NOTE PINS stim_bcg0_sel[0] : 63 : out *
+NOTE PINS stim_dac1_val[7] : 71 : out *
+NOTE PINS stim_dac1_val[6] : 82 : out *
+NOTE PINS stim_dac1_val[5] : 78 : out *
+NOTE PINS stim_dac1_val[4] : 99 : out *
+NOTE PINS stim_dac1_val[3] : 45 : out *
+NOTE PINS stim_dac1_val[2] : 64 : out *
+NOTE PINS stim_dac1_val[1] : 7 : out *
+NOTE PINS stim_dac1_val[0] : 57 : out *
+NOTE PINS stim_dac0_val[7] : 76 : out *
+NOTE PINS stim_dac0_val[6] : 88 : out *
+NOTE PINS stim_dac0_val[5] : 97 : out *
+NOTE PINS stim_dac0_val[4] : 15 : out *
+NOTE PINS stim_dac0_val[3] : 4 : out *
+NOTE PINS stim_dac0_val[2] : 61 : out *
+NOTE PINS stim_dac0_val[1] : 52 : out *
+NOTE PINS stim_dac0_val[0] : 74 : out *
+NOTE PINS stim_ca[7] : 32 : out *
+NOTE PINS stim_ca[6] : 40 : out *
+NOTE PINS stim_ca[5] : 54 : out *
+NOTE PINS stim_ca[4] : 28 : out *
+NOTE PINS stim_ca[3] : 75 : out *
+NOTE PINS stim_ca[2] : 39 : out *
+NOTE PINS stim_ca[1] : 21 : out *
+NOTE PINS stim_ca[0] : 47 : out *
+NOTE PINS stim_an[7] : 41 : out *
+NOTE PINS stim_an[6] : 81 : out *
+NOTE PINS stim_an[5] : 34 : out *
+NOTE PINS stim_an[4] : 67 : out *
+NOTE PINS stim_an[3] : 37 : out *
+NOTE PINS stim_an[2] : 43 : out *
+NOTE PINS stim_an[1] : 62 : out *
+NOTE PINS stim_an[0] : 85 : out *
+NOTE PINS stim_comp_en_n : 14 : out *
+NOTE PINS data_out : 98 : out *
+NOTE PINS clk_out : 65 : out *
+NOTE PINS lv_oe_n : 27 : out *
+NOTE PINS lv_dir : 48 : out *
+NOTE PINS led_out[15] : 19 : out *
+NOTE PINS led_out[14] : 13 : out *
+NOTE PINS led_out[13] : 69 : out *
+NOTE PINS led_out[12] : 68 : out *
+NOTE PINS led_out[11] : 24 : out *
+NOTE PINS led_out[10] : 12 : out *
+NOTE PINS led_out[9] : 16 : out *
+NOTE PINS led_out[8] : 66 : out *
+NOTE PINS led_out[7] : 59 : out *
+NOTE PINS led_out[6] : 49 : out *
+NOTE PINS led_out[5] : 53 : out *
+NOTE PINS led_out[4] : 9 : out *
+NOTE PINS led_out[3] : 87 : out *
+NOTE PINS led_out[2] : 70 : out *
+NOTE PINS led_out[1] : 18 : out *
+NOTE PINS polarity[2] : 83 : in *
+NOTE PINS polarity[1] : 60 : in *
+NOTE PINS polarity[0] : 51 : in *
+NOTE PINS sw2_pb : 36 : in *
+NOTE PINS sw2_b : 10 : in *
+NOTE PINS sw2_a : 8 : in *
+NOTE PINS sw1_pb : 31 : in *
+NOTE PINS sw1_b : 86 : in *
+NOTE PINS sw1_a : 20 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

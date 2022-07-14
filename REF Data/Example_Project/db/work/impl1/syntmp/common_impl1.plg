@@ -1,0 +1,56 @@
+@P:  Worst Slack : 53.048
+@P:  ck_db - Estimated Frequency : 9.8 MHz
+@P:  ck_db - Requested Frequency : 0.1 MHz
+@P:  ck_db - Estimated Period : 102.285
+@P:  ck_db - Requested Period : 16000.000
+@P:  ck_db - Slack : 248.402
+@P:  ck_div4 - Estimated Frequency : 105.8 MHz
+@P:  ck_div4 - Requested Frequency : 16.0 MHz
+@P:  ck_div4 - Estimated Period : 9.452
+@P:  ck_div4 - Requested Period : 62.500
+@P:  ck_div4 - Slack : 53.048
+@P:  ck_div64 - Estimated Frequency : 228.0 MHz
+@P:  ck_div64 - Requested Frequency : 0.1 MHz
+@P:  ck_div64 - Estimated Period : 4.386
+@P:  ck_div64 - Requested Period : 16000.000
+@P:  ck_div64 - Slack : 15995.614
+@P:  ck_div64x64 - Estimated Frequency : 577.4 MHz
+@P:  ck_div64x64 - Requested Frequency : 0.1 MHz
+@P:  ck_div64x64 - Estimated Period : 1.732
+@P:  ck_div64x64 - Requested Period : 16000.000
+@P:  ck_div64x64 - Slack : 15998.268
+@P:  ck_sw1_a - Estimated Frequency : 121.2 MHz
+@P:  ck_sw1_a - Requested Frequency : 0.1 MHz
+@P:  ck_sw1_a - Estimated Period : 8.250
+@P:  ck_sw1_a - Requested Period : 10000.000
+@P:  ck_sw1_a - Slack : 9991.750
+@P:  ck_sw2_a - Estimated Frequency : 138.0 MHz
+@P:  ck_sw2_a - Requested Frequency : 0.1 MHz
+@P:  ck_sw2_a - Estimated Period : 7.246
+@P:  ck_sw2_a - Requested Period : 10000.000
+@P:  ck_sw2_a - Slack : 9992.754
+@P:  rootClk - Estimated Frequency : 44.6 MHz
+@P:  rootClk - Requested Frequency : 4.0 MHz
+@P:  rootClk - Estimated Period : 22.434
+@P:  rootClk - Requested Period : 250.000
+@P:  rootClk - Slack : 59.616
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P:  Total Area : 250.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:05s

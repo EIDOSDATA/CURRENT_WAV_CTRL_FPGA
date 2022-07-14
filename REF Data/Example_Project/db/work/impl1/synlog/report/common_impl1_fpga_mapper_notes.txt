@@ -1,0 +1,25 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO230 :"c:\users\eidos\desktop\verilog experiment\common\db\top\ci_stim_fpga.v":511:1:511:6|Found up-down counter in view:work.ci_stim_fpga_wrapper(verilog) instance sw1_counter[7:0]  
+@N: MO230 :"c:\users\eidos\desktop\verilog experiment\common\db\top\ci_stim_fpga.v":540:1:540:6|Found up-down counter in view:work.ci_stim_fpga_wrapper(verilog) instance sw2_counter[7:0]  
+@N: MO231 :"c:\users\eidos\desktop\verilog experiment\common\db\design\fpga_clk_modules.v":51:1:51:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance u_div64x64_clk.div64_count[4:0] 
+@N: MO231 :"c:\users\eidos\desktop\verilog experiment\common\db\design\fpga_clk_modules.v":51:1:51:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance u_div64_clk.div64_count[4:0] 
+@N: MO231 :"c:\users\eidos\desktop\verilog experiment\common\db\design\stim_cg_fsm.v":344:1:344:6|Found counter in view:work.stim_cg_fsm(verilog) instance r_duration_cnt[7:0] 
+@N: MO231 :"c:\users\eidos\desktop\verilog experiment\common\db\design\stim_cg_fsm.v":815:1:815:6|Found counter in view:work.stim_cg_fsm(verilog) instance r_interval_cnt[7:0] 
+@N: MO231 :"c:\users\eidos\desktop\verilog experiment\common\db\design\stim_cg_fsm.v":291:1:291:6|Found counter in view:work.stim_cg_fsm(verilog) instance r_rate_cnt[7:0] 
+@N: MF179 :"c:\users\eidos\desktop\verilog experiment\common\db\design\stim_cg_fsm.v":304:24:304:49|Found 8 by 8 bit equality operator ('==') w_rate_tmout (in view: work.stim_cg_fsm(verilog))
+@N: MF179 :"c:\users\eidos\desktop\verilog experiment\common\db\design\stim_cg_fsm.v":357:28:357:61|Found 8 by 8 bit equality operator ('==') w_duration_tmout (in view: work.stim_cg_fsm(verilog))
+@N: MF179 :"c:\users\eidos\desktop\verilog experiment\common\db\design\stim_cg_fsm.v":837:28:837:67|Found 8 by 8 bit equality operator ('==') w_interval_tmout (in view: work.stim_cg_fsm(verilog))
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\Users\eidos\Desktop\verilog experiment\common\db\work\impl1\common_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock rootClk with period 250.00ns 
+@N: MT615 |Found clock ck_sw1_a with period 10000.00ns 
+@N: MT615 |Found clock ck_sw2_a with period 10000.00ns 
+@N: MT615 |Found clock ck_div4 with period 62.50ns 
+@N: MT615 |Found clock ck_div64 with period 16000.00ns 
+@N: MT615 |Found clock ck_div64x64 with period 16000.00ns 
+@N: MT615 |Found clock ck_db with period 16000.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

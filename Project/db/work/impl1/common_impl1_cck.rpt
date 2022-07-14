@@ -1,0 +1,183 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: TODOC-ECHO-LAPT
+
+Implementation : impl1
+
+# Written on Thu Jul 14 14:39:29 2022
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ci_stim_fpga_wrapper"
+Constraint File(s):      "C:\Users\eidos\Desktop\verilog experiment\common\db\sdc\common.sdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 13 issues in 11 out of 18 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting        Ending          |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------
+rootClk         rootClk         |     250.000          |     No paths         |     No paths         |     No paths                         
+rootClk         ck_sw1_a        |     250.000          |     No paths         |     No paths         |     No paths                         
+rootClk         ck_div4         |     62.500           |     No paths         |     No paths         |     No paths                         
+ck_sw1_a        rootClk         |     250.000          |     No paths         |     No paths         |     No paths                         
+ck_sw1_a        ck_sw1_a        |     10000.000        |     No paths         |     No paths         |     No paths                         
+ck_sw2_a        rootClk         |     250.000          |     No paths         |     No paths         |     No paths                         
+ck_sw2_a        ck_sw1_a        |     10000.000        |     No paths         |     No paths         |     No paths                         
+ck_sw2_a        ck_sw2_a        |     10000.000        |     No paths         |     No paths         |     No paths                         
+ck_div4         rootClk         |     62.500           |     No paths         |     No paths         |     No paths                         
+ck_div4         ck_div4         |     62.500           |     No paths         |     No paths         |     No paths                         
+ck_div64        ck_div64        |     16000.000        |     No paths         |     No paths         |     No paths                         
+ck_div64x64     ck_div64x64     |     16000.000        |     No paths         |     No paths         |     No paths                         
+ck_db           rootClk         |     250.000          |     No paths         |     No paths         |     No paths                         
+ck_db           ck_db           |     16000.000        |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:clk_out
+p:data_out
+p:i_rst_n
+p:led_out[0]
+p:led_out[1]
+p:led_out[2]
+p:led_out[3]
+p:led_out[4]
+p:led_out[5]
+p:led_out[6]
+p:led_out[7]
+p:led_out[8]
+p:led_out[9]
+p:led_out[10]
+p:led_out[11]
+p:led_out[12]
+p:led_out[13]
+p:led_out[14]
+p:led_out[15]
+p:lv_dir
+p:lv_oe_n
+p:polarity[0]
+p:polarity[1]
+p:polarity[2]
+p:stim_an[0]
+p:stim_an[1]
+p:stim_an[2]
+p:stim_an[3]
+p:stim_an[4]
+p:stim_an[5]
+p:stim_an[6]
+p:stim_an[7]
+p:stim_bcg0_sel[0]
+p:stim_bcg0_sel[1]
+p:stim_bcg0_sel[2]
+p:stim_bcg1_sel[0]
+p:stim_bcg1_sel[1]
+p:stim_bcg1_sel[2]
+p:stim_ca[0]
+p:stim_ca[1]
+p:stim_ca[2]
+p:stim_ca[3]
+p:stim_ca[4]
+p:stim_ca[5]
+p:stim_ca[6]
+p:stim_ca[7]
+p:stim_comp_en_n
+p:stim_comp_err[0]
+p:stim_comp_err[1]
+p:stim_comp_err[2]
+p:stim_comp_err[3]
+p:stim_comp_err[4]
+p:stim_comp_err[5]
+p:stim_comp_err[6]
+p:stim_comp_err[7]
+p:stim_dac0_val[0]
+p:stim_dac0_val[1]
+p:stim_dac0_val[2]
+p:stim_dac0_val[3]
+p:stim_dac0_val[4]
+p:stim_dac0_val[5]
+p:stim_dac0_val[6]
+p:stim_dac0_val[7]
+p:stim_dac1_val[0]
+p:stim_dac1_val[1]
+p:stim_dac1_val[2]
+p:stim_dac1_val[3]
+p:stim_dac1_val[4]
+p:stim_dac1_val[5]
+p:stim_dac1_val[6]
+p:stim_dac1_val[7]
+p:sw1_a
+p:sw1_b
+p:sw1_pb
+p:sw2_a
+p:sw2_b
+p:sw2_pb
+
+
+Inapplicable constraints
+************************
+
+create_generated_clock [get_nets w_cg_fsm_clk] -name ck_cg_fsm -master_clock [get_clocks rootClk] -source [get_nets w_clk] -multiply_by 1
+	@E:MT548:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
+create_generated_clock [get_nets w_div64x4_clk] -name ck_div64x4 -master_clock [get_clocks ck_div64] -source [get_nets w_div64_clk] -divide_by 4
+	@E:MT548:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
+create_generated_clock [get_nets w_slow_clk] -name ck_slow -master_clock [get_clocks ck_div64x4] -source [get_nets w_div64x4_clk] -divide_by 4
+	@E:MT548:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
+set_false_path -from [get_clocks ck_cg_fsm] -to [get_clocks ck_div4]
+	@E::"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":58:0:58:0|collection "[get_clocks ck_cg_fsm]" is empty
+set_false_path -to [get_clocks ck_cg_fsm] -from [get_clocks ck_div4]
+	@E::"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":57:0:57:0|collection "[get_clocks ck_cg_fsm]" is empty
+
+Applicable constraints with issues
+**********************************
+
+create_generated_clock [get_nets w_db_clk] -name ck_db -master_clock [get_clocks ck_div64x64] -source [get_nets w_div64x64_clk] -divide_by 2
+	@W::"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db should be moved to net u_div2_clk.r_gen_clk connected to driving cell pin u_div2_clk.r_gen_clk.Q[0]
+create_generated_clock [get_nets w_div4_clk] -name ck_div4 -master_clock [get_clocks rootClk] -source [get_nets w_clk] -multiply_by 4
+	@W::"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 should be moved to net u_div4_clk.r_gen_clk connected to driving cell pin u_div4_clk.r_gen_clk.Q[0]
+create_generated_clock [get_nets w_div64_clk] -name ck_div64 -master_clock [get_clocks rootClk] -source [get_nets w_clk] -divide_by 64
+	@W::"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 should be moved to net u_div64_clk.r_gen_clk connected to driving cell pin u_div64_clk.r_gen_clk.Q[0]
+create_generated_clock [get_nets w_div64x64_clk] -name ck_div64x64 -master_clock [get_clocks ck_div64] -source [get_nets w_div64_clk] -divide_by 64
+	@W::"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 should be moved to net u_div64x64_clk.r_gen_clk connected to driving cell pin u_div64x64_clk.r_gen_clk.Q[0]
+set_false_path -from [get_clocks ck_sw1_a] -to [get_clocks ck_sw2_a]
+	@W::"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+set_false_path -from [get_clocks rootClk] -to [get_clocks ck_sw2_a]
+	@W::"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report
