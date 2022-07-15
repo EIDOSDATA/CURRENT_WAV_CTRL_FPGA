@@ -19,8 +19,8 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/eidos/Desktop/verilog experiment/common/db/work/impl1/common_impl1.jed</File>
-			<FileTime>07/14/22 15:33:30</FileTime>
+			<File>C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/impl1/common_impl1.jed</File>
+			<FileTime>07/14/22 17:10:40</FileTime>
 			<JedecChecksum>0xB852</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
@@ -29,7 +29,6 @@
 				<PreloadLength>424</PreloadLength>
 				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
 				<TCKFrequency>1.000000 MHz</TCKFrequency>
-				<SVFProcessor>SVF Processor</SVFProcessor>
 				<Usercode>0x00000000</Usercode>
 				<AccessMode>FLASH</AccessMode>
 			</Option>
