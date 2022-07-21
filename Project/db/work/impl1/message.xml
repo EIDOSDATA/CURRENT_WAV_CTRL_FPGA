@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
+    <Task name="MapVerilogSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
     <Task name="Map">
         <Message>
             <ID>1100523</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/eidos/Desktop/verilog experiment/common/db/work/impl1/common_impl1_synplify.lpf(11): Semantic error in &quot;FREQUENCY NET &quot;w_div64_clk&quot; 0.100000 MHz ;&quot;: </Dynamic>
-            <Dynamic>w_div64_clk matches no clock nets in the design. </Dynamic>
-            <Navigation>C:/Users/eidos/Desktop/verilog experiment/common/db/work/impl1/common_impl1_synplify.lpf</Navigation>
-            <Navigation>11</Navigation>
+            <Dynamic>C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/common.lpf(3): Semantic error in &quot;FREQUENCY NET &quot;w_div64_clk_0&quot; 0.100000 MHz ;&quot;: </Dynamic>
+            <Dynamic>w_div64_clk_0 matches no clock nets in the design. </Dynamic>
+            <Navigation>C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/common.lpf</Navigation>
+            <Navigation>3</Navigation>
         </Message>
         <Message>
             <ID>1100523</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/eidos/Desktop/verilog experiment/common/db/work/impl1/common_impl1_synplify.lpf(12): Semantic error in &quot;FREQUENCY NET &quot;w_div64x64_clk&quot; 0.100000 MHz ;&quot;: </Dynamic>
-            <Dynamic>w_div64x64_clk matches no clock nets in the design. </Dynamic>
-            <Navigation>C:/Users/eidos/Desktop/verilog experiment/common/db/work/impl1/common_impl1_synplify.lpf</Navigation>
-            <Navigation>12</Navigation>
-        </Message>
-        <Message>
-            <ID>52101275</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>PULLMODE</Dynamic>
-            <Dynamic>DOWN </Dynamic>
-            <Dynamic>polarity_pad[2]/IOBUF</Dynamic>
+            <Dynamic>C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/common.lpf(4): Semantic error in &quot;FREQUENCY NET &quot;w_div64x64_clk_0&quot; 0.100000 MHz ;&quot;: </Dynamic>
+            <Dynamic>w_div64x64_clk_0 matches no clock nets in the design. </Dynamic>
+            <Navigation>C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/common.lpf</Navigation>
+            <Navigation>4</Navigation>
         </Message>
         <Message>
             <ID>52101117</ID>
@@ -31,868 +31,31 @@
             <Dynamic>internal_osc</Dynamic>
             <Dynamic>4.00</Dynamic>
             <Dynamic>2.08,2.15,2.22,2.29,2.38,2.46,2.56,2.66,2.77,2.89,3.02,3.17,3.33,3.50,3.69,3.91,4.16,4.29,4.43,4.59,4.75,4.93,5.12,5.32,5.54,5.78,6.05,6.33,6.65,7.00,7.39,7.82,8.31,8.58,8.87,9.17,9.50,9.85,10.23,10.64,11.08,11.57,12.09,12.67,13.30,14.00,14.78,15.65,16.63,17.73,19.00,20.46,22.17,24.18,26.60,29.56,33.25,38.00,44.33,53.20,66.50,88.67,133.00</Dynamic>
-            <Dynamic>9.50</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>T11</Dynamic>
-            <Dynamic>led_out[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>A10</Dynamic>
-            <Dynamic>i_rst_n</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>N13</Dynamic>
-            <Dynamic>stim_bcg1_sel[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>L16</Dynamic>
-            <Dynamic>stim_bcg1_sel[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>L14</Dynamic>
-            <Dynamic>stim_bcg1_sel[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>N14</Dynamic>
-            <Dynamic>stim_bcg0_sel[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>M16</Dynamic>
-            <Dynamic>stim_bcg0_sel[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>L15</Dynamic>
-            <Dynamic>stim_bcg0_sel[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>L13</Dynamic>
-            <Dynamic>stim_dac1_val[7]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>K16</Dynamic>
-            <Dynamic>stim_dac1_val[6]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>K14</Dynamic>
-            <Dynamic>stim_dac1_val[5]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>K11</Dynamic>
-            <Dynamic>stim_dac1_val[4]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>J15</Dynamic>
-            <Dynamic>stim_dac1_val[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>J13</Dynamic>
-            <Dynamic>stim_dac1_val[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>J11</Dynamic>
-            <Dynamic>stim_dac1_val[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>H15</Dynamic>
-            <Dynamic>stim_dac1_val[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>L12</Dynamic>
-            <Dynamic>stim_dac0_val[7]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>K15</Dynamic>
-            <Dynamic>stim_dac0_val[6]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>K13</Dynamic>
-            <Dynamic>stim_dac0_val[5]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>J16</Dynamic>
-            <Dynamic>stim_dac0_val[4]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>J14</Dynamic>
-            <Dynamic>stim_dac0_val[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>J12</Dynamic>
-            <Dynamic>stim_dac0_val[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>H16</Dynamic>
-            <Dynamic>stim_dac0_val[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>H13</Dynamic>
-            <Dynamic>stim_dac0_val[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E16</Dynamic>
-            <Dynamic>stim_ca[7]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E11</Dynamic>
-            <Dynamic>stim_ca[6]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D15</Dynamic>
-            <Dynamic>stim_ca[5]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D13</Dynamic>
-            <Dynamic>stim_ca[4]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C15</Dynamic>
-            <Dynamic>stim_ca[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C13</Dynamic>
-            <Dynamic>stim_ca[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>B15</Dynamic>
-            <Dynamic>stim_ca[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>A15</Dynamic>
-            <Dynamic>stim_ca[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E13</Dynamic>
-            <Dynamic>stim_an[7]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D16</Dynamic>
-            <Dynamic>stim_an[6]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D14</Dynamic>
-            <Dynamic>stim_an[5]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C16</Dynamic>
-            <Dynamic>stim_an[4]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C14</Dynamic>
-            <Dynamic>stim_an[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>B16</Dynamic>
-            <Dynamic>stim_an[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>B14</Dynamic>
-            <Dynamic>stim_an[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>A14</Dynamic>
-            <Dynamic>stim_an[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>N16</Dynamic>
-            <Dynamic>stim_comp_en_n</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>L4</Dynamic>
-            <Dynamic>data_out</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>L5</Dynamic>
-            <Dynamic>clk_out</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>M4</Dynamic>
-            <Dynamic>lv_oe_n</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>M1</Dynamic>
-            <Dynamic>lv_dir</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D7</Dynamic>
-            <Dynamic>led_out[15]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E5</Dynamic>
-            <Dynamic>led_out[14]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E6</Dynamic>
-            <Dynamic>led_out[13]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E8</Dynamic>
-            <Dynamic>led_out[12]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>F4</Dynamic>
-            <Dynamic>led_out[11]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>H6</Dynamic>
-            <Dynamic>led_out[10]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>J5</Dynamic>
-            <Dynamic>led_out[9]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>J6</Dynamic>
-            <Dynamic>led_out[8]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>R10</Dynamic>
-            <Dynamic>led_out[7]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>R11</Dynamic>
-            <Dynamic>led_out[6]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>R13</Dynamic>
-            <Dynamic>led_out[5]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>R14</Dynamic>
-            <Dynamic>led_out[4]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>R15</Dynamic>
-            <Dynamic>led_out[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>R16</Dynamic>
-            <Dynamic>led_out[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>T10</Dynamic>
-            <Dynamic>led_out[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D3</Dynamic>
-            <Dynamic>polarity[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D1</Dynamic>
-            <Dynamic>polarity[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D2</Dynamic>
-            <Dynamic>polarity[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>P13</Dynamic>
-            <Dynamic>sw2_pb</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>P15</Dynamic>
-            <Dynamic>sw2_b</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>P14</Dynamic>
-            <Dynamic>sw2_a</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>N12</Dynamic>
-            <Dynamic>sw1_pb</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>P11</Dynamic>
-            <Dynamic>sw1_b</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001102</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>P10</Dynamic>
-            <Dynamic>sw1_a</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[0]&quot; SITE &quot;T11&quot; ;&quot;: </Dynamic>
-            <Dynamic>T11</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;i_rst_n&quot; SITE &quot;A10&quot; ;&quot;: </Dynamic>
-            <Dynamic>A10</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_bcg1_sel[2]&quot; SITE &quot;N13&quot; ;&quot;: </Dynamic>
-            <Dynamic>N13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_bcg1_sel[1]&quot; SITE &quot;L16&quot; ;&quot;: </Dynamic>
-            <Dynamic>L16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_bcg1_sel[0]&quot; SITE &quot;L14&quot; ;&quot;: </Dynamic>
-            <Dynamic>L14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_bcg0_sel[2]&quot; SITE &quot;N14&quot; ;&quot;: </Dynamic>
-            <Dynamic>N14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_bcg0_sel[1]&quot; SITE &quot;M16&quot; ;&quot;: </Dynamic>
-            <Dynamic>M16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_bcg0_sel[0]&quot; SITE &quot;L15&quot; ;&quot;: </Dynamic>
-            <Dynamic>L15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac1_val[7]&quot; SITE &quot;L13&quot; ;&quot;: </Dynamic>
-            <Dynamic>L13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac1_val[6]&quot; SITE &quot;K16&quot; ;&quot;: </Dynamic>
-            <Dynamic>K16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac1_val[5]&quot; SITE &quot;K14&quot; ;&quot;: </Dynamic>
-            <Dynamic>K14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac1_val[4]&quot; SITE &quot;K11&quot; ;&quot;: </Dynamic>
-            <Dynamic>K11</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac1_val[3]&quot; SITE &quot;J15&quot; ;&quot;: </Dynamic>
-            <Dynamic>J15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac1_val[2]&quot; SITE &quot;J13&quot; ;&quot;: </Dynamic>
-            <Dynamic>J13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac1_val[1]&quot; SITE &quot;J11&quot; ;&quot;: </Dynamic>
-            <Dynamic>J11</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac1_val[0]&quot; SITE &quot;H15&quot; ;&quot;: </Dynamic>
-            <Dynamic>H15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac0_val[7]&quot; SITE &quot;L12&quot; ;&quot;: </Dynamic>
-            <Dynamic>L12</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac0_val[6]&quot; SITE &quot;K15&quot; ;&quot;: </Dynamic>
-            <Dynamic>K15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac0_val[5]&quot; SITE &quot;K13&quot; ;&quot;: </Dynamic>
-            <Dynamic>K13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac0_val[4]&quot; SITE &quot;J16&quot; ;&quot;: </Dynamic>
-            <Dynamic>J16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac0_val[3]&quot; SITE &quot;J14&quot; ;&quot;: </Dynamic>
-            <Dynamic>J14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac0_val[2]&quot; SITE &quot;J12&quot; ;&quot;: </Dynamic>
-            <Dynamic>J12</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac0_val[1]&quot; SITE &quot;H16&quot; ;&quot;: </Dynamic>
-            <Dynamic>H16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_dac0_val[0]&quot; SITE &quot;H13&quot; ;&quot;: </Dynamic>
-            <Dynamic>H13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_ca[7]&quot; SITE &quot;E16&quot; ;&quot;: </Dynamic>
-            <Dynamic>E16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_ca[6]&quot; SITE &quot;E11&quot; ;&quot;: </Dynamic>
-            <Dynamic>E11</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_ca[5]&quot; SITE &quot;D15&quot; ;&quot;: </Dynamic>
-            <Dynamic>D15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_ca[4]&quot; SITE &quot;D13&quot; ;&quot;: </Dynamic>
-            <Dynamic>D13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_ca[3]&quot; SITE &quot;C15&quot; ;&quot;: </Dynamic>
-            <Dynamic>C15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_ca[2]&quot; SITE &quot;C13&quot; ;&quot;: </Dynamic>
-            <Dynamic>C13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_ca[1]&quot; SITE &quot;B15&quot; ;&quot;: </Dynamic>
-            <Dynamic>B15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_ca[0]&quot; SITE &quot;A15&quot; ;&quot;: </Dynamic>
-            <Dynamic>A15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_an[7]&quot; SITE &quot;E13&quot; ;&quot;: </Dynamic>
-            <Dynamic>E13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_an[6]&quot; SITE &quot;D16&quot; ;&quot;: </Dynamic>
-            <Dynamic>D16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_an[5]&quot; SITE &quot;D14&quot; ;&quot;: </Dynamic>
-            <Dynamic>D14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_an[4]&quot; SITE &quot;C16&quot; ;&quot;: </Dynamic>
-            <Dynamic>C16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_an[3]&quot; SITE &quot;C14&quot; ;&quot;: </Dynamic>
-            <Dynamic>C14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_an[2]&quot; SITE &quot;B16&quot; ;&quot;: </Dynamic>
-            <Dynamic>B16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_an[1]&quot; SITE &quot;B14&quot; ;&quot;: </Dynamic>
-            <Dynamic>B14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_an[0]&quot; SITE &quot;A14&quot; ;&quot;: </Dynamic>
-            <Dynamic>A14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;stim_comp_en_n&quot; SITE &quot;N16&quot; ;&quot;: </Dynamic>
-            <Dynamic>N16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;data_out&quot; SITE &quot;L4&quot; ;&quot;: </Dynamic>
-            <Dynamic>L4</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;clk_out&quot; SITE &quot;L5&quot; ;&quot;: </Dynamic>
-            <Dynamic>L5</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;lv_oe_n&quot; SITE &quot;M4&quot; ;&quot;: </Dynamic>
-            <Dynamic>M4</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;lv_dir&quot; SITE &quot;M1&quot; ;&quot;: </Dynamic>
-            <Dynamic>M1</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[15]&quot; SITE &quot;D7&quot; ;&quot;: </Dynamic>
-            <Dynamic>D7</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[14]&quot; SITE &quot;E5&quot; ;&quot;: </Dynamic>
-            <Dynamic>E5</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[13]&quot; SITE &quot;E6&quot; ;&quot;: </Dynamic>
-            <Dynamic>E6</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[12]&quot; SITE &quot;E8&quot; ;&quot;: </Dynamic>
-            <Dynamic>E8</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[11]&quot; SITE &quot;F4&quot; ;&quot;: </Dynamic>
-            <Dynamic>F4</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[10]&quot; SITE &quot;H6&quot; ;&quot;: </Dynamic>
-            <Dynamic>H6</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[9]&quot; SITE &quot;J5&quot; ;&quot;: </Dynamic>
-            <Dynamic>J5</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[8]&quot; SITE &quot;J6&quot; ;&quot;: </Dynamic>
-            <Dynamic>J6</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[7]&quot; SITE &quot;R10&quot; ;&quot;: </Dynamic>
-            <Dynamic>R10</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[6]&quot; SITE &quot;R11&quot; ;&quot;: </Dynamic>
-            <Dynamic>R11</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[5]&quot; SITE &quot;R13&quot; ;&quot;: </Dynamic>
-            <Dynamic>R13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[4]&quot; SITE &quot;R14&quot; ;&quot;: </Dynamic>
-            <Dynamic>R14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[3]&quot; SITE &quot;R15&quot; ;&quot;: </Dynamic>
-            <Dynamic>R15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[2]&quot; SITE &quot;R16&quot; ;&quot;: </Dynamic>
-            <Dynamic>R16</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;led_out[1]&quot; SITE &quot;T10&quot; ;&quot;: </Dynamic>
-            <Dynamic>T10</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;polarity[2]&quot; SITE &quot;D3&quot; ;&quot;: </Dynamic>
-            <Dynamic>D3</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;polarity[1]&quot; SITE &quot;D1&quot; ;&quot;: </Dynamic>
-            <Dynamic>D1</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;polarity[0]&quot; SITE &quot;D2&quot; ;&quot;: </Dynamic>
-            <Dynamic>D2</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;sw2_pb&quot; SITE &quot;P13&quot; ;&quot;: </Dynamic>
-            <Dynamic>P13</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;sw2_b&quot; SITE &quot;P15&quot; ;&quot;: </Dynamic>
-            <Dynamic>P15</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;sw2_a&quot; SITE &quot;P14&quot; ;&quot;: </Dynamic>
-            <Dynamic>P14</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;sw1_pb&quot; SITE &quot;N12&quot; ;&quot;: </Dynamic>
-            <Dynamic>N12</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;sw1_b&quot; SITE &quot;P11&quot; ;&quot;: </Dynamic>
-            <Dynamic>P11</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103694</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;sw1_a&quot; SITE &quot;P10&quot; ;&quot;: </Dynamic>
-            <Dynamic>P10</Dynamic>
+            <Dynamic>14.00</Dynamic>
         </Message>
     </Task>
     <Task name="PAR">
         <Message>
-            <ID>61001101</ID>
+            <ID>66011008</ID>
             <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=w_clk loads=3 clock_loads=3</Dynamic>
         </Message>
         <Message>
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=w_db_clk loads=5 clock_loads=4
-   Signal=w_div64x64_clk_0 loads=3 clock_loads=2
-   Signal=w_div64_clk_0 loads=5 clock_loads=4
-   Signal=sw2_az loads=4 clock_loads=4</Dynamic>
+   Signal=w_clk loads=3 clock_loads=3</Dynamic>
         </Message>
+    </Task>
+    <Task name="TimingSimFileVlg">
         <Message>
-            <ID>66011008</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>
-   Signal=w_db_clk loads=5 clock_loads=4
-   Signal=w_div64x64_clk_0 loads=3 clock_loads=2
-   Signal=w_div64_clk_0 loads=5 clock_loads=4
-   Signal=sw2_az loads=4 clock_loads=4</Dynamic>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
         </Message>
     </Task>
     <Task name="Translate">
-        <Message>
-            <ID>1161457</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>w_div4_clk</Dynamic>
-            <Dynamic>LOC</Dynamic>
-        </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
@@ -901,65 +64,9 @@
             <Navigation>internal_osc_SEDSTDBY</Navigation>
         </Message>
         <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>stim_comp_err_c[0]</Dynamic>
-            <Navigation>stim_comp_err_c[0]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>stim_comp_err_c[1]</Dynamic>
-            <Navigation>stim_comp_err_c[1]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>stim_comp_err_c[2]</Dynamic>
-            <Navigation>stim_comp_err_c[2]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>stim_comp_err_c[3]</Dynamic>
-            <Navigation>stim_comp_err_c[3]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>stim_comp_err_c[4]</Dynamic>
-            <Navigation>stim_comp_err_c[4]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>stim_comp_err_c[5]</Dynamic>
-            <Navigation>stim_comp_err_c[5]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>stim_comp_err_c[6]</Dynamic>
-            <Navigation>stim_comp_err_c[6]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>stim_comp_err_c[7]</Dynamic>
-            <Navigation>stim_comp_err_c[7]</Navigation>
-        </Message>
-        <Message>
             <ID>1163101</ID>
             <Severity>Warning</Severity>
-            <Dynamic>9</Dynamic>
+            <Dynamic>1</Dynamic>
         </Message>
     </Task>
     <Task name="Synplify_Synthesis">
@@ -970,242 +77,261 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:839:1:839:6|Pruning unused register r_cb_phase. Make sure that there are no unused intermediate registers.</Dynamic>
-            <Navigation>CL169</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>839</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>839</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Pruning unused register r_cb_phase. Make sure that there are no unused intermediate registers.</Navigation>
+            <Dynamic>CL259 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:57:22:57:22|Duplicate LOC attributes found on net</Dynamic>
+            <Navigation>CL259</Navigation>
+            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Duplicate LOC attributes found on net</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_interval_value[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_interval_value[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>CL259 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:57:22:57:22|Duplicate LOC attributes found on net</Dynamic>
+            <Navigation>CL259</Navigation>
+            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Duplicate LOC attributes found on net</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_interval_value[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_interval_value[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>CL259 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:57:22:57:22|Duplicate LOC attributes found on net</Dynamic>
+            <Navigation>CL259</Navigation>
+            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Duplicate LOC attributes found on net</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_interval_value[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_interval_value[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>CL259 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:57:22:57:22|Duplicate LOC attributes found on net</Dynamic>
+            <Navigation>CL259</Navigation>
+            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Duplicate LOC attributes found on net</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_interval_value[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_interval_value[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:3:0:3:0|Source for clock ck_sw1_a not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_sw1_a not found in netlist.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_interval_value[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_interval_value[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:4:0:4:0|Source for clock ck_sw2_a not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_sw2_a not found in netlist.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Pruning register bits 7 to 4 of r_interval_value[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
-            <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:6:0:6:0|Source for clock ck_cg_fsm not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
             <Navigation>6</Navigation>
-            <Navigation>Pruning register bits 7 to 4 of r_interval_value[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_cg_fsm not found in netlist.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Pruning register bit 2 of r_interval_value[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
-            <Navigation>CL260</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Pruning register bit 2 of r_interval_value[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:12:0:12:0|Source for clock ck_div4 not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_div4 not found in netlist.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL168 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v&quot;:639:10:639:24|Removing instance u_div64x4x4_clk because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
-            <Navigation>CL168</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>639</Navigation>
-            <Navigation>10</Navigation>
-            <Navigation>639</Navigation>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:18:0:18:0|Source for clock ck_div64 not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_div64 not found in netlist.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:24:0:24:0|Source for clock ck_div64x64 not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
             <Navigation>24</Navigation>
-            <Navigation>Removing instance u_div64x4x4_clk because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_div64x64 not found in netlist.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL168 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v&quot;:633:10:633:22|Removing instance u_div64x4_clk because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
-            <Navigation>CL168</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>633</Navigation>
-            <Navigation>10</Navigation>
-            <Navigation>633</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>Removing instance u_div64x4_clk because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:30:0:30:0|Source for clock ck_db not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_db not found in netlist.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL259 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v&quot;:680:19:680:22|Duplicate LOC attributes found on net</Dynamic>
-            <Navigation>CL259</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>680</Navigation>
-            <Navigation>19</Navigation>
-            <Navigation>680</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>Duplicate LOC attributes found on net</Navigation>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:36:0:36:0|Source for clock ck_div64x4 not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_div64x4 not found in netlist.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL259 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v&quot;:680:19:680:22|Duplicate LOC attributes found on net</Dynamic>
-            <Navigation>CL259</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>680</Navigation>
-            <Navigation>19</Navigation>
-            <Navigation>680</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>Duplicate LOC attributes found on net</Navigation>
+            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:42:0:42:0|Source for clock ck_slow not found in netlist.</Dynamic>
+            <Navigation>MT548</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Source for clock ck_slow not found in netlist.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MF511 |Found issues with constraints. Please check constraint checker report &quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_cck.rpt&quot; .</Dynamic>
+            <Navigation>MF511</Navigation>
+            <Navigation>Found issues with constraints. Please check constraint checker report &quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_cck.rpt&quot; .</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_interval_value[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_interval_value[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Navigation>MT447</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_interval_value[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_interval_value[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Navigation>MT447</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_cb_on_0 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_cb_on_0 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Navigation>MT447</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Optimizing register bit r_cb_on_1 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Optimizing register bit r_cb_on_1 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Navigation>MT447</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Pruning register bit 1 of r_interval_value[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
-            <Navigation>CL260</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Pruning register bit 1 of r_interval_value[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Navigation>MT447</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Pruning unused register r_interval_value[3]. Make sure that there are no unused intermediate registers.</Dynamic>
-            <Navigation>CL169</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Pruning unused register r_interval_value[3]. Make sure that there are no unused intermediate registers.</Navigation>
+            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Navigation>MT447</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Pruning unused register r_cb_on_0. Make sure that there are no unused intermediate registers.</Dynamic>
-            <Navigation>CL169</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Pruning unused register r_cb_on_0. Make sure that there are no unused intermediate registers.</Navigation>
+            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Navigation>MT447</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v&quot;:781:1:781:6|Pruning unused register r_cb_on_1. Make sure that there are no unused intermediate registers.</Dynamic>
-            <Navigation>CL169</Navigation>
-            <Navigation>C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>781</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Pruning unused register r_cb_on_1. Make sure that there are no unused intermediate registers.</Navigation>
+            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Navigation>MT447</Navigation>
+            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design </Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

@@ -7,33 +7,33 @@ Design Information
 
 Command line:   map -a MachXO2 -p LCMXO2-2000ZE -t TQFP100 -s 1 -oc Commercial
      common_impl1.ngd -o common_impl1_map.ncd -pr common_impl1.prf -mp
-     common_impl1.mrp -lpf C:/Users/eidos/Desktop/verilog
-     experiment/common/db/work/impl1/common_impl1_synplify.lpf -lpf
-     C:/Users/eidos/Desktop/verilog experiment/common/db/work/common.lpf -c 0
-     -gui -msgset C:/Users/eidos/Desktop/verilog
-     experiment/common/db/work/promote.xml 
+     common_impl1.mrp -lpf C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/d
+     b/work/impl1/common_impl1_synplify.lpf -lpf
+     C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/common.lpf -c 0
+     -gui -msgset
+     C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
-Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.1.454
-Mapped on:  07/14/22  15:32:54
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  07/21/22  10:09:46
 
 Design Summary
 --------------
 
-   Number of registers:    283 out of  2352 (12%)
-      PFU registers:          242 out of  2112 (11%)
-      PIO registers:           41 out of   240 (17%)
-   Number of SLICEs:       179 out of  1056 (17%)
-      SLICEs as Logic/ROM:    179 out of  1056 (17%)
+   Number of registers:      4 out of  2352 (0%)
+      PFU registers:            4 out of  2112 (0%)
+      PIO registers:            0 out of   240 (0%)
+   Number of SLICEs:         3 out of  1056 (0%)
+      SLICEs as Logic/ROM:      3 out of  1056 (0%)
       SLICEs as RAM:            0 out of   792 (0%)
-      SLICEs as Carry:         50 out of  1056 (5%)
-   Number of LUT4s:        351 out of  2112 (17%)
-      Number used as logic LUTs:        251
+      SLICEs as Carry:          0 out of  1056 (0%)
+   Number of LUT4s:          6 out of  2112 (0%)
+      Number used as logic LUTs:          6
       Number used as distributed RAM:     0
-      Number used as ripple logic:      100
+      Number used as ripple logic:        0
       Number used as shift registers:     0
-   Number of PIO sites used: 69 + 4(JTAG) out of 80 (91%)
+   Number of PIO sites used: 6 + 4(JTAG) out of 80 (13%)
    Number of block RAMs:  0 out of 8 (0%)
    Number of GSRs:        1 out of 1 (100%)
    EFB used :        No
@@ -58,443 +58,61 @@ Design Summary
      distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
-   Number of clocks:  7
-     Net w_clk: 132 loads, 132 rising, 0 falling (Driver: internal_osc )
+   Number of clocks:  1
+     Net w_clk: 3 loads, 3 rising, 0 falling (Driver: internal_osc )
 
                                     Page 1
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
+Design:  ci_stim_fpga_wrapper                          Date:  07/21/22  10:09:46
 
 Design Summary (cont)
 ---------------------
-     Net sw1_az: 7 loads, 7 rising, 0 falling (Driver: PIO sw1_a )
-     Net w_db_clk: 4 loads, 4 rising, 0 falling (Driver: u_div2_clk/r_gen_clk )
-     Net w_div64x64_clk_0: 2 loads, 2 rising, 0 falling (Driver:
-     u_div64x64_clk/r_gen_clk )
-     Net w_div64_clk_0: 4 loads, 4 rising, 0 falling (Driver:
-     u_div64_clk/r_gen_clk )
-     Net w_div4_clk: 30 loads, 30 rising, 0 falling (Driver:
-     u_div4_clk/r_gen_clk )
-     Net sw2_az: 4 loads, 4 rising, 0 falling (Driver: PIO sw2_a )
-   Number of Clock Enables:  34
-     Net sw2_counter26_i: 2 loads, 2 LSLICEs
-     Net c_channel_0_0_sqmuxa_1_i: 4 loads, 4 LSLICEs
-     Net u_cg_fsm/u_sync_fsm_trigger/r_master_en_RNO_0_0: 1 loads, 1 LSLICEs
-     Net c_duration_0_sqmuxa_1_i: 4 loads, 4 LSLICEs
-     Net c_channel_1_0_sqmuxa_1_i: 4 loads, 4 LSLICEs
-     Net u_cg_fsm/u_sync_fsm_trigger/r_slave_en8: 2 loads, 2 LSLICEs
-     Net sw1_b_c: 1 loads, 1 LSLICEs
-     Net un1_c_dac_amp_1_0_sqmuxa_1_i[0]: 4 loads, 4 LSLICEs
-     Net c_rate_1_sqmuxa_i: 4 loads, 4 LSLICEs
-     Net un1_c_dac_amp_0_0_sqmuxa[0]: 4 loads, 4 LSLICEs
-     Net u_cg_fsm/u_sync_anode_phase_en/r_slave_en8: 2 loads, 2 LSLICEs
-     Net u_cg_fsm/u_sync_anode_phase_en/un1_i_men_1_0: 1 loads, 1 LSLICEs
-     Net u_cg_fsm/u_sync_cathod_phase_en/r_slave_en8: 2 loads, 2 LSLICEs
-     Net u_cg_fsm.c_cathod_phase_en_0_sqmuxa: 16 loads, 0 LSLICEs
-     Net u_cg_fsm/u_sync_cathod_phase_en/un1_i_men_1: 1 loads, 1 LSLICEs
-     Net u_cg_fsm/u_sync_search_disabled_channel_phase_end_p/r_master_en_RNO_0:
-     1 loads, 1 LSLICEs
-     Net u_cg_fsm/u_sync_search_disabled_channel_phase_end_p/r_slave_en8: 2
-     loads, 2 LSLICEs
-     Net u_cg_fsm.w_search_disabled_channel_phase_end_p: 6 loads, 0 LSLICEs
-     Net u_cg_fsm/u_sync_trigger/r_master_en_RNO: 1 loads, 1 LSLICEs
-     Net u_cg_fsm/u_sync_trigger/r_slave_en8: 2 loads, 2 LSLICEs
-     Net u_cg_fsm/w_sync_trigger: 8 loads, 8 LSLICEs
-     Net u_cg_fsm/r_cathod_phase_RNO: 1 loads, 1 LSLICEs
-     Net u_cg_fsm/r_anode_phase_RNO: 1 loads, 1 LSLICEs
-     Net u_cg_fsm/un1_w_disabled_dac_sel_found_RNIDERI: 4 loads, 4 LSLICEs
-     Net u_cg_fsm/r_search_disabled_channel_phase_RNO: 1 loads, 1 LSLICEs
-     Net u_cg_fsm/un1_r_sync_search_disabled_channel_phase_end_p_d_g: 1 loads, 1
-     LSLICEs
-     Net u_cg_fsm/r_rate_cnte: 5 loads, 5 LSLICEs
-     Net u_cg_fsm/un1_i_polarity_1: 24 loads, 24 LSLICEs
-     Net u_cg_fsm/un1_c_next_state_0_sqmuxa_1_i: 1 loads, 1 LSLICEs
-     Net u_cg_fsm/r_interval_cnte: 5 loads, 5 LSLICEs
-     Net u_cg_fsm/r_duration_cnte: 5 loads, 5 LSLICEs
-     Net un1_w_async_ack_mode_transition_p: 1 loads, 1 LSLICEs
-     Net u_trigger_en/r_slave_en8: 2 loads, 2 LSLICEs
-     Net u_trigger_en/un1_i_men_1_1: 1 loads, 1 LSLICEs
-   Number of local set/reset loads for net i_rst_n_c merged into GSR:  283
+   Number of Clock Enables:  0
+   Number of local set/reset loads for net i_rst_n_c merged into GSR:  4
    Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net polarity_c[2]: 27 loads
-     Net display_item_num[2]: 26 loads
-     Net u_cg_fsm/un1_i_polarity_1: 24 loads
-     Net sw2_counter26: 18 loads
-     Net sw2_counter[2]: 18 loads
-
-                                    Page 2
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Design Summary (cont)
----------------------
-     Net u_cg_fsm.c_cathod_phase_en_0_sqmuxa: 18 loads
-     Net sw2_counter[0]: 16 loads
-     Net sw2_counter[1]: 16 loads
-     Net u_cg_fsm/c_set_mode_monopolar8: 15 loads
-     Net u_trigger_en.w_slave_ack: 15 loads
+     Net CO0: 5 loads
+     Net cnt[1]: 4 loads
+     Net cnt[2]: 3 loads
+     Net cnt[3]: 2 loads
+     Net cnt_RNO[1]: 1 loads
+     Net cnt_RNO[2]: 1 loads
+     Net cnt_RNO[3]: 1 loads
+     Net CO0_i: 1 loads
+     Net i_rst_n_c: 1 loads
+     Net out_sw1_sig_c: 1 loads
 
 
 
 
-   Number of warnings:  142
+   Number of warnings:  3
    Number of errors:    0
      
 
 Design Errors/Warnings
 ----------------------
 
-WARNING - map: C:/Users/eidos/Desktop/verilog
-     experiment/common/db/work/impl1/common_impl1_synplify.lpf(11): Semantic
-     error in "FREQUENCY NET "w_div64_clk" 0.100000 MHz ;": w_div64_clk matches
-     no clock nets in the design.  This preference has been disabled.
-WARNING - map: C:/Users/eidos/Desktop/verilog
-     experiment/common/db/work/impl1/common_impl1_synplify.lpf(12): Semantic
-     error in "FREQUENCY NET "w_div64x64_clk" 0.100000 MHz ;": w_div64x64_clk
-     matches no clock nets in the design.  This preference has been disabled.
-WARNING - map: PULLMODE=DOWN  for polarity_pad[2]/IOBUF violates legal
-     combination and is ignored.
+WARNING - map:
+     C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/common.lpf(3):
+     Semantic error in "FREQUENCY NET "w_div64_clk_0" 0.100000 MHz ;":
+     w_div64_clk_0 matches no clock nets in the design.  This preference has
+     been disabled.
+WARNING - map:
+     C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/common.lpf(4):
+     Semantic error in "FREQUENCY NET "w_div64x64_clk_0" 0.100000 MHz ;":
+     w_div64x64_clk_0 matches no clock nets in the design.  This preference has
+     been disabled.
 WARNING - map: OSCH 'internal_osc' has invalid FREQUENCY preference value of
      4.00 MHz. Valid values are 2.08,2.15,2.22,2.29,2.38,2.46,2.56,2.66,2.77,2.8
      9,3.02,3.17,3.33,3.50,3.69,3.91,4.16,4.29,4.43,4.59,4.75,4.93,5.12,5.32,5.5
      4,5.78,6.05,6.33,6.65,7.00,7.39,7.82,8.31,8.58,8.87,9.17,9.50,9.85,10.23,10
      .64,11.08,11.57,12.09,12.67,13.30,14.00,14.78,15.65,16.63,17.73,19.00,20.46
      ,22.17,24.18,26.60,29.56,33.25,38.00,44.33,53.20,66.50,88.67,133.00 MHz.
-     Using NOM_FREQ value of 9.50 MHz for FREQUENCY preference.
-WARNING - map: Specified location site name "T11" is not valid for led_out[0].
-     Location directive ignored.
-WARNING - map: Specified location site name "A10" is not valid for i_rst_n.
-     Location directive ignored.
-WARNING - map: Specified location site name "N13" is not valid for
-     stim_bcg1_sel[2]. Location directive ignored.
-WARNING - map: Specified location site name "L16" is not valid for
-     stim_bcg1_sel[1]. Location directive ignored.
-WARNING - map: Specified location site name "L14" is not valid for
-     stim_bcg1_sel[0]. Location directive ignored.
-WARNING - map: Specified location site name "N14" is not valid for
-     stim_bcg0_sel[2]. Location directive ignored.
-WARNING - map: Specified location site name "M16" is not valid for
-     stim_bcg0_sel[1]. Location directive ignored.
-WARNING - map: Specified location site name "L15" is not valid for
-     stim_bcg0_sel[0]. Location directive ignored.
-WARNING - map: Specified location site name "L13" is not valid for
-     stim_dac1_val[7]. Location directive ignored.
-WARNING - map: Specified location site name "K16" is not valid for
-     stim_dac1_val[6]. Location directive ignored.
-WARNING - map: Specified location site name "K14" is not valid for
-     stim_dac1_val[5]. Location directive ignored.
-WARNING - map: Specified location site name "K11" is not valid for
-
-                                    Page 3
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Design Errors/Warnings (cont)
------------------------------
-     stim_dac1_val[4]. Location directive ignored.
-WARNING - map: Specified location site name "J15" is not valid for
-     stim_dac1_val[3]. Location directive ignored.
-WARNING - map: Specified location site name "J13" is not valid for
-     stim_dac1_val[2]. Location directive ignored.
-WARNING - map: Specified location site name "J11" is not valid for
-     stim_dac1_val[1]. Location directive ignored.
-WARNING - map: Specified location site name "H15" is not valid for
-     stim_dac1_val[0]. Location directive ignored.
-WARNING - map: Specified location site name "L12" is not valid for
-     stim_dac0_val[7]. Location directive ignored.
-WARNING - map: Specified location site name "K15" is not valid for
-     stim_dac0_val[6]. Location directive ignored.
-WARNING - map: Specified location site name "K13" is not valid for
-     stim_dac0_val[5]. Location directive ignored.
-WARNING - map: Specified location site name "J16" is not valid for
-     stim_dac0_val[4]. Location directive ignored.
-WARNING - map: Specified location site name "J14" is not valid for
-     stim_dac0_val[3]. Location directive ignored.
-WARNING - map: Specified location site name "J12" is not valid for
-     stim_dac0_val[2]. Location directive ignored.
-WARNING - map: Specified location site name "H16" is not valid for
-     stim_dac0_val[1]. Location directive ignored.
-WARNING - map: Specified location site name "H13" is not valid for
-     stim_dac0_val[0]. Location directive ignored.
-WARNING - map: Specified location site name "E16" is not valid for stim_ca[7].
-     Location directive ignored.
-WARNING - map: Specified location site name "E11" is not valid for stim_ca[6].
-     Location directive ignored.
-WARNING - map: Specified location site name "D15" is not valid for stim_ca[5].
-     Location directive ignored.
-WARNING - map: Specified location site name "D13" is not valid for stim_ca[4].
-     Location directive ignored.
-WARNING - map: Specified location site name "C15" is not valid for stim_ca[3].
-     Location directive ignored.
-WARNING - map: Specified location site name "C13" is not valid for stim_ca[2].
-     Location directive ignored.
-WARNING - map: Specified location site name "B15" is not valid for stim_ca[1].
-     Location directive ignored.
-WARNING - map: Specified location site name "A15" is not valid for stim_ca[0].
-     Location directive ignored.
-WARNING - map: Specified location site name "E13" is not valid for stim_an[7].
-     Location directive ignored.
-WARNING - map: Specified location site name "D16" is not valid for stim_an[6].
-     Location directive ignored.
-WARNING - map: Specified location site name "D14" is not valid for stim_an[5].
-     Location directive ignored.
-WARNING - map: Specified location site name "C16" is not valid for stim_an[4].
-     Location directive ignored.
-WARNING - map: Specified location site name "C14" is not valid for stim_an[3].
-     Location directive ignored.
-WARNING - map: Specified location site name "B16" is not valid for stim_an[2].
-     Location directive ignored.
-WARNING - map: Specified location site name "B14" is not valid for stim_an[1].
-     Location directive ignored.
-WARNING - map: Specified location site name "A14" is not valid for stim_an[0].
-
-                                    Page 4
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Design Errors/Warnings (cont)
------------------------------
-     Location directive ignored.
-WARNING - map: Specified location site name "N16" is not valid for
-     stim_comp_en_n. Location directive ignored.
-WARNING - map: Specified location site name "L4" is not valid for data_out.
-     Location directive ignored.
-WARNING - map: Specified location site name "L5" is not valid for clk_out.
-     Location directive ignored.
-WARNING - map: Specified location site name "M4" is not valid for lv_oe_n.
-     Location directive ignored.
-WARNING - map: Specified location site name "M1" is not valid for lv_dir.
-     Location directive ignored.
-WARNING - map: Specified location site name "D7" is not valid for led_out[15].
-     Location directive ignored.
-WARNING - map: Specified location site name "E5" is not valid for led_out[14].
-     Location directive ignored.
-WARNING - map: Specified location site name "E6" is not valid for led_out[13].
-     Location directive ignored.
-WARNING - map: Specified location site name "E8" is not valid for led_out[12].
-     Location directive ignored.
-WARNING - map: Specified location site name "F4" is not valid for led_out[11].
-     Location directive ignored.
-WARNING - map: Specified location site name "H6" is not valid for led_out[10].
-     Location directive ignored.
-WARNING - map: Specified location site name "J5" is not valid for led_out[9].
-     Location directive ignored.
-WARNING - map: Specified location site name "J6" is not valid for led_out[8].
-     Location directive ignored.
-WARNING - map: Specified location site name "R10" is not valid for led_out[7].
-     Location directive ignored.
-WARNING - map: Specified location site name "R11" is not valid for led_out[6].
-     Location directive ignored.
-WARNING - map: Specified location site name "R13" is not valid for led_out[5].
-     Location directive ignored.
-WARNING - map: Specified location site name "R14" is not valid for led_out[4].
-     Location directive ignored.
-WARNING - map: Specified location site name "R15" is not valid for led_out[3].
-     Location directive ignored.
-WARNING - map: Specified location site name "R16" is not valid for led_out[2].
-     Location directive ignored.
-WARNING - map: Specified location site name "T10" is not valid for led_out[1].
-     Location directive ignored.
-WARNING - map: Specified location site name "D3" is not valid for polarity[2].
-     Location directive ignored.
-WARNING - map: Specified location site name "D1" is not valid for polarity[1].
-     Location directive ignored.
-WARNING - map: Specified location site name "D2" is not valid for polarity[0].
-     Location directive ignored.
-WARNING - map: Specified location site name "P13" is not valid for sw2_pb.
-     Location directive ignored.
-WARNING - map: Specified location site name "P15" is not valid for sw2_b.
-     Location directive ignored.
-WARNING - map: Specified location site name "P14" is not valid for sw2_a.
-     Location directive ignored.
-WARNING - map: Specified location site name "N12" is not valid for sw1_pb.
-     Location directive ignored.
-WARNING - map: Specified location site name "P11" is not valid for sw1_b.
-
-                                    Page 5
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Design Errors/Warnings (cont)
------------------------------
-     Location directive ignored.
-WARNING - map: Specified location site name "P10" is not valid for sw1_a.
-     Location directive ignored.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[0]" SITE "T11" ;": Unable
-     to find site T11 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "i_rst_n" SITE "A10" ;": Unable to
-     find site A10 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_bcg1_sel[2]" SITE "N13" ;":
-     Unable to find site N13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_bcg1_sel[1]" SITE "L16" ;":
-     Unable to find site L16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_bcg1_sel[0]" SITE "L14" ;":
-     Unable to find site L14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_bcg0_sel[2]" SITE "N14" ;":
-     Unable to find site N14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_bcg0_sel[1]" SITE "M16" ;":
-     Unable to find site M16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_bcg0_sel[0]" SITE "L15" ;":
-     Unable to find site L15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac1_val[7]" SITE "L13" ;":
-     Unable to find site L13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac1_val[6]" SITE "K16" ;":
-     Unable to find site K16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac1_val[5]" SITE "K14" ;":
-     Unable to find site K14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac1_val[4]" SITE "K11" ;":
-     Unable to find site K11 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac1_val[3]" SITE "J15" ;":
-     Unable to find site J15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac1_val[2]" SITE "J13" ;":
-     Unable to find site J13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac1_val[1]" SITE "J11" ;":
-     Unable to find site J11 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac1_val[0]" SITE "H15" ;":
-     Unable to find site H15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac0_val[7]" SITE "L12" ;":
-     Unable to find site L12 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac0_val[6]" SITE "K15" ;":
-     Unable to find site K15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac0_val[5]" SITE "K13" ;":
-     Unable to find site K13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac0_val[4]" SITE "J16" ;":
-     Unable to find site J16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac0_val[3]" SITE "J14" ;":
-     Unable to find site J14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac0_val[2]" SITE "J12" ;":
-     Unable to find site J12 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac0_val[1]" SITE "H16" ;":
-     Unable to find site H16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_dac0_val[0]" SITE "H13" ;":
-     Unable to find site H13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_ca[7]" SITE "E16" ;": Unable
-     to find site E16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_ca[6]" SITE "E11" ;": Unable
-     to find site E11 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_ca[5]" SITE "D15" ;": Unable
-
-                                    Page 6
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Design Errors/Warnings (cont)
------------------------------
-     to find site D15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_ca[4]" SITE "D13" ;": Unable
-     to find site D13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_ca[3]" SITE "C15" ;": Unable
-     to find site C15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_ca[2]" SITE "C13" ;": Unable
-     to find site C13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_ca[1]" SITE "B15" ;": Unable
-     to find site B15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_ca[0]" SITE "A15" ;": Unable
-     to find site A15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_an[7]" SITE "E13" ;": Unable
-     to find site E13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_an[6]" SITE "D16" ;": Unable
-     to find site D16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_an[5]" SITE "D14" ;": Unable
-     to find site D14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_an[4]" SITE "C16" ;": Unable
-     to find site C16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_an[3]" SITE "C14" ;": Unable
-     to find site C14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_an[2]" SITE "B16" ;": Unable
-     to find site B16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_an[1]" SITE "B14" ;": Unable
-     to find site B14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_an[0]" SITE "A14" ;": Unable
-     to find site A14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "stim_comp_en_n" SITE "N16" ;":
-     Unable to find site N16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "data_out" SITE "L4" ;": Unable to
-     find site L4 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "clk_out" SITE "L5" ;": Unable to
-     find site L5 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "lv_oe_n" SITE "M4" ;": Unable to
-     find site M4 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "lv_dir" SITE "M1" ;": Unable to
-     find site M1 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[15]" SITE "D7" ;": Unable
-     to find site D7 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[14]" SITE "E5" ;": Unable
-     to find site E5 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[13]" SITE "E6" ;": Unable
-     to find site E6 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[12]" SITE "E8" ;": Unable
-     to find site E8 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[11]" SITE "F4" ;": Unable
-     to find site F4 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[10]" SITE "H6" ;": Unable
-     to find site H6 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[9]" SITE "J5" ;": Unable
-     to find site J5 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[8]" SITE "J6" ;": Unable
-     to find site J6 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[7]" SITE "R10" ;": Unable
-     to find site R10 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[6]" SITE "R11" ;": Unable
-
-                                    Page 7
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Design Errors/Warnings (cont)
------------------------------
-     to find site R11 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[5]" SITE "R13" ;": Unable
-     to find site R13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[4]" SITE "R14" ;": Unable
-     to find site R14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[3]" SITE "R15" ;": Unable
-     to find site R15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[2]" SITE "R16" ;": Unable
-     to find site R16 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "led_out[1]" SITE "T10" ;": Unable
-     to find site T10 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "polarity[2]" SITE "D3" ;": Unable
-     to find site D3 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "polarity[1]" SITE "D1" ;": Unable
-     to find site D1 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "polarity[0]" SITE "D2" ;": Unable
-     to find site D2 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "sw2_pb" SITE "P13" ;": Unable to
-     find site P13 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "sw2_b" SITE "P15" ;": Unable to
-     find site P15 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "sw2_a" SITE "P14" ;": Unable to
-     find site P14 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "sw1_pb" SITE "N12" ;": Unable to
-     find site N12 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "sw1_b" SITE "P11" ;": Unable to
-     find site P11 in the device. This preference has been disabled.
-WARNING - map: Semantic error in "LOCATE COMP "sw1_a" SITE "P10" ;": Unable to
-     find site P10 in the device. This preference has been disabled.
+     Using NOM_FREQ value of 14.00 MHz for FREQUENCY preference.
 
 IO (PIO) Attributes
 -------------------
@@ -503,384 +121,36 @@ IO (PIO) Attributes
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| led_out[0]          | OUTPUT    | LVCMOS33  |            |
+| out_sw1_sig         | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | i_rst_n             | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| stim_bcg1_sel[2]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_bcg1_sel[1]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_bcg1_sel[0]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_bcg0_sel[2]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_bcg0_sel[1]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_bcg0_sel[0]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac1_val[7]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac1_val[6]    | OUTPUT    | LVCMOS33  | OUT        |
+| output_ctrl_sig     | OUTPUT    | LVCMOS33  |            |
 
-                                    Page 8
+                                    Page 2
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
+Design:  ci_stim_fpga_wrapper                          Date:  07/21/22  10:09:46
 
 IO (PIO) Attributes (cont)
 --------------------------
 +---------------------+-----------+-----------+------------+
-| stim_dac1_val[5]    | OUTPUT    | LVCMOS33  | OUT        |
+| out_sw4_sig         | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| stim_dac1_val[4]    | OUTPUT    | LVCMOS33  | OUT        |
+| out_sw3_sig         | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| stim_dac1_val[3]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac1_val[2]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac1_val[1]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac1_val[0]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac0_val[7]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac0_val[6]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac0_val[5]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac0_val[4]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac0_val[3]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac0_val[2]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac0_val[1]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_dac0_val[0]    | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_ca[7]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_ca[6]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_ca[5]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_ca[4]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_ca[3]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_ca[2]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_ca[1]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_ca[0]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_an[7]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_an[6]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_an[5]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_an[4]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_an[3]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_an[2]          | OUTPUT    | LVCMOS33  | OUT        |
-
-                                    Page 9
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-IO (PIO) Attributes (cont)
---------------------------
-+---------------------+-----------+-----------+------------+
-| stim_an[1]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_an[0]          | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| stim_comp_en_n      | OUTPUT    | LVCMOS33  | OUT        |
-+---------------------+-----------+-----------+------------+
-| data_out            | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| clk_out             | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| lv_oe_n             | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| lv_dir              | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[15]         | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[14]         | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[13]         | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[12]         | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[11]         | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[10]         | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[9]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[8]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[7]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[6]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[5]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[4]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[3]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[2]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led_out[1]          | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| polarity[2]         | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| polarity[1]         | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| polarity[0]         | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| sw2_pb              | INPUT     | LVCMOS33  | IN         |
-+---------------------+-----------+-----------+------------+
-| sw2_b               | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| sw2_a               | INPUT     | LVCMOS33  |            |
-
-                                   Page 10
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-IO (PIO) Attributes (cont)
---------------------------
-+---------------------+-----------+-----------+------------+
-| sw1_pb              | INPUT     | LVCMOS33  | IN         |
-+---------------------+-----------+-----------+------------+
-| sw1_b               | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| sw1_a               | INPUT     | LVCMOS33  |            |
+| out_sw2_sig         | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 
 Removed logic
 -------------
 
-Block stim_comp_err_pad[0] undriven or does not drive anything - clipped.
-Block stim_comp_err_pad[1] undriven or does not drive anything - clipped.
-Block stim_comp_err_pad[2] undriven or does not drive anything - clipped.
-Block stim_comp_err_pad[3] undriven or does not drive anything - clipped.
-Block stim_comp_err_pad[4] undriven or does not drive anything - clipped.
-Block stim_comp_err_pad[5] undriven or does not drive anything - clipped.
-Block stim_comp_err_pad[6] undriven or does not drive anything - clipped.
-Block stim_comp_err_pad[7] undriven or does not drive anything - clipped.
-Block u_trigger_en/GND undriven or does not drive anything - clipped.
-Block u_trigger_en/VCC undriven or does not drive anything - clipped.
-Block u_cg_fsm/u_sync_trigger/VCC undriven or does not drive anything - clipped.
-     
-Block u_cg_fsm/u_sync_trigger/GND undriven or does not drive anything - clipped.
-     
-Block u_cg_fsm/u_sync_search_disabled_channel_phase_end_p/GND undriven or does
-     not drive anything - clipped.
-Block u_cg_fsm/u_sync_search_disabled_channel_phase_end_p/VCC undriven or does
-     not drive anything - clipped.
-Block u_cg_fsm/u_sync_cathod_phase_en/GND undriven or does not drive anything -
-     clipped.
-Block u_cg_fsm/u_sync_cathod_phase_en/VCC undriven or does not drive anything -
-     clipped.
-Block u_cg_fsm/u_sync_anode_phase_en/GND undriven or does not drive anything -
-     clipped.
-Block u_cg_fsm/u_sync_anode_phase_en/VCC undriven or does not drive anything -
-     clipped.
-Block u_cg_fsm/u_sync_fsm_trigger/VCC undriven or does not drive anything -
-     clipped.
-Block u_cg_fsm/u_sync_fsm_trigger/GND undriven or does not drive anything -
-     clipped.
-Block u_debounce_sw1/GND undriven or does not drive anything - clipped.
-Block u_debounce_sw1/VCC undriven or does not drive anything - clipped.
-Block u_debounce_sw2/GND undriven or does not drive anything - clipped.
-Block u_debounce_sw2/VCC undriven or does not drive anything - clipped.
-Block u_div4_clk/VCC undriven or does not drive anything - clipped.
-Block u_div4_clk/GND undriven or does not drive anything - clipped.
-Block u_div64_clk/VCC undriven or does not drive anything - clipped.
-Block u_div64x64_clk/VCC undriven or does not drive anything - clipped.
-Block u_div2_clk/VCC undriven or does not drive anything - clipped.
-Block u_div2_clk/GND undriven or does not drive anything - clipped.
+Block VCC undriven or does not drive anything - clipped.
 Signal i_rst_n_c_i was merged into signal i_rst_n_c
-Signal u_cg_fsm/GND undriven or does not drive anything - clipped.
-Signal u_div64_clk/GND undriven or does not drive anything - clipped.
-Signal u_div64x64_clk/GND undriven or does not drive anything - clipped.
-Signal sw2_counter_cry_0_COUT[6] undriven or does not drive anything - clipped.
-
-                                   Page 11
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Removed logic (cont)
---------------------
-Signal sw1_counter_lcry_0_S1 undriven or does not drive anything - clipped.
-Signal sw1_counter_lcry_0_S0 undriven or does not drive anything - clipped.
-Signal N_2 undriven or does not drive anything - clipped.
-Signal sw1_counter_cry_0_COUT[6] undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_0_0_S1 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal N_3 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_1_0_S1 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_1_0_S0 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_3_0_S1 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_3_0_S0 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_5_0_S1 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_5_0_S0 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_7_0_S0 undriven or does not drive anything - clipped.
-Signal sw1_counter33_cry_7_0_COUT undriven or does not drive anything - clipped.
-     
-Signal stim_comp_err_c[0] undriven or does not drive anything - clipped.
-Signal stim_comp_err[0] undriven or does not drive anything - clipped.
-Signal stim_comp_err_c[1] undriven or does not drive anything - clipped.
-Signal stim_comp_err[1] undriven or does not drive anything - clipped.
-Signal stim_comp_err_c[2] undriven or does not drive anything - clipped.
-Signal stim_comp_err[2] undriven or does not drive anything - clipped.
-Signal stim_comp_err_c[3] undriven or does not drive anything - clipped.
-Signal stim_comp_err[3] undriven or does not drive anything - clipped.
-Signal stim_comp_err_c[4] undriven or does not drive anything - clipped.
-Signal stim_comp_err[4] undriven or does not drive anything - clipped.
-Signal stim_comp_err_c[5] undriven or does not drive anything - clipped.
-Signal stim_comp_err[5] undriven or does not drive anything - clipped.
-Signal stim_comp_err_c[6] undriven or does not drive anything - clipped.
-Signal stim_comp_err[6] undriven or does not drive anything - clipped.
-Signal stim_comp_err_c[7] undriven or does not drive anything - clipped.
-Signal stim_comp_err[7] undriven or does not drive anything - clipped.
-Signal u_cg_fsm/r_rate_cnt_cry_0_S0[0] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/N_1 undriven or does not drive anything - clipped.
-Signal u_cg_fsm/r_rate_cnt_s_0_S1[7] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/r_rate_cnt_s_0_COUT[7] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/r_interval_cnt_cry_0_S0[0] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/N_2 undriven or does not drive anything - clipped.
-Signal u_cg_fsm/r_interval_cnt_s_0_S1[7] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/r_interval_cnt_s_0_COUT[7] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/r_duration_cnt_cry_0_S0[0] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/N_3 undriven or does not drive anything - clipped.
-Signal u_cg_fsm/r_duration_cnt_s_0_S1[7] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/r_duration_cnt_s_0_COUT[7] undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_0_0_S1 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_0_0_S0 undriven or does not drive anything
-
-                                   Page 12
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Removed logic (cont)
---------------------
-     - clipped.
-Signal u_cg_fsm/N_4 undriven or does not drive anything - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_1_0_S1 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_1_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_3_0_S1 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_3_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_5_0_S1 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_5_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_7_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/r_duration_cnt15_cry_7_0_COUT undriven or does not drive
-     anything - clipped.
-Signal u_cg_fsm/w_interval_tmout_0_I_1_0_S1 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/w_interval_tmout_0_I_1_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/N_5 undriven or does not drive anything - clipped.
-Signal u_cg_fsm/w_interval_tmout_0_I_9_0_S1 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/w_interval_tmout_0_I_9_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/w_interval_tmout_0_I_21_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/w_interval_tmout_0_I_21_0_COUT undriven or does not drive
-     anything - clipped.
-Signal u_cg_fsm/w_duration_tmout_0_I_1_0_S1 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/w_duration_tmout_0_I_1_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/N_6 undriven or does not drive anything - clipped.
-Signal u_cg_fsm/w_duration_tmout_0_I_9_0_S1 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/w_duration_tmout_0_I_9_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/w_duration_tmout_0_I_21_0_S0 undriven or does not drive anything
-     - clipped.
-Signal u_cg_fsm/w_duration_tmout_0_I_21_0_COUT undriven or does not drive
-     anything - clipped.
-Signal u_cg_fsm/w_rate_tmout_0_I_1_0_S1 undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/w_rate_tmout_0_I_1_0_S0 undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/N_7 undriven or does not drive anything - clipped.
-Signal u_cg_fsm/w_rate_tmout_0_I_9_0_S1 undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/w_rate_tmout_0_I_9_0_S0 undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/w_rate_tmout_0_I_21_0_S0 undriven or does not drive anything -
-     clipped.
-Signal u_cg_fsm/w_rate_tmout_0_I_21_0_COUT undriven or does not drive anything -
-
-                                   Page 13
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Removed logic (cont)
---------------------
-     clipped.
-Signal u_div64_clk/div64_count_cry_0_S0_0[0] undriven or does not drive anything
-     - clipped.
-Signal u_div64_clk/N_1 undriven or does not drive anything - clipped.
-Signal u_div64_clk/div64_count_cry_0_COUT_0[3] undriven or does not drive
-     anything - clipped.
-Signal u_div64x64_clk/div64_count_cry_0_S0[0] undriven or does not drive
-     anything - clipped.
-Signal u_div64x64_clk/N_1 undriven or does not drive anything - clipped.
-Signal u_div64x64_clk/div64_count_cry_0_COUT[3] undriven or does not drive
-     anything - clipped.
-Signal sw2_counter_lcry_0_S1 undriven or does not drive anything - clipped.
-Signal sw2_counter_lcry_0_S0 undriven or does not drive anything - clipped.
-Signal N_1 undriven or does not drive anything - clipped.
 Signal internal_osc_SEDSTDBY undriven or does not drive anything - clipped.
 Block i_rst_n_pad_RNI2JI2 was optimized away.
-Block u_cg_fsm/GND was optimized away.
-Block u_div64_clk/GND was optimized away.
-Block u_div64x64_clk/GND was optimized away.
 
      
 
@@ -892,7 +162,7 @@ OSC 1:                                     Pin/Node Value
   OSC Type:                                         OSCH
   STDBY Input:                                      NONE
   OSC Output:                              NODE     w_clk
-  OSC Nominal Frequency (MHz):                      9.50
+  OSC Nominal Frequency (MHz):                      14.00
 
 ASIC Components
 ---------------
@@ -918,74 +188,12 @@ Run Time and Memory Usage
 -------------------------
 
    Total CPU Time: 0 secs  
-
-                                   Page 14
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  07/14/22  15:32:54
-
-Run Time and Memory Usage (cont)
---------------------------------
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 37 MB
+   Peak Memory Usage: 43 MB
         
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                   Page 15
+                                    Page 3
 
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.

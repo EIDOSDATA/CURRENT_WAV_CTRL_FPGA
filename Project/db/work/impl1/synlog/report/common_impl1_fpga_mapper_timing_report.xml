@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\eidos\Desktop\verilog experiment\common\db\work\impl1\synlog\common_impl1_fpga_mapper.srr</data>
+<data>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\synlog\common_impl1_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -15,46 +15,10 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="slack">Slack</data>
 </row>
 <row>
-<data>ck_db</data>
-<data>0.1 MHz</data>
-<data>9.8 MHz</data>
-<data>248.402</data>
-</row>
-<row>
-<data>ck_div4</data>
-<data>16.0 MHz</data>
-<data>105.8 MHz</data>
-<data>53.048</data>
-</row>
-<row>
-<data>ck_div64</data>
-<data>0.1 MHz</data>
-<data>228.0 MHz</data>
-<data>15995.614</data>
-</row>
-<row>
-<data>ck_div64x64</data>
-<data>0.1 MHz</data>
-<data>577.4 MHz</data>
-<data>15998.268</data>
-</row>
-<row>
-<data>ck_sw1_a</data>
-<data>0.1 MHz</data>
-<data>121.2 MHz</data>
-<data>9991.750</data>
-</row>
-<row>
-<data>ck_sw2_a</data>
-<data>0.1 MHz</data>
-<data>138.0 MHz</data>
-<data>9992.754</data>
-</row>
-<row>
 <data>rootClk</data>
 <data>4.0 MHz</data>
-<data>44.6 MHz</data>
-<data>59.616</data>
+<data>539.5 MHz</data>
+<data>248.147</data>
 </row>
 <row>
 <data>System</data>

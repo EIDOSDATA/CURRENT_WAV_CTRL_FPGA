@@ -1,22 +1,22 @@
 
-Copyright (C) 1994-2021 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: R-2021.03L-SP1
+Build: Q-2020.03L-SP1
 Install: C:\lscc\diamond\3.12\synpbase
 OS: Windows 6.2
 
-Hostname: TODOC-ECHO-LAPT
+Hostname: DESKTOP-060JDBH
 
 Implementation : impl1
 
-# Written on Thu Jul 14 14:39:28 2022
+# Written on Thu Jul 21 10:09:39 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
-Constraint File(s):      "C:\Users\eidos\Desktop\verilog experiment\common\db\sdc\common.sdc"
+Constraint File(s):      "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\sdc\common.sdc"
 
 #Run constraint checker to find more issues with constraints.
 #########################################################################
@@ -30,34 +30,18 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-          Start               Requested     Requested     Clock                        Clock                Clock
-Level     Clock               Frequency     Period        Type                         Group                Load 
------------------------------------------------------------------------------------------------------------------
-0 -       rootClk             4.0 MHz       250.000       declared                     default_clkgroup     201  
-1 .         ck_div4           16.0 MHz      62.500        generated (from rootClk)     default_clkgroup     48   
-1 .         ck_div64          0.1 MHz       16000.000     generated (from rootClk)     default_clkgroup     6    
-2 ..          ck_div64x64     0.1 MHz       16000.000     generated (from rootClk)     default_clkgroup     2    
-3 ...           ck_db         0.1 MHz       16000.000     generated (from rootClk)     default_clkgroup     6    
-                                                                                                                 
-0 -       ck_sw1_a            0.1 MHz       10000.000     declared                     default_clkgroup     12   
-                                                                                                                 
-0 -       ck_sw2_a            0.1 MHz       10000.000     declared                     default_clkgroup     8    
-=================================================================================================================
+          Start       Requested     Requested     Clock        Clock                Clock
+Level     Clock       Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------------------
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     4    
+=========================================================================================
 
 
 Clock Load Summary
 ******************
 
-                Clock     Source                                   Clock Pin                                                   Non-clock Pin     Non-clock Pin            
-Clock           Load      Pin                                      Seq Example                                                 Seq Example       Comb Example             
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-rootClk         201       internal_osc.OSC(OSCH)                   r_async_ack_mode_transition[2:0].C                          -                 -                        
-ck_div4         48        u_div4_clk.r_gen_clk.Q[0](dffre)         u_cg_fsm.r_sync_search_disabled_channel_phase_end_p_d.C     -                 -                        
-ck_div64        6         u_div64_clk.r_gen_clk.Q[0](dffre)        u_div64x64_clk.r_gen_clk.C                                  -                 ck_div64.I[0](keepbuf)   
-ck_div64x64     2         u_div64x64_clk.r_gen_clk.Q[0](dffre)     u_div2_clk.div2_count.C                                     -                 ck_div64x64.I[0](keepbuf)
-ck_db           6         u_div2_clk.r_gen_clk.Q[0](dffre)         u_debounce_sw2.r_pb_in[2:0].C                               -                 -                        
-                                                                                                                                                                          
-ck_sw1_a        12        sw1_a(port)                              display_item_num[2:0].C                                     -                 -                        
-                                                                                                                                                                          
-ck_sw2_a        8         sw2_a(port)                              sw2_counter[7:0].C                                          -                 -                        
-==========================================================================================================================================================================
+            Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------
+rootClk     4         internal_osc.OSC(OSCH)     cnt[3:0].C      -                 -            
+================================================================================================

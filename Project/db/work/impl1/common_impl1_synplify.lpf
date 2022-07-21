@@ -1,16 +1,10 @@
 #
-# Logical Preferences generated for Lattice by Synplify map202103lat, Build 070R.
+# Logical Preferences generated for Lattice by Synplify map202003lat, Build 172R.
 #
 
 # Period Constraints 
 FREQUENCY NET "w_clk" 4.0 MHz;
-FREQUENCY NET "sw1_az" 0.1 MHz;
-FREQUENCY NET "sw2_az" 0.1 MHz;
 
-FREQUENCY NET "w_div4_clk" 16.0 MHz;
-FREQUENCY NET "w_div64_clk" 0.1 MHz;
-FREQUENCY NET "w_div64x64_clk" 0.1 MHz;
-FREQUENCY NET "w_db_clk" 0.1 MHz;
 
 # Output Constraints 
 
@@ -19,10 +13,6 @@ FREQUENCY NET "w_db_clk" 0.1 MHz;
 # Point-to-point Delay Constraints 
 
 
-BLOCK PATH FROM CLKNET "w_clk"  TO CLKNET "sw1_az" ;
-BLOCK PATH FROM CLKNET "sw1_az"  TO CLKNET "w_clk" ;
-BLOCK PATH FROM CLKNET "sw2_az"  TO CLKNET "w_clk" ;
-BLOCK PATH FROM CLKNET "sw2_az"  TO CLKNET "sw1_az" ;
 
 # Block Path Constraints 
 

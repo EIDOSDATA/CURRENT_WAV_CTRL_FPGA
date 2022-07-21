@@ -1,79 +1,19 @@
 Selecting top level module ci_stim_fpga_wrapper
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
 Running optimization stage 1 on GSR .......
-Finished optimization stage 1 on GSR (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
 Running optimization stage 1 on OSCH .......
-Finished optimization stage 1 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
-@N: CG364 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\ci_if_cdc.v":2:7:2:15|Synthesizing module ci_if_cdc in library work.
-Running optimization stage 1 on ci_if_cdc .......
-Finished optimization stage 1 on ci_if_cdc (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
-@N: CG364 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":16:7:16:17|Synthesizing module stim_cg_fsm in library work.
-Running optimization stage 1 on stim_cg_fsm .......
-@W: CL169 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":839:1:839:6|Pruning unused register r_cb_phase. Make sure that there are no unused intermediate registers.
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning register bits 7 to 4 of r_interval_value[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning register bit 2 of r_interval_value[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-Finished optimization stage 1 on stim_cg_fsm (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
-@N: CG364 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\debounce.v":1:7:1:14|Synthesizing module debounce in library work.
-Running optimization stage 1 on debounce .......
-Finished optimization stage 1 on debounce (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
-@N: CG364 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\fpga_clk_modules.v":1:7:1:14|Synthesizing module div4_clk in library work.
-Running optimization stage 1 on div4_clk .......
-Finished optimization stage 1 on div4_clk (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
-@N: CG364 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\fpga_clk_modules.v":36:7:36:15|Synthesizing module div64_clk in library work.
-Running optimization stage 1 on div64_clk .......
-Finished optimization stage 1 on div64_clk (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
-@N: CG364 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\fpga_clk_modules.v":71:7:71:14|Synthesizing module div2_clk in library work.
-Running optimization stage 1 on div2_clk .......
-Finished optimization stage 1 on div2_clk (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
-@N: CG364 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":12:7:12:26|Synthesizing module ci_stim_fpga_wrapper in library work.
+@N: CG364 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":14:7:14:26|Synthesizing module ci_stim_fpga_wrapper in library work.
 Running optimization stage 1 on ci_stim_fpga_wrapper .......
-@W: CL168 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":639:10:639:24|Removing instance u_div64x4x4_clk because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":633:10:633:22|Removing instance u_div64x4_clk because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL259 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":680:19:680:22|Duplicate LOC attributes found on net
-@W: CL259 :"C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v":680:19:680:22|Duplicate LOC attributes found on net
-Finished optimization stage 1 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@W: CL259 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":57:22:57:22|Duplicate LOC attributes found on net
+@W: CL259 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":57:22:57:22|Duplicate LOC attributes found on net
+@W: CL259 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":57:22:57:22|Duplicate LOC attributes found on net
+@W: CL259 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":57:22:57:22|Duplicate LOC attributes found on net
 Running optimization stage 2 on ci_stim_fpga_wrapper .......
-Finished optimization stage 2 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 105MB)
-Running optimization stage 2 on div2_clk .......
-Finished optimization stage 2 on div2_clk (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 105MB)
-Running optimization stage 2 on div64_clk .......
-Finished optimization stage 2 on div64_clk (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 105MB)
-Running optimization stage 2 on div4_clk .......
-Finished optimization stage 2 on div4_clk (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 105MB)
-Running optimization stage 2 on debounce .......
-Finished optimization stage 2 on debounce (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 105MB)
-Running optimization stage 2 on stim_cg_fsm .......
-@N: CL201 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":576:1:576:6|Trying to extract state machine for register r_state.
-Extracted state machine for register r_state
-State machine has 5 reachable states with original encodings of:
-   000
-   001
-   010
-   011
-   100
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_interval_value[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_cb_on_0 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Optimizing register bit r_cb_on_1 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning register bit 1 of r_interval_value[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL169 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning unused register r_interval_value[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning unused register r_cb_on_0. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v":781:1:781:6|Pruning unused register r_cb_on_1. Make sure that there are no unused intermediate registers.
-Finished optimization stage 2 on stim_cg_fsm (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 105MB)
-Running optimization stage 2 on ci_if_cdc .......
-Finished optimization stage 2 on ci_if_cdc (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 105MB)
 Running optimization stage 2 on OSCH .......
-Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 105MB)
 Running optimization stage 2 on GSR .......
-Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 105MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\Users\eidos\Desktop\verilog experiment\common\db\work\impl1\synwork\layer0.rt.csv
+@L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\synwork\layer0.rt.csv
 

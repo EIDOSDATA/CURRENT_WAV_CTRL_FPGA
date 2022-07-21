@@ -1,38 +1,35 @@
-# Thu Jul 14 14:39:27 2022
+# Thu Jul 21 10:09:39 2022
 
 
-Copyright (C) 1994-2021 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: R-2021.03L-SP1
+Build: Q-2020.03L-SP1
 Install: C:\lscc\diamond\3.12\synpbase
 OS: Windows 6.2
 
-Hostname: TODOC-ECHO-LAPT
+Hostname: DESKTOP-060JDBH
 
 Implementation : impl1
-Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
 
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
-
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
-
-Reading constraint file: C:\Users\eidos\Desktop\verilog experiment\common\db\sdc\common.sdc
-@L: C:\Users\eidos\Desktop\verilog experiment\common\db\work\impl1\common_impl1_scck.rpt 
-See clock summary report "C:\Users\eidos\Desktop\verilog experiment\common\db\work\impl1\common_impl1_scck.rpt"
+Reading constraint file: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\sdc\common.sdc
+@L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_scck.rpt 
+See clock summary report "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 131MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 130MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 131MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 130MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
@@ -40,82 +37,56 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
-@N: BN362 :"c:\users\eidos\desktop\verilog experiment\common\db\design\ci_if_cdc.v":50:0:50:5|Removing sequential instance r_slave_ack[2:0] (in view: work.ci_if_cdc_5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\eidos\desktop\verilog experiment\common\db\design\ci_if_cdc.v":50:0:50:5|Removing sequential instance r_slave_ack[2:0] (in view: work.ci_if_cdc_4(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\eidos\desktop\verilog experiment\common\db\design\ci_if_cdc.v":50:0:50:5|Removing sequential instance r_slave_ack[2:0] (in view: work.ci_if_cdc_3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\eidos\desktop\verilog experiment\common\db\design\ci_if_cdc.v":50:0:50:5|Removing sequential instance r_slave_ack[2:0] (in view: work.ci_if_cdc_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\eidos\desktop\verilog experiment\common\db\design\ci_if_cdc.v":50:0:50:5|Removing sequential instance r_slave_ack[2:0] (in view: work.ci_if_cdc_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\eidos\desktop\verilog experiment\common\db\design\ci_if_cdc.v":50:0:50:5|Removing sequential instance r_slave_ack[2:0] (in view: work.ci_if_cdc_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@W: MT453 :|clock period is too long for clock ck_div64x64, changing period from 1024000.0 to 16000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 512000.0 ns to 8000.0 ns. 
-@W: MT453 :|clock period is too long for clock ck_db, changing period from 32000.0 to 16000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 16000.0 ns to 8000.0 ns. 
-Encoding state machine r_state[4:0] (in view: work.stim_cg_fsm(verilog))
-original code -> new code
-   000 -> 00001
-   001 -> 00010
-   010 -> 00100
-   011 -> 01000
-   100 -> 10000
 
-Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 174MB peak: 174MB)
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
-
-@W: MT548 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
-@W: MT548 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
-@W: MT548 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
-
-Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=8 on top level netlist ci_stim_fpga_wrapper 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
 
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
 
 
 Clock Summary
 ******************
 
-          Start               Requested     Requested     Clock                        Clock                Clock
-Level     Clock               Frequency     Period        Type                         Group                Load 
------------------------------------------------------------------------------------------------------------------
-0 -       rootClk             4.0 MHz       250.000       declared                     default_clkgroup     201  
-1 .         ck_div4           16.0 MHz      62.500        generated (from rootClk)     default_clkgroup     48   
-1 .         ck_div64          0.1 MHz       16000.000     generated (from rootClk)     default_clkgroup     6    
-2 ..          ck_div64x64     0.1 MHz       16000.000     generated (from rootClk)     default_clkgroup     2    
-3 ...           ck_db         0.1 MHz       16000.000     generated (from rootClk)     default_clkgroup     6    
-                                                                                                                 
-0 -       ck_sw1_a            0.1 MHz       10000.000     declared                     default_clkgroup     12   
-                                                                                                                 
-0 -       ck_sw2_a            0.1 MHz       10000.000     declared                     default_clkgroup     8    
-=================================================================================================================
+          Start       Requested     Requested     Clock        Clock                Clock
+Level     Clock       Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------------------
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     4    
+=========================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                Clock     Source                                   Clock Pin                                                   Non-clock Pin     Non-clock Pin            
-Clock           Load      Pin                                      Seq Example                                                 Seq Example       Comb Example             
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-rootClk         201       internal_osc.OSC(OSCH)                   r_async_ack_mode_transition[2:0].C                          -                 -                        
-ck_div4         48        u_div4_clk.r_gen_clk.Q[0](dffre)         u_cg_fsm.r_sync_search_disabled_channel_phase_end_p_d.C     -                 -                        
-ck_div64        6         u_div64_clk.r_gen_clk.Q[0](dffre)        u_div64x64_clk.r_gen_clk.C                                  -                 ck_div64.I[0](keepbuf)   
-ck_div64x64     2         u_div64x64_clk.r_gen_clk.Q[0](dffre)     u_div2_clk.div2_count.C                                     -                 ck_div64x64.I[0](keepbuf)
-ck_db           6         u_div2_clk.r_gen_clk.Q[0](dffre)         u_debounce_sw2.r_pb_in[2:0].C                               -                 -                        
-                                                                                                                                                                          
-ck_sw1_a        12        sw1_a(port)                              display_item_num[2:0].C                                     -                 -                        
-                                                                                                                                                                          
-ck_sw2_a        8         sw2_a(port)                              sw2_counter[7:0].C                                          -                 -                        
-==========================================================================================================================================================================
+            Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------
+rootClk     4         internal_osc.OSC(OSCH)     cnt[3:0].C      -                 -            
+================================================================================================
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
 Number of ICG latches not removed:	0
-For details review file gcc_ICG_report.rpt
 
 
 @S |Clock Optimization Summary
@@ -124,25 +95,15 @@ For details review file gcc_ICG_report.rpt
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-3 non-gated/non-generated clock tree(s) driving 221 clock pin(s) of sequential element(s)
-4 gated/generated clock tree(s) driving 62 clock pin(s) of sequential element(s)
-0 instances converted, 62 sequential instances remain driven by gated/generated clocks
+1 non-gated/non-generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
-============================ Non-Gated/Non-Generated Clocks =============================
-Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance 
------------------------------------------------------------------------------------------
-@KP:ckid0_2       internal_osc.OSC     OSCH                   201        r_dac_amp_1[7:0]
-@KP:ckid0_5       sw1_a                port                   12         sw1_counter[7:0]
-@KP:ckid0_6       sw2_a                port                   8          sw2_counter[7:0]
-=========================================================================================
-=========================================================================== Gated/Generated Clocks ============================================================================
-Clock Tree ID     Driving Element           Drive Element Type     Unconverted Fanout     Sample Instance                     Explanation                                      
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_0       w_div64x64_clk.OUT[0]     keepbuf                2                      u_div2_clk.r_gen_clk                Clock from Generated Clock directive             
-@KP:ckid0_1       w_div64_clk.OUT[0]        keepbuf                6                      u_div64x64_clk.div64_count[4:0]     Clock from Generated Clock directive             
-@KP:ckid0_3       u_div2_clk.o_gen_clk      div2_clk               6                      u_debounce_sw2.r_pb_in[2:0]         Gated clock propagation blocked by synkeep buffer
-@KP:ckid0_4       u_div4_clk.o_gen_clk      div4_clk               48                     u_cg_fsm.r_duration_cnt[7:0]        Gated clock propagation blocked by synkeep buffer
-===============================================================================================================================================================================
+============================ Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
+----------------------------------------------------------------------------------------
+@KP:ckid0_0       internal_osc.OSC     OSCH                   4          cnt[3:0]       
+========================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######
@@ -150,26 +111,20 @@ Clock Tree ID     Driving Element           Drive Element Type     Unconverted F
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
 
-@W:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 should be moved to net u_div4_clk.r_gen_clk connected to driving cell pin u_div4_clk.r_gen_clk.Q[0] 
-@W:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 should be moved to net u_div64_clk.r_gen_clk connected to driving cell pin u_div64_clk.r_gen_clk.Q[0] 
-@W:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 should be moved to net u_div64_clk.r_gen_clk connected to driving cell pin u_div64_clk.r_gen_clk.Q[0] 
-@W:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 should be moved to net u_div64x64_clk.r_gen_clk connected to driving cell pin u_div64x64_clk.r_gen_clk.Q[0] 
-@W:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 should be moved to net u_div64x64_clk.r_gen_clk connected to driving cell pin u_div64x64_clk.r_gen_clk.Q[0] 
-@W:"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db should be moved to net u_div2_clk.r_gen_clk connected to driving cell pin u_div2_clk.r_gen_clk.Q[0] 
-@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\Desktop\verilog experiment\common\db\work\impl1\common_impl1_cck.rpt" .
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 177MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 174MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Jul 14 14:39:29 2022
+# Thu Jul 21 10:09:41 2022
 
 ###########################################################]

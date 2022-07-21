@@ -1,48 +1,39 @@
 
-Copyright (C) 1994-2021 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: R-2021.03L-SP1
+Build: Q-2020.03L-SP1
 Install: C:\lscc\diamond\3.12\synpbase
 OS: Windows 6.2
 
-Hostname: TODOC-ECHO-LAPT
+Hostname: DESKTOP-060JDBH
 
 Implementation : impl1
-Synopsys HDL compiler and linker, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
 
-Modified Files: 0
+Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
+11       C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v (2022-07-21 10:07:03, 2022-07-21 10:09:27)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 0
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
+1        work.ci_stim_fpga_wrapper.verilog may have changed because the following files changed:
+                        C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v (2022-07-21 10:07:03, 2022-07-21 10:09:27) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 11
+Unmodified files: 6
 FID:  path (timestamp)
-0        C:\Users\eidos\Desktop\verilog experiment\common\db\design\ci_if_cdc.v (2022-05-20 14:02:01)
-1        C:\Users\eidos\Desktop\verilog experiment\common\db\design\debounce.v (2022-05-20 14:02:01)
-2        C:\Users\eidos\Desktop\verilog experiment\common\db\design\fpga_clk_modules.v (2022-05-20 14:02:01)
-3        C:\Users\eidos\Desktop\verilog experiment\common\db\design\stim_cg_fsm.v (2022-05-20 14:02:01)
-4        C:\Users\eidos\Desktop\verilog experiment\common\db\top\ci_stim_fpga.v (2022-07-14 14:29:24)
-5        C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v (2021-08-10 09:11:08)
-6        C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v (2021-08-10 09:11:08)
-7        C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v (2021-08-10 09:07:02)
-8        C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v (2021-08-10 09:07:02)
-9        C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh (2021-08-10 09:07:02)
-10       C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v (2021-08-10 09:07:02)
+5        C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v (2020-10-29 10:20:54)
+6        C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v (2020-10-29 10:20:54)
+7        C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v (2020-10-29 10:23:10)
+8        C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v (2020-10-29 10:23:10)
+9        C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh (2020-10-29 10:23:10)
+10       C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v (2020-10-29 10:23:10)
 
 *******************************************************************
-Unchanged modules: 7
+Unchanged modules: 0
 MID:  lib.cell.view
-0        work.ci_if_cdc.verilog
-1        work.ci_stim_fpga_wrapper.verilog
-2        work.debounce.verilog
-3        work.div2_clk.verilog
-4        work.div4_clk.verilog
-5        work.div64_clk.verilog
-6        work.stim_cg_fsm.verilog

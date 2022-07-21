@@ -1,5 +1,5 @@
 # clock definitions
-create_clock -name rootClk  -period 250 [get_nets w_clk]
+create_clock -name rootClk  -period 71 [get_nets w_clk]
 create_clock -name ck_sw1_a  -period 10000 [get_nets sw1_a]
 create_clock -name ck_sw2_a  -period 10000 [get_nets sw2_a]
 
