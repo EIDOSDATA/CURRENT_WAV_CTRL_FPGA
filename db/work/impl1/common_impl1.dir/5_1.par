@@ -1,9 +1,9 @@
 
 Lattice Place and Route Report for Design "common_impl1_map.ncd"
-Thu Jul 21 18:26:12 2022
+Fri Jul 22 10:26:22 2022
 
 PAR: Place And Route Diamond (64-bit) 3.12.1.454.
-Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 common_impl1_map.ncd common_impl1.dir/5_1.ncd common_impl1.prf
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 common_impl1_map.ncd common_impl1.dir/5_1.ncd common_impl1.prf
 Preference file: common_impl1.prf.
 Placement level-cost: 5-1.
 Routing Iterations: 6
@@ -110,9 +110,9 @@ Dumping design to file common_impl1.dir/5_1.ncd.
 0 connections routed; 335 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 3 secs 
+Completed router resource preassignment. Real time: 4 secs 
 
-Start NBR router at 18:26:15 07/21/22
+Start NBR router at 10:26:26 07/22/22
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -127,35 +127,35 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 18:26:15 07/21/22
+Start NBR special constraint process at 10:26:26 07/22/22
 
-Start NBR section for initial routing at 18:26:15 07/21/22
+Start NBR section for initial routing at 10:26:26 07/22/22
 Level 4, iteration 1
 15(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.831ns/0.000ns; real time: 3 secs 
+Estimated worst slack/total negative slack<setup>: 263.831ns/0.000ns; real time: 4 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 18:26:15 07/21/22
+Start NBR section for normal routing at 10:26:26 07/22/22
 Level 4, iteration 1
 10(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 3 secs 
+Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 4 secs 
 Level 4, iteration 2
 6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 3 secs 
+Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 4 secs 
 Level 4, iteration 3
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 3 secs 
+Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 4 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 18:26:15 07/21/22
+Start NBR section for setup/hold timing optimization with effort level 3 at 10:26:26 07/22/22
 
-Start NBR section for re-routing at 18:26:15 07/21/22
+Start NBR section for re-routing at 10:26:26 07/22/22
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 3 secs 
+Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 4 secs 
 
-Start NBR section for post-routing at 18:26:15 07/21/22
+Start NBR section for post-routing at 10:26:26 07/22/22
 
 End NBR router with 0 unrouted connection
 
@@ -193,7 +193,7 @@ PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.857
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 4 secs 
+Total CPU  time to completion: 3 secs 
 Total REAL time to completion: 4 secs 
 
 par done!

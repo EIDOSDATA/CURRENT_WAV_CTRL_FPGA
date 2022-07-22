@@ -7,16 +7,15 @@ Design Information
 
 Command line:   map -a MachXO2 -p LCMXO2-2000ZE -t TQFP100 -s 1 -oc Commercial
      common_impl1.ngd -o common_impl1_map.ncd -pr common_impl1.prf -mp
-     common_impl1.mrp -lpf C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/Project/d
-     b/work/impl1/common_impl1_synplify.lpf -lpf
-     C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/common.lpf -c 0
-     -gui -msgset
-     C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/promote.xml 
+     common_impl1.mrp -lpf C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/i
+     mpl1/common_impl1_synplify.lpf -lpf
+     C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/common.lpf -c 0 -gui
+     -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.1.454
-Mapped on:  07/21/22  18:26:10
+Mapped on:  07/22/22  10:26:21
 
 Design Summary
 --------------
@@ -60,17 +59,17 @@ Design Summary
      ripple logic.
    Number of clocks:  1
      Net w_clk: 32 loads, 32 rising, 0 falling (Driver: internal_osc )
+   Number of Clock Enables:  2
 
                                     Page 1
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/21/22  18:26:10
+Design:  ci_stim_fpga_wrapper                          Date:  07/22/22  10:26:21
 
 Design Summary (cont)
 ---------------------
-   Number of Clock Enables:  2
      Net i_rst_n_c: 1 loads, 0 LSLICEs
      Net un1_cnt_alto21: 12 loads, 12 LSLICEs
    Number of local set/reset loads for net i_rst_n_c merged into GSR:  46
@@ -127,12 +126,13 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 
 
+
                                     Page 2
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/21/22  18:26:10
+Design:  ci_stim_fpga_wrapper                          Date:  07/22/22  10:26:21
 
 Removed logic
 -------------

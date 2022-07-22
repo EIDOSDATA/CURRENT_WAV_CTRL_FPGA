@@ -47,9 +47,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Pruning unused register cnt_o[23:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Dynamic>CL169 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Pruning unused register cnt_o[23:0]. Make sure that there are no unused intermediate registers.</Dynamic>
             <Navigation>CL169</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>102</Navigation>
             <Navigation>4</Navigation>
             <Navigation>102</Navigation>
@@ -59,9 +59,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:130:1:130:6|Sharing sequential element out_sw3_sig and merging out_sw4_sig. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:130:1:130:6|Sharing sequential element out_sw3_sig and merging out_sw4_sig. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>130</Navigation>
             <Navigation>1</Navigation>
             <Navigation>130</Navigation>
@@ -71,9 +71,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Optimizing register bit cnt_a[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Optimizing register bit cnt_a[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>102</Navigation>
             <Navigation>4</Navigation>
             <Navigation>102</Navigation>
@@ -83,9 +83,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Optimizing register bit cnt_a[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Optimizing register bit cnt_a[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>102</Navigation>
             <Navigation>4</Navigation>
             <Navigation>102</Navigation>
@@ -95,9 +95,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Optimizing register bit cnt_c[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Optimizing register bit cnt_c[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>102</Navigation>
             <Navigation>4</Navigation>
             <Navigation>102</Navigation>
@@ -107,9 +107,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Optimizing register bit cnt_c[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Optimizing register bit cnt_c[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>102</Navigation>
             <Navigation>4</Navigation>
             <Navigation>102</Navigation>
@@ -119,9 +119,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Pruning register bits 23 to 22 of cnt_c[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Pruning register bits 23 to 22 of cnt_c[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>102</Navigation>
             <Navigation>4</Navigation>
             <Navigation>102</Navigation>
@@ -131,9 +131,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Pruning register bits 23 to 22 of cnt_a[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:102:4:102:9|Pruning register bits 23 to 22 of cnt_a[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>102</Navigation>
             <Navigation>4</Navigation>
             <Navigation>102</Navigation>
@@ -143,9 +143,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v&quot;:130:1:130:6|Sharing sequential element out_sw2_sig and merging out_sw1_sig. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:130:1:130:6|Sharing sequential element out_sw2_sig and merging out_sw1_sig. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
-            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>130</Navigation>
             <Navigation>1</Navigation>
             <Navigation>130</Navigation>
@@ -155,9 +155,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:3:0:3:0|Source for clock ck_sw1_a not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:3:0:3:0|Source for clock ck_sw1_a not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>3</Navigation>
             <Navigation>0</Navigation>
             <Navigation>3</Navigation>
@@ -167,9 +167,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:4:0:4:0|Source for clock ck_sw2_a not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:4:0:4:0|Source for clock ck_sw2_a not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>4</Navigation>
             <Navigation>0</Navigation>
             <Navigation>4</Navigation>
@@ -179,9 +179,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:6:0:6:0|Source for clock ck_cg_fsm not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:6:0:6:0|Source for clock ck_cg_fsm not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>6</Navigation>
             <Navigation>0</Navigation>
             <Navigation>6</Navigation>
@@ -191,9 +191,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:12:0:12:0|Source for clock ck_div4 not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:12:0:12:0|Source for clock ck_div4 not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>12</Navigation>
             <Navigation>0</Navigation>
             <Navigation>12</Navigation>
@@ -203,9 +203,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:18:0:18:0|Source for clock ck_div64 not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:18:0:18:0|Source for clock ck_div64 not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>18</Navigation>
             <Navigation>0</Navigation>
             <Navigation>18</Navigation>
@@ -215,9 +215,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:24:0:24:0|Source for clock ck_div64x64 not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:24:0:24:0|Source for clock ck_div64x64 not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>24</Navigation>
             <Navigation>0</Navigation>
             <Navigation>24</Navigation>
@@ -227,9 +227,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:30:0:30:0|Source for clock ck_db not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:30:0:30:0|Source for clock ck_db not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>30</Navigation>
             <Navigation>0</Navigation>
             <Navigation>30</Navigation>
@@ -239,9 +239,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:36:0:36:0|Source for clock ck_div64x4 not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:36:0:36:0|Source for clock ck_div64x4 not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>36</Navigation>
             <Navigation>0</Navigation>
             <Navigation>36</Navigation>
@@ -251,9 +251,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:42:0:42:0|Source for clock ck_slow not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:42:0:42:0|Source for clock ck_slow not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>42</Navigation>
             <Navigation>0</Navigation>
             <Navigation>42</Navigation>
@@ -263,16 +263,16 @@
         <Message>
             <ID>2019993</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MF511 |Found issues with constraints. Please check constraint checker report &quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_cck.rpt&quot; .</Dynamic>
+            <Dynamic>MF511 |Found issues with constraints. Please check constraint checker report &quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt&quot; .</Dynamic>
             <Navigation>MF511</Navigation>
-            <Navigation>Found issues with constraints. Please check constraint checker report &quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_cck.rpt&quot; .</Navigation>
+            <Navigation>Found issues with constraints. Please check constraint checker report &quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt&quot; .</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>51</Navigation>
             <Navigation>0</Navigation>
             <Navigation>51</Navigation>
@@ -282,9 +282,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>52</Navigation>
             <Navigation>0</Navigation>
             <Navigation>52</Navigation>
@@ -294,9 +294,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>53</Navigation>
             <Navigation>0</Navigation>
             <Navigation>53</Navigation>
@@ -306,9 +306,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>54</Navigation>
             <Navigation>0</Navigation>
             <Navigation>54</Navigation>
@@ -318,9 +318,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>55</Navigation>
             <Navigation>0</Navigation>
             <Navigation>55</Navigation>
@@ -330,9 +330,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>56</Navigation>
             <Navigation>0</Navigation>
             <Navigation>56</Navigation>
@@ -342,9 +342,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>57</Navigation>
             <Navigation>0</Navigation>
             <Navigation>57</Navigation>
@@ -354,9 +354,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc&quot;:58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>58</Navigation>
             <Navigation>0</Navigation>
             <Navigation>58</Navigation>
