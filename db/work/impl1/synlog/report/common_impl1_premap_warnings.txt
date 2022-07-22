@@ -1,0 +1,10 @@
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_cck.rpt" .

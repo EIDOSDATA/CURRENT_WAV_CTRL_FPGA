@@ -1,0 +1,10 @@
+@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":102:4:102:9|Pruning unused register cnt_o[23:0]. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":130:1:130:6|Sharing sequential element out_sw3_sig and merging out_sw4_sig. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":102:4:102:9|Optimizing register bit cnt_a[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":102:4:102:9|Optimizing register bit cnt_a[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":102:4:102:9|Optimizing register bit cnt_c[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":102:4:102:9|Optimizing register bit cnt_c[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":102:4:102:9|Pruning register bits 23 to 22 of cnt_c[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":102:4:102:9|Pruning register bits 23 to 22 of cnt_a[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":130:1:130:6|Sharing sequential element out_sw2_sig and merging out_sw1_sig. Add a syn_preserve attribute to the element to prevent sharing.
+

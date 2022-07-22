@@ -1,0 +1,8 @@
+i w_clk
+m 0 0
+u 5 47
+p {t:w_clk.OUT[0]}{t:cnt_a[21:0].C}
+e ckid0_0 {t:cnt_a[21:0].C} dffr
+c ckid0_0 {t:internal_osc.OSC} OSCH Unsupported/too complex instance on clock path
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

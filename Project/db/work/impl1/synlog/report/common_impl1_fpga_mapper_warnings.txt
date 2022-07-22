@@ -1,8 +1,0 @@
-@W: MT453 :|clock period is too long for clock ck_div64x64, changing period from 1024000.0 to 16000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 512000.0 ns to 8000.0 ns. 
-@W: MT453 :|clock period is too long for clock ck_db, changing period from 32000.0 to 16000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 16000.0 ns to 8000.0 ns. 
-@W: MT695 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":18:0:18:0|Clock ck_div64 has 2 sources 
-@W: MT695 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":24:0:24:0|Clock ck_div64x64 has 2 sources 
-@W: MT447 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/desktop/verilog experiment/common/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 

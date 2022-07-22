@@ -1,0 +1,69 @@
+Loading design for application iotiming from file common_impl1.ncd.
+Design name: ci_stim_fpga_wrapper
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-2000ZE
+Package:     TQFP100
+Performance: 2
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file common_impl1.ncd.
+Design name: ci_stim_fpga_wrapper
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-2000ZE
+Package:     TQFP100
+Performance: 3
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file common_impl1.ncd.
+Design name: ci_stim_fpga_wrapper
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-2000ZE
+Package:     TQFP100
+Performance: M
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: ci_stim_fpga_wrapper
+// Package: TQFP100
+// ncd File: common_impl1.ncd
+// Version: Diamond (64-bit) 3.12.1.454
+// Written on Thu Jul 21 18:26:17 2022
+// M: Minimum Performance Grade
+// iotiming common_impl1.ncd common_impl1.prf -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 3, 2, 1):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)
+
+
+// Internal_Clock to Input
+
+Port  Internal_Clock
+--------------------------------------------------------
+i_rst w_clk         
+
+
+// Internal_Clock to Output
+
+Port            Internal_Clock
+--------------------------------------------------------
+out_sw1_sig     w_clk         
+out_sw2_sig     w_clk         
+out_sw3_sig     w_clk         
+out_sw4_sig     w_clk         
+output_ctrl_sig w_clk         
