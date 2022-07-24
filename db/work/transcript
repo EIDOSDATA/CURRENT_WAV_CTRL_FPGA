@@ -1,8 +1,21 @@
 # Reading pref.tcl
 # Loading project CURRENT_WAV_CTRL_FPGA
+# Error opening C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v
+# Path name 'C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v' doesn't exist.
+# Error opening C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v
+# Path name 'C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v' doesn't exist.
+# Error opening C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v
+# Path name 'C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v' doesn't exist.
+# Compile of ci_stim_fpga.v was successful.
+# 1 compiles, 1 failed with no errors.
+# Compile of ci_stim_fpga.v was successful.
+# 1 compiles, 1 failed with no errors.
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
 vsim -gui work.ci_stim_fpga_wrapper_tb
 # vsim -gui work.ci_stim_fpga_wrapper_tb 
-# Start time: 10:36:00 on Jul 22,2022
+# Start time: 08:53:14 on Jul 25,2022
 # //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -25,10 +38,10 @@ sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
 sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
 sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
 run -all
-# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v(49)
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
 #    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
 # 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v line 49
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
 run -all
-# End time: 10:44:05 on Jul 22,2022, Elapsed time: 0:08:05
-# Errors: 0, Warnings: 1
+# End time: 08:54:24 on Jul 25,2022, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 8
