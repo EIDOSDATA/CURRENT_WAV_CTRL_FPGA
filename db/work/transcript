@@ -1,0 +1,68 @@
+# Reading pref.tcl
+# Loading project CURRENT_WAV_CTRL_FPGA
+# 0 compiles, 2 failed with no errors.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# Compile of ci_stim_fpga.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# Compile of ci_stim_fpga.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:34:04 on Jul 25,2022
+# //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Lattice FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig
+add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig
+add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig
+add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig
+add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# Compile of ci_stim_fpga.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 16:37:48 on Jul 25,2022, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:37:48 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# End time: 16:39:45 on Jul 25,2022, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 2

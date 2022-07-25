@@ -1,5 +1,0 @@
-@W: CL259 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":57:22:57:22|Duplicate LOC attributes found on net
-@W: CL259 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":57:22:57:22|Duplicate LOC attributes found on net
-@W: CL259 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":57:22:57:22|Duplicate LOC attributes found on net
-@W: CL259 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":57:22:57:22|Duplicate LOC attributes found on net
-

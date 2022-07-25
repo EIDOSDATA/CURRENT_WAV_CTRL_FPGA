@@ -1,1 +1,0 @@
-\\192.168.0.11\works_share\퇴사자백업\이승훈\work\FPGA\common

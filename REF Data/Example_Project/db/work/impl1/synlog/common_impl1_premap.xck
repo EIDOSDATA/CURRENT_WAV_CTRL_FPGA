@@ -1,7 +1,0 @@
-ckid0_0:@|S:w_div64x64_clk.OUT[0]@|E:u_div2_clk.r_gen_clk@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
-ckid0_1:@|S:w_div64_clk.OUT[0]@|E:u_div64x64_clk.div64_count[4:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
-ckid0_2:@|S:internal_osc.OSC@|E:r_dac_amp_1[7:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
-ckid0_3:@|S:u_div2_clk.o_gen_clk@|E:u_debounce_sw2.r_pb_in[2:0]@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3
-ckid0_4:@|S:u_div4_clk.o_gen_clk@|E:u_cg_fsm.r_duration_cnt[7:0]@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4
-ckid0_5:@|S:sw1_a@|E:sw1_counter[7:0]@|F:@syn_dgcc_clockid0_5==1@|M:ClockId_0_5
-ckid0_6:@|S:sw2_a@|E:sw2_counter[7:0]@|F:@syn_dgcc_clockid0_6==1@|M:ClockId_0_6

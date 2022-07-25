@@ -1,0 +1,2 @@
+@E: CL123 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":104:4:104:9|Logic for cnt_c[21:0] does not match a standard flip-flop
+
