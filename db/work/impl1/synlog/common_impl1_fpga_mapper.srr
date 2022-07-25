@@ -1,4 +1,4 @@
-# Mon Jul 25 17:02:49 2022
+# Mon Jul 25 17:24:28 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -55,10 +55,10 @@ Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
@@ -83,11 +83,11 @@ Finished technology timing optimizations and critical path resynthesis (Real Tim
 Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 181MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 181MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 182MB)
 
 Writing Analyst data base C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 182MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
@@ -105,7 +105,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Jul 25 17:02:52 2022
+# Timing report written on Mon Jul 25 17:24:30 2022
 #
 
 
@@ -313,10 +313,10 @@ Timing exceptions that could not be applied
 @W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 186MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 185MB peak: 186MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 186MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 185MB peak: 186MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -343,9 +343,9 @@ VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 67MB peak: 186MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 68MB peak: 186MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Mon Jul 25 17:02:52 2022
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Jul 25 17:24:30 2022
 
 ###########################################################]

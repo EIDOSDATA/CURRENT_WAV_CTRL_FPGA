@@ -10,23 +10,23 @@ z2
 cModel Technology
 dC:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work
 vci_stim_fpga_wrapper
-Z0 !s110 1658736174
+Z0 !s110 1658737492
 !i10b 1
 !s100 a]7SL;SWVgHPd@ijg6`P92
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IJJRgg2?J]dIG^>jNTmFgo3
 Z2 dC:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim
-w1658736152
+w1658737459
 8C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v
 FC:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v
-!i122 236
+!i122 252
 L0 14 169
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 Z4 OT;L;2020.3;71
 r1
 !s85 0
 31
-Z5 !s108 1658736174.000000
+Z5 !s108 1658737492.000000
 !s107 C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v|
 !s90 -reportprogress|300|-work|work|+define+SIMULATION|-y|C:/lscc/diamond/3.12/cae_library|-stats=none|C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v|
 !s101 -O0
@@ -44,7 +44,7 @@ R2
 w1658728235
 8C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v
 FC:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v
-!i122 237
+!i122 253
 L0 26 55
 R3
 R4

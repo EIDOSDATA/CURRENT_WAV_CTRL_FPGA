@@ -26,9 +26,9 @@ Running optimization stage 2 on ci_stim_fpga_wrapper .......
 @W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":141:1:141:6|Sharing sequential element out_sw2_sig and merging out_sw1_sig. Add a syn_preserve attribute to the element to prevent sharing.
 Finished optimization stage 2 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 100MB)
 Running optimization stage 2 on OSCH .......
-Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 100MB)
+Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 100MB)
 Running optimization stage 2 on GSR .......
-Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 100MB)
+Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 100MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================

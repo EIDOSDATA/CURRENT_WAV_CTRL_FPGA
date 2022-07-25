@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.1.454
-Mapped on:  07/25/22  17:02:54
+Mapped on:  07/25/22  17:24:31
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:02:54
+Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:24:31
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:02:54
+Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:24:31
 
 
 Removed logic
@@ -198,7 +198,7 @@ GSR Component:
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:02:54
+Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:24:31
 
 
 Run Time and Memory Usage
@@ -206,7 +206,7 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 44 MB
+   Peak Memory Usage: 43 MB
         
 
 

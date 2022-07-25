@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: TODOC-ECHO-LAPT
 
-# Mon Jul 25 17:02:45 2022
+# Mon Jul 25 17:24:24 2022
 
 #Implementation: impl1
 
@@ -79,9 +79,9 @@ Running optimization stage 2 on ci_stim_fpga_wrapper .......
 @W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":141:1:141:6|Sharing sequential element out_sw2_sig and merging out_sw1_sig. Add a syn_preserve attribute to the element to prevent sharing.
 Finished optimization stage 2 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 100MB)
 Running optimization stage 2 on OSCH .......
-Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 100MB)
+Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 100MB)
 Running optimization stage 2 on GSR .......
-Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 100MB)
+Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 100MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
@@ -93,7 +93,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jul 25 17:02:46 2022
+# Mon Jul 25 17:24:25 2022
 
 ###########################################################]
 ###########################################################[
@@ -121,7 +121,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jul 25 17:02:46 2022
+# Mon Jul 25 17:24:25 2022
 
 ###########################################################]
 
@@ -136,7 +136,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jul 25 17:02:46 2022
+# Mon Jul 25 17:24:25 2022
 
 ###########################################################]
 ###########################################################[
@@ -164,10 +164,10 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jul 25 17:02:47 2022
+# Mon Jul 25 17:24:26 2022
 
 ###########################################################]
-# Mon Jul 25 17:02:47 2022
+# Mon Jul 25 17:24:26 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -186,7 +186,7 @@ Implementation : impl1
 Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
 
 
 Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
@@ -213,7 +213,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
 
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
@@ -232,7 +232,7 @@ Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=8 on top level netlist ci_stim_fpga_wrapper 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 173MB)
 
 
 
@@ -284,7 +284,7 @@ Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
 
 
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
@@ -298,10 +298,10 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 92MB peak: 175MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Jul 25 17:02:49 2022
+# Mon Jul 25 17:24:28 2022
 
 ###########################################################]
-# Mon Jul 25 17:02:49 2022
+# Mon Jul 25 17:24:28 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -358,10 +358,10 @@ Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
@@ -386,11 +386,11 @@ Finished technology timing optimizations and critical path resynthesis (Real Tim
 Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 181MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 181MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 182MB)
 
 Writing Analyst data base C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 182MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
@@ -408,7 +408,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Jul 25 17:02:52 2022
+# Timing report written on Mon Jul 25 17:24:30 2022
 #
 
 
@@ -616,10 +616,10 @@ Timing exceptions that could not be applied
 @W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 186MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 185MB peak: 186MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 186MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 185MB peak: 186MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -646,9 +646,9 @@ VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 67MB peak: 186MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 68MB peak: 186MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Mon Jul 25 17:02:52 2022
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Jul 25 17:24:30 2022
 
 ###########################################################]
