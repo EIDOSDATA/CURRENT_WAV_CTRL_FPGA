@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.1.454
-Mapped on:  07/25/22  16:23:12
+Mapped on:  07/25/22  17:02:54
 
 Design Summary
 --------------
@@ -23,12 +23,12 @@ Design Summary
    Number of registers:     91 out of  2352 (4%)
       PFU registers:           90 out of  2112 (4%)
       PIO registers:            1 out of   240 (0%)
-   Number of SLICEs:        89 out of  1056 (8%)
-      SLICEs as Logic/ROM:     89 out of  1056 (8%)
+   Number of SLICEs:        86 out of  1056 (8%)
+      SLICEs as Logic/ROM:     86 out of  1056 (8%)
       SLICEs as RAM:            0 out of   792 (0%)
       SLICEs as Carry:         48 out of  1056 (5%)
-   Number of LUT4s:        177 out of  2112 (8%)
-      Number used as logic LUTs:         81
+   Number of LUT4s:        172 out of  2112 (8%)
+      Number used as logic LUTs:         76
       Number used as distributed RAM:     0
       Number used as ripple logic:       96
       Number used as shift registers:     0
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  16:23:12
+Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:02:54
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  16:23:12
+Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:02:54
 
 
 Removed logic
@@ -198,7 +198,7 @@ GSR Component:
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  16:23:12
+Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  17:02:54
 
 
 Run Time and Memory Usage
@@ -206,7 +206,7 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 43 MB
+   Peak Memory Usage: 44 MB
         
 
 

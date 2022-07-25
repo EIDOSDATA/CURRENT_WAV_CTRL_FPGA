@@ -22,7 +22,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454</big></U></B>
-Mon Jul 25 16:23:12 2022
+Mon Jul 25 17:02:54 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -42,7 +42,7 @@ Report level:    verbose report, limited to 1 item per preference
 <A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
 
 <LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "w_clk" 3.330000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
-Report:   31.564MHz is the maximum frequency for this preference.
+Report:   30.446MHz is the maximum frequency for this preference.
 
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
@@ -56,20 +56,20 @@ BLOCK RESETPATHS
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 268.618ns
+Passed: The following path meets requirements by 267.455ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              cnt_a[0]  (from w_clk +)
    Destination:    FF         Data in        cnt_a[21]  (to w_clk +)
 
-   Delay:              31.250ns  (50.2% logic, 49.8% route), 22 logic levels.
+   Delay:              32.413ns  (48.4% logic, 51.6% route), 22 logic levels.
 
  Constraint Details:
 
-     31.250ns physical path delay SLICE_12 to SLICE_54 meets
+     32.413ns physical path delay SLICE_12 to SLICE_54 meets
     300.300ns delay constraint less
-      0.432ns DIN_SET requirement (totaling 299.868ns) by 268.618ns
+      0.432ns DIN_SET requirement (totaling 299.868ns) by 267.455ns
 
  Physical Path Details:
 
@@ -77,23 +77,23 @@ Passed: The following path meets requirements by 268.618ns
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.955   SLICE_12.CLK to    SLICE_12.Q1 SLICE_12 (from w_clk)
-ROUTE         3   e 1.905    SLICE_12.Q1 to    SLICE_72.C1 un14lt2
-CTOF_DEL    ---     0.923    SLICE_72.C1 to    SLICE_72.F1 SLICE_72
-ROUTE         1   e 0.742    SLICE_72.F1 to    SLICE_72.D0 un1_cnt_alt3
-CTOF_DEL    ---     0.923    SLICE_72.D0 to    SLICE_72.F0 SLICE_72
-ROUTE         1   e 1.905    SLICE_72.F0 to    SLICE_67.C1 un1_cnt_alt7
-CTOF_DEL    ---     0.923    SLICE_67.C1 to    SLICE_67.F1 SLICE_67
-ROUTE         1   e 0.742    SLICE_67.F1 to    SLICE_67.D0 un1_cnt_alt12
-CTOF_DEL    ---     0.923    SLICE_67.D0 to    SLICE_67.F0 SLICE_67
-ROUTE         1   e 1.905    SLICE_67.F0 to    SLICE_63.D0 un1_cnt_alt13
-CTOF_DEL    ---     0.923    SLICE_63.D0 to    SLICE_63.F0 SLICE_63
-ROUTE         1   e 0.742    SLICE_63.F0 to    SLICE_63.D1 un1_cnt_alt16
-CTOF_DEL    ---     0.923    SLICE_63.D1 to    SLICE_63.F1 SLICE_63
-ROUTE         1   e 1.905    SLICE_63.F1 to    SLICE_54.D1 un1_cnt_alto21_1
+ROUTE         2   e 1.905    SLICE_12.Q1 to    SLICE_85.A0 cnt_a[0]
+CTOF_DEL    ---     0.923    SLICE_85.A0 to    SLICE_85.F0 SLICE_85
+ROUTE         1   e 1.905    SLICE_85.F0 to    SLICE_71.D1 un1_cnt_alt2
+CTOF_DEL    ---     0.923    SLICE_71.D1 to    SLICE_71.F1 SLICE_71
+ROUTE         1   e 0.742    SLICE_71.F1 to    SLICE_71.D0 un1_cnt_alt5
+CTOF_DEL    ---     0.923    SLICE_71.D0 to    SLICE_71.F0 SLICE_71
+ROUTE         1   e 1.905    SLICE_71.F0 to    SLICE_69.C0 un1_cnt_alt9
+CTOF_DEL    ---     0.923    SLICE_69.C0 to    SLICE_69.F0 SLICE_69
+ROUTE         1   e 1.905    SLICE_69.F0 to    SLICE_64.D0 un1_cnt_alt13
+CTOF_DEL    ---     0.923    SLICE_64.D0 to    SLICE_64.F0 SLICE_64
+ROUTE         1   e 0.742    SLICE_64.F0 to    SLICE_64.D1 un1_cnt_alt16
+CTOF_DEL    ---     0.923    SLICE_64.D1 to    SLICE_64.F1 SLICE_64
+ROUTE         1   e 1.905    SLICE_64.F1 to    SLICE_54.D1 un1_cnt_alto21_1
 CTOF_DEL    ---     0.923    SLICE_54.D1 to    SLICE_54.F1 SLICE_54
-ROUTE        17   e 1.905    SLICE_54.F1 to    SLICE_59.D0 un1_cnt_alto21
-CTOF_DEL    ---     0.923    SLICE_59.D0 to    SLICE_59.F0 SLICE_59
-ROUTE         1   e 1.905    SLICE_59.F0 to    SLICE_12.B0 un1_cnt_a15_6
+ROUTE        17   e 1.905    SLICE_54.F1 to    SLICE_58.D0 un1_cnt_alto21
+CTOF_DEL    ---     0.923    SLICE_58.D0 to    SLICE_58.F0 SLICE_58
+ROUTE         1   e 1.905    SLICE_58.F0 to    SLICE_12.B0 un1_cnt_a15_6
 C0TOFCO_DE  ---     2.064    SLICE_12.B0 to   SLICE_12.FCO SLICE_12
 ROUTE         1   e 0.001   SLICE_12.FCO to   SLICE_11.FCI un1_cnt_a_1_cry_0
 FCITOFCO_D  ---     0.317   SLICE_11.FCI to   SLICE_11.FCO SLICE_11
@@ -121,9 +121,9 @@ ROUTE         1   e 1.905     SLICE_1.F0 to    SLICE_54.A0 un1_cnt_a_1_s_21_0_S0
 CTOF_DEL    ---     0.923    SLICE_54.A0 to    SLICE_54.F0 SLICE_54
 ROUTE         1   e 0.001    SLICE_54.F0 to   SLICE_54.DI0 cnt_a_3[21] (to w_clk)
                   --------
-                   31.250   (50.2% logic, 49.8% route), 22 logic levels.
+                   32.413   (48.4% logic, 51.6% route), 22 logic levels.
 
-Report:   31.564MHz is the maximum frequency for this preference.
+Report:   30.446MHz is the maximum frequency for this preference.
 
 <A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
 --------------
@@ -131,7 +131,7 @@ Report:   31.564MHz is the maximum frequency for this preference.
 Preference                              |   Constraint|       Actual|Levels
 ----------------------------------------------------------------------------
                                         |             |             |
-FREQUENCY NET "w_clk" 3.330000 MHz ;    |    3.330 MHz|   31.564 MHz|  22  
+FREQUENCY NET "w_clk" 3.330000 MHz ;    |    3.330 MHz|   30.446 MHz|  22  
                                         |             |             |
 ----------------------------------------------------------------------------
 
@@ -154,11 +154,11 @@ Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 55
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 24376 paths, 1 nets, and 664 connections (99.85% coverage)
+Constraints cover 23072 paths, 1 nets, and 643 connections (99.84% coverage)
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454</big></U></B>
-Mon Jul 25 16:23:12 2022
+Mon Jul 25 17:02:54 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -212,7 +212,7 @@ Passed: The following path meets requirements by 0.489ns
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.257    SLICE_0.CLK to     SLICE_0.Q1 SLICE_0 (from w_clk)
-ROUTE         3   e 0.000     SLICE_0.Q1 to     SLICE_0.B1 cnt_o2[0]
+ROUTE         1   e 0.000     SLICE_0.Q1 to     SLICE_0.B1 cnt_o2[0]
 CTOF_DEL    ---     0.199     SLICE_0.B1 to     SLICE_0.F1 SLICE_0
 ROUTE         1   e 0.001     SLICE_0.F1 to    SLICE_0.DI1 cnt_o2_s[0] (to w_clk)
                   --------
@@ -247,7 +247,7 @@ Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 55
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 24376 paths, 1 nets, and 664 connections (99.85% coverage)
+Constraints cover 23072 paths, 1 nets, and 643 connections (99.84% coverage)
 
 
 

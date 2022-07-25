@@ -1,4 +1,4 @@
-# Mon Jul 25 16:23:08 2022
+# Mon Jul 25 17:02:49 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -26,7 +26,7 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 130MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
@@ -36,7 +36,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
 
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
@@ -48,64 +48,64 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 174MB peak: 174MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 180MB peak: 180MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		   238.34ns		  85 /        91
+   1		0h:00m:01s		   237.93ns		  79 /        91
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 181MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 181MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 179MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 181MB)
 
 Writing Analyst data base C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 179MB peak: 179MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 184MB peak: 184MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 186MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 184MB peak: 184MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 186MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 184MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 185MB peak: 186MB)
 
 @N: MT615 |Found clock rootClk with period 250.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Jul 25 16:23:10 2022
+# Timing report written on Mon Jul 25 17:02:52 2022
 #
 
 
@@ -125,12 +125,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 235.375
+Worst slack in design: 235.367
 
                    Requested     Estimated     Requested     Estimated                 Clock        Clock           
 Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group           
 --------------------------------------------------------------------------------------------------------------------
-rootClk            4.0 MHz       68.4 MHz      250.000       14.625        235.375     declared     default_clkgroup
+rootClk            4.0 MHz       68.3 MHz      250.000       14.633        235.367     declared     default_clkgroup
 System             100.0 MHz     NA            10.000        NA            NA          system       system_clkgroup 
 ====================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
@@ -146,7 +146,7 @@ Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  
 -----------------------------------------------------------------------------------------------------------
 Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 -----------------------------------------------------------------------------------------------------------
-rootClk   rootClk  |  250.000     235.375  |  No paths    -      |  No paths    -      |  No paths    -    
+rootClk   rootClk  |  250.000     235.367  |  No paths    -      |  No paths    -      |  No paths    -    
 ===========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -173,16 +173,16 @@ Starting Points with Worst Slack
 Instance      Reference     Type        Pin     Net           Time        Slack  
               Clock                                                              
 ---------------------------------------------------------------------------------
-cnt_o1[0]     rootClk       FD1P3DX     Q       un16lt2       1.108       235.375
-cnt_o1[1]     rootClk       FD1P3DX     Q       cnt_o1[1]     1.108       235.375
-cnt_a[0]      rootClk       FD1S3DX     Q       un14lt2       1.108       235.412
-cnt_a[1]      rootClk       FD1S3DX     Q       cnt_a[1]      1.108       235.412
-cnt_a[2]      rootClk       FD1S3DX     Q       cnt_a[2]      1.108       235.412
-cnt_c[0]      rootClk       FD1P3DX     Q       cnt_c[0]      1.108       236.392
+cnt_o1[1]     rootClk       FD1P3DX     Q       cnt_o1[1]     1.044       235.367
+cnt_o1[2]     rootClk       FD1P3DX     Q       cnt_o1[2]     1.044       235.367
+cnt_o1[3]     rootClk       FD1P3DX     Q       cnt_o1[3]     1.044       235.367
+cnt_a[0]      rootClk       FD1S3DX     Q       cnt_a[0]      1.044       235.476
+cnt_a[1]      rootClk       FD1S3DX     Q       cnt_a[1]      1.044       235.476
 cnt_c[1]      rootClk       FD1P3DX     Q       cnt_c[1]      1.108       236.392
 cnt_c[2]      rootClk       FD1P3DX     Q       cnt_c[2]      1.108       236.392
-cnt_o1[2]     rootClk       FD1P3DX     Q       cnt_o1[2]     1.108       236.392
-cnt_o1[3]     rootClk       FD1P3DX     Q       un16lto3      1.108       236.392
+cnt_o1[4]     rootClk       FD1P3DX     Q       cnt_o1[4]     1.108       236.392
+cnt_o1[5]     rootClk       FD1P3DX     Q       cnt_o1[5]     1.108       236.392
+cnt_o1[6]     rootClk       FD1P3DX     Q       cnt_o1[6]     1.108       236.392
 =================================================================================
 
 
@@ -193,16 +193,16 @@ Ending Points with Worst Slack
 Instance      Reference     Type        Pin     Net                 Time         Slack  
               Clock                                                                     
 ----------------------------------------------------------------------------------------
-cnt_a[21]     rootClk       FD1S3DX     D       cnt_a_3[21]         250.089      235.375
-cnt_a[20]     rootClk       FD1S3DX     D       cnt_a_3[20]         250.089      235.518
-cnt_a[17]     rootClk       FD1S3DX     D       cnt_a_3[17]         250.089      235.660
-cnt_a[15]     rootClk       FD1S3DX     D       cnt_a_3[15]         250.089      235.803
-cnt_a[19]     rootClk       FD1S3DX     D       un1_cnt_a_1[19]     249.894      235.940
-cnt_a[14]     rootClk       FD1S3DX     D       cnt_a_3[14]         250.089      235.946
-cnt_a[18]     rootClk       FD1S3DX     D       un1_cnt_a_1[18]     249.894      236.083
-cnt_a[11]     rootClk       FD1S3DX     D       cnt_a_3[11]         250.089      236.089
-cnt_a[12]     rootClk       FD1S3DX     D       cnt_a_3[12]         250.089      236.089
-cnt_a[16]     rootClk       FD1S3DX     D       un1_cnt_a_1[16]     249.894      236.226
+cnt_a[21]     rootClk       FD1S3DX     D       cnt_a_3[21]         250.089      235.367
+cnt_a[20]     rootClk       FD1S3DX     D       cnt_a_3[20]         250.089      235.510
+cnt_a[17]     rootClk       FD1S3DX     D       cnt_a_3[17]         250.089      235.652
+cnt_a[15]     rootClk       FD1S3DX     D       cnt_a_3[15]         250.089      235.795
+cnt_a[19]     rootClk       FD1S3DX     D       un1_cnt_a_1[19]     249.894      235.932
+cnt_a[14]     rootClk       FD1S3DX     D       cnt_a_3[14]         250.089      235.938
+cnt_a[18]     rootClk       FD1S3DX     D       un1_cnt_a_1[18]     249.894      236.075
+cnt_a[11]     rootClk       FD1S3DX     D       cnt_a_3[11]         250.089      236.081
+cnt_a[12]     rootClk       FD1S3DX     D       cnt_a_3[12]         250.089      236.081
+cnt_a[16]     rootClk       FD1S3DX     D       un1_cnt_a_1[16]     249.894      236.218
 ========================================================================================
 
 
@@ -217,12 +217,12 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         250.089
 
-    - Propagation time:                      14.714
+    - Propagation time:                      14.722
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     235.375
+    = Slack (critical) :                     235.367
 
     Number of logic level(s):                21
-    Starting point:                          cnt_o1[0] / Q
+    Starting point:                          cnt_o1[1] / Q
     Ending point:                            cnt_a[21] / D
     The start point is clocked by            rootClk [rising] (rise=0.000 fall=125.000 period=250.000) on pin CK
     The end   point is clocked by            rootClk [rising] (rise=0.000 fall=125.000 period=250.000) on pin CK
@@ -230,72 +230,72 @@ Path information for path number 1:
 Instance / Net                         Pin      Pin               Arrival      No. of    
 Name                      Type         Name     Dir     Delay     Time         Fan Out(s)
 -----------------------------------------------------------------------------------------
-cnt_o1[0]                 FD1P3DX      Q        Out     1.108     1.108 r      -         
-un16lt2                   Net          -        -       -         -            3         
-un1_cnt_o1lto1            ORCALUT4     B        In      0.000     1.108 r      -         
-un1_cnt_o1lto1            ORCALUT4     Z        Out     1.017     2.125 f      -         
-un1_cnt_o1lt2             Net          -        -       -         -            1         
-un1_cnt_o1lto4            ORCALUT4     B        In      0.000     2.125 f      -         
-un1_cnt_o1lto4            ORCALUT4     Z        Out     1.017     3.141 f      -         
-un1_cnt_o1lt7             Net          -        -       -         -            1         
-un1_cnt_o1lto9            ORCALUT4     A        In      0.000     3.141 f      -         
-un1_cnt_o1lto9            ORCALUT4     Z        Out     1.017     4.158 f      -         
+cnt_o1[1]                 FD1P3DX      Q        Out     1.044     1.044 r      -         
+cnt_o1[1]                 Net          -        -       -         -            2         
+un1_cnt_o1_1lto3          ORCALUT4     A        In      0.000     1.044 r      -         
+un1_cnt_o1_1lto3          ORCALUT4     Z        Out     1.089     2.133 f      -         
+un1_cnt_o1_1lt4           Net          -        -       -         -            2         
+un1_cnt_o1lto9_1          ORCALUT4     D        In      0.000     2.133 f      -         
+un1_cnt_o1lto9_1          ORCALUT4     Z        Out     1.017     3.149 f      -         
+un1_cnt_o1lto9_1          Net          -        -       -         -            1         
+un1_cnt_o1lto9            ORCALUT4     D        In      0.000     3.149 f      -         
+un1_cnt_o1lto9            ORCALUT4     Z        Out     1.017     4.166 f      -         
 un1_cnt_o1lt12            Net          -        -       -         -            1         
-un1_cnt_o1lto12           ORCALUT4     D        In      0.000     4.158 f      -         
-un1_cnt_o1lto12           ORCALUT4     Z        Out     1.017     5.175 f      -         
-un1_cnt_o1lt13            Net          -        -       -         -            1         
-un1_cnt_o1lto15           ORCALUT4     D        In      0.000     5.175 f      -         
-un1_cnt_o1lto15           ORCALUT4     Z        Out     1.017     6.192 f      -         
-un1_cnt_o1lt16            Net          -        -       -         -            1         
-un1_cnt_o1lto21_1         ORCALUT4     D        In      0.000     6.192 f      -         
-un1_cnt_o1lto21_1         ORCALUT4     Z        Out     1.017     7.209 f      -         
-un1_cnt_o1lto21_1         Net          -        -       -         -            1         
-un1_cnt_o1lto21           ORCALUT4     D        In      0.000     7.209 f      -         
-un1_cnt_o1lto21           ORCALUT4     Z        Out     1.350     8.559 f      -         
+un1_cnt_o1lto13           ORCALUT4     C        In      0.000     4.166 f      -         
+un1_cnt_o1lto13           ORCALUT4     Z        Out     1.017     5.183 f      -         
+un1_cnt_o1lt15            Net          -        -       -         -            1         
+un1_cnt_o1lto16           ORCALUT4     D        In      0.000     5.183 f      -         
+un1_cnt_o1lto16           ORCALUT4     Z        Out     1.017     6.200 f      -         
+un1_cnt_o1lt17            Net          -        -       -         -            1         
+un1_cnt_o1lto19           ORCALUT4     D        In      0.000     6.200 f      -         
+un1_cnt_o1lto19           ORCALUT4     Z        Out     1.017     7.217 f      -         
+un1_cnt_o1lt21            Net          -        -       -         -            1         
+un1_cnt_o1lto21           ORCALUT4     C        In      0.000     7.217 f      -         
+un1_cnt_o1lto21           ORCALUT4     Z        Out     1.350     8.567 f      -         
 cnt_o1                    Net          -        -       -         -            27        
-un1_cnt_a15_6             ORCALUT4     B        In      0.000     8.559 f      -         
-un1_cnt_a15_6             ORCALUT4     Z        Out     1.017     9.576 f      -         
+un1_cnt_a15_6             ORCALUT4     B        In      0.000     8.567 f      -         
+un1_cnt_a15_6             ORCALUT4     Z        Out     1.017     9.584 f      -         
 un1_cnt_a15_6             Net          -        -       -         -            1         
-un1_cnt_a_1_cry_0_0       CCU2D        B0       In      0.000     9.576 f      -         
-un1_cnt_a_1_cry_0_0       CCU2D        COUT     Out     1.544     11.120 r     -         
+un1_cnt_a_1_cry_0_0       CCU2D        B0       In      0.000     9.584 f      -         
+un1_cnt_a_1_cry_0_0       CCU2D        COUT     Out     1.544     11.128 r     -         
 un1_cnt_a_1_cry_0         Net          -        -       -         -            1         
-un1_cnt_a_1_cry_1_0       CCU2D        CIN      In      0.000     11.120 r     -         
-un1_cnt_a_1_cry_1_0       CCU2D        COUT     Out     0.143     11.263 r     -         
+un1_cnt_a_1_cry_1_0       CCU2D        CIN      In      0.000     11.128 r     -         
+un1_cnt_a_1_cry_1_0       CCU2D        COUT     Out     0.143     11.271 r     -         
 un1_cnt_a_1_cry_2         Net          -        -       -         -            1         
-un1_cnt_a_1_cry_3_0       CCU2D        CIN      In      0.000     11.263 r     -         
-un1_cnt_a_1_cry_3_0       CCU2D        COUT     Out     0.143     11.406 r     -         
+un1_cnt_a_1_cry_3_0       CCU2D        CIN      In      0.000     11.271 r     -         
+un1_cnt_a_1_cry_3_0       CCU2D        COUT     Out     0.143     11.414 r     -         
 un1_cnt_a_1_cry_4         Net          -        -       -         -            1         
-un1_cnt_a_1_cry_5_0       CCU2D        CIN      In      0.000     11.406 r     -         
-un1_cnt_a_1_cry_5_0       CCU2D        COUT     Out     0.143     11.549 r     -         
+un1_cnt_a_1_cry_5_0       CCU2D        CIN      In      0.000     11.414 r     -         
+un1_cnt_a_1_cry_5_0       CCU2D        COUT     Out     0.143     11.557 r     -         
 un1_cnt_a_1_cry_6         Net          -        -       -         -            1         
-un1_cnt_a_1_cry_7_0       CCU2D        CIN      In      0.000     11.549 r     -         
-un1_cnt_a_1_cry_7_0       CCU2D        COUT     Out     0.143     11.691 r     -         
+un1_cnt_a_1_cry_7_0       CCU2D        CIN      In      0.000     11.557 r     -         
+un1_cnt_a_1_cry_7_0       CCU2D        COUT     Out     0.143     11.700 r     -         
 un1_cnt_a_1_cry_8         Net          -        -       -         -            1         
-un1_cnt_a_1_cry_9_0       CCU2D        CIN      In      0.000     11.691 r     -         
-un1_cnt_a_1_cry_9_0       CCU2D        COUT     Out     0.143     11.834 r     -         
+un1_cnt_a_1_cry_9_0       CCU2D        CIN      In      0.000     11.700 r     -         
+un1_cnt_a_1_cry_9_0       CCU2D        COUT     Out     0.143     11.842 r     -         
 un1_cnt_a_1_cry_10        Net          -        -       -         -            1         
-un1_cnt_a_1_cry_11_0      CCU2D        CIN      In      0.000     11.834 r     -         
-un1_cnt_a_1_cry_11_0      CCU2D        COUT     Out     0.143     11.977 r     -         
+un1_cnt_a_1_cry_11_0      CCU2D        CIN      In      0.000     11.842 r     -         
+un1_cnt_a_1_cry_11_0      CCU2D        COUT     Out     0.143     11.985 r     -         
 un1_cnt_a_1_cry_12        Net          -        -       -         -            1         
-un1_cnt_a_1_cry_13_0      CCU2D        CIN      In      0.000     11.977 r     -         
-un1_cnt_a_1_cry_13_0      CCU2D        COUT     Out     0.143     12.120 r     -         
+un1_cnt_a_1_cry_13_0      CCU2D        CIN      In      0.000     11.985 r     -         
+un1_cnt_a_1_cry_13_0      CCU2D        COUT     Out     0.143     12.128 r     -         
 un1_cnt_a_1_cry_14        Net          -        -       -         -            1         
-un1_cnt_a_1_cry_15_0      CCU2D        CIN      In      0.000     12.120 r     -         
-un1_cnt_a_1_cry_15_0      CCU2D        COUT     Out     0.143     12.263 r     -         
+un1_cnt_a_1_cry_15_0      CCU2D        CIN      In      0.000     12.128 r     -         
+un1_cnt_a_1_cry_15_0      CCU2D        COUT     Out     0.143     12.271 r     -         
 un1_cnt_a_1_cry_16        Net          -        -       -         -            1         
-un1_cnt_a_1_cry_17_0      CCU2D        CIN      In      0.000     12.263 r     -         
-un1_cnt_a_1_cry_17_0      CCU2D        COUT     Out     0.143     12.405 r     -         
+un1_cnt_a_1_cry_17_0      CCU2D        CIN      In      0.000     12.271 r     -         
+un1_cnt_a_1_cry_17_0      CCU2D        COUT     Out     0.143     12.414 r     -         
 un1_cnt_a_1_cry_18        Net          -        -       -         -            1         
-un1_cnt_a_1_cry_19_0      CCU2D        CIN      In      0.000     12.405 r     -         
-un1_cnt_a_1_cry_19_0      CCU2D        COUT     Out     0.143     12.548 r     -         
+un1_cnt_a_1_cry_19_0      CCU2D        CIN      In      0.000     12.414 r     -         
+un1_cnt_a_1_cry_19_0      CCU2D        COUT     Out     0.143     12.556 r     -         
 un1_cnt_a_1_cry_20        Net          -        -       -         -            1         
-un1_cnt_a_1_s_21_0        CCU2D        CIN      In      0.000     12.548 r     -         
-un1_cnt_a_1_s_21_0        CCU2D        S0       Out     1.549     14.097 r     -         
+un1_cnt_a_1_s_21_0        CCU2D        CIN      In      0.000     12.556 r     -         
+un1_cnt_a_1_s_21_0        CCU2D        S0       Out     1.549     14.105 r     -         
 un1_cnt_a_1_s_21_0_S0     Net          -        -       -         -            1         
-cnt_a_3[21]               ORCALUT4     A        In      0.000     14.097 r     -         
-cnt_a_3[21]               ORCALUT4     Z        Out     0.617     14.714 r     -         
+cnt_a_3[21]               ORCALUT4     A        In      0.000     14.105 r     -         
+cnt_a_3[21]               ORCALUT4     Z        Out     0.617     14.722 r     -         
 cnt_a_3[21]               Net          -        -       -         -            1         
-cnt_a[21]                 FD1S3DX      D        In      0.000     14.714 r     -         
+cnt_a[21]                 FD1S3DX      D        In      0.000     14.722 r     -         
 =========================================================================================
 
 
@@ -313,10 +313,10 @@ Timing exceptions that could not be applied
 @W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 184MB peak: 184MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 186MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 184MB peak: 184MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 186MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -336,16 +336,16 @@ IB:             1
 INV:            1
 OB:             5
 OFS1P3DX:       1
-ORCALUT4:       81
+ORCALUT4:       76
 OSCH:           1
 PUR:            1
 VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 67MB peak: 184MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 67MB peak: 186MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Mon Jul 25 16:23:11 2022
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Mon Jul 25 17:02:52 2022
 
 ###########################################################]

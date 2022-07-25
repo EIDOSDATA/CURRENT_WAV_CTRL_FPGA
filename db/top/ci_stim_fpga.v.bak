@@ -119,11 +119,11 @@ module ci_stim_fpga_wrapper (
 		
 		// OUT CTRL1
 		else if(cnt_o1 >= 3333350)begin //3333333 > 1sec			
-			cnt_o1 <= 18;
+			cnt_o1 <= 17;
 		end
 		// OUT CTRL2
 		else if(cnt_o2 >= 3337016)begin //3333333 > 1sec			
-			cnt_o2 <= 3684; // 3683
+			cnt_o2 <= 3683; // 3683
 		end
 		
 		
@@ -170,7 +170,7 @@ module ci_stim_fpga_wrapper (
 			end
 			
 			/* OUTPUT CTRL SIGNAL */
-			if(3350 >= cnt_o1 || 7016 >= cnt_o2)begin
+			if(3351 >= cnt_o1 || 7017 >= cnt_o2)begin
 				output_ctrl_sig <= 1;				
 			end
 			else begin
