@@ -1,21 +1,11 @@
 # Reading pref.tcl
 # Loading project CURRENT_WAV_CTRL_FPGA
-# Error opening C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v
-# Path name 'C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v' doesn't exist.
-# Error opening C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v
-# Path name 'C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v' doesn't exist.
-# Error opening C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v
-# Path name 'C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v' doesn't exist.
-# Compile of ci_stim_fpga.v was successful.
-# 1 compiles, 1 failed with no errors.
-# Compile of ci_stim_fpga.v was successful.
-# 1 compiles, 1 failed with no errors.
 # Compile of ci_stim_fpga.v was successful.
 # Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.ci_stim_fpga_wrapper_tb
 # vsim -gui work.ci_stim_fpga_wrapper_tb 
-# Start time: 08:53:14 on Jul 25,2022
+# Start time: 14:59:57 on Jul 25,2022
 # //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -43,5 +33,810 @@ run -all
 # 1
 # Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
 run -all
-# End time: 08:54:24 on Jul 25,2022, Elapsed time: 0:01:10
-# Errors: 0, Warnings: 8
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:02:15 on Jul 25,2022, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:02:15 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:06:51 on Jul 25,2022, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:06:51 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:11:04 on Jul 25,2022, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 3
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:11:04 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:15:10 on Jul 25,2022, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:15:10 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:17:27 on Jul 25,2022, Elapsed time: 0:02:17
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:17:27 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:19:38 on Jul 25,2022, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:19:38 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:21:24 on Jul 25,2022, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:21:24 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:22:32 on Jul 25,2022, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:22:32 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:24:30 on Jul 25,2022, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 2
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:24:30 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:27:17 on Jul 25,2022, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:27:17 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:31:13 on Jul 25,2022, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:31:14 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:31:38 on Jul 25,2022, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:31:38 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:36:15 on Jul 25,2022, Elapsed time: 0:04:37
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:36:15 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:38:12 on Jul 25,2022, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:38:12 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:40:00 on Jul 25,2022, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:40:00 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+restart -f
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:40:14 on Jul 25,2022, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:40:14 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:42:19 on Jul 25,2022, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:42:19 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:43:36 on Jul 25,2022, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:43:36 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:46:11 on Jul 25,2022, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 2
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:46:11 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:48:48 on Jul 25,2022, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:48:48 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:50:57 on Jul 25,2022, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:50:57 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+run -all
+restart -f
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:55:27 on Jul 25,2022, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 2
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:55:27 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 15:59:35 on Jul 25,2022, Elapsed time: 0:04:08
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 15:59:35 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 16:01:32 on Jul 25,2022, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:01:32 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 16:03:40 on Jul 25,2022, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:03:40 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 16:06:42 on Jul 25,2022, Elapsed time: 0:03:02
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:06:42 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 16:09:31 on Jul 25,2022, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:09:31 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 16:11:31 on Jul 25,2022, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:11:31 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+restart -f
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 16:16:11 on Jul 25,2022, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 2
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:16:11 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# End time: 16:19:30 on Jul 25,2022, Elapsed time: 0:03:19
+# Errors: 0, Warnings: 1
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:19:31 on Jul 25,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+add wave -position insertpoint  \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
+sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
+run -all
+# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# End time: 16:23:00 on Jul 25,2022, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 1

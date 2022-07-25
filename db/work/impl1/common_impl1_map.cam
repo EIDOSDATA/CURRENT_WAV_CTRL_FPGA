@@ -3,13 +3,21 @@ i_rst_n_c_i i_rst_n_c
 [ END MERGED ]
 [ START CLIPPED ]
 GND
+cnt_o2_s_0_S1[21]
+cnt_o2_s_0_COUT[21]
+cnt_c_cry_0_S0[0]
+N_2
 cnt_c_s_0_S1[21]
 cnt_c_s_0_COUT[21]
+cnt_o1_cry_0_S0[0]
+N_3
+cnt_o1_s_0_S1[21]
+cnt_o1_s_0_COUT[21]
 un1_cnt_a_1_cry_0_0_S0
-N_2
+N_4
 un1_cnt_a_1_s_21_0_S1
 un1_cnt_a_1_s_21_0_COUT
-cnt_c_cry_0_S0[0]
+cnt_o2_cry_0_S0[0]
 N_1
 internal_osc_SEDSTDBY
 [ END CLIPPED ]
@@ -18,7 +26,7 @@ w_clk 3.33
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.1.454 -- WARNING: Map write only section -- Mon Jul 25 08:49:11 2022
+# map:  version Diamond (64-bit) 3.12.1.454 -- WARNING: Map write only section -- Mon Jul 25 16:23:12 2022
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
 LOCATE COMP "i_rst_n" SITE "69" ;
