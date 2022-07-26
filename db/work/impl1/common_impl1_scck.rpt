@@ -13,10 +13,10 @@ Hostname: DESKTOP-060JDBH
 
 Implementation : impl1
 
-# Written on Mon Jul 25 16:31:29 2022
+# Written on Tue Jul 26 15:05:47 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
-Constraint File(s):      "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc"
+Constraint File(s):      "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc"
 
 #Run constraint checker to find more issues with constraints.
 #########################################################################

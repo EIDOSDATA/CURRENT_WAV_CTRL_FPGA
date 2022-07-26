@@ -1,15 +1,11 @@
 # Reading pref.tcl
 # Loading project CURRENT_WAV_CTRL_FPGA
-# 0 compiles, 2 failed with no errors.
-# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
 # Compile of ci_stim_fpga.v was successful.
-# 2 compiles, 0 failed with no errors.
 # Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
-# Compile of ci_stim_fpga.v was successful.
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.ci_stim_fpga_wrapper_tb
 # vsim -gui work.ci_stim_fpga_wrapper_tb 
-# Start time: 16:34:04 on Jul 25,2022
+# Start time: 15:08:59 on Jul 26,2022
 # //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -25,44 +21,153 @@ vsim -gui work.ci_stim_fpga_wrapper_tb
 # //
 # Loading work.ci_stim_fpga_wrapper_tb
 # Loading work.ci_stim_fpga_wrapper
+# ** Error: (vsim-3033) Instantiation of 'GSR' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v Line: 81
+#         Searched libraries:
+#             C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/work
+# ** Error: (vsim-3033) Instantiation of 'OSCE' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v Line: 91
+#         Searched libraries:
+#             C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/work
+# Error loading design
+# End time: 15:09:00 on Jul 26,2022, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 7
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:01:03 on Jul 26,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+# ** Error: (vsim-3033) Instantiation of 'GSR' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v Line: 81
+#         Searched libraries:
+#             C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/work
+# ** Error: (vsim-3033) Instantiation of 'OSCE' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v Line: 91
+#         Searched libraries:
+#             C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/work
+# Error loading design
+# End time: 16:01:03 on Jul 26,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:12:20 on Jul 26,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+# ** Error: (vsim-3033) Instantiation of 'GSR' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v Line: 81
+#         Searched libraries:
+#             C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/work
+# ** Error: (vsim-3033) Instantiation of 'OSCE' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v Line: 91
+#         Searched libraries:
+#             C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/work
+# Error loading design
+# End time: 16:12:20 on Jul 26,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ci_stim_fpga_wrapper_tb
+# vsim -gui work.ci_stim_fpga_wrapper_tb 
+# Start time: 16:13:11 on Jul 26,2022
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
 add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig
 add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig
 add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig
 add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig
 add wave -position end  sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
 run -all
-# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
 #    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
 # 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
 run -all
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
 # Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
 # 2 compiles, 0 failed with no errors.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.ci_stim_fpga_wrapper_tb
 # Loading work.ci_stim_fpga_wrapper
-vsim -gui work.ci_stim_fpga_wrapper_tb
-# End time: 16:37:48 on Jul 25,2022, Elapsed time: 0:03:44
-# Errors: 0, Warnings: 1
-# vsim -gui work.ci_stim_fpga_wrapper_tb 
-# Start time: 16:37:48 on Jul 25,2022
-# Loading work.ci_stim_fpga_wrapper_tb
-# Loading work.ci_stim_fpga_wrapper
-add wave -position insertpoint  \
-sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
-sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
-sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
-sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
-sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
 run -all
-# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
 #    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
 # 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
 run -all
-# End time: 16:39:45 on Jul 25,2022, Elapsed time: 0:01:57
-# Errors: 0, Warnings: 2
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ci_stim_fpga_wrapper_tb
+# Loading work.ci_stim_fpga_wrapper
+run -all
+# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
+# 
+# 
+# ** Note: $finish    : C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
+#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
+# 1
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
+run -all

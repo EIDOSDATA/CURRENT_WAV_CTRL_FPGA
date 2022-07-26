@@ -92,37 +92,44 @@ module ci_stim_fpga_wrapper (
 `endif
 `endif
 	
-	reg [23:0] anode_duty = 3333; // 1ms
-	reg [23:0] cathode_duty = 6999; // 3666 ~ 6999 >> 3333 >> 1ms
-	reg [23:0] output_ctrl_duty = 6999; // +333
+	reg [23:0] anode_duty = 1700; // 1ms
+	reg [23:0] cathode_duty = 3432; // 3666 ~ 6999 >> 3333 >> 1ms
+	reg [23:0] output_ctrl_duty = 69990; // +333
 	reg [23:0] cnt_a;
 	reg [23:0] cnt_c;
-	reg [23:0] cnt_o;
+	reg [23:0] cnt_o1;
+	reg [23:0] cnt_o2;
 
     always @(posedge w_clk or negedge i_rst_n)
 	begin
 		if (~i_rst_n)begin
 			cnt_a <= 0;
 			cnt_c <= 0;
-			cnt_o <= 0;
+			cnt_o1 <= 0;
+			cnt_o2 <= 0;
+		end
+	
+		else if(cnt_c >= 35065)begin //3336999 - 3666 = 3333333 >> 1sec
+			cnt_c <= 1732; // anode after + 100us delay after
 		end
 		
-		else if(cnt_a >= 3333333)begin //3333333
-			cnt_a <= 0;
+		// OUT CTRL1
+		else if(cnt_o1 >= 33350)begin //3333333 > 1sec			
+			cnt_o1 <= 17;
+		end
+		// OUT CTRL2
+		else if(cnt_o2 >= 35082)begin //3333333 > 1sec			
+			cnt_o2 <= 1749; // 3683
 		end
 		
-		else if(cnt_c >= 3336999)begin //3333333
-			cnt_c <= 3666;
-		end
-		
-		//else if(cnt_o >= 3336999)begin //3333333
-			//cnt_o <= 3666;
-		//end
 		
 		else begin
 			cnt_a <= cnt_a + 1;
 			cnt_c <= cnt_c + 1;
-			cnt_o <= cnt_o + 1;
+			
+			cnt_o1 <= cnt_o1 + 1;
+			cnt_o2 <= cnt_o2 + 1;
+			
 		end
 	end
 	
@@ -158,8 +165,8 @@ module ci_stim_fpga_wrapper (
 				out_sw4_sig <= 0;				
 			end
 			
-			/* Cathode SIGNAL */
-			if(3333 >= cnt_a || 6999 >= cnt_c)begin
+			/* OUTPUT CTRL SIGNAL */
+			if(1683 > cnt_o1 || 3416 > cnt_o2)begin
 				output_ctrl_sig <= 1;				
 			end
 			else begin
@@ -168,6 +175,75 @@ module ci_stim_fpga_wrapper (
 		end
 	end
 	
-
+endmodule		
+		else if(cnt_a >= 33333)begin //3333333 > 1sec
+			cnt_a <= 0;			
+		end
+		
+		else if(cnt_c >= 35065)begin //3336999 - 3666 = 3333333 >> 1sec
+			cnt_c <= 1732; // anode after + 100us delay after
+		end
+		
+		// OUT CTRL1
+		else if(cnt_o1 >= 33350)begin //3333333 > 1sec			
+			cnt_o1 <= 17;
+		end
+		// OUT CTRL2
+		else if(cnt_o2 >= 35082)begin //3333333 > 1sec			
+			cnt_o2 <= 1749; // 3683
+		end
+		
+		
+		else begin
+			cnt_a <= cnt_a + 1;
+			cnt_c <= cnt_c + 1;
+			
+			cnt_o1 <= cnt_o1 + 1;
+			cnt_o2 <= cnt_o2 + 1;
+			
+		end
+	end
+	
+	// OUTPUT SW SIGNAL
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n)begin
+			out_sw1_sig <= 0;
+			out_sw2_sig <= 0;
+			out_sw3_sig <= 0;
+			out_sw4_sig <= 0;			
+		end
+		
+		else begin
+			
+			/* Anode SIGNAL */
+			if(anode_duty >= cnt_a)begin
+				out_sw1_sig <= 1;
+				out_sw2_sig <= 1;				
+			end
+			else begin
+				out_sw1_sig <= 0;
+				out_sw2_sig <= 0;				
+			end
+			
+			/* Cathode SIGNAL */
+			if(cathode_duty >= cnt_c)begin
+				out_sw3_sig <= 1;
+				out_sw4_sig <= 1;				
+			end
+			else begin
+				out_sw3_sig <= 0;
+				out_sw4_sig <= 0;				
+			end
+			
+			/* OUTPUT CTRL SIGNAL */
+			if(1683 > cnt_o1 || 3416 > cnt_o2)begin
+				output_ctrl_sig <= 1;				
+			end
+			else begin
+				output_ctrl_sig <= 0;
+			end
+		end
+	end
+	
 endmodule
-

@@ -7,16 +7,15 @@ Design Information
 
 Command line:   map -a MachXO2 -p LCMXO2-2000ZE -t TQFP100 -s 1 -oc Commercial
      common_impl1.ngd -o common_impl1_map.ncd -pr common_impl1.prf -mp
-     common_impl1.mrp -lpf C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_W
-     AV_CTRL_FPGA/db/work/impl1/common_impl1_synplify.lpf -lpf C:/Users/hsi74/Gi
-     tHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/db/work/common.lpf -c 0
-     -gui -msgset C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_F
-     PGA/db/work/promote.xml 
+     common_impl1.mrp -lpf C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/i
+     mpl1/common_impl1_synplify.lpf -lpf
+     C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/common.lpf -c 0 -gui
+     -msgset C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.0.240.2
-Mapped on:  07/25/22  16:31:35
+Mapped on:  07/26/22  15:05:53
 
 Design Summary
 --------------
@@ -24,12 +23,12 @@ Design Summary
    Number of registers:     91 out of  2352 (4%)
       PFU registers:           90 out of  2112 (4%)
       PIO registers:            1 out of   240 (0%)
-   Number of SLICEs:        89 out of  1056 (8%)
-      SLICEs as Logic/ROM:     89 out of  1056 (8%)
+   Number of SLICEs:        86 out of  1056 (8%)
+      SLICEs as Logic/ROM:     86 out of  1056 (8%)
       SLICEs as RAM:            0 out of   792 (0%)
       SLICEs as Carry:         48 out of  1056 (5%)
-   Number of LUT4s:        177 out of  2112 (8%)
-      Number used as logic LUTs:         81
+   Number of LUT4s:        172 out of  2112 (8%)
+      Number used as logic LUTs:         76
       Number used as distributed RAM:     0
       Number used as ripple logic:       96
       Number used as shift registers:     0
@@ -60,17 +59,17 @@ Design Summary
      ripple logic.
    Number of clocks:  1
      Net w_clk: 55 loads, 55 rising, 0 falling (Driver: internal_osc )
+   Number of Clock Enables:  4
 
                                     Page 1
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  16:31:35
+Design:  ci_stim_fpga_wrapper                          Date:  07/26/22  15:05:53
 
 Design Summary (cont)
 ---------------------
-   Number of Clock Enables:  4
      Net i_rst_n_c: 1 loads, 0 LSLICEs
      Net cnt_ce: 12 loads, 12 LSLICEs
      Net un1_cnt_a13_2_i: 12 loads, 12 LSLICEs
@@ -126,17 +125,15 @@ IO (PIO) Attributes
 | out_sw3_sig         | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | out_sw2_sig         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
 
                                     Page 2
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  16:31:35
+Design:  ci_stim_fpga_wrapper                          Date:  07/26/22  15:05:53
 
-IO (PIO) Attributes (cont)
---------------------------
-+---------------------+-----------+-----------+------------+
 
 Removed logic
 -------------
@@ -192,19 +189,17 @@ GSR Component:
 
      GSR Property:
    The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
 
                                     Page 3
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  07/25/22  16:31:35
+Design:  ci_stim_fpga_wrapper                          Date:  07/26/22  15:05:53
 
-GSR Usage (cont)
-----------------
-        set reset while the components with GSR property set to DISABLED will
-        not.
-        
 
 Run Time and Memory Usage
 -------------------------
@@ -213,6 +208,11 @@ Run Time and Memory Usage
    Total REAL Time: 0 secs  
    Peak Memory Usage: 43 MB
         
+
+
+
+
+
 
 
 

@@ -14,26 +14,25 @@ Hostname: DESKTOP-060JDBH
 Implementation : impl1
 Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
 
-Modified Files: 8
+Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-17       C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (2022-07-25 16:19:07, N/A)
-18       C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (N/A, 2022-07-25 16:30:24)
-5        C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v (2021-08-10 09:11:08, 2020-10-29 10:20:54)
-6        C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v (2021-08-10 09:11:08, 2020-10-29 10:20:54)
-7        C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v (2021-08-10 09:07:02, 2020-10-29 10:23:10)
-8        C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v (2021-08-10 09:07:02, 2020-10-29 10:23:10)
-9        C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh (2021-08-10 09:07:02, 2020-10-29 10:23:10)
-10       C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v (2021-08-10 09:07:02, 2020-10-29 10:23:10)
+16       C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (2022-07-26 14:59:24, 2022-07-26 15:05:40)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
 1        work.ci_stim_fpga_wrapper.verilog may have changed because the following files changed:
-                        C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (N/A, 2022-07-25 16:30:24) <-- (module definition)
+                        C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (2022-07-26 14:59:24, 2022-07-26 15:05:40) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 0
+Unmodified files: 6
 FID:  path (timestamp)
+5        C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v (2020-10-29 10:20:54)
+6        C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v (2020-10-29 10:20:54)
+7        C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v (2020-10-29 10:23:10)
+8        C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v (2020-10-29 10:23:10)
+9        C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh (2020-10-29 10:23:10)
+10       C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v (2020-10-29 10:23:10)
 
 *******************************************************************
 Unchanged modules: 0

@@ -1,2 +1,3 @@
-@E: CL123 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":104:4:104:9|Logic for cnt_c[21:0] does not match a standard flip-flop
+@E: CS219 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":4:37:4:37|Expecting one of the keywords module, primitive or macromodule
+@E: CS112 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":11:29:11:29|Expecting port name
 

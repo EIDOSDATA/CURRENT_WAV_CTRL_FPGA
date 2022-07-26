@@ -39,46 +39,46 @@ Synopsys Verilog Compiler, Version comp202003synp2, Build 182R, Built Oct 29 202
 @I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v" (library work)
+@I::"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+File C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v changed - recompiling
 Selecting top level module ci_stim_fpga_wrapper
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
 Running optimization stage 1 on GSR .......
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
 Running optimization stage 1 on OSCH .......
-@N: CG364 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":14:7:14:26|Synthesizing module ci_stim_fpga_wrapper in library work.
+@N: CG364 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":14:7:14:26|Synthesizing module ci_stim_fpga_wrapper in library work.
 Running optimization stage 1 on ci_stim_fpga_wrapper .......
-@A: CL282 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":141:1:141:6|Feedback mux created for signal output_ctrl_sig. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-@W: CL177 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":141:1:141:6|Sharing sequential element out_sw3_sig. Add a syn_preserve attribute to the element to prevent sharing.
+@A: CL282 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":141:1:141:6|Feedback mux created for signal output_ctrl_sig. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL177 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":141:1:141:6|Sharing sequential element out_sw3_sig. Add a syn_preserve attribute to the element to prevent sharing.
 Running optimization stage 2 on ci_stim_fpga_wrapper .......
-@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_o2[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_o2[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_a[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_a[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_c[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_c[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_o1[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_o1[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Pruning register bits 23 to 22 of cnt_o1[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Pruning register bits 23 to 22 of cnt_c[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Pruning register bits 23 to 22 of cnt_a[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Pruning register bits 23 to 22 of cnt_o2[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL177 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":141:1:141:6|Sharing sequential element out_sw2_sig. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_o2[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_o2[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_a[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_a[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_c[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_c[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_o1[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Optimizing register bit cnt_o1[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Pruning register bits 23 to 22 of cnt_o1[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Pruning register bits 23 to 22 of cnt_c[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Pruning register bits 23 to 22 of cnt_a[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":103:4:103:9|Pruning register bits 23 to 22 of cnt_o2[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":141:1:141:6|Sharing sequential element out_sw2_sig. Add a syn_preserve attribute to the element to prevent sharing.
 Running optimization stage 2 on OSCH .......
 Running optimization stage 2 on GSR .......
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.rt.csv
+@L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 100MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 100MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jul 25 16:31:28 2022
+# Tue Jul 26 15:05:45 2022
 
 ###########################################################]
 ###########################################################[
@@ -99,29 +99,28 @@ Implementation : impl1
 Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
 
 @N|Running in 64-bit mode
-File C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe changed - recompiling
-File C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.srs changed - recompiling
+File C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jul 25 16:31:28 2022
+# Tue Jul 26 15:05:45 2022
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_comp.rt.csv
+@L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_comp.rt.csv
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 29MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 24MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jul 25 16:31:28 2022
+# Tue Jul 26 15:05:45 2022
 
 ###########################################################]

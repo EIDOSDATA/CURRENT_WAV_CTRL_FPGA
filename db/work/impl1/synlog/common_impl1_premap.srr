@@ -1,4 +1,4 @@
-# Mon Jul 25 16:31:29 2022
+# Tue Jul 26 15:05:46 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -19,23 +19,23 @@ Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
-Reading constraint file: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
-@L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt 
-See clock summary report "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt"
+Reading constraint file: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
+@L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt 
+See clock summary report "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
 Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
@@ -51,17 +51,17 @@ Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=8 on top level netlist ci_stim_fpga_wrapper 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
 
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
-@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
+@W: MT548 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
 
 
 Clock Summary
@@ -116,7 +116,7 @@ Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
 
-@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
 
 Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
 
@@ -125,6 +125,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 89MB peak: 174MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Jul 25 16:31:31 2022
+# Tue Jul 26 15:05:48 2022
 
 ###########################################################]

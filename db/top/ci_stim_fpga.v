@@ -113,16 +113,16 @@ module ci_stim_fpga_wrapper (
 			cnt_a <= 0;			
 		end
 		
-		else if(cnt_c >= 3336999)begin //3336999 - 3666 = 3333333 >> 1sec
+		else if(cnt_c >= 3336999)begin //3336999 - 3666 = 3333333 >> 1sec / 100ms == 336999
 			cnt_c <= 3666; // anode after + 100us delay after
 		end
 		
 		// OUT CTRL1
-		else if(cnt_o1 >= 3333349)begin //3333333 > 1sec			
+		else if(cnt_o1 >= 3333350)begin //3333333 > 1sec			
 			cnt_o1 <= 17;
 		end
 		// OUT CTRL2
-		else if(cnt_o2 >= 3337015)begin //3333333 > 1sec			
+		else if(cnt_o2 >= 3337016)begin //3333333 > 1sec			
 			cnt_o2 <= 3683; // 3683
 		end
 		
@@ -170,7 +170,7 @@ module ci_stim_fpga_wrapper (
 			end
 			
 			/* OUTPUT CTRL SIGNAL */
-			if(3350 >= cnt_o1 || 7016 >= cnt_o2)begin
+			if(3350 > cnt_o1 || 7016 > cnt_o2)begin
 				output_ctrl_sig <= 1;				
 			end
 			else begin

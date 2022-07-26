@@ -10,25 +10,25 @@ z2
 cModel Technology
 dC:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/Project/db/work
 vci_stim_fpga_wrapper
-Z0 !s110 1658734659
+Z0 !s110 1658823090
 !i10b 1
-!s100 z8K]n7b:;^?>G[:92B6`R1
+!s100 eUFd4QbWQPiSNb:haGT?@0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IMNclA2cQ4mKI6f`RkGUmN1
-Z2 dC:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim
-w1658734634
-8C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v
-FC:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v
-!i122 233
+IAVEOTe9b4=oK^j>i;0jF@0
+Z2 dC:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim
+w1658823087
+8C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v
+FC:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v
+!i122 279
 L0 14 169
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 Z4 OT;L;2020.3;71
 r1
 !s85 0
 31
-Z5 !s108 1658734659.000000
-!s107 C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v|
-!s90 -reportprogress|300|-work|work|+define+SIMULATION|-stats=none|C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v|
+Z5 !s108 1658823090.000000
+!s107 C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v|
+!s90 -reportprogress|300|-work|work|+define+SIMULATION|-stats=none|C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga.v|
 !s101 -O0
 !i113 1
 Z6 o-work work -O0
@@ -39,12 +39,12 @@ R0
 !i10b 1
 !s100 Iz_DkGICSRBcA@OaK]@Gg2
 R1
-IGWd8jbCWoF5P3JCBYUCHg3
+InQm?fVK22N?^d]R9aCbX[3
 R2
 w1658734214
-8C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v
-FC:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v
-!i122 232
+8C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v
+FC:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v
+!i122 280
 L0 26 55
 R3
 R4
@@ -52,8 +52,8 @@ r1
 !s85 0
 31
 R5
-!s107 C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v|
-!s90 -reportprogress|300|-work|work|+define+SIMULATION|-stats=none|C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v|
+!s107 C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v|
+!s90 -reportprogress|300|-work|work|+define+SIMULATION|-stats=none|C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v|
 !s101 -O0
 !i113 1
 R6
