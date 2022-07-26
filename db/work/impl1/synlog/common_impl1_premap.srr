@@ -1,4 +1,4 @@
-# Mon Jul 25 17:24:26 2022
+# Tue Jul 26 17:20:15 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -17,7 +17,7 @@ Implementation : impl1
 Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
 
 Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
@@ -44,7 +44,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
 
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
@@ -56,14 +56,14 @@ Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapse
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
 
 
 Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=8 on top level netlist ci_stim_fpga_wrapper 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 173MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
 
 
 
@@ -73,7 +73,7 @@ Clock Summary
           Start       Requested     Requested     Clock        Clock                Clock
 Level     Clock       Frequency     Period        Type         Group                Load 
 -----------------------------------------------------------------------------------------
-0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     91   
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     67   
 =========================================================================================
 
 
@@ -84,7 +84,7 @@ Clock Load Summary
             Clock     Source                     Clock Pin         Non-clock Pin     Non-clock Pin
 Clock       Load      Pin                        Seq Example       Seq Example       Comb Example 
 --------------------------------------------------------------------------------------------------
-rootClk     91        internal_osc.OSC(OSCH)     out_sw1_sig.C     -                 -            
+rootClk     67        internal_osc.OSC(OSCH)     out_sw1_sig.C     -                 -            
 ==================================================================================================
 
 ICG Latch Removal Summary:
@@ -99,14 +99,14 @@ For details review file gcc_ICG_report.rpt
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 91 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 67 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ============================ Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
 ----------------------------------------------------------------------------------------
-@KP:ckid0_0       internal_osc.OSC     OSCH                   91         cnt_a[21:0]    
+@KP:ckid0_0       internal_osc.OSC     OSCH                   67         cnt_a[15:0]    
 ========================================================================================
 
 
@@ -115,10 +115,10 @@ Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
 
@@ -126,9 +126,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 92MB peak: 175MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 89MB peak: 175MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Jul 25 17:24:28 2022
+# Tue Jul 26 17:20:17 2022
 
 ###########################################################]

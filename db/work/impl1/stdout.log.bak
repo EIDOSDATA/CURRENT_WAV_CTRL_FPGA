@@ -13,7 +13,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.12\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.12\synpbase
 Hostname:    TODOC-ECHO-LAPT
-Date:        Mon Jul 25 17:14:52 2022
+Date:        Tue Jul 26 17:13:49 2022
 Version:     R-2021.03L-SP1
 
 Arguments:   -product synplify_pro -batch common_impl1_synplify.tcl
@@ -28,26 +28,26 @@ Running: impl1 in foreground
 Running proj_1|impl1
 
 Running Flow: compile (Compile) on proj_1|impl1
-# Mon Jul 25 17:14:53 2022
+# Tue Jul 26 17:13:50 2022
 
 Running Flow: compile_flow (Compile Process) on proj_1|impl1
-# Mon Jul 25 17:14:53 2022
+# Tue Jul 26 17:13:50 2022
 
 Running: compiler (Compile Input) on proj_1|impl1
-# Mon Jul 25 17:14:53 2022
+# Tue Jul 26 17:13:50 2022
 Copied C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_comp.srs to C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.srs
 
 compiler completed
-# Mon Jul 25 17:14:55 2022
+# Tue Jul 26 17:13:52 2022
 
 Return Code: 0
 Run Time:00h:00m:02s
 
 Running: multi_srs_gen (Multi-srs Generator) on proj_1|impl1
-# Mon Jul 25 17:14:55 2022
+# Tue Jul 26 17:13:52 2022
 
 multi_srs_gen completed
-# Mon Jul 25 17:14:55 2022
+# Tue Jul 26 17:13:52 2022
 
 Return Code: 0
 Run Time:00h:00m:00s
@@ -56,28 +56,28 @@ Copied C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.sr
 Complete: Compile Process on proj_1|impl1
 
 Running: premap (Premap) on proj_1|impl1
-# Mon Jul 25 17:14:55 2022
+# Tue Jul 26 17:13:52 2022
 
 premap completed with warnings
-# Mon Jul 25 17:14:57 2022
+# Tue Jul 26 17:13:54 2022
 
 Return Code: 1
 Run Time:00h:00m:02s
 Complete: Compile on proj_1|impl1
 
 Running Flow: map (Map) on proj_1|impl1
-# Mon Jul 25 17:14:57 2022
+# Tue Jul 26 17:13:54 2022
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on proj_1|impl1
-# Mon Jul 25 17:14:57 2022
+# Tue Jul 26 17:13:54 2022
 Copied C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm to C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.srm
 
 fpga_mapper completed with warnings
-# Mon Jul 25 17:15:01 2022
+# Tue Jul 26 17:13:59 2022
 
 Return Code: 1
-Run Time:00h:00m:04s
+Run Time:00h:00m:05s
 Complete: Map on proj_1|impl1
 Copied C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.srr to C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.srf
 Complete: Logic Synthesis on proj_1|impl1

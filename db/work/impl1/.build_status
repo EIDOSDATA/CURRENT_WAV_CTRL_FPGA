@@ -2,49 +2,50 @@
 <BuildStatus>
     <Strategy name="Strategy1">
         <Milestone name="Export" build_result="0" build_time="0">
-            <Task name="IBIS" build_result="0" update_result="2" update_time="1658737478"/>
-            <Task name="TimingSimFileVlg" build_result="2" update_result="0" update_time="1658737481"/>
+            <Task name="IBIS" build_result="0" update_result="2" update_time="1658823632"/>
+            <Task name="TimingSimFileVlg" build_result="2" update_result="0" update_time="1658823634"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1658737483"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1658823637"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1658737471">
-            <Task name="Map" build_result="2" update_result="0" update_time="1658737471"/>
-            <Task name="MapTrace" build_result="2" update_result="0" update_time="1658737472"/>
-            <Task name="MapVerilogSimFile" build_result="2" update_result="0" update_time="1658737473"/>
+        <Milestone name="Map" build_result="2" build_time="1658823625">
+            <Task name="Map" build_result="2" update_result="0" update_time="1658823625"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1658823626"/>
+            <Task name="MapVerilogSimFile" build_result="2" update_result="0" update_time="1658823627"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1658737478">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1658737478"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1658737479"/>
-            <Task name="IOTiming" build_result="2" update_result="0" update_time="1658737480"/>
+        <Milestone name="PAR" build_result="2" build_time="1658823632">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1658823632"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1658823632"/>
+            <Task name="IOTiming" build_result="2" update_result="0" update_time="1658823633"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1658737471">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1658737471"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1658823624">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1658823624"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1658737459"/>
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1658823624"/>
             <Task name="BKM" build_result="0" update_result="3" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1658737471">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1658737471"/>
+        <Milestone name="Translate" build_result="2" build_time="1658823625">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1658823625"/>
         </Milestone>
         <Report name="IBIS/common_impl1.ibs" last_build_time="1658730653" last_build_size="66731"/>
-        <Report name="common_impl1.bgn" last_build_time="1658737482" last_build_size="4370"/>
-        <Report name="common_impl1.edi" last_build_time="1658737470" last_build_size="137900"/>
-        <Report name="common_impl1.ior" last_build_time="1658737480" last_build_size="2294"/>
-        <Report name="common_impl1.jed" last_build_time="1658737482" last_build_size="499754"/>
-        <Report name="common_impl1.ncd" last_build_time="1658737478" last_build_size="163098"/>
-        <Report name="common_impl1.ngd" last_build_time="1658737471" last_build_size="139110"/>
-        <Report name="common_impl1.tw1" last_build_time="1658737472" last_build_size="10703"/>
-        <Report name="common_impl1.twr" last_build_time="1658737479" last_build_size="67582"/>
-        <Report name="common_impl1_map.ncd" last_build_time="1658737471" last_build_size="110684"/>
-        <Report name="common_impl1_mapvo.sdf" last_build_time="1658737473" last_build_size="114166"/>
-        <Report name="common_impl1_mapvo.vo" last_build_time="1658737473" last_build_size="122019"/>
-        <Report name="common_impl1_vo.sdf" last_build_time="1658737481" last_build_size="128862"/>
-        <Report name="common_impl1_vo.vo" last_build_time="1658737481" last_build_size="127094"/>
+        <Report name="common_impl1.bgn" last_build_time="1658823637" last_build_size="4370"/>
+        <Report name="common_impl1.edi" last_build_time="1658823621" last_build_size="103257"/>
+        <Report name="common_impl1.ior" last_build_time="1658823633" last_build_size="2294"/>
+        <Report name="common_impl1.jed" last_build_time="1658823637" last_build_size="499754"/>
+        <Report name="common_impl1.ncd" last_build_time="1658823632" last_build_size="119728"/>
+        <Report name="common_impl1.ngd" last_build_time="1658823625" last_build_size="103355"/>
+        <Report name="common_impl1.tw1" last_build_time="1658823626" last_build_size="9968"/>
+        <Report name="common_impl1.twr" last_build_time="1658823632" last_build_size="57741"/>
+        <Report name="common_impl1_map.ncd" last_build_time="1658823625" last_build_size="81875"/>
+        <Report name="common_impl1_mapvo.sdf" last_build_time="1658823627" last_build_size="83588"/>
+        <Report name="common_impl1_mapvo.vo" last_build_time="1658823627" last_build_size="90954"/>
+        <Report name="common_impl1_vo.sdf" last_build_time="1658823634" last_build_size="94335"/>
+        <Report name="common_impl1_vo.vo" last_build_time="1658823634" last_build_size="95659"/>
     </Strategy>
 </BuildStatus>
+                        

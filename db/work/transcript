@@ -5,7 +5,7 @@
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.ci_stim_fpga_wrapper_tb
 # vsim -gui work.ci_stim_fpga_wrapper_tb 
-# Start time: 17:13:10 on Jul 25,2022
+# Start time: 17:12:38 on Jul 26,2022
 # //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -33,8 +33,6 @@ run -all
 # 1
 # Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
 run -all
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Compile of ci_stim_fpga.v was successful.
 # Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
 # 2 compiles, 0 failed with no errors.
@@ -67,85 +65,7 @@ run -all
 # 1
 # Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
 run -all
-# Compile of ci_stim_fpga.v was successful.
-# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ci_stim_fpga_wrapper_tb
-# Loading work.ci_stim_fpga_wrapper
-run -all
-# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
-# 
-# 
-# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
-#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
-# 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
-run -all
-# Compile of ci_stim_fpga.v was successful.
-# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ci_stim_fpga_wrapper_tb
-# Loading work.ci_stim_fpga_wrapper
-run -all
-# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
-# 
-# 
-# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
-#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
-# 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
-run -all
-# Compile of ci_stim_fpga.v was successful.
-# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ci_stim_fpga_wrapper_tb
-# Loading work.ci_stim_fpga_wrapper
-run -all
-# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
-# 
-# 
-# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
-#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
-# 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
-run -all
-# Compile of ci_stim_fpga.v was successful.
-# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ci_stim_fpga_wrapper_tb
-# Loading work.ci_stim_fpga_wrapper
-run -all
-# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
-# 
-# 
-# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
-#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
-# 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
-run -all
-# Compile of ci_stim_fpga.v was successful.
-# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ci_stim_fpga_wrapper_tb
-# Loading work.ci_stim_fpga_wrapper
-run -all
-# GetModuleFileName: 지정된 모듈을 찾을 수 없습니다.
-# 
-# 
-# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(49)
-#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
-# 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 49
-run -all
-# End time: 17:25:20 on Jul 25,2022, Elapsed time: 0:12:10
-# Errors: 0, Warnings: 1
+# Break key hit
+# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 62
+# End time: 17:24:09 on Jul 26,2022, Elapsed time: 0:11:31
+# Errors: 0, Warnings: 2
