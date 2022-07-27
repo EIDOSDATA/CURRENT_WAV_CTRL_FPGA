@@ -1,12 +1,12 @@
 #--  Synopsys, Inc.
-#--  Version Q-2020.03L-SP1
-#--  Project file C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\run_options.txt
-#--  Written on Tue Jul 26 15:05:44 2022
+#--  Version R-2021.03L-SP1
+#--  Project file C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\run_options.txt
+#--  Written on Tue Jul 26 17:20:12 2022
 
 
 #project files
-add_file -constraint "C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/sdc/common.sdc"
-add_file -verilog -vlog_std v2001 "C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v"
+add_file -constraint "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/sdc/common.sdc"
+add_file -verilog -vlog_std v2001 "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v"
 
 
 #implementation: "impl1"
@@ -18,7 +18,7 @@ impl -add impl1 -type fpga
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
 set_option -hdl_define -set XO2
-set_option -include_path {C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work}
+set_option -include_path {C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work}
 
 #device options
 set_option -technology MACHXO2
@@ -40,6 +40,7 @@ set_option -srs_instrumentation 1
 
 # mapper_options
 set_option -write_verilog 0
+set_option -write_structural_verilog 0
 set_option -write_vhdl 0
 
 # Lattice XP
@@ -76,5 +77,5 @@ set_option -write_apr_constraint 1
 project -result_file "./common_impl1.edi"
 
 #set log file 
-set_option log_file "C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/impl1/common_impl1.srf" 
+set_option log_file "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/impl1/common_impl1.srf" 
 impl -active "impl1"

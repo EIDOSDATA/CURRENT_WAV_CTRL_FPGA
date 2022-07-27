@@ -1,5 +1,0 @@
-#Start recording tcl command: 7/25/2022 16:31:17
-#Project Location: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/db/work; Project name: common
-prj_project open "C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/CURRENT_WAV_CTRL_FPGA/db/work/common.ldf"
-prj_run Export -impl impl1
-#Stop recording: 7/25/2022 16:39:47

@@ -92,9 +92,10 @@ module ci_stim_fpga_wrapper (
 `endif
 `endif
 	
-	reg [23:0] anode_duty = 3367; // 1ms
-	reg [23:0] cathode_duty = 7033; // 3666 ~ 6999 >> 3333 >> 1ms
-	reg [23:0] output_ctrl_duty = 6999; // +333
+	reg [23:0] anode_duty = 1700; // 500us + 10.2us >> 1666.5 + 34
+	reg [23:0] cathode_duty = 3433; // (1666.5 + delay(66)) ~ 3399 + 34 >> 1666.5 + 34 >> 500us + 10.2us
+	//reg [23:0] cathode_duty = 7033; // 3666 ~ 6999 >> 3333 >> 1ms + 10.2us
+	//reg [23:0] output_ctrl_duty = 6999; // +333
 	reg [23:0] cnt_a;
 	reg [23:0] cnt_c;
 	reg [23:0] cnt_o1;
@@ -109,21 +110,21 @@ module ci_stim_fpga_wrapper (
 			cnt_o2 <= 0;
 		end
 		
-		else if(cnt_a >= 3333333)begin //3333333 > 1sec
+		else if(cnt_a >= 33333)begin //3333333 > 1sec
 			cnt_a <= 0;			
 		end
 		
-		else if(cnt_c >= 3336999)begin //3336999 - 3666 = 3333333 >> 1sec / 100ms == 336999
-			cnt_c <= 3666; // anode after + 100us delay after
+		else if(cnt_c >= 35065)begin //35065.5 - 1732.5 = 33333 >> 1sec / 100ms == 336999
+			cnt_c <= 1732; // anode after + 20us delay after
 		end
 		
 		// OUT CTRL1
-		else if(cnt_o1 >= 3333350)begin //3333333 > 1sec			
+		else if(cnt_o1 >= 33350)begin //3333333 > 1sec			
 			cnt_o1 <= 17;
 		end
 		// OUT CTRL2
-		else if(cnt_o2 >= 3337016)begin //3333333 > 1sec			
-			cnt_o2 <= 3683; // 3683
+		else if(cnt_o2 >= 35082)begin //3333333 > 1sec			
+			cnt_o2 <= 1749; // 3683
 		end
 		
 		
@@ -170,7 +171,7 @@ module ci_stim_fpga_wrapper (
 			end
 			
 			/* OUTPUT CTRL SIGNAL */
-			if(3350 > cnt_o1 || 7016 > cnt_o2)begin
+			if(1683 > cnt_o1 || 3416 > cnt_o2)begin
 				output_ctrl_sig <= 1;				
 			end
 			else begin
