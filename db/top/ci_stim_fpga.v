@@ -5,7 +5,7 @@
 `define ST_RUN			(3'd2) /* 010 */
 `define ST_ERROR		(3'd3) /* 011 */
 // FSM2 STATUS >> PULSE
-`define ST_PULSE_IDLE			(3'd4) /* 101 */
+`define ST_PULSE_IDLE	(3'd4) /* 101 */
 `define ST_ANODE_LV		(3'd5) /* 110 */
 `define ST_CATHODE_LV	(3'd6) /* 111 */
 `define ST_INTERPHASE	(3'd7) /* 111 */
@@ -50,7 +50,7 @@ ____|   |____|   |____|   |____|   |____
    22.17,24.18,26.60,29.56,33.25,38.00,44.33,53.20,66.50,88.67,133.00 MHz 
 */
 
-module ci_stim_fpga_wrapper (	
+module ci_stim_fpga_wrapper (
 	/**
 	- FPGA related signals
 	*/
@@ -59,9 +59,9 @@ module ci_stim_fpga_wrapper (
 	i_start_btn,
 	i_stop_btn,
 	i_duty,
-	i_idle,	
+	i_idle,
 	
-	/* OUTPUT PORTS */	
+	/* OUTPUT PORTS */
 	// PULSE OUTPUT
 	o_ano_top,
 	o_ano_bot,
@@ -70,7 +70,7 @@ module ci_stim_fpga_wrapper (
 	o_curr_ena, // CURRENT SOURCE CONTROL
 	
 	// LED OUTPUT
-	o_led	
+	o_led
 ) /* synthesis syn_force_pads=1 syn_noprune=1*/;
 	/**
 	- FPGA related signals
@@ -80,16 +80,16 @@ module ci_stim_fpga_wrapper (
 	input i_start_btn/* synthesis LOC="69" IO_TYPE="LVCMOS33" PULLMODE="UP" */;
 	input i_stop_btn/* synthesis LOC="69" IO_TYPE="LVCMOS33" PULLMODE="UP" */;
 	input [2:0] i_duty/* synthesis LOC="69" IO_TYPE="LVCMOS33" PULLMODE="UP" */;
-	input [2:0] i_idle/* synthesis LOC="25,24,21,20" IO_TYPE="LVCMOS33,LVCMOS33,LVCMOS33,LVCMOS33" PULLMODE="DOWN,DOWN,UP,UP" */; // 0011	
+	input [2:0] i_idle/* synthesis LOC="25,24,21,20" IO_TYPE="LVCMOS33,LVCMOS33,LVCMOS33,LVCMOS33" PULLMODE="DOWN,DOWN,UP,UP" */; // 0011
 	// EOF INPUT PORTS
 	
-	/* OUTPUT PORTS */	
-	output [3:0] o_ano_top/* synthesis LOC="64" IO_TYPE="LVCMOS33" PULLMODE="NONE" */; 
-	output [3:0] o_ano_bot/* synthesis LOC="65" IO_TYPE="LVCMOS33" PULLMODE="NONE" */; 
-	output [3:0] o_cat_top/* synthesis LOC="66" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;	
+	/* OUTPUT PORTS */
+	output [3:0] o_ano_top/* synthesis LOC="64" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
+	output [3:0] o_ano_bot/* synthesis LOC="65" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
+	output [3:0] o_cat_top/* synthesis LOC="66" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
 	output [3:0] o_cat_bot/* synthesis LOC="67" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
-	output [3:0] o_curr_ena/* synthesis LOC="68" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;	
-	output [2:0] o_led/* synthesis LOC="68" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;	
+	output [3:0] o_curr_ena/* synthesis LOC="68" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
+	output [2:0] o_led/* synthesis LOC="68" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
 	// EOF OUTPUT PORTS
 	
 	/* OUTPUT PORT */
@@ -97,15 +97,15 @@ module ci_stim_fpga_wrapper (
 	reg [3:0] r_ano_bot;
 	reg [3:0] r_cat_top;
 	reg [3:0] r_cat_bot;
-	reg [3:0] r_curr_ena;	
-	reg [2:0] r_led;	
+	reg [3:0] r_curr_ena;
+	reg [2:0] r_led;
 	/* Combinational Logic to Flip-Flop */
 	reg [3:0] c_ano_top;
 	reg [3:0] c_ano_bot;
 	reg [3:0] c_cat_top;
 	reg [3:0] c_cat_bot;
 	reg [3:0] c_curr_ena;
-	reg [2:0] c_led;	
+	reg [2:0] c_led;
 	// EOF OUTPUT PORT
 	
 	/* INPUT SET VALUE REG */
@@ -117,30 +117,30 @@ module ci_stim_fpga_wrapper (
 	// EOF INPUT REG
 	
 	/* STATE & TIME */
-	reg [2:0] r_state;			
+	reg [2:0] r_state;
 	reg [2:0] c_next_state;
 	// EOF STATE & TIME
 	
 	/* STATE SIGNAL */
-	reg r_init_ok = 0;	
+	reg r_init_ok = 0;
 	reg r_run_state = 0; // START: 1 /  STOP : 0
 						 // START and STOP value
 	reg r_idle_phase;
 	reg r_anode_phase;
 	reg r_cathod_phase;
-	reg r_interphase;	
+	reg r_interphase;
 	/* Combinational Logic to Flip-Flop */
 	reg c_run_phase_en;
 	reg c_idle_phase_en;
 	reg c_anode_phase_en;
-	reg c_cathod_phase_en;	
+	reg c_cathod_phase_en;
 	reg c_interphase_en;
 	// EOF STATE SIGNAL
 	
 	/* COUNTER */
 	reg [23:0] r_idle_cnt;
 	reg [23:0] r_duty_cnt;
-	reg [23:0] r_interphase_cnt;	
+	reg [23:0] r_interphase_cnt;
 	// EOF COUNTER
 
 	/*------------------------------------------------------------------------------*/
@@ -148,13 +148,13 @@ module ci_stim_fpga_wrapper (
 	/*------------------------------------------------------------------------------*/
 	//assign o_debug_led = {w_bcg_fsm_start,w_rate_tmout,r_cathod_phase,r_interphase,r_anode_phase,r_state};
 	//assign o_debug_led = r_search_disabled_channel | (r_search_disabled_channel_phase << 7) | c_map_cathod_channel;
-	//assign o_debug_led = {r_search_disabled_channel_phase,w_search_disabled_channel_phase_end_p,r_stim_bcg1_sel,c_disabled_dac_sel};				
+	//assign o_debug_led = {r_search_disabled_channel_phase,w_search_disabled_channel_phase_end_p,r_stim_bcg1_sel,c_disabled_dac_sel};
 	assign o_ano_top = r_ano_top;
 	assign o_ano_bot = r_ano_bot;
 	assign o_cat_top = r_cat_top;
-	assign o_cat_bot = r_cat_bot;	
-	assign o_curr_ena = r_curr_ena;	
-	assign o_led = o_led;		
+	assign o_cat_bot = r_cat_bot;
+	assign o_curr_ena = r_curr_ena;
+	assign o_led = r_led;
 	/* END OF Output assignments */
 		
 	
@@ -391,13 +391,15 @@ module ci_stim_fpga_wrapper (
 		end
 	end
 	
-	/* PULSE FSM */
+	/* FSM START POINT */
 	always @(posedge w_clk or negedge i_rst_n)
 	begin
 		if (~i_rst_n) begin
+			r_led[0] <= 1;
 			r_state <= `ST_INIT;
 		end		
 		else begin
+			r_led[0] <= 0;
 			r_state <= c_next_state;
 		end
 	end
