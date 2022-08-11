@@ -36,9 +36,9 @@ ____|   |____|   |____|   |____|   |____
 <------rate-----><------rate------><------rate----->
 */
 // PULSE TIME DEFINITION
-`define INTERPHASE_TIME					(100) 	/* CONST VALUE 100us */
-`define MIN_IDLE_TIME					(100) 	/* CONST VALUE 100us */
-`define CURRENT_SOURCE_INTERVAL_TIME	(5)		/* CONST VALUE 5us */
+`define INTERPHASE_TIME					(333) 	/* CONST VALUE 100us */
+`define MIN_IDLE_TIME					(333) 	/* CONST VALUE 100us */
+`define CURRENT_SOURCE_INTERVAL_TIME	(17)	/* CONST VALUE 5us */
 
 `define NOM_FREQ ("3.33")
 	
