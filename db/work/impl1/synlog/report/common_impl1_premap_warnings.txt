@@ -1,3 +1,4 @@
+@W: MO129 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":292:4:292:9|Sequential instance o_curr_ena_1[0] is reduced to a combinational gate by constant propagation.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.

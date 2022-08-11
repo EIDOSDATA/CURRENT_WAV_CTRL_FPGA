@@ -1,4 +1,4 @@
-# Mon Aug  8 14:15:06 2022
+# Thu Aug 11 15:29:26 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -29,7 +29,7 @@ See clock summary report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\im
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 131MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
 
 
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
@@ -40,6 +40,7 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
+@W: MO129 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":292:4:292:9|Sequential instance o_curr_ena_1[0] is reduced to a combinational gate by constant propagation.
 
 Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
 
@@ -73,7 +74,7 @@ Clock Summary
           Start       Requested     Requested     Clock        Clock                Clock
 Level     Clock       Frequency     Period        Type         Group                Load 
 -----------------------------------------------------------------------------------------
-0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     91   
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     1    
 =========================================================================================
 
 
@@ -81,11 +82,11 @@ Level     Clock       Frequency     Period        Type         Group            
 Clock Load Summary
 ***********************
 
-            Clock     Source                     Clock Pin          Non-clock Pin     Non-clock Pin
-Clock       Load      Pin                        Seq Example        Seq Example       Comb Example 
----------------------------------------------------------------------------------------------------
-rootClk     91        internal_osc.OSC(OSCH)     r_ano_top[0].C     -                 -            
-===================================================================================================
+            Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------
+rootClk     1         internal_osc.OSC(OSCH)     r_led[0].C      -                 -            
+================================================================================================
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -99,14 +100,14 @@ For details review file gcc_ICG_report.rpt
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 91 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ============================ Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
 ----------------------------------------------------------------------------------------
-@KP:ckid0_0       internal_osc.OSC     OSCH                   91         cnt_a[21:0]    
+@KP:ckid0_0       internal_osc.OSC     OSCH                   1          r_led[0]       
 ========================================================================================
 
 
@@ -115,20 +116,20 @@ Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
 
 
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 90MB peak: 175MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 89MB peak: 175MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Aug  8 14:15:07 2022
+# Thu Aug 11 15:29:28 2022
 
 ###########################################################]

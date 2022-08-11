@@ -345,7 +345,7 @@ module ci_stim_fpga_wrapper (
 		else if(c_idle_phase_en) begin
 			r_duty_cnt <= 0;
 			r_idle_phase <= 1;
-			r_idle_cnt = r_idle_cnt + 1;
+			r_idle_cnt <= r_idle_cnt + 1;
 		end
 		// ANODE PULSE DUTY COUNTER
 		else if(c_anode_phase_en) begin
@@ -367,7 +367,7 @@ module ci_stim_fpga_wrapper (
 		end
 	end
 	
-	/* 카운팅 값 비교 */	
+	/* 카운팅 값 비교 및 출력 연결 */	
 	always @(posedge w_clk or negedge i_rst_n)
 	begin
 		if (~i_rst_n) begin			
@@ -388,6 +388,13 @@ module ci_stim_fpga_wrapper (
 		// INTERPHASE COMPARE
 		else if(`INTERPHASE_TIME == r_interphase_cnt) begin
 			r_interphase <= 0;
+		end
+		else begin
+			r_ano_top <= c_ano_top;
+			r_ano_bot <= c_ano_bot;
+			r_cat_top <= c_cat_top;
+			r_cat_bot <= c_cat_bot;	
+			r_curr_ena <= c_curr_ena;
 		end
 	end
 	

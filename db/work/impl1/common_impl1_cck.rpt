@@ -13,7 +13,7 @@ Hostname: TODOC-ECHO-LAPT
 
 Implementation : impl1
 
-# Written on Mon Aug  8 14:15:07 2022
+# Written on Thu Aug 11 15:29:28 2022
 
 ##### DESIGN INFO #######################################################
 
@@ -35,10 +35,9 @@ Found 25 issues in 17 out of 18 constraints
 Clock Relationships
 *******************
 
-Starting     Ending      |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
-------------------------------------------------------------------------------------------------------------------------------------
-rootClk      rootClk     |     250.000          |     No paths         |     No paths         |     No paths                         
-====================================================================================================================================
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -49,21 +48,12 @@ Unconstrained Start/End Points
 p:i_duty[0]
 p:i_duty[1]
 p:i_duty[2]
-p:i_duty[3]
-p:i_duty[4]
-p:i_duty[5]
-p:i_duty[6]
-p:i_duty[7]
-p:i_rate[0]
-p:i_rate[1]
-p:i_rate[2]
-p:i_rate[3]
-p:i_rate[4]
-p:i_rate[5]
-p:i_rate[6]
-p:i_rate[7]
+p:i_idle[0]
+p:i_idle[1]
+p:i_idle[2]
 p:i_rst_n
-p:i_run_trigger
+p:i_start_btn
+p:i_stop_btn
 p:o_ano_bot[0]
 p:o_ano_bot[1]
 p:o_ano_bot[2]
@@ -84,7 +74,6 @@ p:o_curr_ena[0]
 p:o_curr_ena[1]
 p:o_curr_ena[2]
 p:o_curr_ena[3]
-p:o_err_debug
 p:o_led[0]
 p:o_led[1]
 p:o_led[2]
