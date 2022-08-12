@@ -2,55 +2,47 @@
 i_rst_n_c_i i_rst_n_c
 [ END MERGED ]
 [ START CLIPPED ]
-cnt_o2_s_0_S1[21]
-cnt_o2_s_0_COUT[21]
-cnt_c_cry_0_S0[0]
+r_idle_cnt_s_0_S1[23]
+r_idle_cnt_s_0_COUT[23]
+r_interphase_cnt_cry_0_S0[0]
 N_2
-cnt_c_s_0_S1[21]
-cnt_c_s_0_COUT[21]
-cnt_o1_cry_0_S0[0]
-N_3
-cnt_o1_s_0_S1[21]
-cnt_o1_s_0_COUT[21]
-un1_cnt_a_1_cry_0_0_S0
-N_4
-un1_cnt_a_1_s_21_0_S1
-un1_cnt_a_1_s_21_0_COUT
-i_run_trigger_c
-i_run_trigger
-i_duty_c[0]
-i_duty[0]
-i_duty_c[1]
-i_duty[1]
-i_duty_c[2]
-i_duty[2]
-i_duty_c[3]
-i_duty[3]
-i_duty_c[4]
-i_duty[4]
-i_duty_c[5]
-i_duty[5]
-i_duty_c[6]
-i_duty[6]
-i_duty_c[7]
-i_duty[7]
-i_rate_c[0]
-i_rate[0]
-i_rate_c[1]
-i_rate[1]
-i_rate_c[2]
-i_rate[2]
-i_rate_c[3]
-i_rate[3]
-i_rate_c[4]
-i_rate[4]
-i_rate_c[5]
-i_rate[5]
-i_rate_c[6]
-i_rate[6]
-i_rate_c[7]
-i_rate[7]
-cnt_o2_cry_0_S0[0]
+r_interphase_cnt_s_0_S1[23]
+r_interphase_cnt_s_0_COUT[23]
+r_duty_cnt_cry_0_S0[0]
+N_10
+r_duty_cnt_s_0_S1[23]
+r_duty_cnt_s_0_COUT[23]
+un1_r_duty_21_0_I_1_0_S1
+un1_r_duty_21_0_I_1_0_S0
+N_11
+un1_r_duty_21_0_I_9_0_S1
+un1_r_duty_21_0_I_9_0_S0
+un1_r_duty_21_0_I_27_0_S1
+un1_r_duty_21_0_I_27_0_S0
+un1_r_duty_21_0_I_33_0_S1
+un1_r_duty_21_0_I_33_0_S0
+un1_r_duty_21_0_I_21_0_S1
+un1_r_duty_21_0_I_21_0_S0
+un1_r_duty_21_0_I_57_0_S1
+un1_r_duty_21_0_I_57_0_S0
+un1_r_duty_21_0_I_45_0_S0
+un1_r_duty_21_0_I_45_0_COUT
+un1_r_idle_21_0_I_1_0_S1
+un1_r_idle_21_0_I_1_0_S0
+N_12
+un1_r_idle_21_0_I_9_0_S1
+un1_r_idle_21_0_I_9_0_S0
+un1_r_idle_21_0_I_27_0_S1
+un1_r_idle_21_0_I_27_0_S0
+un1_r_idle_21_0_I_33_0_S1
+un1_r_idle_21_0_I_33_0_S0
+un1_r_idle_21_0_I_21_0_S1
+un1_r_idle_21_0_I_21_0_S0
+un1_r_idle_21_0_I_57_0_S1
+un1_r_idle_21_0_I_57_0_S0
+un1_r_idle_21_0_I_45_0_S0
+un1_r_idle_21_0_I_45_0_COUT
+r_idle_cnt_cry_0_S0[0]
 N_1
 internal_osc_SEDSTDBY
 [ END CLIPPED ]
@@ -59,11 +51,24 @@ w_clk 3.33
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.1.454 -- WARNING: Map write only section -- Mon Aug 08 14:15:12 2022
+# map:  version Diamond (64-bit) 3.12.1.454 -- WARNING: Map write only section -- Fri Aug 12 14:36:03 2022
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
-LOCATE COMP "i_rst_n" SITE "69" ;
-LOCATE COMP "o_err_debug" SITE "68" ;
+LOCATE COMP "o_ano_top" SITE "39" ;
+LOCATE COMP "i_rst_n" SITE "78" ;
+LOCATE COMP "o_led" SITE "13" ;
+LOCATE COMP "o_curr_ena" SITE "43" ;
+LOCATE COMP "o_cat_bot" SITE "42" ;
+LOCATE COMP "o_cat_top" SITE "41" ;
+LOCATE COMP "o_ano_bot" SITE "40" ;
+LOCATE COMP "i_idle[2]" SITE "96" ;
+LOCATE COMP "i_idle[1]" SITE "88" ;
+LOCATE COMP "i_idle[0]" SITE "87" ;
+LOCATE COMP "i_duty[2]" SITE "99" ;
+LOCATE COMP "i_duty[1]" SITE "98" ;
+LOCATE COMP "i_duty[0]" SITE "97" ;
+LOCATE COMP "i_stop_btn" SITE "76" ;
+LOCATE COMP "i_start_btn" SITE "77" ;
 FREQUENCY NET "w_clk" 3.330000 MHz ;
 SCHEMATIC END ;
 [ END DESIGN PREFS ]

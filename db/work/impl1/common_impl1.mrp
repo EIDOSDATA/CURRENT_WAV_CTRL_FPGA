@@ -15,24 +15,24 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.1.454
-Mapped on:  08/08/22  14:15:11
+Mapped on:  08/12/22  14:36:02
 
 Design Summary
 --------------
 
-   Number of registers:     91 out of  2352 (4%)
-      PFU registers:           90 out of  2112 (4%)
-      PIO registers:            1 out of   240 (0%)
-   Number of SLICEs:        87 out of  1056 (8%)
-      SLICEs as Logic/ROM:     87 out of  1056 (8%)
+   Number of registers:    162 out of  2352 (7%)
+      PFU registers:          162 out of  2112 (8%)
+      PIO registers:            0 out of   240 (0%)
+   Number of SLICEs:       121 out of  1056 (11%)
+      SLICEs as Logic/ROM:    121 out of  1056 (11%)
       SLICEs as RAM:            0 out of   792 (0%)
-      SLICEs as Carry:         48 out of  1056 (5%)
-   Number of LUT4s:        173 out of  2112 (8%)
-      Number used as logic LUTs:         77
+      SLICEs as Carry:         53 out of  1056 (5%)
+   Number of LUT4s:        239 out of  2112 (11%)
+      Number used as logic LUTs:        133
       Number used as distributed RAM:     0
-      Number used as ripple logic:       96
+      Number used as ripple logic:      106
       Number used as shift registers:     0
-   Number of PIO sites used: 25 + 4(JTAG) out of 80 (36%)
+   Number of PIO sites used: 15 + 4(JTAG) out of 80 (24%)
    Number of block RAMs:  0 out of 8 (0%)
    Number of GSRs:        1 out of 1 (100%)
    EFB used :        No
@@ -58,36 +58,41 @@ Design Summary
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net w_clk: 55 loads, 55 rising, 0 falling (Driver: internal_osc )
-   Number of Clock Enables:  4
+     Net w_clk: 90 loads, 90 rising, 0 falling (Driver: internal_osc )
+   Number of Clock Enables:  9
 
                                     Page 1
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/08/22  14:15:11
+Design:  ci_stim_fpga_wrapper                          Date:  08/12/22  14:36:02
 
 Design Summary (cont)
 ---------------------
-     Net i_rst_n_c: 1 loads, 0 LSLICEs
-     Net cnt_ce: 12 loads, 12 LSLICEs
-     Net un1_cnt_a15_2_i: 12 loads, 12 LSLICEs
-     Net cnt_o1e: 12 loads, 12 LSLICEs
-   Number of local set/reset loads for net i_rst_n_c merged into GSR:  90
+     Net un1_r_run_state17_1: 1 loads, 1 LSLICEs
+     Net un1_r_run_state13: 1 loads, 1 LSLICEs
+     Net r_interphase_cnte: 13 loads, 13 LSLICEs
+     Net un1_r_run_state18: 1 loads, 1 LSLICEs
+     Net un1_r_run_state14: 20 loads, 20 LSLICEs
+     Net un1_r_run_state16: 1 loads, 1 LSLICEs
+     Net r_idle_cnte: 13 loads, 13 LSLICEs
+     Net r_duty_cnte: 13 loads, 13 LSLICEs
+     Net un1_r_run_state19: 1 loads, 1 LSLICEs
+   Number of local set/reset loads for net i_rst_n_c merged into GSR:  162
    Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net cnt_c: 27 loads
-     Net cnt_o1: 27 loads
-     Net cnt_o2: 26 loads
-     Net un1_cnt_alto21: 17 loads
-     Net cnt_ce: 12 loads
-     Net cnt_o1e: 12 loads
-     Net un1_cnt_a15_2_i: 12 loads
-     Net cnt_a[19]: 3 loads
-     Net cnt_a[20]: 3 loads
-     Net cnt_a[21]: 3 loads
+     Net i_stop_btn_c: 45 loads
+     Net N_155_i: 25 loads
+     Net r_idle_cnt: 25 loads
+     Net r_interphase_cnt: 25 loads
+     Net un1_r_run_state14: 20 loads
+     Net i_duty_c[0]: 18 loads
+     Net i_duty_c[1]: 18 loads
+     Net i_duty_c[2]: 18 loads
+     Net i_idle_c[0]: 18 loads
+     Net i_idle_c[1]: 18 loads
 
 
 
@@ -114,160 +119,109 @@ IO (PIO) Attributes
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| o_ano_top[0]        | OUTPUT    | LVCMOS33  |            |
+| o_ano_top           | OUTPUT    | LVCMOS18  |            |
 +---------------------+-----------+-----------+------------+
-| i_rst_n             | INPUT     | LVCMOS33  |            |
+| i_rst_n             | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_err_debug         | OUTPUT    | LVCMOS33  |            |
+| o_led               | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| o_led[2]            | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_led[1]            | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_led[0]            | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
+| o_curr_ena          | OUTPUT    | LVCMOS18  |            |
 
                                     Page 2
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/08/22  14:15:11
+Design:  ci_stim_fpga_wrapper                          Date:  08/12/22  14:36:02
 
 IO (PIO) Attributes (cont)
 --------------------------
-| o_curr_ena[3]       | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| o_curr_ena[2]       | OUTPUT    | LVCMOS33  |            |
+| o_cat_bot           | OUTPUT    | LVCMOS18  |            |
 +---------------------+-----------+-----------+------------+
-| o_curr_ena[1]       | OUTPUT    | LVCMOS33  |            |
+| o_cat_top           | OUTPUT    | LVCMOS18  |            |
 +---------------------+-----------+-----------+------------+
-| o_curr_ena[0]       | OUTPUT    | LVCMOS33  | OUT        |
+| o_ano_bot           | OUTPUT    | LVCMOS18  |            |
 +---------------------+-----------+-----------+------------+
-| o_cat_bot[3]        | OUTPUT    | LVCMOS33  |            |
+| i_idle[2]           | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_cat_bot[2]        | OUTPUT    | LVCMOS33  |            |
+| i_idle[1]           | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_cat_bot[1]        | OUTPUT    | LVCMOS33  |            |
+| i_idle[0]           | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_cat_bot[0]        | OUTPUT    | LVCMOS33  |            |
+| i_duty[2]           | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_cat_top[3]        | OUTPUT    | LVCMOS33  |            |
+| i_duty[1]           | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_cat_top[2]        | OUTPUT    | LVCMOS33  |            |
+| i_duty[0]           | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_cat_top[1]        | OUTPUT    | LVCMOS33  |            |
+| i_stop_btn          | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_cat_top[0]        | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_ano_bot[3]        | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_ano_bot[2]        | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_ano_bot[1]        | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_ano_bot[0]        | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_ano_top[3]        | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_ano_top[2]        | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| o_ano_top[1]        | OUTPUT    | LVCMOS33  |            |
+| i_start_btn         | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
 
 Removed logic
 -------------
 
-Block VCC undriven or does not drive anything - clipped.
-Block i_run_trigger_pad undriven or does not drive anything - clipped.
-Block i_duty_pad[0] undriven or does not drive anything - clipped.
-Block i_duty_pad[1] undriven or does not drive anything - clipped.
-Block i_duty_pad[2] undriven or does not drive anything - clipped.
-Block i_duty_pad[3] undriven or does not drive anything - clipped.
-Block i_duty_pad[4] undriven or does not drive anything - clipped.
-Block i_duty_pad[5] undriven or does not drive anything - clipped.
-Block i_duty_pad[6] undriven or does not drive anything - clipped.
-Block i_duty_pad[7] undriven or does not drive anything - clipped.
-Block i_rate_pad[0] undriven or does not drive anything - clipped.
-Block i_rate_pad[1] undriven or does not drive anything - clipped.
-Block i_rate_pad[2] undriven or does not drive anything - clipped.
-Block i_rate_pad[3] undriven or does not drive anything - clipped.
+Signal i_rst_n_c_i was merged into signal i_rst_n_c
+Signal r_idle_cnt_s_0_S1[23] undriven or does not drive anything - clipped.
+Signal r_idle_cnt_s_0_COUT[23] undriven or does not drive anything - clipped.
+Signal r_interphase_cnt_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal N_2 undriven or does not drive anything - clipped.
+Signal r_interphase_cnt_s_0_S1[23] undriven or does not drive anything -
+     clipped.
+Signal r_interphase_cnt_s_0_COUT[23] undriven or does not drive anything -
+     clipped.
+Signal r_duty_cnt_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal N_10 undriven or does not drive anything - clipped.
+Signal r_duty_cnt_s_0_S1[23] undriven or does not drive anything - clipped.
+Signal r_duty_cnt_s_0_COUT[23] undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_1_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_1_0_S0 undriven or does not drive anything - clipped.
+Signal N_11 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_9_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_9_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_27_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_27_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_33_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_33_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_21_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_21_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_57_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_57_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_45_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_duty_21_0_I_45_0_COUT undriven or does not drive anything -
 
                                     Page 3
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/08/22  14:15:11
+Design:  ci_stim_fpga_wrapper                          Date:  08/12/22  14:36:02
 
 Removed logic (cont)
 --------------------
-Block i_rate_pad[4] undriven or does not drive anything - clipped.
-Block i_rate_pad[5] undriven or does not drive anything - clipped.
-Block i_rate_pad[6] undriven or does not drive anything - clipped.
-Block i_rate_pad[7] undriven or does not drive anything - clipped.
-Signal i_rst_n_c_i was merged into signal i_rst_n_c
-Signal cnt_o2_s_0_S1[21] undriven or does not drive anything - clipped.
-Signal cnt_o2_s_0_COUT[21] undriven or does not drive anything - clipped.
-Signal cnt_c_cry_0_S0[0] undriven or does not drive anything - clipped.
-Signal N_2 undriven or does not drive anything - clipped.
-Signal cnt_c_s_0_S1[21] undriven or does not drive anything - clipped.
-Signal cnt_c_s_0_COUT[21] undriven or does not drive anything - clipped.
-Signal cnt_o1_cry_0_S0[0] undriven or does not drive anything - clipped.
-Signal N_3 undriven or does not drive anything - clipped.
-Signal cnt_o1_s_0_S1[21] undriven or does not drive anything - clipped.
-Signal cnt_o1_s_0_COUT[21] undriven or does not drive anything - clipped.
-Signal un1_cnt_a_1_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal N_4 undriven or does not drive anything - clipped.
-Signal un1_cnt_a_1_s_21_0_S1 undriven or does not drive anything - clipped.
-Signal un1_cnt_a_1_s_21_0_COUT undriven or does not drive anything - clipped.
-Signal i_run_trigger_c undriven or does not drive anything - clipped.
-Signal i_run_trigger undriven or does not drive anything - clipped.
-Signal i_duty_c[0] undriven or does not drive anything - clipped.
-Signal i_duty[0] undriven or does not drive anything - clipped.
-Signal i_duty_c[1] undriven or does not drive anything - clipped.
-Signal i_duty[1] undriven or does not drive anything - clipped.
-Signal i_duty_c[2] undriven or does not drive anything - clipped.
-Signal i_duty[2] undriven or does not drive anything - clipped.
-Signal i_duty_c[3] undriven or does not drive anything - clipped.
-Signal i_duty[3] undriven or does not drive anything - clipped.
-Signal i_duty_c[4] undriven or does not drive anything - clipped.
-Signal i_duty[4] undriven or does not drive anything - clipped.
-Signal i_duty_c[5] undriven or does not drive anything - clipped.
-Signal i_duty[5] undriven or does not drive anything - clipped.
-Signal i_duty_c[6] undriven or does not drive anything - clipped.
-Signal i_duty[6] undriven or does not drive anything - clipped.
-Signal i_duty_c[7] undriven or does not drive anything - clipped.
-Signal i_duty[7] undriven or does not drive anything - clipped.
-Signal i_rate_c[0] undriven or does not drive anything - clipped.
-Signal i_rate[0] undriven or does not drive anything - clipped.
-Signal i_rate_c[1] undriven or does not drive anything - clipped.
-Signal i_rate[1] undriven or does not drive anything - clipped.
-Signal i_rate_c[2] undriven or does not drive anything - clipped.
-Signal i_rate[2] undriven or does not drive anything - clipped.
-Signal i_rate_c[3] undriven or does not drive anything - clipped.
-Signal i_rate[3] undriven or does not drive anything - clipped.
-Signal i_rate_c[4] undriven or does not drive anything - clipped.
-Signal i_rate[4] undriven or does not drive anything - clipped.
-Signal i_rate_c[5] undriven or does not drive anything - clipped.
-Signal i_rate[5] undriven or does not drive anything - clipped.
-Signal i_rate_c[6] undriven or does not drive anything - clipped.
-Signal i_rate[6] undriven or does not drive anything - clipped.
-Signal i_rate_c[7] undriven or does not drive anything - clipped.
-Signal i_rate[7] undriven or does not drive anything - clipped.
-Signal cnt_o2_cry_0_S0[0] undriven or does not drive anything - clipped.
+     clipped.
+Signal un1_r_idle_21_0_I_1_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_1_0_S0 undriven or does not drive anything - clipped.
+Signal N_12 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_9_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_9_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_27_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_27_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_33_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_33_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_21_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_21_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_57_0_S1 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_57_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_45_0_S0 undriven or does not drive anything - clipped.
+Signal un1_r_idle_21_0_I_45_0_COUT undriven or does not drive anything -
+     clipped.
+Signal r_idle_cnt_cry_0_S0[0] undriven or does not drive anything - clipped.
 Signal N_1 undriven or does not drive anything - clipped.
 Signal internal_osc_SEDSTDBY undriven or does not drive anything - clipped.
-
-                                    Page 4
-
-
-
-
-Design:  ci_stim_fpga_wrapper                          Date:  08/08/22  14:15:11
-
-Removed logic (cont)
---------------------
 Block i_rst_n_c_i was optimized away.
 
      
@@ -302,13 +256,59 @@ GSR Component:
         not.
         
 
+
+
+
+                                    Page 4
+
+
+
+
+Design:  ci_stim_fpga_wrapper                          Date:  08/12/22  14:36:02
+
 Run Time and Memory Usage
 -------------------------
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 44 MB
+   Peak Memory Usage: 45 MB
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

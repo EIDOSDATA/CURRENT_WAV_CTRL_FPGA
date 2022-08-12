@@ -1,2 +1,2 @@
-@E: CS153 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":366:14:366:14|Can't mix blocking and non-blocking assignments to a variable
+@E: CL172 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":127:5:127:16|Only one always block can assign a given variable r_idle_phase
 

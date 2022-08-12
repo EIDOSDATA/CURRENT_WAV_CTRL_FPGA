@@ -1,19 +1,23 @@
 ----------------------------------------------------------------------
 Report for cell ci_stim_fpga_wrapper.verilog
 
-Register bits: 1 of 2112 (0%)
+Register bits: 162 of 2112 (8%)
 PIC Latch:       0
-I/O cells:       32
+I/O cells:       15
                                           Cell usage:
                                cell       count    Res Usage(%)
+                              CCU2D       53       100.0
+                            FD1P3DX      115       100.0
+                            FD1S3BX        1       100.0
+                            FD1S3DX       46       100.0
                                 GSR        1       100.0
                                  IB        9       100.0
-                                INV        1       100.0
-                                 OB       23       100.0
-                           OFS1P3BX        1       100.0
+                                INV        2       100.0
+                                 OB        6       100.0
+                           ORCALUT4      131       100.0
                                OSCH        1       100.0
                                 PUR        1       100.0
                                 VHI        1       100.0
                                 VLO        1       100.0
                             
-                         TOTAL            39           
+                         TOTAL           368           

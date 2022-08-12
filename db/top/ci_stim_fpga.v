@@ -76,36 +76,35 @@ module ci_stim_fpga_wrapper (
 	- FPGA related signals
 	*/
 	/* INPUT PORTS */
-	input i_rst_n/* synthesis LOC="69" IO_TYPE="LVCMOS33" PULLMODE="UP" */;
-	input i_start_btn/* synthesis LOC="69" IO_TYPE="LVCMOS33" PULLMODE="UP" */;
-	input i_stop_btn/* synthesis LOC="69" IO_TYPE="LVCMOS33" PULLMODE="UP" */;
-	input [2:0] i_duty/* synthesis LOC="69" IO_TYPE="LVCMOS33" PULLMODE="UP" */;
-	input [2:0] i_idle/* synthesis LOC="25,24,21,20" IO_TYPE="LVCMOS33,LVCMOS33,LVCMOS33,LVCMOS33" PULLMODE="DOWN,DOWN,UP,UP" */; // 0011
+	input i_rst_n/* synthesis LOC="78" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
+	input i_start_btn/* synthesis LOC="77" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
+	input i_stop_btn/* synthesis LOC="76" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
+	input [2:0] i_duty/* synthesis LOC="99,98,97" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="UP,UP,UP" */;
+	input [2:0] i_idle/* synthesis LOC="96,88,87" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="UP,UP,UP" */;
 	// EOF INPUT PORTS
-	
 	/* OUTPUT PORTS */
-	output [3:0] o_ano_top/* synthesis LOC="64" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
-	output [3:0] o_ano_bot/* synthesis LOC="65" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
-	output [3:0] o_cat_top/* synthesis LOC="66" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
-	output [3:0] o_cat_bot/* synthesis LOC="67" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
-	output [3:0] o_curr_ena/* synthesis LOC="68" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
-	output [2:0] o_led/* synthesis LOC="68" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
+	output o_ano_top/* synthesis LOC="39" IO_TYPE="LVCMOS18" PULLMODE="NONE" */; // output [3:0] o_ano_top
+	output o_ano_bot/* synthesis LOC="40" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
+	output o_cat_top/* synthesis LOC="41" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
+	output o_cat_bot/* synthesis LOC="42" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
+	output o_curr_ena/* synthesis LOC="43" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
+	output o_led/* synthesis LOC="13" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
 	// EOF OUTPUT PORTS
 	
 	/* OUTPUT PORT */
-	reg [3:0] r_ano_top;
-	reg [3:0] r_ano_bot;
-	reg [3:0] r_cat_top;
-	reg [3:0] r_cat_bot;
-	reg [3:0] r_curr_ena;
-	reg [2:0] r_led;
+	reg r_ano_top;
+	reg r_ano_bot;
+	reg r_cat_top;
+	reg r_cat_bot;
+	reg r_curr_ena;
+	reg r_led;
 	/* Combinational Logic to Flip-Flop */
-	reg [3:0] c_ano_top;
-	reg [3:0] c_ano_bot;
-	reg [3:0] c_cat_top;
-	reg [3:0] c_cat_bot;
-	reg [3:0] c_curr_ena;
-	reg [2:0] c_led;
+	reg c_ano_top;
+	reg c_ano_bot;
+	reg c_cat_top;
+	reg c_cat_bot;
+	reg c_curr_ena;
+	reg c_led;
 	// EOF OUTPUT PORT
 	
 	/* INPUT SET VALUE REG */
@@ -288,24 +287,34 @@ module ci_stim_fpga_wrapper (
 		end
 	end
 	
-	/* 출력 초기화 및 버튼 설정 */
-    always @(posedge w_clk or negedge i_rst_n or negedge i_start_btn or negedge i_stop_btn)
+	
+	/* 상태에 따른 조건 카운팅 필요함 */
+	always @(posedge w_clk or negedge i_rst_n)
 	begin
-		if (~i_rst_n) begin
+		if (~i_rst_n) begin	
 			r_run_state <= 0;
-			r_ano_top <= 0;
-			r_ano_bot <= 0;
-			r_cat_top <= 0;
-			r_cat_bot <= 0;	
-			r_curr_ena <= 0;
+			
+			r_idle_cnt <= 0;
+			r_duty_cnt <= 0;
+			r_interphase_cnt <= 0;
+			
+			r_idle <= 0;
+			r_duty <= 0;
+			r_run_state <= 0;
+			
+			r_idle_phase <= 0;
+			r_anode_phase <= 0;
+			r_interphase <= 0;
+			r_cathod_phase <= 0;
+			
 			r_init_ok <= 1;
 		end
 		
+		/* BUTTON */
 		// START BTN
 		else if (~i_start_btn) begin
-			r_run_state <= 1;			
-		end
-		
+			r_run_state <= 1;
+		end		
 		// STOP BTN
 		else if (~i_stop_btn) begin
 			r_idle_cnt <= 0;
@@ -315,32 +324,15 @@ module ci_stim_fpga_wrapper (
 			r_idle <= 0;
 			r_duty <= 0;
 			r_run_state <= 0;
-		end
-		
+		end		
 		// RUN 상태에선 값을 세팅한다.
 		else if(c_run_phase_en) begin
 			r_idle <= r_idle_val;
 			r_duty <= r_duty_val;
 		end
-	end	
-	
-	/* 상태에 따른 조건 카운팅 필요함 */
-	always @(posedge w_clk or negedge i_rst_n)
-	begin
-		if (~i_rst_n) begin	
-			r_idle <= 0;
-			r_duty <= 0;
-			
-			r_idle_cnt <= 0;
-			r_duty_cnt <= 0;
-			r_interphase_cnt <= 0;
-			
-			r_idle_phase <= 0;
-			r_anode_phase <= 0;
-			r_interphase <= 0;
-			r_cathod_phase <= 0;			
-		end		
+		/* EOF BUTTON */
 				
+		/* COUNTER */
 		// IDLE COUNTER
 		else if(c_idle_phase_en) begin
 			r_duty_cnt <= 0;
@@ -351,31 +343,23 @@ module ci_stim_fpga_wrapper (
 		else if(c_anode_phase_en) begin
 			r_idle_cnt <= 0;
 			r_anode_phase <= 1;			
-			r_duty_cnt = r_duty_cnt + 1;
+			r_duty_cnt <= r_duty_cnt + 1;
 		end		
 		// INTERPHASE COUNTER
 		else if(c_interphase_en) begin
 			r_duty_cnt <= 0;
 			r_interphase <= 1;
-			r_interphase_cnt = r_interphase_cnt + 1;
+			r_interphase_cnt <= r_interphase_cnt + 1;
 		end		
 		// CATHOD PULSE DUTY COUNTER
 		else if(c_cathod_phase_en) begin
 			r_interphase_cnt <= 0;			
 			r_cathod_phase <= 1;
-			r_duty_cnt = r_duty_cnt + 1;
+			r_duty_cnt <= r_duty_cnt + 1;
 		end
-	end
-	
-	/* 카운팅 값 비교 및 출력 연결 */	
-	always @(posedge w_clk or negedge i_rst_n)
-	begin
-		if (~i_rst_n) begin			
-			r_idle_phase <= 0;
-			r_anode_phase <= 0;
-			r_cathod_phase <= 0;
-			r_interphase <= 0;
-		end
+		/* EOF COUNTER */
+		
+		/* PHASE ENABLE */
 		// IDLE COMPARE
 		else if(r_idle == r_idle_cnt) begin
 			r_idle_phase <= 0;
@@ -389,24 +373,37 @@ module ci_stim_fpga_wrapper (
 		else if(`INTERPHASE_TIME == r_interphase_cnt) begin
 			r_interphase <= 0;
 		end
+		/* EOF PHASE ENABLE */		
+	end
+	
+	/* 출력부 */	
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n) begin			
+			r_ano_top <= 0;
+			r_ano_bot <= 0;
+			r_cat_top <= 0;
+			r_cat_bot <= 0;
+			r_curr_ena <= 0;
+		end		
 		else begin
 			r_ano_top <= c_ano_top;
 			r_ano_bot <= c_ano_bot;
 			r_cat_top <= c_cat_top;
 			r_cat_bot <= c_cat_bot;	
 			r_curr_ena <= c_curr_ena;
-		end
+		end		
 	end
 	
 	/* FSM START POINT */
 	always @(posedge w_clk or negedge i_rst_n)
 	begin
 		if (~i_rst_n) begin
-			r_led[0] <= 1;
+			r_led <= 1;
 			r_state <= `ST_INIT;
 		end		
 		else begin
-			r_led[0] <= 0;
+			r_led <= 0;
 			r_state <= c_next_state;
 		end
 	end

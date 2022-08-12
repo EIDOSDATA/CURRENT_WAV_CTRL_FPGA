@@ -1,0 +1,51 @@
+#Start recording tcl command: 8/12/2022 13:54:16
+#Project Location: C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work; Project name: common
+prj_project open "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/common.ldf"
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run PAR -impl impl1 -task IOTiming
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Export -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Translate -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+#Stop recording: 8/12/2022 14:36:29

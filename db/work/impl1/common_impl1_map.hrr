@@ -3,10 +3,8 @@ Report for cell ci_stim_fpga_wrapper
    Instance path: ci_stim_fpga_wrapper
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      87.00        100.0
-                                 IOLGC	       1.00        100.0
-                                  LUT4	      77.00        100.0
-                                 IOREG	          1        100.0
-                                 IOBUF	         25        100.0
-                                PFUREG	         90        100.0
-                                RIPPLE	         48        100.0
+                                  SLIC	     121.00        100.0
+                                  LUT4	     133.00        100.0
+                                 IOBUF	         15        100.0
+                                PFUREG	        162        100.0
+                                RIPPLE	         53        100.0

@@ -45,81 +45,68 @@ File C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v changed -
 Selecting top level module ci_stim_fpga_wrapper
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
 Running optimization stage 1 on GSR .......
-Finished optimization stage 1 on GSR (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
+Finished optimization stage 1 on GSR (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
 Running optimization stage 1 on OSCH .......
 Finished optimization stage 1 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":53:7:53:26|Synthesizing module ci_stim_fpga_wrapper in library work.
-@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":226:20:226:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)
-@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":230:20:230:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)
-@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":234:20:234:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)
-@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":272:20:272:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)
-@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":276:20:276:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)
-@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":280:20:280:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)
-@W: CG134 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":101:11:101:15|No assignment to bit 1 of r_led
-@W: CG134 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":101:11:101:15|No assignment to bit 2 of r_led
+@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":225:20:225:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)
+@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":229:20:229:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)
+@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":233:20:233:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)
+@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":271:20:271:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)
+@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":275:20:275:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)
+@W: CG813 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":279:20:279:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)
 Running optimization stage 1 on ci_stim_fpga_wrapper .......
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":395:1:395:6|Pruning unused register r_state[2:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":371:1:371:6|Pruning unused register r_idle_phase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":371:1:371:6|Pruning unused register r_anode_phase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":371:1:371:6|Pruning unused register r_cathod_phase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":371:1:371:6|Pruning unused register r_interphase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_idle[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_duty[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_idle_cnt[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_duty_cnt[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_interphase_cnt[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_idle_phase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_anode_phase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_interphase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":328:1:328:6|Pruning unused register r_cathod_phase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Pruning unused register r_run_state. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Pruning unused register r_init_ok. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Pruning unused register r_idle_cnt[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Pruning unused register r_duty_cnt[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Pruning unused register r_interphase_cnt[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Pruning unused register r_idle[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Pruning unused register r_duty[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":246:1:246:6|Pruning unused register r_duty_val[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":200:1:200:6|Pruning unused register r_idle_val[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Feedback mux created for signal r_curr_ena[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Latch generated from always block for signal r_curr_ena[3:0]; possible missing assignment in an if or case statement.
-@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Feedback mux created for signal r_cat_top[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Latch generated from always block for signal r_cat_top[3:0]; possible missing assignment in an if or case statement.
-@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Sharing sequential element r_cat_top and merging r_curr_ena. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Feedback mux created for signal r_cat_bot[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Latch generated from always block for signal r_cat_bot[3:0]; possible missing assignment in an if or case statement.
-@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Sharing sequential element r_cat_bot and merging r_curr_ena. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Feedback mux created for signal r_ano_top[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Latch generated from always block for signal r_ano_top[3:0]; possible missing assignment in an if or case statement.
-@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Sharing sequential element r_ano_top and merging r_curr_ena. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Feedback mux created for signal r_ano_bot[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL118 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Latch generated from always block for signal r_ano_bot[3:0]; possible missing assignment in an if or case statement.
-@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Sharing sequential element r_ano_bot and merging r_curr_ena. Add a syn_preserve attribute to the element to prevent sharing.
-Finished optimization stage 1 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@W: CL207 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":380:1:380:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":380:1:380:6|Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":380:1:380:6|Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Feedback mux created for signal r_init_ok. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL251 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|All reachable assignments to r_init_ok assign 1, register removed by optimization
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":199:1:199:6|Optimizing register bit r_idle_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":199:1:199:6|Optimizing register bit r_idle_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":245:1:245:6|Optimizing register bit r_duty_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":245:1:245:6|Optimizing register bit r_duty_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":199:1:199:6|Pruning register bits 23 to 22 of r_idle_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":245:1:245:6|Pruning register bits 23 to 22 of r_duty_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 97MB)
 Running optimization stage 2 on ci_stim_fpga_wrapper .......
-@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:4:292:9|Pruning register bits 3 to 1 of o_curr_ena[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL159 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":80:7:80:73|Input i_start_btn is unused.
-@N: CL159 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":81:7:81:72|Input i_stop_btn is unused.
-@N: CL159 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":82:13:82:74|Input i_duty is unused.
-@N: CL159 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":83:13:83:123|Input i_idle is unused.
-Finished optimization stage 2 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Optimizing register bit r_duty[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Optimizing register bit r_duty[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Optimizing register bit r_idle[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Optimizing register bit r_idle[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Pruning register bits 23 to 22 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Pruning register bits 23 to 22 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":245:1:245:6|Pruning register bits 4 to 2 of r_duty_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":199:1:199:6|Pruning register bits 4 to 2 of r_idle_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":399:1:399:6|Trying to extract state machine for register r_state.
+Extracted state machine for register r_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   100
+   101
+   110
+   111
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Pruning register bits 4 to 2 of r_duty[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:1:292:6|Pruning register bits 4 to 2 of r_idle[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 Running optimization stage 2 on OSCH .......
-Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 Running optimization stage 2 on GSR .......
-Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
 @L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 98MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Aug 11 15:29:24 2022
+# Fri Aug 12 14:35:49 2022
 
 ###########################################################]
 ###########################################################[
@@ -147,7 +134,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Aug 11 15:29:25 2022
+# Fri Aug 12 14:35:50 2022
 
 ###########################################################]
 
@@ -157,11 +144,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 24MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 24MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Aug 11 15:29:25 2022
+# Fri Aug 12 14:35:50 2022
 
 ###########################################################]
