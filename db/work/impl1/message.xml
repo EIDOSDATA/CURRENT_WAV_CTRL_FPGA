@@ -53,324 +53,348 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:225:20:225:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:237:20:237:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>225</Navigation>
+            <Navigation>237</Navigation>
             <Navigation>20</Navigation>
-            <Navigation>225</Navigation>
+            <Navigation>237</Navigation>
             <Navigation>28</Navigation>
             <Navigation>Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:229:20:229:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:241:20:241:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>229</Navigation>
+            <Navigation>241</Navigation>
             <Navigation>20</Navigation>
-            <Navigation>229</Navigation>
+            <Navigation>241</Navigation>
             <Navigation>28</Navigation>
             <Navigation>Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:233:20:233:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:245:20:245:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>233</Navigation>
+            <Navigation>245</Navigation>
             <Navigation>20</Navigation>
-            <Navigation>233</Navigation>
+            <Navigation>245</Navigation>
             <Navigation>28</Navigation>
             <Navigation>Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:271:20:271:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:283:20:283:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>271</Navigation>
+            <Navigation>283</Navigation>
             <Navigation>20</Navigation>
-            <Navigation>271</Navigation>
+            <Navigation>283</Navigation>
             <Navigation>28</Navigation>
             <Navigation>Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:275:20:275:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:287:20:287:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>275</Navigation>
+            <Navigation>287</Navigation>
             <Navigation>20</Navigation>
-            <Navigation>275</Navigation>
+            <Navigation>287</Navigation>
             <Navigation>28</Navigation>
             <Navigation>Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:279:20:279:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:291:20:291:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>279</Navigation>
+            <Navigation>291</Navigation>
             <Navigation>20</Navigation>
-            <Navigation>279</Navigation>
+            <Navigation>291</Navigation>
             <Navigation>28</Navigation>
             <Navigation>Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL207 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:380:1:380:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Dynamic>
+            <Dynamic>CG133 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:105:5:105:11|Object r_led_g is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>105</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object r_led_g is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:106:5:106:11|Object r_led_b is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>106</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>106</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object r_led_b is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL207 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:392:1:392:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Dynamic>
             <Navigation>CL207</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>380</Navigation>
+            <Navigation>392</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>380</Navigation>
+            <Navigation>392</Navigation>
             <Navigation>6</Navigation>
             <Navigation>All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:380:1:380:6|Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:392:1:392:6|Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>380</Navigation>
+            <Navigation>392</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>380</Navigation>
+            <Navigation>392</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:380:1:380:6|Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:392:1:392:6|Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>380</Navigation>
+            <Navigation>392</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>380</Navigation>
+            <Navigation>392</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL113 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Feedback mux created for signal r_init_ok. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Dynamic>CL113 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Feedback mux created for signal r_init_ok. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
             <Navigation>CL113</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Feedback mux created for signal r_init_ok. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL251 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|All reachable assignments to r_init_ok assign 1, register removed by optimization</Dynamic>
+            <Dynamic>CL251 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|All reachable assignments to r_init_ok assign 1, register removed by optimization</Dynamic>
             <Navigation>CL251</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>All reachable assignments to r_init_ok assign 1, register removed by optimization</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:199:1:199:6|Optimizing register bit r_idle_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:211:1:211:6|Optimizing register bit r_idle_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>199</Navigation>
+            <Navigation>211</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>199</Navigation>
+            <Navigation>211</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Optimizing register bit r_idle_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:199:1:199:6|Optimizing register bit r_idle_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:211:1:211:6|Optimizing register bit r_idle_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>199</Navigation>
+            <Navigation>211</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>199</Navigation>
+            <Navigation>211</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Optimizing register bit r_idle_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:245:1:245:6|Optimizing register bit r_duty_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:257:1:257:6|Optimizing register bit r_duty_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>245</Navigation>
+            <Navigation>257</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>245</Navigation>
+            <Navigation>257</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Optimizing register bit r_duty_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:245:1:245:6|Optimizing register bit r_duty_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:257:1:257:6|Optimizing register bit r_duty_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>245</Navigation>
+            <Navigation>257</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>245</Navigation>
+            <Navigation>257</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Optimizing register bit r_duty_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:199:1:199:6|Pruning register bits 23 to 22 of r_idle_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:211:1:211:6|Pruning register bits 23 to 22 of r_idle_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>199</Navigation>
+            <Navigation>211</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>199</Navigation>
+            <Navigation>211</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bits 23 to 22 of r_idle_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:245:1:245:6|Pruning register bits 23 to 22 of r_duty_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:257:1:257:6|Pruning register bits 23 to 22 of r_duty_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>245</Navigation>
+            <Navigation>257</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>245</Navigation>
+            <Navigation>257</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bits 23 to 22 of r_duty_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Optimizing register bit r_duty[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Optimizing register bit r_duty[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Optimizing register bit r_duty[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Optimizing register bit r_duty[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Optimizing register bit r_duty[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Optimizing register bit r_duty[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Optimizing register bit r_idle[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Optimizing register bit r_idle[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Optimizing register bit r_idle[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Optimizing register bit r_idle[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Optimizing register bit r_idle[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Optimizing register bit r_idle[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Pruning register bits 23 to 22 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Pruning register bits 23 to 22 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bits 23 to 22 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Pruning register bits 23 to 22 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Pruning register bits 23 to 22 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bits 23 to 22 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:245:1:245:6|Pruning register bits 4 to 2 of r_duty_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:257:1:257:6|Pruning register bits 4 to 2 of r_duty_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>245</Navigation>
+            <Navigation>257</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>245</Navigation>
+            <Navigation>257</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bits 4 to 2 of r_duty_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:199:1:199:6|Pruning register bits 4 to 2 of r_idle_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:211:1:211:6|Pruning register bits 4 to 2 of r_idle_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>199</Navigation>
+            <Navigation>211</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>199</Navigation>
+            <Navigation>211</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bits 4 to 2 of r_idle_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Pruning register bits 4 to 2 of r_duty[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Pruning register bits 4 to 2 of r_duty[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bits 4 to 2 of r_duty[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:1:292:6|Pruning register bits 4 to 2 of r_idle[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:304:1:304:6|Pruning register bits 4 to 2 of r_idle[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>292</Navigation>
+            <Navigation>304</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bits 4 to 2 of r_idle[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
@@ -499,14 +523,14 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v&quot;:399:1:399:6|Removing sequential instance r_led because it is equivalent to instance r_state[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v&quot;:411:1:411:6|Removing sequential instance r_led_r because it is equivalent to instance r_state[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>399</Navigation>
+            <Navigation>411</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>399</Navigation>
+            <Navigation>411</Navigation>
             <Navigation>6</Navigation>
-            <Navigation>Removing sequential instance r_led because it is equivalent to instance r_state[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance r_led_r because it is equivalent to instance r_state[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>

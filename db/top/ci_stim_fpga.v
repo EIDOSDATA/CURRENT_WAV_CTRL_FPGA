@@ -70,15 +70,17 @@ module ci_stim_fpga_wrapper (
 	o_curr_ena, // CURRENT SOURCE CONTROL
 	
 	// LED OUTPUT
-	o_led
+	o_led_r,
+	o_led_g,
+	o_led_b	
 ) /* synthesis syn_force_pads=1 syn_noprune=1*/;
 	/**
 	- FPGA related signals
 	*/
 	/* INPUT PORTS */
-	input i_rst_n/* synthesis LOC="78" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
-	input i_start_btn/* synthesis LOC="77" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
-	input i_stop_btn/* synthesis LOC="76" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
+	input i_rst_n/* synthesis LOC="78" IO_TYPE="LVCMOS12" PULLMODE="DOWN" */;
+	input i_start_btn/* synthesis LOC="77" IO_TYPE="LVCMOS12" PULLMODE="DOWN" */;
+	input i_stop_btn/* synthesis LOC="76" IO_TYPE="LVCMOS12" PULLMODE="DOWN" */;
 	input [2:0] i_duty/* synthesis LOC="99,98,97" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="UP,UP,UP" */;
 	input [2:0] i_idle/* synthesis LOC="96,88,87" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="UP,UP,UP" */;
 	// EOF INPUT PORTS
@@ -88,7 +90,9 @@ module ci_stim_fpga_wrapper (
 	output o_cat_top/* synthesis LOC="41" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
 	output o_cat_bot/* synthesis LOC="42" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
 	output o_curr_ena/* synthesis LOC="43" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
-	output o_led/* synthesis LOC="13" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
+	output o_led_r/* synthesis LOC="12" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
+	output o_led_g/* synthesis LOC="13" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
+	output o_led_b/* synthesis LOC="14" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
 	// EOF OUTPUT PORTS
 	
 	/* OUTPUT PORT */
@@ -97,14 +101,19 @@ module ci_stim_fpga_wrapper (
 	reg r_cat_top;
 	reg r_cat_bot;
 	reg r_curr_ena;
-	reg r_led;
+	reg r_led_r;
+	reg r_led_g;
+	reg r_led_b;
+	
 	/* Combinational Logic to Flip-Flop */
 	reg c_ano_top;
 	reg c_ano_bot;
 	reg c_cat_top;
 	reg c_cat_bot;
 	reg c_curr_ena;
-	reg c_led;
+	reg c_led_r;
+	reg c_led_g;
+	reg c_led_b;
 	// EOF OUTPUT PORT
 	
 	/* INPUT SET VALUE REG */
@@ -153,7 +162,10 @@ module ci_stim_fpga_wrapper (
 	assign o_cat_top = r_cat_top;
 	assign o_cat_bot = r_cat_bot;
 	assign o_curr_ena = r_curr_ena;
-	assign o_led = r_led;
+	assign o_led_r = r_led_r;
+	assign o_led_g = r_led_g;
+	assign o_led_b = r_led_b;
+	
 	/* END OF Output assignments */
 		
 	
@@ -399,11 +411,11 @@ module ci_stim_fpga_wrapper (
 	always @(posedge w_clk or negedge i_rst_n)
 	begin
 		if (~i_rst_n) begin
-			r_led <= 1;
+			r_led_r <= 1; // LED_OFF : 1 / LED_ON : 0
 			r_state <= `ST_INIT;
 		end		
 		else begin
-			r_led <= 0;
+			r_led_r <= 0;
 			r_state <= c_next_state;
 		end
 	end
@@ -425,7 +437,9 @@ module ci_stim_fpga_wrapper (
 		c_cat_top = 0;
 		c_cat_bot = 0;
 		c_curr_ena = 0;
-		c_led = 0;
+		c_led_r = 0;
+		c_led_g = 0;
+		c_led_b = 0;
 		
 		case (r_state)
 			`ST_INIT:

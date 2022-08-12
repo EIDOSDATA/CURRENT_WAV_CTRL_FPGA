@@ -13,7 +13,7 @@ Hostname: TODOC-ECHO-LAPT
 
 Implementation : impl1
 
-# Written on Fri Aug 12 14:35:53 2022
+# Written on Fri Aug 12 18:18:48 2022
 
 ##### DESIGN INFO #######################################################
 
@@ -60,7 +60,9 @@ p:o_ano_top
 p:o_cat_bot
 p:o_cat_top
 p:o_curr_ena
-p:o_led
+p:o_led_b
+p:o_led_g
+p:o_led_r
 
 
 Inapplicable constraints

@@ -23,7 +23,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.1.454
-Mapped on:  08/12/22  14:36:02
+Mapped on:  08/12/22  18:18:54
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
@@ -39,7 +39,7 @@ Mapped on:  08/12/22  14:36:02
       Number used as distributed RAM:     0
       Number used as ripple logic:      106
       Number used as shift registers:     0
-   Number of PIO sites used: 15 + 4(JTAG) out of 80 (24%)
+   Number of PIO sites used: 17 + 4(JTAG) out of 80 (26%)
    Number of block RAMs:  0 out of 8 (0%)
    Number of GSRs:        1 out of 1 (100%)
    EFB used :        No
@@ -124,10 +124,14 @@ WARNING - map: OSCH 'internal_osc' has invalid FREQUENCY preference value of
 +---------------------+-----------+-----------+------------+
 | i_rst_n             | INPUT     | LVCMOS12  |            |
 +---------------------+-----------+-----------+------------+
-| o_led               | OUTPUT    | LVCMOS33  |            |
+| o_led_b             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| o_led_g             | OUTPUT    | LVCMOS33  |            |
+
++---------------------+-----------+-----------+------------+
+| o_led_r             | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | o_curr_ena          | OUTPUT    | LVCMOS18  |            |
-
 +---------------------+-----------+-----------+------------+
 | o_cat_bot           | OUTPUT    | LVCMOS18  |            |
 +---------------------+-----------+-----------+------------+
@@ -181,11 +185,11 @@ Signal un1_r_duty_21_0_I_33_0_S1 undriven or does not drive anything - clipped.
 Signal un1_r_duty_21_0_I_33_0_S0 undriven or does not drive anything - clipped.
 Signal un1_r_duty_21_0_I_21_0_S1 undriven or does not drive anything - clipped.
 Signal un1_r_duty_21_0_I_21_0_S0 undriven or does not drive anything - clipped.
+
 Signal un1_r_duty_21_0_I_57_0_S1 undriven or does not drive anything - clipped.
 Signal un1_r_duty_21_0_I_57_0_S0 undriven or does not drive anything - clipped.
 Signal un1_r_duty_21_0_I_45_0_S0 undriven or does not drive anything - clipped.
 Signal un1_r_duty_21_0_I_45_0_COUT undriven or does not drive anything -
-
      clipped.
 Signal un1_r_idle_21_0_I_1_0_S1 undriven or does not drive anything - clipped.
 Signal un1_r_idle_21_0_I_1_0_S0 undriven or does not drive anything - clipped.
@@ -242,10 +246,8 @@ GSR Component:
    The design components with GSR property set to ENABLED will respond to global
         set reset while the components with GSR property set to DISABLED will
         not.
+
         
-
-
-
 
 
 
@@ -256,10 +258,6 @@ GSR Component:
    Total REAL Time: 0 secs  
    Peak Memory Usage: 45 MB
         
-
-
-
-
 
 
 

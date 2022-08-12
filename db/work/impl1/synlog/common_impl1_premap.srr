@@ -1,4 +1,4 @@
-# Fri Aug 12 14:35:51 2022
+# Fri Aug 12 18:18:47 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -55,7 +55,7 @@ original code -> new code
 Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 174MB peak: 174MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 175MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 174MB peak: 175MB)
 
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
@@ -67,14 +67,14 @@ Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapse
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=8 on top level netlist ci_stim_fpga_wrapper 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
 
@@ -95,7 +95,7 @@ Clock Load Summary
             Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
 Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
 ------------------------------------------------------------------------------------------------
-rootClk     163       internal_osc.OSC(OSCH)     r_led.C         -                 -            
+rootClk     163       internal_osc.OSC(OSCH)     r_led_r.C       -                 -            
 ================================================================================================
 
 ICG Latch Removal Summary:
@@ -137,9 +137,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 177MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 177MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-# Fri Aug 12 14:35:53 2022
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Aug 12 18:18:49 2022
 
 ###########################################################]

@@ -29,7 +29,7 @@ Performance Hardware Data Status:   Final          Version 34.4.
 // Package: TQFP100
 // ncd File: common_impl1.ncd
 // Version: Diamond (64-bit) 3.12.1.454
-// Written on Fri Aug 12 14:36:11 2022
+// Written on Fri Aug 12 18:19:01 2022
 // M: Minimum Performance Grade
 // iotiming common_impl1.ncd common_impl1.prf -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml
 
@@ -73,4 +73,4 @@ o_ano_bot w_clk
 o_ano_top w_clk         
 o_cat_bot w_clk         
 o_cat_top w_clk         
-o_led     w_clk         
+o_led_r   w_clk         

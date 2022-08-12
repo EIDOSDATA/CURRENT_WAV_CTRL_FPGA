@@ -1,7 +1,7 @@
 (DELAYFILE
   (SDFVERSION "3.0")
   (DESIGN "ci_stim_fpga_wrapper")
-  (DATE "Fri Aug 12 14:36:04 2022")
+  (DATE "Fri Aug 12 18:18:56 2022")
   (VENDOR "Lattice")
   (PROGRAM "ldbanno")
   (VERSION "Diamond (64-bit) 3.12.1.454")
@@ -2864,11 +2864,29 @@
     )
   )
   (CELL
-    (CELLTYPE "o_led")
-    (INSTANCE o_led_I)
+    (CELLTYPE "o_led_b")
+    (INSTANCE o_led_b_I)
     (DELAY
       (ABSOLUTE
-        (IOPATH PADDO o_led (2601:2704:2807)(2601:2704:2807))
+        (IOPATH PADDO o_led_b (2601:2704:2807)(2601:2704:2807))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "o_led_g")
+    (INSTANCE o_led_g_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO o_led_g (2601:2704:2807)(2601:2704:2807))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "o_led_r")
+    (INSTANCE o_led_r_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO o_led_r (2601:2704:2807)(2601:2704:2807))
       )
     )
   )
@@ -3847,6 +3865,8 @@
         (INTERCONNECT SLICE_86/F0 SLICE_86/DI0 (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_98/Q0 SLICE_87/B0 (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_87/F0 SLICE_87/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT SLICE_87/F1 o_led_b_I/PADDO (0:0:0)(0:0:0))
+        (INTERCONNECT SLICE_87/F1 o_led_g_I/PADDO (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_87/F1 o_curr_ena_I/PADDO (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_102/Q0 SLICE_88/B1 (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_102/Q0 SLICE_102/C0 (0:0:0)(0:0:0))
@@ -3977,7 +3997,7 @@
         (INTERCONNECT SLICE_111/F0 SLICE_104/B1 (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_111/F0 SLICE_110/B0 (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_113/Q0 SLICE_101/A0 (0:0:0)(0:0:0))
-        (INTERCONNECT SLICE_113/Q0 o_led_I/PADDO (0:0:0)(0:0:0))
+        (INTERCONNECT SLICE_113/Q0 o_led_r_I/PADDO (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_101/F1 SLICE_101/DI1 (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_101/F0 SLICE_101/DI0 (0:0:0)(0:0:0))
         (INTERCONNECT SLICE_102/F1 SLICE_102/DI1 (0:0:0)(0:0:0))

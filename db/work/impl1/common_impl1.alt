@@ -1,12 +1,14 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Fri Aug 12 14:36:14 2022 *
+NOTE DATE CREATED: Fri Aug 12 18:19:04 2022 *
 NOTE DESIGN NAME: ci_stim_fpga_wrapper *
 NOTE DEVICE NAME: LCMXO2-2000ZE-1TQFP100 *
 NOTE PIN ASSIGNMENTS *
 NOTE PINS o_ano_top : 39 : out *
 NOTE PINS i_rst_n : 78 : in *
-NOTE PINS o_led : 13 : out *
+NOTE PINS o_led_b : 14 : out *
+NOTE PINS o_led_g : 13 : out *
+NOTE PINS o_led_r : 12 : out *
 NOTE PINS o_curr_ena : 43 : out *
 NOTE PINS o_cat_bot : 42 : out *
 NOTE PINS o_cat_top : 41 : out *
