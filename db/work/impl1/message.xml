@@ -149,6 +149,42 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:114:5:114:11|Object c_led_r is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object c_led_r is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:115:5:115:11|Object c_led_g is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>115</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>115</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object c_led_g is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:116:5:116:11|Object c_led_b is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>116</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>116</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object c_led_b is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
             <Dynamic>CL207 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Dynamic>
             <Navigation>CL207</Navigation>
             <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>

@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.0.240.2
-Mapped on:  08/17/22  13:23:31
+Mapped on:  08/17/22  15:38:09
 
 Design Summary
 --------------
@@ -23,12 +23,12 @@ Design Summary
    Number of registers:    165 out of  2352 (7%)
       PFU registers:          164 out of  2112 (8%)
       PIO registers:            1 out of   240 (0%)
-   Number of SLICEs:       119 out of  1056 (11%)
-      SLICEs as Logic/ROM:    119 out of  1056 (11%)
+   Number of SLICEs:       115 out of  1056 (11%)
+      SLICEs as Logic/ROM:    115 out of  1056 (11%)
       SLICEs as RAM:            0 out of   792 (0%)
       SLICEs as Carry:         53 out of  1056 (5%)
-   Number of LUT4s:        233 out of  2112 (11%)
-      Number used as logic LUTs:        127
+   Number of LUT4s:        225 out of  2112 (11%)
+      Number used as logic LUTs:        119
       Number used as distributed RAM:     0
       Number used as ripple logic:      106
       Number used as shift registers:     0
@@ -66,29 +66,29 @@ Design Summary
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/17/22  13:23:31
+Design:  ci_stim_fpga_wrapper                          Date:  08/17/22  15:38:09
 
 Design Summary (cont)
 ---------------------
      Net i_rst_n_c: 2 loads, 2 LSLICEs
      Net un1_w_anode_phase_end_en: 1 loads, 1 LSLICEs
-     Net r_cathod_phase_RNO: 1 loads, 1 LSLICEs
      Net un1_r_led_g6: 1 loads, 1 LSLICEs
      Net r_interphase_cnte: 13 loads, 13 LSLICEs
      Net r_interphase_cnt11: 1 loads, 1 LSLICEs
-     Net un1_r_run_state_1_i: 20 loads, 20 LSLICEs
+     Net un1_r_run_state_i: 20 loads, 20 LSLICEs
      Net r_idle_cnte: 13 loads, 13 LSLICEs
      Net un1_w_idle_tmout_1: 1 loads, 1 LSLICEs
      Net r_duty_cnte: 13 loads, 13 LSLICEs
+     Net un1_w_cathod_phase_end_en: 1 loads, 1 LSLICEs
    Number of local set/reset loads for net i_rst_n_c merged into GSR:  163
    Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
      Net i_stop_btn_c: 42 loads
-     Net r_duty_cnt: 25 loads
+     Net r_duty_cnt: 28 loads
      Net r_idle_cnt: 25 loads
      Net r_interphase_cnt: 25 loads
-     Net un1_r_run_state_1_i: 20 loads
+     Net un1_r_run_state_i: 20 loads
      Net i_duty_c[0]: 18 loads
      Net i_duty_c[1]: 18 loads
      Net i_duty_c[2]: 18 loads
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/17/22  13:23:31
+Design:  ci_stim_fpga_wrapper                          Date:  08/17/22  15:38:09
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -173,43 +173,39 @@ Signal r_interphase_cnt_s_0_S1[23] undriven or does not drive anything -
      clipped.
 Signal r_interphase_cnt_s_0_COUT[23] undriven or does not drive anything -
      clipped.
-Signal r_duty_cnt_cry_0_S0[0] undriven or does not drive anything - clipped.
-Signal N_2 undriven or does not drive anything - clipped.
-Signal r_duty_cnt_s_0_S1[23] undriven or does not drive anything - clipped.
-Signal r_duty_cnt_s_0_COUT[23] undriven or does not drive anything - clipped.
 Signal r_idle_cnt_cry_0_S0[0] undriven or does not drive anything - clipped.
-Signal N_3 undriven or does not drive anything - clipped.
+Signal N_2 undriven or does not drive anything - clipped.
 Signal r_idle_cnt_s_0_S1[23] undriven or does not drive anything - clipped.
 Signal r_idle_cnt_s_0_COUT[23] undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_1_0_S1 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_1_0_S0 undriven or does not drive anything - clipped.
-Signal N_4 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_9_0_S1 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_9_0_S0 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_27_0_S1 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_27_0_S0 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_33_0_S1 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_33_0_S0 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_21_0_S1 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_21_0_S0 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_1_0_S1 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_1_0_S0 undriven or does not drive anything - clipped.
+Signal N_3 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_9_0_S1 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_9_0_S0 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_27_0_S1 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_27_0_S0 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_33_0_S1 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_33_0_S0 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_21_0_S1 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_21_0_S0 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_57_0_S1 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_57_0_S0 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_45_0_S0 undriven or does not drive anything - clipped.
+Signal w_duty_tmout_1_I_45_0_COUT undriven or does not drive anything - clipped.
 
                                     Page 3
 
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/17/22  13:23:31
+Design:  ci_stim_fpga_wrapper                          Date:  08/17/22  15:38:09
 
 Removed logic (cont)
 --------------------
-Signal w_duty_tmout_0_I_57_0_S1 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_57_0_S0 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_45_0_S0 undriven or does not drive anything - clipped.
-Signal w_duty_tmout_0_I_45_0_COUT undriven or does not drive anything - clipped.
      
 Signal w_idle_tmout_0_I_1_0_S1 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_1_0_S0 undriven or does not drive anything - clipped.
-Signal N_5 undriven or does not drive anything - clipped.
+Signal N_4 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_9_0_S1 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_9_0_S0 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_27_0_S1 undriven or does not drive anything - clipped.
@@ -223,6 +219,10 @@ Signal w_idle_tmout_0_I_57_0_S0 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_45_0_S0 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_45_0_COUT undriven or does not drive anything - clipped.
      
+Signal r_duty_cnt_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal N_5 undriven or does not drive anything - clipped.
+Signal r_duty_cnt_s_0_S1[23] undriven or does not drive anything - clipped.
+Signal r_duty_cnt_s_0_COUT[23] undriven or does not drive anything - clipped.
 Signal r_interphase_cnt_cry_0_S0[0] undriven or does not drive anything -
      clipped.
 Signal N_1 undriven or does not drive anything - clipped.
@@ -264,7 +264,7 @@ GSR Component:
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/17/22  13:23:31
+Design:  ci_stim_fpga_wrapper                          Date:  08/17/22  15:38:09
 
 GSR Usage (cont)
 ----------------
@@ -276,7 +276,7 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 44 MB
+   Peak Memory Usage: 45 MB
         
 
 

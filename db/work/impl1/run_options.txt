@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03L-SP1
 #--  Project file C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\run_options.txt
-#--  Written on Wed Aug 17 13:23:22 2022
+#--  Written on Wed Aug 17 15:38:00 2022
 
 
 #project files

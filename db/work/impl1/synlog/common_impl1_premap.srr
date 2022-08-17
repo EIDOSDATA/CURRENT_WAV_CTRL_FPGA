@@ -1,4 +1,4 @@
-# Wed Aug 17 13:23:24 2022
+# Wed Aug 17 15:38:02 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -32,7 +32,7 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
@@ -132,13 +132,13 @@ Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Tim
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 90MB peak: 176MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 176MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Aug 17 13:23:25 2022
+# Wed Aug 17 15:38:04 2022
 
 ###########################################################]

@@ -448,7 +448,7 @@ module ci_stim_fpga_wrapper (
 		if (~i_rst_n) begin
 			r_duty_cnt <= 0;
 		end
-		else if(c_anode_phase_en || c_cathod_phase_en || w_duty_tmout) begin
+		else if(c_anode_phase_en || c_cathod_phase_en || w_duty_tmout) begin // ERROR POINT
 			r_duty_cnt <= 0;
 		end
 		else if(r_anode_phase || r_cathod_phase) begin
@@ -517,9 +517,6 @@ module ci_stim_fpga_wrapper (
 		c_cat_top = 0;
 		c_cat_bot = 0;
 		c_curr_ena = 0;
-		c_led_r = 0;
-		c_led_g = 0;
-		c_led_b = 0;
 		
 		case (r_state)
 			`ST_INIT:
@@ -535,7 +532,7 @@ module ci_stim_fpga_wrapper (
 			`ST_NORMAL:
 				begin
 					// START SIGNAL
-					if (r_run_state == 1) begin
+					if (r_run_state) begin
 						c_run_phase_en = 1; // VALUE SETTING SINGNAL
 						c_next_state = `ST_RUN;
 					end
@@ -547,7 +544,7 @@ module ci_stim_fpga_wrapper (
 			`ST_RUN:
 				begin
 					// VALUE CHECK
-					if (r_idle != 0 && r_duty != 0) begin
+					if (r_idle == 0) begin
 						c_idle_phase_en = 1;
 						c_next_state = `ST_PULSE_IDLE;
 					end
@@ -565,7 +562,7 @@ module ci_stim_fpga_wrapper (
 					end
 					
 					// STOP 버튼이 눌릴 경우 바이폴라가펄스가 1번 출력 후 IDLE에서 멈춤
-					else if (r_run_state == 0) begin
+					else if (!r_run_state) begin
 						c_run_phase_en = 0; // VALUE SETTING SINGNAL
 						c_next_state = `ST_NORMAL;
 					end

@@ -18,11 +18,11 @@ Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct
 @N|Running in 64-bit mode
 File C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Aug 17 13:23:24 2022
+# Wed Aug 17 15:38:02 2022
 
 ###########################################################]

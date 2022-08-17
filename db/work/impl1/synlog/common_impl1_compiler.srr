@@ -56,6 +56,9 @@ Running optimization stage 1 on OSCH .......
 @W: CG813 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":288:20:288:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)
 @W: CG813 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":292:20:292:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)
 @W: CG813 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":296:20:296:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)
+@W: CG133 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":114:5:114:11|Object c_led_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":115:5:115:11|Object c_led_g is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":116:5:116:11|Object c_led_b is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on ci_stim_fpga_wrapper .......
 @W: CL207 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":470:1:470:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.
 @W: CL177 :"C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":470:1:470:6|Sharing sequential element r_cat_bot. Add a syn_preserve attribute to the element to prevent sharing.
@@ -99,12 +102,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 105MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 99MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Aug 17 13:23:22 2022
+# Wed Aug 17 15:38:01 2022
 
 ###########################################################]
 ###########################################################[
@@ -132,7 +135,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Aug 17 13:23:23 2022
+# Wed Aug 17 15:38:01 2022
 
 ###########################################################]
 
@@ -147,6 +150,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Aug 17 13:23:23 2022
+# Wed Aug 17 15:38:01 2022
 
 ###########################################################]

@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/impl1/common_impl1.jed</File>
-			<FileTime>08/17/22 13:23:43</FileTime>
-			<JedecChecksum>0x715C</JedecChecksum>
+			<FileTime>08/17/22 15:29:25</FileTime>
+			<JedecChecksum>0x0F49</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -29,6 +29,7 @@
 				<PreloadLength>424</PreloadLength>
 				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
 				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>SVF Processor</SVFProcessor>
 				<Usercode>0x00000000</Usercode>
 				<AccessMode>FLASH</AccessMode>
 			</Option>
