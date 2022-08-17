@@ -1,2 +1,2 @@
-@E: CL172 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":127:5:127:16|Only one always block can assign a given variable r_idle_phase
+@E: CL172 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":150:12:150:21|Only one always block can assign a given variable r_duty_cnt[23:0]
 

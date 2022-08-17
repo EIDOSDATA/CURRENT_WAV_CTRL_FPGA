@@ -150,6 +150,12 @@ module ci_stim_fpga_wrapper (
 	reg [23:0] r_duty_cnt;
 	reg [23:0] r_interphase_cnt;
 	// EOF COUNTER
+	
+	/* TIMEOUT */
+	wire w_idle_tmout;	
+	wire w_duty_tmout;
+	wire w_interphase_tmout;
+	// EOF TIMEOUT
 
 	/*------------------------------------------------------------------------------*/
 	/* Output assignments */
@@ -165,7 +171,6 @@ module ci_stim_fpga_wrapper (
 	assign o_led_r = r_led_r;
 	assign o_led_g = r_led_g;
 	assign o_led_b = r_led_b;
-	
 	/* END OF Output assignments */
 		
 	
@@ -299,129 +304,204 @@ module ci_stim_fpga_wrapper (
 		end
 	end
 	
-	
-	/* 상태에 따른 조건 카운팅 필요함 */
+	/* BUTTON */
 	always @(posedge w_clk or negedge i_rst_n)
 	begin
-		if (~i_rst_n) begin	
-			r_run_state <= 0;
-			
-			r_idle_cnt <= 0;
-			r_duty_cnt <= 0;
-			r_interphase_cnt <= 0;
-			
+		if (~i_rst_n) begin
 			r_idle <= 0;
 			r_duty <= 0;
-			r_run_state <= 0;
-			
-			r_idle_phase <= 0;
-			r_anode_phase <= 0;
-			r_interphase <= 0;
-			r_cathod_phase <= 0;
-			
+			r_run_state <= 0; // BUTTON EVENT
 			r_init_ok <= 1;
 		end
-		
-		/* BUTTON */
 		// START BTN
 		else if (~i_start_btn) begin
+			r_led_g <= 0;
+			r_led_b <= 1;
+
 			r_run_state <= 1;
-		end		
+		end
 		// STOP BTN
 		else if (~i_stop_btn) begin
-			r_idle_cnt <= 0;
-			r_duty_cnt <= 0;
-			r_interphase_cnt <= 0;
-			
+			r_led_g <= 1;
+			r_led_b <= 0;
+
 			r_idle <= 0;
 			r_duty <= 0;
 			r_run_state <= 0;
 		end		
 		// RUN 상태에선 값을 세팅한다.
-		else if(c_run_phase_en) begin
+		else if(c_run_phase_en)begin
 			r_idle <= r_idle_val;
 			r_duty <= r_duty_val;
 		end
-		/* EOF BUTTON */
-				
-		/* COUNTER */
-		// IDLE COUNTER
-		else if(c_idle_phase_en) begin
-			r_duty_cnt <= 0;
-			r_idle_phase <= 1;
+	end 
+	/* EOF BUTTON */
+	
+/*----------IDLE----------*/
+	/* IDLE STAT */
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n) begin
+			r_idle_phase <= 0;
+		end
+		// IDLE COUNTER ENABLE
+		else if(c_idle_phase_en) begin			
+			r_idle_phase <= 1;			
+		end
+		// TIME OUT
+		else if(w_idle_tmout && r_idle_phase) begin
+			r_idle_phase <= 0;			
+		end
+	end
+	/* EOF IDLE STAT */
+
+	/* IDLE COUNTER */
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n) begin
+			r_idle_cnt <= 0;			
+		end
+		// IDLE COUNTER INIT
+		else if(c_idle_phase_en || w_idle_tmout) begin
+			r_idle_cnt <= 0;
+		end
+		// IDLE COUNTING
+		else if(r_idle_phase) begin
 			r_idle_cnt <= r_idle_cnt + 1;
+		end
+	end
+	/* EOF IDLE COUNTER	*/
+	
+/*----------INTERPHASE----------*/
+	/* INTERPHASE STAT */
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n) begin
+			r_interphase <= 0;			
+		end
+		// INTERPHASE COUNTER ENABLE
+		else if(c_interphase_en) begin
+			r_interphase <= 1;
+		end
+		// INTERPHASE TIMEOUT
+		else if (w_interphase_tmout && r_interphase)begin
+			r_interphase <= 0;
+		end
+	end	
+	/* EOF INTERPHASE STAT */
+	
+	/* INTERPHASE COUNTER */
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n) begin
+			r_interphase_cnt <= 0;			
+		end
+		// INTERPHASE COUNTER INIT
+		else if(c_interphase_en || w_interphase_tmout) begin
+			r_interphase_cnt <= 0;
+		end
+		// INTERPHASE COUNTING
+		else if (r_interphase) begin
+			r_interphase_cnt <= r_interphase_cnt + 1;
+		end
+	end	
+	/* EOF INTERPHASE COUNTER */
+	
+/*----------PULSE----------*/
+	/* ANODE DUTY PHASE STAT */
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n) begin
+			r_anode_phase <= 0;
 		end
 		// ANODE PULSE DUTY COUNTER
 		else if(c_anode_phase_en) begin
-			r_idle_cnt <= 0;
-			r_anode_phase <= 1;			
-			r_duty_cnt <= r_duty_cnt + 1;
-		end		
-		// INTERPHASE COUNTER
-		else if(c_interphase_en) begin
-			r_duty_cnt <= 0;
-			r_interphase <= 1;
-			r_interphase_cnt <= r_interphase_cnt + 1;
-		end		
-		// CATHOD PULSE DUTY COUNTER
-		else if(c_cathod_phase_en) begin
-			r_interphase_cnt <= 0;			
-			r_cathod_phase <= 1;
-			r_duty_cnt <= r_duty_cnt + 1;
+			r_anode_phase <= 1;
 		end
-		/* EOF COUNTER */
-		
-		/* PHASE ENABLE */
-		// IDLE COMPARE
-		else if(r_idle == r_idle_cnt) begin
-			r_idle_phase <= 0;
-		end		
-		// DUTY COMPARE
-		else if(r_duty == r_duty_cnt) begin
+		// TIME OUT
+		else if(w_anode_phase_end_en) begin
 			r_anode_phase <= 0;
-			r_cathod_phase <= 0;
-		end		
-		// INTERPHASE COMPARE
-		else if(`INTERPHASE_TIME == r_interphase_cnt) begin
-			r_interphase <= 0;
 		end
-		/* EOF PHASE ENABLE */		
 	end
+	/* EOF ANODE DUTY PHASE STAT */
 	
-	/* 출력부 */	
+	/* CATHOD DUTY PHASE STAT */
 	always @(posedge w_clk or negedge i_rst_n)
 	begin
-		if (~i_rst_n) begin			
+		if (~i_rst_n) begin
+			r_cathod_phase <= 0;
+		end
+		// CATHOD ENABLE
+		else if(c_cathod_phase_en) begin
+			r_cathod_phase <= 1;
+		end
+		// CATHOD DISABLE
+		else if(w_cathod_phase_end_en) begin
+			r_cathod_phase <= 0;
+		end
+	end
+	/* EOF CATHOD DUTY PHASE STAT*/
+	
+	/* DUTY COUNTER */
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n) begin
+			r_duty_cnt <= 0;
+		end
+		else if(c_anode_phase_en || c_cathod_phase_en || w_duty_tmout) begin
+			r_duty_cnt <= 0;
+		end
+		else if(r_anode_phase || r_cathod_phase) begin
+			r_duty_cnt <= r_duty_cnt + 1;
+		end
+	end
+	/* EOF DUTY COUNTER */
+	
+	/* TIME OUT */
+	assign w_idle_tmout = (r_idle == r_idle_cnt);
+	assign w_interphase_tmout = (`INTERPHASE_TIME == r_interphase_cnt);
+	assign w_anode_phase_end_en = w_duty_tmout && r_anode_phase;
+	assign w_cathod_phase_end_en = w_duty_tmout && r_cathod_phase;
+	assign w_duty_tmout = (r_duty == r_duty_cnt);
+	/* EOF TIME OUT */
+
+/*----------FSM INIT----------*/
+	/* OUTPUT INIT */
+	always @(posedge w_clk or negedge i_rst_n)
+	begin
+		if (~i_rst_n) begin
 			r_ano_top <= 0;
 			r_ano_bot <= 0;
 			r_cat_top <= 0;
 			r_cat_bot <= 0;
 			r_curr_ena <= 0;
-		end		
+		end
 		else begin
 			r_ano_top <= c_ano_top;
 			r_ano_bot <= c_ano_bot;
 			r_cat_top <= c_cat_top;
 			r_cat_bot <= c_cat_bot;	
 			r_curr_ena <= c_curr_ena;
-		end		
+		end
 	end
+	/* EOF OUTPUT INIT */
 	
 	/* FSM START POINT */
 	always @(posedge w_clk or negedge i_rst_n)
 	begin
 		if (~i_rst_n) begin
-			r_led_r <= 1; // LED_OFF : 1 / LED_ON : 0
+			r_led_r <= 0; // LED_OFF : 1 / LED_ON : 0
 			r_state <= `ST_INIT;
-		end		
+		end
 		else begin
-			r_led_r <= 0;
+			r_led_r <= 1;
 			r_state <= c_next_state;
 		end
 	end
+	/* EOF FSM START POINT */
 	
-	/* STATE CONTROL */
-	/* Combinational Logic */	
+/*----------FSM STATE CONTROL----------*/
+	/* Combinational Logic */
 	always @(*)
 	begin
 		c_run_phase_en = 0;
