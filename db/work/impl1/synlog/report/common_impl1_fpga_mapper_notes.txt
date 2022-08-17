@@ -1,13 +1,13 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-@N: MO231 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":359:1:359:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_idle_cnt[23:0] 
-@N: MO231 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":446:1:446:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_duty_cnt[23:0] 
-@N: MO231 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":394:1:394:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_interphase_cnt[23:0] 
-@N: MF179 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":461:24:461:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
-@N: MF179 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":465:24:465:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":359:1:359:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_idle_cnt[23:0] 
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":446:1:446:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_duty_cnt[23:0] 
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":394:1:394:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_interphase_cnt[23:0] 
+@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":461:24:461:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
+@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":465:24:465:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
-@N: FX1056 |Writing EDF file: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
+@N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 @N: MT615 |Found clock rootClk with period 250.00ns 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.

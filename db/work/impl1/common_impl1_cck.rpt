@@ -1,24 +1,24 @@
 
-Copyright (C) 1994-2020 Synopsys, Inc.
+Copyright (C) 1994-2021 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: Q-2020.03L-SP1
+Build: R-2021.03L-SP1
 Install: C:\lscc\diamond\3.12\synpbase
 OS: Windows 6.2
 
-Hostname: DESKTOP-060JDBH
+Hostname: TODOC-ECHO-LAPT
 
 Implementation : impl1
 
-# Written on Wed Aug 17 15:38:03 2022
+# Written on Wed Aug 17 15:55:45 2022
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "ci_stim_fpga_wrapper"
-Constraint File(s):      "C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc"
+Constraint File(s):      "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc"
 
 
 
@@ -69,47 +69,47 @@ Inapplicable constraints
 ************************
 
 create_clock -name ck_sw1_a -period 10000 [get_nets sw1_a]
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
 create_clock -name ck_sw2_a -period 10000 [get_nets sw2_a]
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
 create_generated_clock [get_nets w_cg_fsm_clk] -name ck_cg_fsm -master_clock [get_clocks rootClk] -source [get_nets w_clk] -multiply_by 1
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
 create_generated_clock [get_nets w_db_clk] -name ck_db -master_clock [get_clocks ck_div64x64] -source [get_nets w_div64x64_clk] -divide_by 2
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
 create_generated_clock [get_nets w_div4_clk] -name ck_div4 -master_clock [get_clocks rootClk] -source [get_nets w_clk] -multiply_by 4
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
 create_generated_clock [get_nets w_div64_clk] -name ck_div64 -master_clock [get_clocks rootClk] -source [get_nets w_clk] -divide_by 64
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
 create_generated_clock [get_nets w_div64x4_clk] -name ck_div64x4 -master_clock [get_clocks ck_div64] -source [get_nets w_div64_clk] -divide_by 4
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
 create_generated_clock [get_nets w_div64x64_clk] -name ck_div64x64 -master_clock [get_clocks ck_div64] -source [get_nets w_div64_clk] -divide_by 64
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
 create_generated_clock [get_nets w_slow_clk] -name ck_slow -master_clock [get_clocks ck_div64x4] -source [get_nets w_div64x4_clk] -divide_by 4
-	@E:MT548:"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
+	@E:MT548:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
 set_false_path -from [get_clocks ck_cg_fsm] -to [get_clocks ck_div4]
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|collection "[get_clocks ck_cg_fsm]" is empty
+	@E::"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|collection "[get_clocks ck_cg_fsm]" is empty
 set_false_path -from [get_clocks ck_sw1_a] -to [get_clocks ck_sw2_a]
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":55:0:55:0|collection "[get_clocks ck_sw1_a]" is empty
+	@E::"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":55:0:55:0|collection "[get_clocks ck_sw1_a]" is empty
 set_false_path -from [get_clocks rootClk] -to [get_clocks ck_sw1_a]
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":51:0:51:0|collection "[get_clocks ck_sw1_a]" is empty
+	@E::"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":51:0:51:0|collection "[get_clocks ck_sw1_a]" is empty
 set_false_path -from [get_clocks rootClk] -to [get_clocks ck_sw2_a]
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":53:0:53:0|collection "[get_clocks ck_sw2_a]" is empty
+	@E::"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":53:0:53:0|collection "[get_clocks ck_sw2_a]" is empty
 set_false_path -to [get_clocks ck_cg_fsm] -from [get_clocks ck_div4]
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":57:0:57:0|collection "[get_clocks ck_cg_fsm]" is empty
+	@E::"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":57:0:57:0|collection "[get_clocks ck_cg_fsm]" is empty
 set_false_path -to [get_clocks ck_sw1_a] -from [get_clocks ck_sw2_a]
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":56:0:56:0|collection "[get_clocks ck_sw1_a]" is empty
+	@E::"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":56:0:56:0|collection "[get_clocks ck_sw1_a]" is empty
 set_false_path -to [get_clocks rootClk] -from [get_clocks ck_sw1_a]
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":52:0:52:0|collection "[get_clocks ck_sw1_a]" is empty
+	@E::"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":52:0:52:0|collection "[get_clocks ck_sw1_a]" is empty
 set_false_path -to [get_clocks rootClk] -from [get_clocks ck_sw2_a]
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
-	@E::"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":54:0:54:0|collection "[get_clocks ck_sw2_a]" is empty
+	@E::"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E:MF1039:"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":54:0:54:0|collection "[get_clocks ck_sw2_a]" is empty
 
 Applicable constraints with issues
 **********************************

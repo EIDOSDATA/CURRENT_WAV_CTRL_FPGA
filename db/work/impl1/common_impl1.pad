@@ -6,7 +6,7 @@ Performance Grade:      1
 PACKAGE:          TQFP100
 Package Status:                     Final          Version 1.44
 
-Wed Aug 17 15:38:14 2022
+Wed Aug 17 15:55:57 2022
 
 Pinout by Port Name:
 +-------------+----------+--------------+-------+-----------+-----------+----------------------+
@@ -306,11 +306,11 @@ LOCATE  COMP  "o_led_r"  SITE  "12";
 
 
 
-PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+PAR: Place And Route Diamond (64-bit) 3.12.1.454.
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Aug 17 15:38:14 2022
+Wed Aug 17 15:55:57 2022
 

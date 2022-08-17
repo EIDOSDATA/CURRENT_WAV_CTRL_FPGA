@@ -53,9 +53,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG1337 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:463:8:463:27|Net w_anode_phase_end_en is not declared.</Dynamic>
+            <Dynamic>CG1337 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:463:8:463:27|Net w_anode_phase_end_en is not declared.</Dynamic>
             <Navigation>CG1337</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>463</Navigation>
             <Navigation>8</Navigation>
             <Navigation>463</Navigation>
@@ -65,9 +65,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG1337 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:464:8:464:28|Net w_cathod_phase_end_en is not declared.</Dynamic>
+            <Dynamic>CG1337 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:464:8:464:28|Net w_cathod_phase_end_en is not declared.</Dynamic>
             <Navigation>CG1337</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>464</Navigation>
             <Navigation>8</Navigation>
             <Navigation>464</Navigation>
@@ -77,9 +77,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:242:20:242:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:242:20:242:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>242</Navigation>
             <Navigation>20</Navigation>
             <Navigation>242</Navigation>
@@ -89,9 +89,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:246:20:246:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:246:20:246:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>246</Navigation>
             <Navigation>20</Navigation>
             <Navigation>246</Navigation>
@@ -101,9 +101,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:250:20:250:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:250:20:250:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>250</Navigation>
             <Navigation>20</Navigation>
             <Navigation>250</Navigation>
@@ -113,9 +113,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:288:20:288:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:288:20:288:28|Rounding real from 1333333.200000 to 1333333 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>288</Navigation>
             <Navigation>20</Navigation>
             <Navigation>288</Navigation>
@@ -125,9 +125,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:20:292:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:292:20:292:28|Rounding real from 1999999.800000 to 2000000 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>292</Navigation>
             <Navigation>20</Navigation>
             <Navigation>292</Navigation>
@@ -137,9 +137,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG813 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:296:20:296:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Dynamic>
+            <Dynamic>CG813 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:296:20:296:28|Rounding real from 2666666.400000 to 2666666 (simulation mismatch possible)</Dynamic>
             <Navigation>CG813</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>296</Navigation>
             <Navigation>20</Navigation>
             <Navigation>296</Navigation>
@@ -149,9 +149,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG133 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:114:5:114:11|Object c_led_r is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Dynamic>CG133 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:114:5:114:11|Object c_led_r is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
             <Navigation>CG133</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>114</Navigation>
             <Navigation>5</Navigation>
             <Navigation>114</Navigation>
@@ -161,9 +161,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG133 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:115:5:115:11|Object c_led_g is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Dynamic>CG133 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:115:5:115:11|Object c_led_g is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
             <Navigation>CG133</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>115</Navigation>
             <Navigation>5</Navigation>
             <Navigation>115</Navigation>
@@ -173,9 +173,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG133 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:116:5:116:11|Object c_led_b is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Dynamic>CG133 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:116:5:116:11|Object c_led_b is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
             <Navigation>CG133</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>116</Navigation>
             <Navigation>5</Navigation>
             <Navigation>116</Navigation>
@@ -185,9 +185,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL207 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Dynamic>
+            <Dynamic>CL207 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Dynamic>
             <Navigation>CL207</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>470</Navigation>
             <Navigation>1</Navigation>
             <Navigation>470</Navigation>
@@ -197,33 +197,33 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|Sharing sequential element r_cat_bot. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>470</Navigation>
             <Navigation>1</Navigation>
             <Navigation>470</Navigation>
             <Navigation>6</Navigation>
-            <Navigation>Sharing sequential element r_cat_bot. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+            <Navigation>Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|Sharing sequential element r_ano_bot. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>470</Navigation>
             <Navigation>1</Navigation>
             <Navigation>470</Navigation>
             <Navigation>6</Navigation>
-            <Navigation>Sharing sequential element r_ano_bot. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+            <Navigation>Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL113 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Feedback mux created for signal r_init_ok. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Dynamic>CL113 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Feedback mux created for signal r_init_ok. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
             <Navigation>CL113</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -233,9 +233,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL251 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|All reachable assignments to r_init_ok assign 1, register removed by optimization</Dynamic>
+            <Dynamic>CL251 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|All reachable assignments to r_init_ok assign 1, register removed by optimization</Dynamic>
             <Navigation>CL251</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -245,9 +245,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:216:1:216:6|Optimizing register bit r_idle_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:216:1:216:6|Optimizing register bit r_idle_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>216</Navigation>
             <Navigation>1</Navigation>
             <Navigation>216</Navigation>
@@ -257,9 +257,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:216:1:216:6|Optimizing register bit r_idle_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:216:1:216:6|Optimizing register bit r_idle_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>216</Navigation>
             <Navigation>1</Navigation>
             <Navigation>216</Navigation>
@@ -269,9 +269,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:262:1:262:6|Optimizing register bit r_duty_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:262:1:262:6|Optimizing register bit r_duty_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>262</Navigation>
             <Navigation>1</Navigation>
             <Navigation>262</Navigation>
@@ -281,9 +281,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:262:1:262:6|Optimizing register bit r_duty_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:262:1:262:6|Optimizing register bit r_duty_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>262</Navigation>
             <Navigation>1</Navigation>
             <Navigation>262</Navigation>
@@ -293,9 +293,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:216:1:216:6|Pruning register bits 23 to 22 of r_idle_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:216:1:216:6|Pruning register bits 23 to 22 of r_idle_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>216</Navigation>
             <Navigation>1</Navigation>
             <Navigation>216</Navigation>
@@ -305,9 +305,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:262:1:262:6|Pruning register bits 23 to 22 of r_duty_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:262:1:262:6|Pruning register bits 23 to 22 of r_duty_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>262</Navigation>
             <Navigation>1</Navigation>
             <Navigation>262</Navigation>
@@ -317,9 +317,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Optimizing register bit r_duty[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Optimizing register bit r_duty[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -329,9 +329,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Optimizing register bit r_duty[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Optimizing register bit r_duty[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -341,9 +341,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Optimizing register bit r_idle[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Optimizing register bit r_idle[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -353,9 +353,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL190 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Optimizing register bit r_idle[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>CL190 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Optimizing register bit r_idle[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>CL190</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -365,9 +365,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Pruning register bits 23 to 22 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Pruning register bits 23 to 22 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -377,9 +377,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Pruning register bits 23 to 22 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Pruning register bits 23 to 22 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -389,9 +389,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:262:1:262:6|Pruning register bits 4 to 2 of r_duty_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:262:1:262:6|Pruning register bits 4 to 2 of r_duty_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>262</Navigation>
             <Navigation>1</Navigation>
             <Navigation>262</Navigation>
@@ -401,9 +401,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:216:1:216:6|Pruning register bits 4 to 2 of r_idle_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:216:1:216:6|Pruning register bits 4 to 2 of r_idle_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>216</Navigation>
             <Navigation>1</Navigation>
             <Navigation>216</Navigation>
@@ -413,9 +413,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Pruning register bits 4 to 2 of r_duty[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Pruning register bits 4 to 2 of r_duty[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -425,9 +425,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Pruning register bits 4 to 2 of r_idle[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:308:1:308:6|Pruning register bits 4 to 2 of r_idle[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>308</Navigation>
             <Navigation>1</Navigation>
             <Navigation>308</Navigation>
@@ -437,9 +437,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN287 :&quot;c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v&quot;:490:1:490:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.</Dynamic>
+            <Dynamic>BN287 :&quot;c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v&quot;:490:1:490:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.</Dynamic>
             <Navigation>BN287</Navigation>
-            <Navigation>c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v</Navigation>
             <Navigation>490</Navigation>
             <Navigation>1</Navigation>
             <Navigation>490</Navigation>
@@ -456,9 +456,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:3:0:3:0|Source for clock ck_sw1_a not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:3:0:3:0|Source for clock ck_sw1_a not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>3</Navigation>
             <Navigation>0</Navigation>
             <Navigation>3</Navigation>
@@ -468,9 +468,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:4:0:4:0|Source for clock ck_sw2_a not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:4:0:4:0|Source for clock ck_sw2_a not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>4</Navigation>
             <Navigation>0</Navigation>
             <Navigation>4</Navigation>
@@ -480,9 +480,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:6:0:6:0|Source for clock ck_cg_fsm not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:6:0:6:0|Source for clock ck_cg_fsm not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>6</Navigation>
             <Navigation>0</Navigation>
             <Navigation>6</Navigation>
@@ -492,9 +492,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:12:0:12:0|Source for clock ck_div4 not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:12:0:12:0|Source for clock ck_div4 not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>12</Navigation>
             <Navigation>0</Navigation>
             <Navigation>12</Navigation>
@@ -504,9 +504,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:18:0:18:0|Source for clock ck_div64 not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:18:0:18:0|Source for clock ck_div64 not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>18</Navigation>
             <Navigation>0</Navigation>
             <Navigation>18</Navigation>
@@ -516,9 +516,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:24:0:24:0|Source for clock ck_div64x64 not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:24:0:24:0|Source for clock ck_div64x64 not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>24</Navigation>
             <Navigation>0</Navigation>
             <Navigation>24</Navigation>
@@ -528,9 +528,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:30:0:30:0|Source for clock ck_db not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:30:0:30:0|Source for clock ck_db not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>30</Navigation>
             <Navigation>0</Navigation>
             <Navigation>30</Navigation>
@@ -540,9 +540,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:36:0:36:0|Source for clock ck_div64x4 not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:36:0:36:0|Source for clock ck_div64x4 not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>36</Navigation>
             <Navigation>0</Navigation>
             <Navigation>36</Navigation>
@@ -552,9 +552,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT548 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:42:0:42:0|Source for clock ck_slow not found in netlist.</Dynamic>
+            <Dynamic>MT548 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:42:0:42:0|Source for clock ck_slow not found in netlist.</Dynamic>
             <Navigation>MT548</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>42</Navigation>
             <Navigation>0</Navigation>
             <Navigation>42</Navigation>
@@ -564,16 +564,16 @@
         <Message>
             <ID>2019993</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MF511 |Found issues with constraints. Please check constraint checker report &quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt&quot; .</Dynamic>
+            <Dynamic>MF511 |Found issues with constraints. Please check constraint checker report &quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt&quot; .</Dynamic>
             <Navigation>MF511</Navigation>
-            <Navigation>Found issues with constraints. Please check constraint checker report &quot;C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt&quot; .</Navigation>
+            <Navigation>Found issues with constraints. Please check constraint checker report &quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt&quot; .</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>51</Navigation>
             <Navigation>0</Navigation>
             <Navigation>51</Navigation>
@@ -583,9 +583,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>52</Navigation>
             <Navigation>0</Navigation>
             <Navigation>52</Navigation>
@@ -595,9 +595,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>53</Navigation>
             <Navigation>0</Navigation>
             <Navigation>53</Navigation>
@@ -607,9 +607,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>54</Navigation>
             <Navigation>0</Navigation>
             <Navigation>54</Navigation>
@@ -619,9 +619,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>55</Navigation>
             <Navigation>0</Navigation>
             <Navigation>55</Navigation>
@@ -631,9 +631,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>56</Navigation>
             <Navigation>0</Navigation>
             <Navigation>56</Navigation>
@@ -643,9 +643,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>57</Navigation>
             <Navigation>0</Navigation>
             <Navigation>57</Navigation>
@@ -655,9 +655,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT447 :&quot;c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
+            <Dynamic>MT447 :&quot;c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc&quot;:58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design</Dynamic>
             <Navigation>MT447</Navigation>
-            <Navigation>c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
+            <Navigation>c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc</Navigation>
             <Navigation>58</Navigation>
             <Navigation>0</Navigation>
             <Navigation>58</Navigation>

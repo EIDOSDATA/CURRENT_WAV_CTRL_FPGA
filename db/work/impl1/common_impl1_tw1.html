@@ -21,8 +21,8 @@ Performance Hardware Data Status:   Final          Version 34.4.
 Setup and Hold Report
 
 --------------------------------------------------------------------------------
-<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2</big></U></B>
-Wed Aug 17 15:38:10 2022
+<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454</big></U></B>
+Wed Aug 17 15:55:52 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -32,7 +32,7 @@ Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
 
 <A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
 ------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o common_impl1.tw1 -gui -msgset C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml common_impl1_map.ncd common_impl1.prf 
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o common_impl1.tw1 -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml common_impl1_map.ncd common_impl1.prf 
 Design file:     common_impl1_map.ncd
 Preference file: common_impl1.prf
 Device,speed:    LCMXO2-2000ZE,1
@@ -67,51 +67,51 @@ Passed: The following path meets requirements by 280.114ns
 
  Constraint Details:
 
-     19.754ns physical path delay SLICE_83 to SLICE_28 meets
+     19.754ns physical path delay SLICE_83 to SLICE_15 meets
     300.300ns delay constraint less
       0.432ns DIN_SET requirement (totaling 299.868ns) by 280.114ns
 
  Physical Path Details:
 
-      Data path SLICE_83 to SLICE_28:
+      Data path SLICE_83 to SLICE_15:
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.955   SLICE_83.CLK to    SLICE_83.Q0 SLICE_83 (from w_clk)
 ROUTE         2   e 1.905    SLICE_83.Q0 to   SLICE_102.A1 r_idle[11]
 CTOF_DEL    ---     0.923   SLICE_102.A1 to   SLICE_102.F1 SLICE_102
-ROUTE         1   e 1.905   SLICE_102.F1 to   SLICE_109.D0 r_state_ns_i_a3_0_11[2]
-CTOF_DEL    ---     0.923   SLICE_109.D0 to   SLICE_109.F0 SLICE_109
-ROUTE         1   e 1.905   SLICE_109.F0 to   SLICE_106.D1 r_state_ns_i_a3_0_15[2]
+ROUTE         1   e 1.905   SLICE_102.F1 to   SLICE_110.D0 r_state_ns_i_a3_0_11[2]
+CTOF_DEL    ---     0.923   SLICE_110.D0 to   SLICE_110.F0 SLICE_110
+ROUTE         1   e 1.905   SLICE_110.F0 to   SLICE_106.D1 r_state_ns_i_a3_0_15[2]
 CTOF_DEL    ---     0.923   SLICE_106.D1 to   SLICE_106.F1 SLICE_106
 ROUTE         3   e 0.742   SLICE_106.F1 to   SLICE_106.D0 N_108
 CTOF_DEL    ---     0.923   SLICE_106.D0 to   SLICE_106.F0 SLICE_106
-ROUTE        25   e 1.905   SLICE_106.F0 to    SLICE_40.B0 r_idle_cnt
-C0TOFCO_DE  ---     2.064    SLICE_40.B0 to   SLICE_40.FCO SLICE_40
-ROUTE         1   e 0.001   SLICE_40.FCO to   SLICE_39.FCI r_idle_cnt_cry[0]
-FCITOFCO_D  ---     0.317   SLICE_39.FCI to   SLICE_39.FCO SLICE_39
-ROUTE         1   e 0.001   SLICE_39.FCO to   SLICE_38.FCI r_idle_cnt_cry[2]
-FCITOFCO_D  ---     0.317   SLICE_38.FCI to   SLICE_38.FCO SLICE_38
-ROUTE         1   e 0.001   SLICE_38.FCO to   SLICE_37.FCI r_idle_cnt_cry[4]
-FCITOFCO_D  ---     0.317   SLICE_37.FCI to   SLICE_37.FCO SLICE_37
-ROUTE         1   e 0.001   SLICE_37.FCO to   SLICE_36.FCI r_idle_cnt_cry[6]
-FCITOFCO_D  ---     0.317   SLICE_36.FCI to   SLICE_36.FCO SLICE_36
-ROUTE         1   e 0.001   SLICE_36.FCO to   SLICE_35.FCI r_idle_cnt_cry[8]
-FCITOFCO_D  ---     0.317   SLICE_35.FCI to   SLICE_35.FCO SLICE_35
-ROUTE         1   e 0.001   SLICE_35.FCO to   SLICE_34.FCI r_idle_cnt_cry[10]
-FCITOFCO_D  ---     0.317   SLICE_34.FCI to   SLICE_34.FCO SLICE_34
-ROUTE         1   e 0.001   SLICE_34.FCO to   SLICE_33.FCI r_idle_cnt_cry[12]
-FCITOFCO_D  ---     0.317   SLICE_33.FCI to   SLICE_33.FCO SLICE_33
-ROUTE         1   e 0.001   SLICE_33.FCO to   SLICE_32.FCI r_idle_cnt_cry[14]
-FCITOFCO_D  ---     0.317   SLICE_32.FCI to   SLICE_32.FCO SLICE_32
-ROUTE         1   e 0.001   SLICE_32.FCO to   SLICE_31.FCI r_idle_cnt_cry[16]
-FCITOFCO_D  ---     0.317   SLICE_31.FCI to   SLICE_31.FCO SLICE_31
-ROUTE         1   e 0.001   SLICE_31.FCO to   SLICE_30.FCI r_idle_cnt_cry[18]
-FCITOFCO_D  ---     0.317   SLICE_30.FCI to   SLICE_30.FCO SLICE_30
-ROUTE         1   e 0.001   SLICE_30.FCO to   SLICE_29.FCI r_idle_cnt_cry[20]
-FCITOFCO_D  ---     0.317   SLICE_29.FCI to   SLICE_29.FCO SLICE_29
-ROUTE         1   e 0.001   SLICE_29.FCO to   SLICE_28.FCI r_idle_cnt_cry[22]
-FCITOF0_DE  ---     1.181   SLICE_28.FCI to    SLICE_28.F0 SLICE_28
-ROUTE         1   e 0.001    SLICE_28.F0 to   SLICE_28.DI0 r_idle_cnt_s[23] (to w_clk)
+ROUTE        25   e 1.905   SLICE_106.F0 to    SLICE_27.B0 r_idle_cnt
+C0TOFCO_DE  ---     2.064    SLICE_27.B0 to   SLICE_27.FCO SLICE_27
+ROUTE         1   e 0.001   SLICE_27.FCO to   SLICE_26.FCI r_idle_cnt_cry[0]
+FCITOFCO_D  ---     0.317   SLICE_26.FCI to   SLICE_26.FCO SLICE_26
+ROUTE         1   e 0.001   SLICE_26.FCO to   SLICE_25.FCI r_idle_cnt_cry[2]
+FCITOFCO_D  ---     0.317   SLICE_25.FCI to   SLICE_25.FCO SLICE_25
+ROUTE         1   e 0.001   SLICE_25.FCO to   SLICE_24.FCI r_idle_cnt_cry[4]
+FCITOFCO_D  ---     0.317   SLICE_24.FCI to   SLICE_24.FCO SLICE_24
+ROUTE         1   e 0.001   SLICE_24.FCO to   SLICE_23.FCI r_idle_cnt_cry[6]
+FCITOFCO_D  ---     0.317   SLICE_23.FCI to   SLICE_23.FCO SLICE_23
+ROUTE         1   e 0.001   SLICE_23.FCO to   SLICE_22.FCI r_idle_cnt_cry[8]
+FCITOFCO_D  ---     0.317   SLICE_22.FCI to   SLICE_22.FCO SLICE_22
+ROUTE         1   e 0.001   SLICE_22.FCO to   SLICE_21.FCI r_idle_cnt_cry[10]
+FCITOFCO_D  ---     0.317   SLICE_21.FCI to   SLICE_21.FCO SLICE_21
+ROUTE         1   e 0.001   SLICE_21.FCO to   SLICE_20.FCI r_idle_cnt_cry[12]
+FCITOFCO_D  ---     0.317   SLICE_20.FCI to   SLICE_20.FCO SLICE_20
+ROUTE         1   e 0.001   SLICE_20.FCO to   SLICE_19.FCI r_idle_cnt_cry[14]
+FCITOFCO_D  ---     0.317   SLICE_19.FCI to   SLICE_19.FCO SLICE_19
+ROUTE         1   e 0.001   SLICE_19.FCO to   SLICE_18.FCI r_idle_cnt_cry[16]
+FCITOFCO_D  ---     0.317   SLICE_18.FCI to   SLICE_18.FCO SLICE_18
+ROUTE         1   e 0.001   SLICE_18.FCO to   SLICE_17.FCI r_idle_cnt_cry[18]
+FCITOFCO_D  ---     0.317   SLICE_17.FCI to   SLICE_17.FCO SLICE_17
+ROUTE         1   e 0.001   SLICE_17.FCO to   SLICE_16.FCI r_idle_cnt_cry[20]
+FCITOFCO_D  ---     0.317   SLICE_16.FCI to   SLICE_16.FCO SLICE_16
+ROUTE         1   e 0.001   SLICE_16.FCO to   SLICE_15.FCI r_idle_cnt_cry[22]
+FCITOF0_DE  ---     1.181   SLICE_15.FCI to    SLICE_15.F0 SLICE_15
+ROUTE         1   e 0.001    SLICE_15.F0 to   SLICE_15.DI0 r_idle_cnt_s[23] (to w_clk)
                   --------
                    19.754   (57.6% logic, 42.4% route), 18 logic levels.
 
@@ -146,11 +146,11 @@ Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 93
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 48505 paths, 1 nets, and 743 connections (79.04% coverage)
+Constraints cover 50190 paths, 1 nets, and 751 connections (79.22% coverage)
 
 --------------------------------------------------------------------------------
-<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2</big></U></B>
-Wed Aug 17 15:38:10 2022
+<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454</big></U></B>
+Wed Aug 17 15:55:53 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -160,7 +160,7 @@ Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
 
 <A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
 ------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o common_impl1.tw1 -gui -msgset C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml common_impl1_map.ncd common_impl1.prf 
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o common_impl1.tw1 -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml common_impl1_map.ncd common_impl1.prf 
 Design file:     common_impl1_map.ncd
 Preference file: common_impl1.prf
 Device,speed:    LCMXO2-2000ZE,M
@@ -239,7 +239,7 @@ Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 93
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 48505 paths, 1 nets, and 743 connections (79.04% coverage)
+Constraints cover 50190 paths, 1 nets, and 751 connections (79.22% coverage)
 
 
 

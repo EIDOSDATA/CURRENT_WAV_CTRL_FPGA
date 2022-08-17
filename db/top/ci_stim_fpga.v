@@ -545,6 +545,7 @@ module ci_stim_fpga_wrapper (
 				begin
 					// VALUE CHECK
 					if (r_idle == 0) begin
+						c_run_phase_en = 0;
 						c_idle_phase_en = 1;
 						c_next_state = `ST_PULSE_IDLE;
 					end
@@ -558,6 +559,7 @@ module ci_stim_fpga_wrapper (
 			`ST_PULSE_IDLE:
 				begin
 					if (r_idle_phase) begin
+						c_idle_phase_en = 0;						
 						c_next_state = `ST_PULSE_IDLE;
 					end
 					
@@ -576,8 +578,9 @@ module ci_stim_fpga_wrapper (
 			`ST_ANODE_LV:
 				begin
 					if (r_anode_phase) begin
+						c_anode_phase_en = 0;
 						c_ano_top = 1;
-						c_ano_bot = 1;						
+						c_ano_bot = 1;				
 						c_next_state = `ST_ANODE_LV;
 					end
 					
@@ -590,6 +593,7 @@ module ci_stim_fpga_wrapper (
 			`ST_INTERPHASE:
 				begin
 					if (r_interphase) begin
+						c_interphase_en = 0;
 						c_next_state = `ST_INTERPHASE;
 					end
 					
@@ -602,6 +606,7 @@ module ci_stim_fpga_wrapper (
 			`ST_CATHODE_LV:
 				begin
 					if (r_cathod_phase) begin
+						c_cathod_phase_en = 0;
 						c_cat_top = 1;
 						c_cat_bot = 1;
 						c_next_state = `ST_CATHODE_LV;
