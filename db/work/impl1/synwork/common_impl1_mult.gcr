@@ -4,5 +4,5 @@ u 28 165
 p {t:w_clk.OUT[0]}{t:r_state[6].C}
 e ckid0_0 {t:r_state[6].C} dffr
 c ckid0_0 {t:internal_osc.OSC} OSCH Unsupported/too complex instance on clock path
-l 0 0 0 0 0 0
+l 0 0 0 0 0
 r 0 0 0 0 0 0 0 0

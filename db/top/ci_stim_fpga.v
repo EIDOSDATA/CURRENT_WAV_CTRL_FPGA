@@ -78,9 +78,9 @@ module ci_stim_fpga_wrapper (
 	- FPGA related signals
 	*/
 	/* INPUT PORTS */
-	input i_rst_n/* synthesis LOC="78" IO_TYPE="LVCMOS12" PULLMODE="DOWN" */;
-	input i_start_btn/* synthesis LOC="77" IO_TYPE="LVCMOS12" PULLMODE="DOWN" */;
-	input i_stop_btn/* synthesis LOC="76" IO_TYPE="LVCMOS12" PULLMODE="DOWN" */;
+	input i_rst_n/* synthesis LOC="78" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
+	input i_start_btn/* synthesis LOC="77" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
+	input i_stop_btn/* synthesis LOC="76" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
 	input [2:0] i_duty/* synthesis LOC="99,98,97" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="UP,UP,UP" */;
 	input [2:0] i_idle/* synthesis LOC="96,88,87" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="UP,UP,UP" */;
 	// EOF INPUT PORTS
@@ -101,9 +101,9 @@ module ci_stim_fpga_wrapper (
 	reg r_cat_top;
 	reg r_cat_bot;
 	reg r_curr_ena;
-	reg r_led_r;
-	reg r_led_g;
-	reg r_led_b;
+	reg r_led_r = 1;
+	reg r_led_g = 1;
+	reg r_led_b = 1;
 	
 	/* Combinational Logic to Flip-Flop */
 	reg c_ano_top;

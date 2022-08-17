@@ -15,15 +15,15 @@
 
 Command line:   map -a MachXO2 -p LCMXO2-2000ZE -t TQFP100 -s 1 -oc Commercial
      common_impl1.ngd -o common_impl1_map.ncd -pr common_impl1.prf -mp
-     common_impl1.mrp -lpf C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/i
+     common_impl1.mrp -lpf C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/i
      mpl1/common_impl1_synplify.lpf -lpf
-     C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/common.lpf -c 0 -gui
-     -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml 
+     C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/common.lpf -c 0 -gui
+     -msgset C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
-Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.1.454
-Mapped on:  08/17/22  13:12:56
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  08/17/22  13:23:31
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
@@ -71,12 +71,12 @@ Mapped on:  08/17/22  13:12:56
      Net i_rst_n_c: 2 loads, 2 LSLICEs
      Net un1_w_anode_phase_end_en: 1 loads, 1 LSLICEs
      Net r_cathod_phase_RNO: 1 loads, 1 LSLICEs
-     Net un1_r_led_g8: 1 loads, 1 LSLICEs
+     Net un1_r_led_g6: 1 loads, 1 LSLICEs
      Net r_interphase_cnte: 13 loads, 13 LSLICEs
-     Net r_interphase_cnt15: 1 loads, 1 LSLICEs
+     Net r_interphase_cnt11: 1 loads, 1 LSLICEs
      Net un1_r_run_state_1_i: 20 loads, 20 LSLICEs
-     Net un1_w_idle_tmout_1: 1 loads, 1 LSLICEs
      Net r_idle_cnte: 13 loads, 13 LSLICEs
+     Net un1_w_idle_tmout_1: 1 loads, 1 LSLICEs
      Net r_duty_cnte: 13 loads, 13 LSLICEs
    Number of local set/reset loads for net i_rst_n_c merged into GSR:  163
    Number of LSRs:  0
@@ -171,12 +171,12 @@ Signal N_2 undriven or does not drive anything - clipped.
 Signal r_duty_cnt_s_0_S1[23] undriven or does not drive anything - clipped.
 Signal r_duty_cnt_s_0_COUT[23] undriven or does not drive anything - clipped.
 Signal r_idle_cnt_cry_0_S0[0] undriven or does not drive anything - clipped.
-Signal N_10 undriven or does not drive anything - clipped.
+Signal N_3 undriven or does not drive anything - clipped.
 Signal r_idle_cnt_s_0_S1[23] undriven or does not drive anything - clipped.
 Signal r_idle_cnt_s_0_COUT[23] undriven or does not drive anything - clipped.
 Signal w_duty_tmout_0_I_1_0_S1 undriven or does not drive anything - clipped.
 Signal w_duty_tmout_0_I_1_0_S0 undriven or does not drive anything - clipped.
-Signal N_11 undriven or does not drive anything - clipped.
+Signal N_4 undriven or does not drive anything - clipped.
 Signal w_duty_tmout_0_I_9_0_S1 undriven or does not drive anything - clipped.
 Signal w_duty_tmout_0_I_9_0_S0 undriven or does not drive anything - clipped.
 Signal w_duty_tmout_0_I_27_0_S1 undriven or does not drive anything - clipped.
@@ -193,7 +193,7 @@ Signal w_duty_tmout_0_I_45_0_COUT undriven or does not drive anything - clipped.
      
 Signal w_idle_tmout_0_I_1_0_S1 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_1_0_S0 undriven or does not drive anything - clipped.
-Signal N_12 undriven or does not drive anything - clipped.
+Signal N_5 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_9_0_S1 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_9_0_S0 undriven or does not drive anything - clipped.
 Signal w_idle_tmout_0_I_27_0_S1 undriven or does not drive anything - clipped.
@@ -257,7 +257,7 @@ GSR Component:
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 45 MB
+   Peak Memory Usage: 44 MB
         
 
 

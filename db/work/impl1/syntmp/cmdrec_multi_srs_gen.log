@@ -1,7 +1,7 @@
-C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  ci_stim_fpga_wrapper  -multisrs  C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_comp.srs  -osyn  C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_mult.srs  -log  C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synlog\common_impl1_multi_srs_gen.srr 
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  ci_stim_fpga_wrapper  -multisrs  C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_comp.srs  -osyn  C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_mult.srs  -log  C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synlog\common_impl1_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top ci_stim_fpga_wrapper -multisrs ..\synwork\common_impl1_comp.srs -osyn ..\synwork\common_impl1_mult.srs -log ..\synlog\common_impl1_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\common_impl1_comp.srs|io:i|time:1660709567|size:9919|exec:0|csum:9F47F2601BF3F5F5BB3DB847E8E45104
-file:..\synwork\common_impl1_mult.srs|io:o|time:1660709568|size:9674|exec:0|csum:
-file:..\synlog\common_impl1_multi_srs_gen.srr|io:o|time:1660709568|size:1157|exec:0|csum:
-file:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1628554958|size:8899584|exec:1|csum:163057E8B8449A642661642A20A2247D
+file:..\synwork\common_impl1_comp.srs|io:i|time:1660710203|size:9849|exec:0|csum:0FD99205868EFDCE8DD1A1DBD254B7BF
+file:..\synwork\common_impl1_mult.srs|io:o|time:1660710204|size:9607|exec:0|csum:
+file:..\synlog\common_impl1_multi_srs_gen.srr|io:o|time:1660710204|size:1157|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603934322|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

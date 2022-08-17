@@ -1,20 +1,20 @@
-# Wed Aug 17 13:12:50 2022
+# Wed Aug 17 13:23:26 2022
 
 
-Copyright (C) 1994-2021 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: R-2021.03L-SP1
+Build: Q-2020.03L-SP1
 Install: C:\lscc\diamond\3.12\synpbase
 OS: Windows 6.2
 
-Hostname: TODOC-ECHO-LAPT
+Hostname: DESKTOP-060JDBH
 
 Implementation : impl1
-Synopsys Lattice Technology Mapper, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
 
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
@@ -23,44 +23,44 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
-
-
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
-
-@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":359:1:359:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_idle_cnt[23:0] 
-@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":446:1:446:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_duty_cnt[23:0] 
-@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":394:1:394:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_interphase_cnt[23:0] 
-@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":461:24:461:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
-@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":465:24:465:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
-
-Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
-
-
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
+
+@N: MO231 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":359:1:359:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_idle_cnt[23:0] 
+@N: MO231 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":446:1:446:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_duty_cnt[23:0] 
+@N: MO231 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":394:1:394:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_interphase_cnt[23:0] 
+@N: MF179 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":461:24:461:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
+@N: MF179 :"c:\users\hsi74\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":465:24:465:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
@@ -69,45 +69,42 @@ Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elaps
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
    1		0h:00m:02s		   238.27ns		 126 /       165
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 141MB peak: 179MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 179MB)
 
-Writing Analyst data base C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
+Writing Analyst data base C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 179MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 179MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
+@N: FX1056 |Writing EDF file: C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 183MB peak: 183MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 183MB peak: 184MB)
-
-
-Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 182MB peak: 184MB)
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 183MB peak: 184MB)
 
 @N: MT615 |Found clock rootClk with period 250.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Aug 17 13:12:53 2022
+# Timing report written on Wed Aug 17 13:23:29 2022
 #
 
 
@@ -115,7 +112,7 @@ Top view:               ci_stim_fpga_wrapper
 Requested Frequency:    4.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
+Constraint File(s):    C:\Users\hsi74\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -243,14 +240,14 @@ un1_r_duty_19_14         Net          -        -       -         -            1
 un1_r_duty_19            ORCALUT4     D        In      0.000     3.077 f      -         
 un1_r_duty_19            ORCALUT4     Z        Out     1.017     4.094 f      -         
 un1_r_duty_19            Net          -        -       -         -            1         
-c_idle_phase_en8         ORCALUT4     A        In      0.000     4.094 f      -         
-c_idle_phase_en8         ORCALUT4     Z        Out     1.089     5.183 r      -         
-c_idle_phase_en8         Net          -        -       -         -            2         
+c_idle_phase_en6         ORCALUT4     A        In      0.000     4.094 f      -         
+c_idle_phase_en6         ORCALUT4     Z        Out     1.089     5.183 r      -         
+c_idle_phase_en6         Net          -        -       -         -            2         
 c_idle_phase_en_0_o2     ORCALUT4     A        In      0.000     5.183 r      -         
 c_idle_phase_en_0_o2     ORCALUT4     Z        Out     1.225     6.408 r      -         
 c_idle_phase_en          Net          -        -       -         -            5         
-r_idle_cnt15_i           ORCALUT4     A        In      0.000     6.408 r      -         
-r_idle_cnt15_i           ORCALUT4     Z        Out     1.344     7.752 f      -         
+r_idle_cnt13_i           ORCALUT4     A        In      0.000     6.408 r      -         
+r_idle_cnt13_i           ORCALUT4     Z        Out     1.344     7.752 f      -         
 r_idle_cnt               Net          -        -       -         -            25        
 r_idle_cnt_cry_0[0]      CCU2D        A1       In      0.000     7.752 f      -         
 r_idle_cnt_cry_0[0]      CCU2D        COUT     Out     1.544     9.296 r      -         
@@ -299,14 +296,14 @@ r_idle_cnt[23]           FD1P3DX      D        In      0.000     12.416 r     -
 ##### END OF TIMING REPORT #####]
 
 Timing exceptions that could not be applied
-@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
-@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/hsi74/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
 None
 
 Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 183MB peak: 184MB)
@@ -325,7 +322,7 @@ I/O cells:       17
 
 Details:
 CCU2D:          53
-FD1P3AX:        2
+FD1P3AY:        2
 FD1P3DX:        115
 FD1S3BX:        1
 FD1S3DX:        46
@@ -341,9 +338,9 @@ VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 67MB peak: 184MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 66MB peak: 184MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Wed Aug 17 13:12:53 2022
+# Wed Aug 17 13:23:29 2022
 
 ###########################################################]
