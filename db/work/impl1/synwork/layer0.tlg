@@ -16,25 +16,17 @@ Running optimization stage 1 on ci_stim_fpga_wrapper .......
 @A: CL282 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Feedback mux created for signal r_led_b. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 @W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Feedback mux created for signal r_init_ok. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
 @W: CL251 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|All reachable assignments to r_init_ok assign 1, register removed by optimization
-@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -56,6 +48,13 @@ Running optimization stage 1 on ci_stim_fpga_wrapper .......
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_idle[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_idle[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_idle[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 23 to 19 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 17 of r_duty[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 15 to 13 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 11 of r_duty[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 8 to 5 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 3 of r_duty[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 1 of r_duty[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 23 to 19 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 17 of r_idle[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 15 to 13 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
@@ -63,7 +62,6 @@ Running optimization stage 1 on ci_stim_fpga_wrapper .......
 @W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 8 to 5 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 3 of r_idle[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 1 of r_idle[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL169 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning unused register r_duty[23:0]. Make sure that there are no unused intermediate registers.
 Finished optimization stage 1 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
 Running optimization stage 2 on ci_stim_fpga_wrapper .......
 @N: CL201 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":490:1:490:6|Trying to extract state machine for register r_state.
@@ -76,14 +74,16 @@ State machine has 7 reachable states with original encodings of:
    101
    110
    111
+@W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 10 of r_duty[10:9]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 10 of r_idle[10:9]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Sharing sequential element r_idle and merging r_duty. Add a syn_preserve attribute to the element to prevent sharing.
 @N: CL159 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":84:13:84:104|Input i_duty is unused.
 @N: CL159 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":85:13:85:104|Input i_idle is unused.
-Finished optimization stage 2 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 100MB)
+Finished optimization stage 2 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 106MB)
 Running optimization stage 2 on OSCH .......
-Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 100MB)
+Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 106MB)
 Running optimization stage 2 on GSR .......
-Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 100MB)
+Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 106MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================

@@ -6,7 +6,7 @@ PIC Latch:       0
 I/O cells:       17
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2D       46       100.0
+                              CCU2D       53       100.0
                             FD1P3AY        2       100.0
                             FD1P3DX       77       100.0
                             FD1S3BX        1       100.0
@@ -17,10 +17,10 @@ I/O cells:       17
                                 INV        2       100.0
                                  OB        8       100.0
                            OFS1P3DX        1       100.0
-                           ORCALUT4       41       100.0
+                           ORCALUT4       35       100.0
                                OSCH        1       100.0
                                 PUR        1       100.0
                                 VHI        1       100.0
                                 VLO        1       100.0
                             
-                         TOTAL           201           
+                         TOTAL           202           

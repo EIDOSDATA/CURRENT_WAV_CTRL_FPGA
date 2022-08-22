@@ -6,7 +6,7 @@ PIC Latch:       0
 I/O cells:       17
 
 Details:
-CCU2D:          46
+CCU2D:          53
 FD1P3AY:        2
 FD1P3DX:        77
 FD1S3BX:        1
@@ -17,7 +17,7 @@ IFS1P3DX:       1
 INV:            2
 OB:             8
 OFS1P3DX:       1
-ORCALUT4:       41
+ORCALUT4:       35
 OSCH:           1
 PUR:            1
 VHI:            1

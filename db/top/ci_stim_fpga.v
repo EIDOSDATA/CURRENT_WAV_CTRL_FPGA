@@ -10,7 +10,7 @@
 `define ST_CATHODE_LV	(3'd6) /* 110 */
 `define ST_INTERPHASE	(3'd7) /* 111 */
 
-`define IDLE_TIME_50MS			(3'd0) /* 00 */
+`define IDLE_TIME_50MS			(3'd0) /* 000 */
 `define IDLE_TIME_100MS			(3'd1) /* 001 */
 `define IDLE_TIME_200MS			(3'd2) /* 010 */
 `define IDLE_TIME_300MS			(3'd3) /* 011 */
@@ -19,7 +19,7 @@
 `define IDLE_TIME_800MS			(3'd6) /* 110 */
 `define IDLE_TIME_1000MS		(3'd7) /* 111 */
 
-`define DUTY_TIME_50MS			(3'd0) /* 00 */
+`define DUTY_TIME_50MS			(3'd0) /* 000 */
 `define DUTY_TIME_100MS			(3'd1) /* 001 */
 `define DUTY_TIME_200MS			(3'd2) /* 010 */
 `define DUTY_TIME_300MS			(3'd3) /* 011 */
@@ -331,7 +331,7 @@ module ci_stim_fpga_wrapper (
 		// RUN 상태에선 값을 세팅한다.
 		else if(r_run_state)begin
 			r_idle <= 333333;//r_idle <= r_idle_val;
-			r_idle <= 333333;//r_duty <= r_duty_val;
+			r_duty <= 333333;//r_duty <= r_duty_val;
 		end
 	end 
 	/* EOF BUTTON */
@@ -447,8 +447,8 @@ module ci_stim_fpga_wrapper (
 		if (~i_rst_n) begin
 			r_duty_cnt <= 0;
 		end
-		// else if(c_anode_phase_en || c_cathod_phase_en || w_duty_tmout) begin
-		else if(w_duty_tmout) begin // ERROR POINT
+		
+		else if(c_anode_phase_en || c_cathod_phase_en || w_duty_tmout) begin // ERROR POINT
 			r_duty_cnt <= 0;
 		end
 		else if(r_anode_phase || r_cathod_phase) begin
@@ -548,7 +548,7 @@ module ci_stim_fpga_wrapper (
 				begin
 					// VALUE CHECK
 					if (r_idle != 0) begin
-						c_run_phase_en = 0;
+						//c_run_phase_en = 0;
 						c_idle_phase_en = 1;
 						c_next_state = `ST_PULSE_IDLE;
 					end
@@ -568,7 +568,7 @@ module ci_stim_fpga_wrapper (
 					
 					// STOP 버튼이 눌릴 경우 바이폴라가펄스가 1번 출력 후 IDLE에서 멈춤
 					else if (!r_run_state) begin
-						c_run_phase_en = 0; // VALUE SETTING SINGNAL
+						//c_run_phase_en = 0; // VALUE SETTING SINGNAL
 						c_next_state = `ST_NORMAL;
 					end
 					
@@ -581,7 +581,7 @@ module ci_stim_fpga_wrapper (
 			`ST_ANODE_LV:
 				begin
 					if (r_anode_phase) begin
-						c_anode_phase_en = 0;
+						//c_anode_phase_en = 0;
 						c_ano_top = 1;
 						c_ano_bot = 1;				
 						c_next_state = `ST_ANODE_LV;
@@ -596,7 +596,7 @@ module ci_stim_fpga_wrapper (
 			`ST_INTERPHASE:
 				begin
 					if (r_interphase) begin
-						c_interphase_en = 0;
+						//c_interphase_en = 0;
 						c_next_state = `ST_INTERPHASE;
 					end
 					

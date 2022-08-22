@@ -49,8 +49,8 @@ end
 // start button press & DUTY / IDLE VALUE SETTING
 initial begin
   r_start_btn = 0;
-  r_duty_val = 7;
-  r_idle_val = 7;
+  r_duty_val = 3'd7;
+  r_idle_val = 3'd7;
   #(400);
   r_start_btn = 1;
 end

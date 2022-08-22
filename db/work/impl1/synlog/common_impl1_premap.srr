@@ -1,4 +1,4 @@
-# Mon Aug 22 11:57:59 2022
+# Mon Aug 22 14:00:42 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -20,7 +20,7 @@ Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 070R, Built
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
 
 Reading constraint file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
 @L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt 
@@ -45,11 +45,17 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @N: FX493 |Applying initial value "1" on instance r_led_b.
 @N: FX493 |Applying initial value "1" on instance r_led_g.
-@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[18] because it is equivalent to instance r_idle[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[16] because it is equivalent to instance r_idle[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[4] because it is equivalent to instance r_idle[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[2] because it is equivalent to instance r_idle[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[12] because it is equivalent to instance r_idle[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[18] because it is equivalent to instance r_duty[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[16] because it is equivalent to instance r_duty[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_duty[18] because it is equivalent to instance r_duty[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[12] because it is equivalent to instance r_duty[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_duty[16] because it is equivalent to instance r_duty[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[4] because it is equivalent to instance r_duty[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_duty[4] because it is equivalent to instance r_duty[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[2] because it is equivalent to instance r_duty[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_duty[2] because it is equivalent to instance r_duty[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_idle[0] because it is equivalent to instance r_duty[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":307:1:307:6|Removing sequential instance r_duty[12] because it is equivalent to instance r_duty[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 Encoding state machine r_state[6:0] (in view: work.ci_stim_fpga_wrapper(verilog))
 original code -> new code
    000 -> 0000001
@@ -137,7 +143,7 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
 
@@ -145,9 +151,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 90MB peak: 177MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 177MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Aug 22 11:58:00 2022
+# Mon Aug 22 14:00:43 2022
 
 ###########################################################]

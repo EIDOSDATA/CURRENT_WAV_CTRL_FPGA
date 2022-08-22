@@ -4,17 +4,32 @@ i_rst_n_c_i i_rst_n_c
 [ START CLIPPED ]
 r_interphase_cnt_s_0_S1[23]
 r_interphase_cnt_s_0_COUT[23]
-r_idle_cnt_cry_0_S0[0]
-N_2
-r_idle_cnt_s_0_S1[23]
-r_idle_cnt_s_0_COUT[23]
 r_duty_cnt_cry_0_S0[0]
-N_3
+N_2
 r_duty_cnt_s_0_S1[23]
 r_duty_cnt_s_0_COUT[23]
+r_idle_cnt_cry_0_S0[0]
+N_3
+r_idle_cnt_s_0_S1[23]
+r_idle_cnt_s_0_COUT[23]
+w_duty_tmout_0_I_1_0_S1
+w_duty_tmout_0_I_1_0_S0
+N_4
+w_duty_tmout_0_I_9_0_S1
+w_duty_tmout_0_I_9_0_S0
+w_duty_tmout_0_I_27_0_S1
+w_duty_tmout_0_I_27_0_S0
+w_duty_tmout_0_I_33_0_S1
+w_duty_tmout_0_I_33_0_S0
+w_duty_tmout_0_I_21_0_S1
+w_duty_tmout_0_I_21_0_S0
+w_duty_tmout_0_I_57_0_S1
+w_duty_tmout_0_I_57_0_S0
+w_duty_tmout_0_I_45_0_S0
+w_duty_tmout_0_I_45_0_COUT
 w_idle_tmout_0_I_1_0_S1
 w_idle_tmout_0_I_1_0_S0
-N_4
+N_5
 w_idle_tmout_0_I_9_0_S1
 w_idle_tmout_0_I_9_0_S0
 w_idle_tmout_0_I_27_0_S1
@@ -48,7 +63,7 @@ w_clk 3.33
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.1.454 -- WARNING: Map write only section -- Mon Aug 22 11:58:06 2022
+# map:  version Diamond (64-bit) 3.12.1.454 -- WARNING: Map write only section -- Mon Aug 22 14:00:49 2022
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
 LOCATE COMP "o_ano_top" SITE "39" ;
