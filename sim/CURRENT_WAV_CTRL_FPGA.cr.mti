@@ -1,1 +1,14 @@
+C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v {2 {vlog -work work +define+SIMULATION -y C:/lscc/diamond/3.12/cae_library -stats=none C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2020.3 Compiler 2020.10 Oct 14 2020
+-- Compiling module ci_stim_fpga_wrapper_tb
+** Warning: C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(60): (vlog-2597) '3000000000' is being treated as 32-bit signed integer and will overflow.
+** Warning: C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(60): (vlog-2556) Negative delay value set to zero.
+-- Scanning library directory 'C:/lscc/diamond/3.12/cae_library'
 
+Referenced (but uncompiled) modules or primitives:
+	ci_stim_fpga_wrapper
+
+Top level modules:
+	ci_stim_fpga_wrapper_tb
+
+} {} {}}

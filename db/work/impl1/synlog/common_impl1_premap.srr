@@ -1,4 +1,4 @@
-# Mon Aug 22 11:10:40 2022
+# Mon Aug 22 11:40:27 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -40,7 +40,7 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
-@W: BN287 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":489:1:489:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":490:1:490:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.  
 @N: FX493 |Applying initial value "0" on instance r_run_state.
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @N: FX493 |Applying initial value "1" on instance r_led_b.
@@ -136,13 +136,13 @@ Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Tim
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 177MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 177MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Aug 22 11:10:42 2022
+# Mon Aug 22 11:40:29 2022
 
 ###########################################################]

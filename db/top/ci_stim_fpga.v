@@ -5,9 +5,9 @@
 `define ST_RUN			(3'd2) /* 010 */
 `define ST_ERROR		(3'd3) /* 011 */
 // FSM2 STATUS >> PULSE
-`define ST_PULSE_IDLE	(3'd4) /* 101 */
-`define ST_ANODE_LV		(3'd5) /* 110 */
-`define ST_CATHODE_LV	(3'd6) /* 111 */
+`define ST_PULSE_IDLE	(3'd4) /* 100 */
+`define ST_ANODE_LV		(3'd5) /* 101 */
+`define ST_CATHODE_LV	(3'd6) /* 110 */
 `define ST_INTERPHASE	(3'd7) /* 111 */
 
 `define IDLE_TIME_50MS			(3'd0) /* 00 */
@@ -447,7 +447,8 @@ module ci_stim_fpga_wrapper (
 		if (~i_rst_n) begin
 			r_duty_cnt <= 0;
 		end
-		else if(c_anode_phase_en || c_cathod_phase_en || w_duty_tmout) begin // ERROR POINT
+		// else if(c_anode_phase_en || c_cathod_phase_en || w_duty_tmout) begin
+		else if(w_duty_tmout) begin // ERROR POINT
 			r_duty_cnt <= 0;
 		end
 		else if(r_anode_phase || r_cathod_phase) begin
@@ -503,11 +504,13 @@ module ci_stim_fpga_wrapper (
 	/* Combinational Logic */
 	always @(*)
 	begin
+		
 		c_run_phase_en = 0;
 		c_idle_phase_en = 0;
 		c_anode_phase_en = 0;
 		c_cathod_phase_en = 0;	
 		c_interphase_en = 0;
+		
 		
 		c_next_state = r_state;
 		
@@ -516,6 +519,7 @@ module ci_stim_fpga_wrapper (
 		c_cat_top = 0;
 		c_cat_bot = 0;
 		c_curr_ena = 0;
+		
 		
 		case (r_state)
 			`ST_INIT:

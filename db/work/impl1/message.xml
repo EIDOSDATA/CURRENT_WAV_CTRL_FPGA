@@ -53,36 +53,36 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL207 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:469:1:469:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Dynamic>
+            <Dynamic>CL207 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Dynamic>
             <Navigation>CL207</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>469</Navigation>
+            <Navigation>470</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>469</Navigation>
+            <Navigation>470</Navigation>
             <Navigation>6</Navigation>
             <Navigation>All reachable assignments to r_curr_ena assign 0, register removed by optimization.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:469:1:469:6|Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>469</Navigation>
+            <Navigation>470</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>469</Navigation>
+            <Navigation>470</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:469:1:469:6|Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:470:1:470:6|Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>469</Navigation>
+            <Navigation>470</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>469</Navigation>
+            <Navigation>470</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
         </Message>
@@ -305,12 +305,12 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN287 :&quot;c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v&quot;:489:1:489:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.</Dynamic>
+            <Dynamic>BN287 :&quot;c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v&quot;:490:1:490:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.</Dynamic>
             <Navigation>BN287</Navigation>
             <Navigation>c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v</Navigation>
-            <Navigation>489</Navigation>
+            <Navigation>490</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>489</Navigation>
+            <Navigation>490</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Register r_led_r with reset has an initial value of 1. Ignoring initial value.  </Navigation>
         </Message>
