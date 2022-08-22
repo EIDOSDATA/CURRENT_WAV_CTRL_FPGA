@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-2000ZETQFP100
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.1.454
-Mapped on:  08/22/22  15:08:23
+Mapped on:  08/22/22  15:32:01
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/22/22  15:08:23
+Design:  ci_stim_fpga_wrapper                          Date:  08/22/22  15:32:01
 
 Design Summary (cont)
 ---------------------
@@ -77,8 +77,8 @@ Design Summary (cont)
      Net r_interphase_cnte: 13 loads, 13 LSLICEs
      Net r_interphase_cnt15: 1 loads, 1 LSLICEs
      Net un1_r_led_g8_3_i: 16 loads, 16 LSLICEs
-     Net un1_w_idle_tmout_1: 1 loads, 1 LSLICEs
      Net r_idle_cnte: 13 loads, 13 LSLICEs
+     Net un1_w_idle_tmout_1: 1 loads, 1 LSLICEs
      Net r_duty_cnte: 13 loads, 13 LSLICEs
      Net r_duty_cnt16: 1 loads, 1 LSLICEs
    Number of local set/reset loads for net i_rst_n_c merged into GSR:  161
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/22/22  15:08:23
+Design:  ci_stim_fpga_wrapper                          Date:  08/22/22  15:32:01
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -198,7 +198,7 @@ Signal r_curr_ena15_cry_1_0_S0 undriven or does not drive anything - clipped.
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/22/22  15:08:23
+Design:  ci_stim_fpga_wrapper                          Date:  08/22/22  15:32:01
 
 Removed logic (cont)
 --------------------
@@ -264,7 +264,7 @@ Signal w_idle_tmout_0_I_45_0_COUT undriven or does not drive anything - clipped.
 
 
 
-Design:  ci_stim_fpga_wrapper                          Date:  08/22/22  15:08:23
+Design:  ci_stim_fpga_wrapper                          Date:  08/22/22  15:32:01
 
 Removed logic (cont)
 --------------------

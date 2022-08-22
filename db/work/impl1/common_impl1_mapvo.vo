@@ -2,8 +2,8 @@
 // Verilog netlist produced by program ldbanno, Version Diamond (64-bit) 3.12.1.454
 
 // ldbanno -n Verilog -o common_impl1_mapvo.vo -w -neg -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml common_impl1_map.ncd 
-// Netlist created on Mon Aug 22 15:08:23 2022
-// Netlist written on Mon Aug 22 15:08:24 2022
+// Netlist created on Mon Aug 22 15:32:01 2022
+// Netlist written on Mon Aug 22 15:32:03 2022
 // Design is for device LCMXO2-2000ZE
 // Design is for package TQFP100
 // Design is for performance grade 1
@@ -710,8 +710,8 @@ module ci_stim_fpga_wrapper ( i_rst_n, i_start_btn, i_stop_btn, i_duty, i_idle,
     .B1(c_anode_phase_en_2_sqmuxa), .A1(\w_duty_tmout_0_data_tmp_i[11] ), 
     .C0(r_duty_cnt15), .B0(r_cathod_phase), .A0(r_anode_phase), 
     .F0(r_duty_cnte), .F1(r_duty_cnt15));
-  SLICE_123 SLICE_123( .D1(\r_interphase_cnt[6] ), .C1(\r_interphase_cnt[3] ), 
-    .B1(\r_interphase_cnt[2] ), .A1(\r_interphase_cnt[0] ), 
+  SLICE_123 SLICE_123( .D1(\r_interphase_cnt[8] ), .C1(\r_interphase_cnt[6] ), 
+    .B1(\r_interphase_cnt[3] ), .A1(\r_interphase_cnt[1] ), 
     .D0(w_interphase_tmout_15), .C0(w_interphase_tmout_14), 
     .B0(w_interphase_tmout_13), .A0(w_interphase_tmout_12), 
     .F0(w_interphase_tmout_21), .F1(w_interphase_tmout_15));
@@ -744,9 +744,9 @@ module ci_stim_fpga_wrapper ( i_rst_n, i_start_btn, i_stop_btn, i_duty, i_idle,
     .F0(o_curr_ena_i_m_9), .F1(o_curr_ena_i_m_8_0));
   SLICE_131 SLICE_131( .D1(\r_interphase_cnt[11] ), 
     .C1(\r_interphase_cnt[10] ), .B1(\r_interphase_cnt[9] ), 
-    .A1(\r_interphase_cnt[7] ), .D0(\r_interphase_cnt[8] ), 
-    .C0(\r_interphase_cnt[5] ), .B0(\r_interphase_cnt[4] ), 
-    .A0(\r_interphase_cnt[1] ), .F0(w_interphase_tmout_14), 
+    .A1(\r_interphase_cnt[7] ), .D0(\r_interphase_cnt[5] ), 
+    .C0(\r_interphase_cnt[4] ), .B0(\r_interphase_cnt[2] ), 
+    .A0(\r_interphase_cnt[0] ), .F0(w_interphase_tmout_14), 
     .F1(w_interphase_tmout_13));
   SLICE_132 SLICE_132( .D1(\r_idle[15] ), .C1(\r_idle[14] ), .B1(\r_idle[13] ), 
     .A1(\r_idle[12] ), .D0(\r_idle[18] ), .C0(\r_idle[17] ), .B0(\r_idle[16] ), 
@@ -4946,7 +4946,7 @@ endmodule
 module SLICE_131 ( input D1, C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
 
   lut40057 w_interphase_tmout_13( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
-  lut40071 w_interphase_tmout_14( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+  lut40057 w_interphase_tmout_14( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
 
   specify
     (D1 => F1) = (0:0:0,0:0:0);
