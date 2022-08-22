@@ -10,23 +10,23 @@
 `define ST_CATHODE_LV	(3'd6) /* 110 */
 `define ST_INTERPHASE	(3'd7) /* 111 */
 
-`define IDLE_TIME_50MS			(3'd0) /* 000 */
-`define IDLE_TIME_100MS			(3'd1) /* 001 */
-`define IDLE_TIME_200MS			(3'd2) /* 010 */
-`define IDLE_TIME_300MS			(3'd3) /* 011 */
-`define IDLE_TIME_400MS			(3'd4) /* 100 */
-`define IDLE_TIME_600MS			(3'd5) /* 101 */
-`define IDLE_TIME_800MS			(3'd6) /* 110 */
-`define IDLE_TIME_1000MS		(3'd7) /* 111 */
+`define IDLE_TIME_50MS			(3'b000) /* 000 */
+`define IDLE_TIME_100MS			(3'b001) /* 001 */
+`define IDLE_TIME_200MS			(3'b010) /* 010 */
+`define IDLE_TIME_300MS			(3'b011) /* 011 */
+`define IDLE_TIME_400MS			(3'b100) /* 100 */
+`define IDLE_TIME_600MS			(3'b101) /* 101 */
+`define IDLE_TIME_800MS			(3'b110) /* 110 */
+`define IDLE_TIME_1000MS		(3'b111) /* 111 */
 
-`define DUTY_TIME_50MS			(3'd0) /* 000 */
-`define DUTY_TIME_100MS			(3'd1) /* 001 */
-`define DUTY_TIME_200MS			(3'd2) /* 010 */
-`define DUTY_TIME_300MS			(3'd3) /* 011 */
-`define DUTY_TIME_400MS			(3'd4) /* 100 */
-`define DUTY_TIME_600MS			(3'd5) /* 101 */
-`define DUTY_TIME_800MS			(3'd6) /* 110 */
-`define DUTY_TIME_1000MS		(3'd7) /* 111 */
+`define DUTY_TIME_50US			(3'b000) /* 000 */
+`define DUTY_TIME_100US			(3'b001) /* 001 */
+`define DUTY_TIME_200US			(3'b010) /* 010 */
+`define DUTY_TIME_300US			(3'b011) /* 011 */
+`define DUTY_TIME_400US			(3'b100) /* 100 */
+`define DUTY_TIME_600US			(3'b101) /* 101 */
+`define DUTY_TIME_800US			(3'b110) /* 110 */
+`define DUTY_TIME_1000US		(3'b111) /* 111 */
 
 /*
     duty     duty     duty     duty
@@ -266,37 +266,37 @@ module ci_stim_fpga_wrapper (
 		
 		else begin
 			case (i_duty)
-				`DUTY_TIME_50MS:
+				`DUTY_TIME_50US:
 					begin
-						r_duty_val <= 166666;
+						r_duty_val <= 166;
 					end
-				`DUTY_TIME_100MS:
+				`DUTY_TIME_100US:
 					begin
-						r_duty_val <= 333333;
+						r_duty_val <= 333;
 					end
-				`DUTY_TIME_200MS:
+				`DUTY_TIME_200US:
 					begin
-						r_duty_val <= 666666;
+						r_duty_val <= 666;
 					end
-				`DUTY_TIME_300MS:
+				`DUTY_TIME_300US:
 					begin
-						r_duty_val <= 999999;
+						r_duty_val <= 999;
 					end
-				`DUTY_TIME_400MS:
+				`DUTY_TIME_400US:
 					begin
-						r_duty_val <= 1333333;
+						r_duty_val <= 1333;
 					end
-				`DUTY_TIME_600MS:
+				`DUTY_TIME_600US:
 					begin
-						r_duty_val <= 2000000; // 1999999.8
+						r_duty_val <= 1999; // 1999.998
 					end
-				`DUTY_TIME_800MS:
+				`DUTY_TIME_800US:
 					begin
-						r_duty_val <= 2666666;
+						r_duty_val <= 2666;
 					end
-				`DUTY_TIME_1000MS:
+				`DUTY_TIME_1000US:
 					begin
-						r_duty_val <= 3333333;
+						r_duty_val <= 3333;
 					end
 				default:;
 			endcase
@@ -330,8 +330,8 @@ module ci_stim_fpga_wrapper (
 		end		
 		// RUN 상태에선 값을 세팅한다.
 		else if(r_run_state)begin
-			r_idle <= 333333;//r_idle <= r_idle_val;
-			r_duty <= 333333;//r_duty <= r_duty_val;
+			r_idle <= r_idle_val; // r_idle <= r_idle_val - (`INTERPHASE_TIME + (r_duty_val*2));
+			r_duty <= r_duty_val;
 		end
 	end 
 	/* EOF BUTTON */
@@ -446,6 +446,7 @@ module ci_stim_fpga_wrapper (
 	begin
 		if (~i_rst_n) begin
 			r_duty_cnt <= 0;
+			r_curr_ena <= 0;
 		end
 		
 		else if(c_anode_phase_en || c_cathod_phase_en || w_duty_tmout) begin // ERROR POINT
@@ -453,6 +454,14 @@ module ci_stim_fpga_wrapper (
 		end
 		else if(r_anode_phase || r_cathod_phase) begin
 			r_duty_cnt <= r_duty_cnt + 1;
+			
+			if(r_duty_cnt >= `CURRENT_SOURCE_INTERVAL_TIME) begin
+				r_curr_ena <= 1;
+			end
+			
+			if((r_duty_val - `CURRENT_SOURCE_INTERVAL_TIME) < r_duty_cnt) begin
+				r_curr_ena <= 0;
+			end
 		end
 	end
 	/* EOF DUTY COUNTER */
@@ -474,14 +483,14 @@ module ci_stim_fpga_wrapper (
 			r_ano_bot <= 0;
 			r_cat_top <= 0;
 			r_cat_bot <= 0;
-			r_curr_ena <= 0;
+			//r_curr_ena <= 0;
 		end
 		else begin
 			r_ano_top <= c_ano_top;
 			r_ano_bot <= c_ano_bot;
 			r_cat_top <= c_cat_top;
 			r_cat_bot <= c_cat_bot;	
-			r_curr_ena <= c_curr_ena;
+			//r_curr_ena <= c_curr_ena;
 		end
 	end
 	/* EOF OUTPUT INIT */
@@ -503,14 +512,12 @@ module ci_stim_fpga_wrapper (
 /*----------FSM STATE CONTROL----------*/
 	/* Combinational Logic */
 	always @(*)
-	begin
-		
+	begin		
 		c_run_phase_en = 0;
 		c_idle_phase_en = 0;
 		c_anode_phase_en = 0;
-		c_cathod_phase_en = 0;	
+		c_cathod_phase_en = 0;
 		c_interphase_en = 0;
-		
 		
 		c_next_state = r_state;
 		
@@ -519,7 +526,6 @@ module ci_stim_fpga_wrapper (
 		c_cat_top = 0;
 		c_cat_bot = 0;
 		c_curr_ena = 0;
-		
 		
 		case (r_state)
 			`ST_INIT:

@@ -5,7 +5,7 @@
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.ci_stim_fpga_wrapper_tb
 # vsim -gui work.ci_stim_fpga_wrapper_tb 
-# Start time: 14:01:29 on Aug 22,2022
+# Start time: 15:09:19 on Aug 22,2022
 # //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -21,39 +21,18 @@ vsim -gui work.ci_stim_fpga_wrapper_tb
 # //
 # Loading work.ci_stim_fpga_wrapper_tb
 # Loading work.ci_stim_fpga_wrapper
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_duty'. The port definition is at: C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v(61).
-#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_idle'. The port definition is at: C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/top/ci_stim_fpga.v(62).
-#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
 add wave -position insertpoint  \
-sim:/ci_stim_fpga_wrapper_tb/UUT/i_rst_n \
-sim:/ci_stim_fpga_wrapper_tb/UUT/i_duty \
-sim:/ci_stim_fpga_wrapper_tb/UUT/i_idle \
 sim:/ci_stim_fpga_wrapper_tb/UUT/o_ano_top \
 sim:/ci_stim_fpga_wrapper_tb/UUT/o_ano_bot \
 sim:/ci_stim_fpga_wrapper_tb/UUT/o_cat_top \
 sim:/ci_stim_fpga_wrapper_tb/UUT/o_cat_bot \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_duty \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_idle \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_duty_val \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_idle_val \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_state \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_idle_phase \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_anode_phase \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_cathod_phase \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_interphase \
-sim:/ci_stim_fpga_wrapper_tb/UUT/c_idle_phase_en \
-sim:/ci_stim_fpga_wrapper_tb/UUT/c_anode_phase_en \
-sim:/ci_stim_fpga_wrapper_tb/UUT/c_cathod_phase_en \
-sim:/ci_stim_fpga_wrapper_tb/UUT/c_interphase_en \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_idle_cnt \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_duty_cnt \
-sim:/ci_stim_fpga_wrapper_tb/UUT/r_interphase_cnt
+sim:/ci_stim_fpga_wrapper_tb/UUT/o_curr_ena
 run -all
 # ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v(61)
 #    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
 # 1
 # Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v line 61
 run -all
-# End time: 14:08:12 on Aug 22,2022, Elapsed time: 0:06:43
-# Errors: 0, Warnings: 5
+# WARNING: No extended dataflow license exists
+# End time: 15:11:00 on Aug 22,2022, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 2

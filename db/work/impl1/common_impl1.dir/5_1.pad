@@ -6,12 +6,18 @@ Performance Grade:      1
 PACKAGE:          TQFP100
 Package Status:                     Final          Version 1.44
 
-Mon Aug 22 14:00:53 2022
+Mon Aug 22 15:08:28 2022
 
 Pinout by Port Name:
 +-------------+----------+--------------+-------+-----------+-----------+----------------------+
 | Port Name   | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties           |
 +-------------+----------+--------------+-------+-----------+-----------+----------------------+
+| i_duty[0]   | 97/0     | LVCMOS12_IN  | PT11A |           |           | PULL:UP CLAMP:ON     |
+| i_duty[1]   | 98/0     | LVCMOS12_IN  | PT9B  |           |           | PULL:UP CLAMP:ON     |
+| i_duty[2]   | 99/0     | LVCMOS12_IN  | PT9A  |           |           | PULL:UP CLAMP:ON     |
+| i_idle[0]   | 87/0     | LVCMOS12_IN  | PT17B |           |           | PULL:UP CLAMP:ON     |
+| i_idle[1]   | 88/0     | LVCMOS12_IN  | PT17A |           |           | PULL:UP CLAMP:ON     |
+| i_idle[2]   | 96/0     | LVCMOS12_IN  | PT11B |           |           | PULL:UP CLAMP:ON     |
 | i_rst_n     | 78/0     | LVCMOS12_IN  | PT22A |           |           | PULL:UP CLAMP:ON     |
 | i_start_btn | 77/0     | LVCMOS12_IN  | PT24C |           |           | PULL:UP CLAMP:ON     |
 | i_stop_btn  | 76/0     | LVCMOS12_IN  | PT24D |           |           | PULL:UP CLAMP:ON     |
@@ -114,16 +120,16 @@ Pinout by Pin Number:
 | 84/0     |     unused, PULL:DOWN |            |              | PT19A |               |           |           |
 | 85/0     |     unused, PULL:DOWN |            |              | PT18D | SDA/PCLKC0_0  |           |           |
 | 86/0     |     unused, PULL:DOWN |            |              | PT18C | SCL/PCLKT0_0  |           |           |
-| 87/0     |     unused, PULL:DOWN |            |              | PT17B | PCLKC0_1      |           |           |
-| 88/0     |     unused, PULL:DOWN |            |              | PT17A | PCLKT0_1      |           |           |
+| 87/0     | i_idle[0]             | LOCATED    | LVCMOS12_IN  | PT17B | PCLKC0_1      |           |           |
+| 88/0     | i_idle[1]             | LOCATED    | LVCMOS12_IN  | PT17A | PCLKT0_1      |           |           |
 | 90/0     | Reserved: sysCONFIG   |            |              | PT16D | TMS           |           |           |
 | 91/0     | Reserved: sysCONFIG   |            |              | PT16C | TCK           |           |           |
 | 94/0     | Reserved: sysCONFIG   |            |              | PT12D | TDI           |           |           |
 | 95/0     | Reserved: sysCONFIG   |            |              | PT12C | TDO           |           |           |
-| 96/0     |     unused, PULL:DOWN |            |              | PT11B |               |           |           |
-| 97/0     |     unused, PULL:DOWN |            |              | PT11A |               |           |           |
-| 98/0     |     unused, PULL:DOWN |            |              | PT9B  |               |           |           |
-| 99/0     |     unused, PULL:DOWN |            |              | PT9A  |               |           |           |
+| 96/0     | i_idle[2]             | LOCATED    | LVCMOS12_IN  | PT11B |               |           |           |
+| 97/0     | i_duty[0]             | LOCATED    | LVCMOS12_IN  | PT11A |               |           |           |
+| 98/0     | i_duty[1]             | LOCATED    | LVCMOS12_IN  | PT9B  |               |           |           |
+| 99/0     | i_duty[2]             | LOCATED    | LVCMOS12_IN  | PT9A  |               |           |           |
 | PB3A/2   |     unused, PULL:DOWN |            |              | PB3A  |               |           |           |
 | PB3B/2   |     unused, PULL:DOWN |            |              | PB3B  |               |           |           |
 | PB3C/2   |     unused, PULL:DOWN |            |              | PB3C  |               |           |           |
@@ -278,6 +284,12 @@ Dedicated sysCONFIG Pins:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
+LOCATE  COMP  "i_duty[0]"  SITE  "97";
+LOCATE  COMP  "i_duty[1]"  SITE  "98";
+LOCATE  COMP  "i_duty[2]"  SITE  "99";
+LOCATE  COMP  "i_idle[0]"  SITE  "87";
+LOCATE  COMP  "i_idle[1]"  SITE  "88";
+LOCATE  COMP  "i_idle[2]"  SITE  "96";
 LOCATE  COMP  "i_rst_n"  SITE  "78";
 LOCATE  COMP  "i_start_btn"  SITE  "77";
 LOCATE  COMP  "i_stop_btn"  SITE  "76";
@@ -300,5 +312,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Aug 22 14:00:54 2022
+Mon Aug 22 15:08:28 2022
 

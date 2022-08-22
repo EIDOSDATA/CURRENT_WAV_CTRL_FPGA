@@ -24,77 +24,75 @@
 `define CLK_HALF_PERIOD (150)
 
 module ci_stim_fpga_wrapper_tb;
+	//Internal signals declarations:
+	reg r_rst_n;
+	reg r_in;
+	reg r_clk;
+	reg r_start_btn;
+	reg [2:0] r_duty_val;
+	reg [2:0] r_idle_val;
 
+	// input vector generation
+	initial begin
+		r_in = 0;
+	end
 
-//Internal signals declarations:
-reg r_rst_n;
-reg r_in;
-reg r_clk;
-reg r_start_btn;
-reg r_duty_val;
-reg r_idle_val;
+	// reset generation
+	initial begin
+	r_rst_n = 0;
+	#(100);
+	r_rst_n = 1;
+	end
 
-// input vector generation
-initial begin
-	r_in = 0;
-end
+	// start button press & DUTY / IDLE VALUE SETTING
+	initial begin
+		r_start_btn = 0;
+		r_duty_val = 3'd0;
+		r_idle_val = 3'd0;
+		#(1000);
+		r_start_btn = 1;
+		r_duty_val = 3'd7;
+		r_idle_val = 3'd7;
+	end
 
-// reset generation
-initial begin
-  r_rst_n = 0;
-  #(100);
-  r_rst_n = 1;
-end
+	// simulation time
+	initial begin
+		#(3000_000_000);
+		$finish;
+	end
 
-// start button press & DUTY / IDLE VALUE SETTING
-initial begin
-  r_start_btn = 0;
-  r_duty_val = 3'd7;
-  r_idle_val = 3'd7;
-  #(400);
-  r_start_btn = 1;
-end
+	// clock generation
+	initial begin
+		r_clk = 0;
+		forever begin
+			r_clk = 0;
+			#(`CLK_OFFSET);
+			r_clk = 1;
+			#(`CLK_HALF_PERIOD);
+			r_clk = 0;
+			#(`CLK_HALF_PERIOD-`CLK_OFFSET);
+			r_clk = 0;
+		end
+	end
 
-// simulation time
-initial begin
-  #(3000_000_000);
-  $finish;
-end
+	always @(*)	force UUT.w_force_clk = r_clk;
 
-// clock generation
-initial begin
-  r_clk = 0;
-  forever begin
-    r_clk = 0;
-	#(`CLK_OFFSET);
-	r_clk = 1;
-    #(`CLK_HALF_PERIOD);
-	r_clk = 0;
-	#(`CLK_HALF_PERIOD-`CLK_OFFSET);
-	r_clk = 0;
-  end
-end
+	// Unit Under Test port map
+	ci_stim_fpga_wrapper UUT (
+		.i_rst_n(r_rst_n),
+		.i_start_btn(r_start_btn),
+		.i_stop_btn(),
+		.i_duty(r_duty_val),
+		.i_idle(r_idle_val),
 
-always @(*)	force UUT.w_force_clk = r_clk;
+		.o_ano_top(),
+		.o_ano_bot(),
+		.o_cat_top(),
+		.o_cat_bot(),
+		.o_curr_ena(),
 
-// Unit Under Test port map
-ci_stim_fpga_wrapper UUT (
-	.i_rst_n(r_rst_n),
-	.i_start_btn(r_start_btn),
-	.i_stop_btn(),
-	.i_duty(r_duty_val),
-	.i_idle(r_idle_val),
-
-	.o_ano_top(),
-	.o_ano_bot(),
-	.o_cat_top(),
-	.o_cat_bot(),
-	.o_curr_ena(),
-
-	.o_led_r(),
-	.o_led_g(),
-	.o_led_b()
-);
-
-
+		.o_led_r(),
+		.o_led_g(),
+		.o_led_b()
+	);
 endmodule
