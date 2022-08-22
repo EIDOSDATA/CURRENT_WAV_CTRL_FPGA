@@ -1,4 +1,4 @@
-@W: BN287 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":490:1:490:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":489:1:489:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.  
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.

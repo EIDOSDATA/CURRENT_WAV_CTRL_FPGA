@@ -110,10 +110,7 @@ module ci_stim_fpga_wrapper (
 	reg c_ano_bot;
 	reg c_cat_top;
 	reg c_cat_bot;
-	reg c_curr_ena;
-	reg c_led_r;
-	reg c_led_g;
-	reg c_led_b;
+	reg c_curr_ena;	
 	// EOF OUTPUT PORT
 	
 	/* INPUT SET VALUE REG */
@@ -155,6 +152,8 @@ module ci_stim_fpga_wrapper (
 	wire w_idle_tmout;	
 	wire w_duty_tmout;
 	wire w_interphase_tmout;
+	wire w_anode_phase_end_en;
+	wire w_cathod_phase_end_en;	
 	// EOF TIMEOUT
 
 	/*------------------------------------------------------------------------------*/
@@ -239,15 +238,15 @@ module ci_stim_fpga_wrapper (
 					end
 				`IDLE_TIME_400MS:
 					begin
-						r_idle_val <= 1333333.2;
+						r_idle_val <= 1333333;
 					end
 				`IDLE_TIME_600MS:
 					begin
-						r_idle_val <= 1999999.8;
+						r_idle_val <= 2000000; // 1999999.8
 					end
 				`IDLE_TIME_800MS:
 					begin
-						r_idle_val <= 2666666.4;
+						r_idle_val <= 2666666;
 					end
 				`IDLE_TIME_1000MS:
 					begin
@@ -285,15 +284,15 @@ module ci_stim_fpga_wrapper (
 					end
 				`DUTY_TIME_400MS:
 					begin
-						r_duty_val <= 1333333.2;
+						r_duty_val <= 1333333;
 					end
 				`DUTY_TIME_600MS:
 					begin
-						r_duty_val <= 1999999.8;
+						r_duty_val <= 2000000; // 1999999.8
 					end
 				`DUTY_TIME_800MS:
 					begin
-						r_duty_val <= 2666666.4;
+						r_duty_val <= 2666666;
 					end
 				`DUTY_TIME_1000MS:
 					begin

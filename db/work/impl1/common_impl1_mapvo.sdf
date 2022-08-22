@@ -1,7 +1,7 @@
 (DELAYFILE
   (SDFVERSION "3.0")
   (DESIGN "ci_stim_fpga_wrapper")
-  (DATE "Wed Aug 17 15:55:54 2022")
+  (DATE "Mon Aug 22 11:10:49 2022")
   (VENDOR "Lattice")
   (PROGRAM "ldbanno")
   (VERSION "Diamond (64-bit) 3.12.1.454")
