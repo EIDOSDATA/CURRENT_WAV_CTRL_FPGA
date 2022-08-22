@@ -329,9 +329,9 @@ module ci_stim_fpga_wrapper (
 			r_run_state <= 0;
 		end		
 		// RUN 상태에선 값을 세팅한다.
-		else if(c_run_phase_en)begin
-			r_idle <= r_idle_val;
-			r_duty <= r_duty_val;
+		else if(r_run_state)begin
+			r_idle <= 333333;//r_idle <= r_idle_val;
+			r_idle <= 333333;//r_duty <= r_duty_val;
 		end
 	end 
 	/* EOF BUTTON */
@@ -547,7 +547,7 @@ module ci_stim_fpga_wrapper (
 			`ST_RUN:
 				begin
 					// VALUE CHECK
-					if (r_idle == 0) begin
+					if (r_idle != 0) begin
 						c_run_phase_en = 0;
 						c_idle_phase_en = 1;
 						c_next_state = `ST_PULSE_IDLE;

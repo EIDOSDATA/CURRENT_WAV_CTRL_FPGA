@@ -29,7 +29,7 @@ Performance Hardware Data Status:   Final          Version 34.4.
 // Package: TQFP100
 // ncd File: common_impl1.ncd
 // Version: Diamond (64-bit) 3.12.1.454
-// Written on Mon Aug 22 11:40:42 2022
+// Written on Mon Aug 22 11:58:13 2022
 // M: Minimum Performance Grade
 // iotiming common_impl1.ncd common_impl1.prf -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml
 
@@ -55,12 +55,6 @@ Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
 
 Port  Internal_Clock
 --------------------------------------------------------
-i_dut w_clk         
-i_dut w_clk         
-i_dut w_clk         
-i_idl w_clk         
-i_idl w_clk         
-i_idl w_clk         
 i_rst w_clk         
 i_sta w_clk         
 i_sto w_clk         

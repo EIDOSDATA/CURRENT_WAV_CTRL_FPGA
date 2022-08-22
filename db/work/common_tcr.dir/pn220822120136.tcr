@@ -1,0 +1,15 @@
+#Start recording tcl command: 8/22/2022 11:06:42
+#Project Location: C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work; Project name: common
+prj_project open "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/common.ldf"
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+#Stop recording: 8/22/2022 12:01:36
