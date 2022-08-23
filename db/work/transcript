@@ -1,8 +1,12 @@
 # Reading pref.tcl
 # Loading project CURRENT_WAV_CTRL_FPGA
+# 0 compiles, 2 failed with no errors.
+# Compile of ci_stim_fpga.v was successful.
+# Compile of ci_stim_fpga_wrapper_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
 vsim -gui work.ci_stim_fpga_wrapper_tb
 # vsim -gui work.ci_stim_fpga_wrapper_tb 
-# Start time: 10:36:00 on Jul 22,2022
+# Start time: 16:35:26 on Aug 22,2022
 # //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -18,17 +22,30 @@ vsim -gui work.ci_stim_fpga_wrapper_tb
 # //
 # Loading work.ci_stim_fpga_wrapper_tb
 # Loading work.ci_stim_fpga_wrapper
-add wave -position insertpoint  \
-sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw1_sig \
-sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw2_sig \
-sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw3_sig \
-sim:/ci_stim_fpga_wrapper_tb/UUT/out_sw4_sig \
-sim:/ci_stim_fpga_wrapper_tb/UUT/output_ctrl_sig
-run -all
-# ** Note: $finish    : C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v(49)
-#    Time: 0 ps  Iteration: 2  Instance: /ci_stim_fpga_wrapper_tb
-# 1
-# Break in Module ci_stim_fpga_wrapper_tb at C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/sim/ci_stim_fpga_wrapper_TB.v line 49
-run -all
-# End time: 10:44:05 on Jul 22,2022, Elapsed time: 0:08:05
-# Errors: 0, Warnings: 1
+# ** Error (suppressible): (vsim-3389) Port 'i_start_btn' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'i_stop_btn' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'i_duty' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'i_idle' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'o_ano_top' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'o_ano_bot' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'o_cat_top' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'o_cat_bot' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'o_curr_ena' not found in the connected module (10th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'o_led_r' not found in the connected module (11th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'o_led_g' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# ** Error (suppressible): (vsim-3389) Port 'o_led_b' not found in the connected module (13th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ci_stim_fpga_wrapper_tb/UUT File: C:/Users/hsi74/GitHub/CURRENT_WAV_CTRL_FPGA/sim/TestBench/ci_stim_fpga_wrapper_TB.v Line: 81
+# Error loading design
+# End time: 16:35:27 on Aug 22,2022, Elapsed time: 0:00:01
+# Errors: 12, Warnings: 10

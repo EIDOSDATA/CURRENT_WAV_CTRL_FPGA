@@ -1,1 +1,1 @@
-ckid0_0:@|S:internal_osc.OSC@|E:cnt_a[21:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_0:@|S:internal_osc.OSC@|E:r_state[6]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0

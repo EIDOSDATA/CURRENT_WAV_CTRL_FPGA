@@ -6,26 +6,38 @@ Performance Grade:      1
 PACKAGE:          TQFP100
 Package Status:                     Final          Version 1.44
 
-Fri Jul 22 10:26:25 2022
+Mon Aug 22 15:32:07 2022
 
 Pinout by Port Name:
-+-----------------+----------+--------------+-------+-----------+-----------+------------------------------------+
-| Port Name       | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                         |
-+-----------------+----------+--------------+-------+-----------+-----------+------------------------------------+
-| i_rst_n         | 69/1     | LVCMOS33_IN  | PR4A  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL  |
-| out_sw1_sig     | 61/1     | LVCMOS33_OUT | PR9A  |           |           | DRIVE:8mA SLEW:SLOW                |
-| out_sw2_sig     | 65/1     | LVCMOS33_OUT | PR6A  |           |           | DRIVE:8mA SLEW:SLOW                |
-| out_sw3_sig     | 66/1     | LVCMOS33_OUT | PR5B  |           |           | DRIVE:8mA SLEW:SLOW                |
-| out_sw4_sig     | 63/1     | LVCMOS33_OUT | PR7A  |           |           | DRIVE:8mA SLEW:SLOW                |
-| output_ctrl_sig | 86/0     | LVCMOS33_OUT | PT18C |           |           | DRIVE:8mA SLEW:SLOW                |
-+-----------------+----------+--------------+-------+-----------+-----------+------------------------------------+
++-------------+----------+--------------+-------+-----------+-----------+----------------------+
+| Port Name   | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties           |
++-------------+----------+--------------+-------+-----------+-----------+----------------------+
+| i_duty[0]   | 97/0     | LVCMOS12_IN  | PT11A |           |           | PULL:UP CLAMP:ON     |
+| i_duty[1]   | 98/0     | LVCMOS12_IN  | PT9B  |           |           | PULL:UP CLAMP:ON     |
+| i_duty[2]   | 99/0     | LVCMOS12_IN  | PT9A  |           |           | PULL:UP CLAMP:ON     |
+| i_idle[0]   | 87/0     | LVCMOS12_IN  | PT17B |           |           | PULL:UP CLAMP:ON     |
+| i_idle[1]   | 88/0     | LVCMOS12_IN  | PT17A |           |           | PULL:UP CLAMP:ON     |
+| i_idle[2]   | 96/0     | LVCMOS12_IN  | PT11B |           |           | PULL:UP CLAMP:ON     |
+| i_rst_n     | 78/0     | LVCMOS12_IN  | PT22A |           |           | PULL:UP CLAMP:ON     |
+| i_start_btn | 77/0     | LVCMOS12_IN  | PT24C |           |           | PULL:UP CLAMP:ON     |
+| i_stop_btn  | 76/0     | LVCMOS12_IN  | PT24D |           |           | PULL:UP CLAMP:ON     |
+| o_ano_bot   | 40/2     | LVCMOS18_OUT | PB18A |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_ano_top   | 39/2     | LVCMOS18_OUT | PB16B |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_cat_bot   | 42/2     | LVCMOS18_OUT | PB21A |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_cat_top   | 41/2     | LVCMOS18_OUT | PB18B |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_curr_ena  | 43/2     | LVCMOS18_OUT | PB21B |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_led_b     | 14/4     | LVCMOS33_OUT | PL9A  |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_led_g     | 13/4     | LVCMOS33_OUT | PL7D  |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_led_r     | 12/4     | LVCMOS33_OUT | PL7C  |           |           | DRIVE:8mA SLEW:SLOW  |
++-------------+----------+--------------+-------+-----------+-----------+----------------------+
 
 Vccio by Bank:
 +------+-------+
 | Bank | Vccio |
 +------+-------+
-| 0    | 3.3V  |
-| 1    | 3.3V  |
+| 0    | 1.2V  |
+| 2    | 1.8V  |
+| 4    | 3.3V  |
 +------+-------+
 
 Vref by Bank:
@@ -46,9 +58,9 @@ Pinout by Pin Number:
 | 8/5      |     unused, PULL:DOWN |            |              | PL4B  |               |           |           |
 | 9/5      |     unused, PULL:DOWN |            |              | PL5A  |               |           |           |
 | 10/5     |     unused, PULL:DOWN |            |              | PL5B  |               |           |           |
-| 12/4     |     unused, PULL:DOWN |            |              | PL7C  | PCLKT4_0      |           |           |
-| 13/4     |     unused, PULL:DOWN |            |              | PL7D  | PCLKC4_0      |           |           |
-| 14/4     |     unused, PULL:DOWN |            |              | PL9A  |               |           |           |
+| 12/4     | o_led_r               | LOCATED    | LVCMOS33_OUT | PL7C  | PCLKT4_0      |           |           |
+| 13/4     | o_led_g               | LOCATED    | LVCMOS33_OUT | PL7D  | PCLKC4_0      |           |           |
+| 14/4     | o_led_b               | LOCATED    | LVCMOS33_OUT | PL9A  |               |           |           |
 | 15/4     |     unused, PULL:DOWN |            |              | PL9B  |               |           |           |
 | 16/4     |     unused, PULL:DOWN |            |              | PL10A |               |           |           |
 | 17/4     |     unused, PULL:DOWN |            |              | PL10B |               |           |           |
@@ -69,11 +81,11 @@ Pinout by Pin Number:
 | 36/2     |     unused, PULL:DOWN |            |              | PB12A |               |           |           |
 | 37/2     |     unused, PULL:DOWN |            |              | PB12B |               |           |           |
 | 38/2     |     unused, PULL:DOWN |            |              | PB16A | PCLKT2_1      |           |           |
-| 39/2     |     unused, PULL:DOWN |            |              | PB16B | PCLKC2_1      |           |           |
-| 40/2     |     unused, PULL:DOWN |            |              | PB18A |               |           |           |
-| 41/2     |     unused, PULL:DOWN |            |              | PB18B |               |           |           |
-| 42/2     |     unused, PULL:DOWN |            |              | PB21A |               |           |           |
-| 43/2     |     unused, PULL:DOWN |            |              | PB21B |               |           |           |
+| 39/2     | o_ano_top             | LOCATED    | LVCMOS18_OUT | PB16B | PCLKC2_1      |           |           |
+| 40/2     | o_ano_bot             | LOCATED    | LVCMOS18_OUT | PB18A |               |           |           |
+| 41/2     | o_cat_top             | LOCATED    | LVCMOS18_OUT | PB18B |               |           |           |
+| 42/2     | o_cat_bot             | LOCATED    | LVCMOS18_OUT | PB21A |               |           |           |
+| 43/2     | o_curr_ena            | LOCATED    | LVCMOS18_OUT | PB21B |               |           |           |
 | 45/2     |     unused, PULL:DOWN |            |              | PB22A |               |           |           |
 | 47/2     |     unused, PULL:DOWN |            |              | PB22B |               |           |           |
 | 48/2     |     unused, PULL:DOWN |            |              | PB25A | SN            |           |           |
@@ -86,38 +98,38 @@ Pinout by Pin Number:
 | 58/1     |     unused, PULL:DOWN |            |              | PR11A | DQ1           |           |           |
 | 59/1     |     unused, PULL:DOWN |            |              | PR10B | DQ1           |           |           |
 | 60/1     |     unused, PULL:DOWN |            |              | PR10A | DQ1           |           |           |
-| 61/1     | out_sw1_sig           |            | LVCMOS33_OUT | PR9A  | DQS1          |           |           |
+| 61/1     |     unused, PULL:DOWN |            |              | PR9A  | DQS1          |           |           |
 | 62/1     |     unused, PULL:DOWN |            |              | PR7B  | PCLKC1_0/DQ0  |           |           |
-| 63/1     | out_sw4_sig           |            | LVCMOS33_OUT | PR7A  | PCLKT1_0/DQ0  |           |           |
+| 63/1     |     unused, PULL:DOWN |            |              | PR7A  | PCLKT1_0/DQ0  |           |           |
 | 64/1     |     unused, PULL:DOWN |            |              | PR6B  | DQS0N         |           |           |
-| 65/1     | out_sw2_sig           | LOCATED    | LVCMOS33_OUT | PR6A  | DQS0          |           |           |
-| 66/1     | out_sw3_sig           | LOCATED    | LVCMOS33_OUT | PR5B  | DQ0           |           |           |
+| 65/1     |     unused, PULL:DOWN |            |              | PR6A  | DQS0          |           |           |
+| 66/1     |     unused, PULL:DOWN |            |              | PR5B  | DQ0           |           |           |
 | 67/1     |     unused, PULL:DOWN |            |              | PR5A  | DQ0           |           |           |
 | 68/1     |     unused, PULL:DOWN |            |              | PR4B  | DQ0           |           |           |
-| 69/1     | i_rst_n               | LOCATED    | LVCMOS33_IN  | PR4A  | DQ0           |           |           |
+| 69/1     |     unused, PULL:DOWN |            |              | PR4A  | DQ0           |           |           |
 | 70/1     |     unused, PULL:DOWN |            |              | PR3B  | DQ0           |           |           |
 | 71/1     |     unused, PULL:DOWN |            |              | PR3A  | DQ0           |           |           |
 | 74/1     |     unused, PULL:DOWN |            |              | PR1B  | DQ0           |           |           |
 | 75/1     |     unused, PULL:DOWN |            |              | PR1A  | DQ0           |           |           |
-| 76/0     |     unused, PULL:DOWN |            |              | PT24D | DONE          |           |           |
-| 77/0     |     unused, PULL:DOWN |            |              | PT24C | INITN         |           |           |
-| 78/0     |     unused, PULL:DOWN |            |              | PT22A |               |           |           |
+| 76/0     | i_stop_btn            | LOCATED    | LVCMOS12_IN  | PT24D | DONE          |           |           |
+| 77/0     | i_start_btn           | LOCATED    | LVCMOS12_IN  | PT24C | INITN         |           |           |
+| 78/0     | i_rst_n               | LOCATED    | LVCMOS12_IN  | PT22A |               |           |           |
 | 81/0     |     unused, PULL:DOWN |            |              | PT20D | PROGRAMN      |           |           |
 | 82/0     |     unused, PULL:DOWN |            |              | PT20C | JTAGENB       |           |           |
 | 83/0     |     unused, PULL:DOWN |            |              | PT19B |               |           |           |
 | 84/0     |     unused, PULL:DOWN |            |              | PT19A |               |           |           |
 | 85/0     |     unused, PULL:DOWN |            |              | PT18D | SDA/PCLKC0_0  |           |           |
-| 86/0     | output_ctrl_sig       |            | LVCMOS33_OUT | PT18C | SCL/PCLKT0_0  |           |           |
-| 87/0     |     unused, PULL:DOWN |            |              | PT17B | PCLKC0_1      |           |           |
-| 88/0     |     unused, PULL:DOWN |            |              | PT17A | PCLKT0_1      |           |           |
+| 86/0     |     unused, PULL:DOWN |            |              | PT18C | SCL/PCLKT0_0  |           |           |
+| 87/0     | i_idle[0]             | LOCATED    | LVCMOS12_IN  | PT17B | PCLKC0_1      |           |           |
+| 88/0     | i_idle[1]             | LOCATED    | LVCMOS12_IN  | PT17A | PCLKT0_1      |           |           |
 | 90/0     | Reserved: sysCONFIG   |            |              | PT16D | TMS           |           |           |
 | 91/0     | Reserved: sysCONFIG   |            |              | PT16C | TCK           |           |           |
 | 94/0     | Reserved: sysCONFIG   |            |              | PT12D | TDI           |           |           |
 | 95/0     | Reserved: sysCONFIG   |            |              | PT12C | TDO           |           |           |
-| 96/0     |     unused, PULL:DOWN |            |              | PT11B |               |           |           |
-| 97/0     |     unused, PULL:DOWN |            |              | PT11A |               |           |           |
-| 98/0     |     unused, PULL:DOWN |            |              | PT9B  |               |           |           |
-| 99/0     |     unused, PULL:DOWN |            |              | PT9A  |               |           |           |
+| 96/0     | i_idle[2]             | LOCATED    | LVCMOS12_IN  | PT11B |               |           |           |
+| 97/0     | i_duty[0]             | LOCATED    | LVCMOS12_IN  | PT11A |               |           |           |
+| 98/0     | i_duty[1]             | LOCATED    | LVCMOS12_IN  | PT9B  |               |           |           |
+| 99/0     | i_duty[2]             | LOCATED    | LVCMOS12_IN  | PT9A  |               |           |           |
 | PB3A/2   |     unused, PULL:DOWN |            |              | PB3A  |               |           |           |
 | PB3B/2   |     unused, PULL:DOWN |            |              | PB3B  |               |           |           |
 | PB3C/2   |     unused, PULL:DOWN |            |              | PB3C  |               |           |           |
@@ -272,12 +284,23 @@ Dedicated sysCONFIG Pins:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
-LOCATE  COMP  "i_rst_n"  SITE  "69";
-LOCATE  COMP  "out_sw1_sig"  SITE  "61";
-LOCATE  COMP  "out_sw2_sig"  SITE  "65";
-LOCATE  COMP  "out_sw3_sig"  SITE  "66";
-LOCATE  COMP  "out_sw4_sig"  SITE  "63";
-LOCATE  COMP  "output_ctrl_sig"  SITE  "86";
+LOCATE  COMP  "i_duty[0]"  SITE  "97";
+LOCATE  COMP  "i_duty[1]"  SITE  "98";
+LOCATE  COMP  "i_duty[2]"  SITE  "99";
+LOCATE  COMP  "i_idle[0]"  SITE  "87";
+LOCATE  COMP  "i_idle[1]"  SITE  "88";
+LOCATE  COMP  "i_idle[2]"  SITE  "96";
+LOCATE  COMP  "i_rst_n"  SITE  "78";
+LOCATE  COMP  "i_start_btn"  SITE  "77";
+LOCATE  COMP  "i_stop_btn"  SITE  "76";
+LOCATE  COMP  "o_ano_bot"  SITE  "40";
+LOCATE  COMP  "o_ano_top"  SITE  "39";
+LOCATE  COMP  "o_cat_bot"  SITE  "42";
+LOCATE  COMP  "o_cat_top"  SITE  "41";
+LOCATE  COMP  "o_curr_ena"  SITE  "43";
+LOCATE  COMP  "o_led_b"  SITE  "14";
+LOCATE  COMP  "o_led_g"  SITE  "13";
+LOCATE  COMP  "o_led_r"  SITE  "12";
 
 
 
@@ -289,5 +312,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Jul 22 10:26:25 2022
+Mon Aug 22 15:32:07 2022
 

@@ -1,4 +1,717 @@
 
+synpwrap -msg -prj "common_impl1_synplify.tcl" -log "common_impl1.srf"
+Copyright (C) 1992-2020 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.12.1.454
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of common_impl1.srf
+#Build: Synplify Pro (R) R-2021.03L-SP1, Build 093R, Aug 10 2021
+#install: C:\lscc\diamond\3.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: TODOC-ECHO-LAPT
+
+# Mon Aug 22 15:31:51 2022
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: TODOC-ECHO-LAPT
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: TODOC-ECHO-LAPT
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v" (library work)
+Verilog syntax check successful!
+File C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v changed - recompiling
+Selecting top level module ci_stim_fpga_wrapper
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
+Running optimization stage 1 on GSR .......
+Finished optimization stage 1 on GSR (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
+Running optimization stage 1 on OSCH .......
+Finished optimization stage 1 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+@N: CG364 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":53:7:53:26|Synthesizing module ci_stim_fpga_wrapper in library work.
+Running optimization stage 1 on ci_stim_fpga_wrapper .......
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":479:1:479:6|Sharing sequential element r_cat_bot and merging r_cat_top. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":479:1:479:6|Sharing sequential element r_ano_bot and merging r_ano_top. Add a syn_preserve attribute to the element to prevent sharing.
+@A: CL282 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Feedback mux created for signal r_led_g. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Feedback mux created for signal r_led_b. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL113 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Feedback mux created for signal r_init_ok. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL251 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|All reachable assignments to r_init_ok assign 1, register removed by optimization
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":215:1:215:6|Optimizing register bit r_idle_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":215:1:215:6|Optimizing register bit r_idle_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":215:1:215:6|Pruning register bits 23 to 22 of r_idle_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Pruning register bits 23 to 12 of r_duty_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+Running optimization stage 2 on ci_stim_fpga_wrapper .......
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_idle[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_idle[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 23 to 22 of r_idle[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 23 to 12 of r_duty[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Pruning register bit 8 of r_duty_val[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":215:1:215:6|Pruning register bits 4 to 2 of r_idle_val[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":499:1:499:6|Trying to extract state machine for register r_state.
+Extracted state machine for register r_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   100
+   101
+   110
+   111
+@W: CL260 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bit 8 of r_duty[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Pruning register bits 4 to 2 of r_idle[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 101MB)
+Running optimization stage 2 on OSCH .......
+Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 101MB)
+Running optimization stage 2 on GSR .......
+Finished optimization stage 2 on GSR (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 101MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 101MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 22 15:31:51 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: TODOC-ECHO-LAPT
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+File C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 22 15:31:52 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 24MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 22 15:31:52 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: TODOC-ECHO-LAPT
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+File C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 22 15:31:53 2022
+
+###########################################################]
+# Mon Aug 22 15:31:53 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: TODOC-ECHO-LAPT
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
+
+Reading constraint file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
+@L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt 
+See clock summary report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@W: BN287 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":499:1:499:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "0" on instance r_run_state.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "1" on instance r_led_b.
+@N: FX493 |Applying initial value "1" on instance r_led_g.
+Encoding state machine r_state[6:0] (in view: work.ci_stim_fpga_wrapper(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   100 -> 0001000
+   101 -> 0010000
+   110 -> 0100000
+   111 -> 1000000
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=8 on top level netlist ci_stim_fpga_wrapper 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
+
+
+
+Clock Summary
+******************
+
+          Start       Requested     Requested     Clock        Clock                Clock
+Level     Clock       Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------------------
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     150  
+=========================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+            Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------
+rootClk     150       internal_osc.OSC(OSCH)     r_led_r.C       -                 -            
+================================================================================================
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+For details review file gcc_ICG_report.rpt
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 150 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================ Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
+----------------------------------------------------------------------------------------
+@KP:ckid0_0       internal_osc.OSC     OSCH                   150        r_state[6]     
+========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 177MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Aug 22 15:31:54 2022
+
+###########################################################]
+# Mon Aug 22 15:31:55 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: TODOC-ECHO-LAPT
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
+
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":358:1:358:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_idle_cnt[23:0] 
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":445:1:445:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_duty_cnt[23:0] 
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":393:1:393:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_interphase_cnt[23:0] 
+@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":470:24:470:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
+@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":474:24:474:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 175MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 176MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+
+@N: FA113 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":462:7:462:49|Pipelining module un1_r_duty_val[12:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":261:1:261:6|Pushed in register r_duty_val[7:0].
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":261:1:261:6|Pushed in register r_duty_val[11:9].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		   238.21ns		 119 /       163
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 178MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 141MB peak: 179MB)
+
+Writing Analyst data base C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 179MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 184MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 184MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 184MB)
+
+@N: MT615 |Found clock rootClk with period 250.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Aug 22 15:31:59 2022
+#
+
+
+Top view:               ci_stim_fpga_wrapper
+Requested Frequency:    4.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 238.463
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group           
+--------------------------------------------------------------------------------------------------------------------
+rootClk            4.0 MHz       86.7 MHz      250.000       11.537        238.463     declared     default_clkgroup
+System             100.0 MHz     NA            10.000        NA            NA          system       system_clkgroup 
+====================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+rootClk   rootClk  |  250.000     238.463  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: rootClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                            Arrival            
+Instance          Reference     Type        Pin     Net               Time        Slack  
+                  Clock                                                                  
+-----------------------------------------------------------------------------------------
+r_idle[5]         rootClk       FD1P3DX     Q       r_idle[5]         1.044       238.463
+r_idle[6]         rootClk       FD1P3DX     Q       r_idle[6]         1.044       238.463
+r_idle[7]         rootClk       FD1P3DX     Q       r_idle[7]         1.044       238.463
+r_idle[21]        rootClk       FD1P3DX     Q       r_idle[21]        1.044       238.463
+r_duty_cnt[0]     rootClk       FD1P3DX     Q       r_duty_cnt[0]     1.148       238.755
+r_duty_cnt[1]     rootClk       FD1P3DX     Q       r_duty_cnt[1]     1.148       238.755
+r_idle[0]         rootClk       FD1P3DX     Q       r_idle[0]         1.148       238.795
+r_idle[1]         rootClk       FD1P3DX     Q       r_idle[1]         1.108       238.835
+r_duty[0]         rootClk       FD1P3DX     Q       r_duty[0]         1.044       238.859
+r_duty_cnt[2]     rootClk       FD1P3DX     Q       r_duty_cnt[2]     1.148       238.898
+=========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                               Required            
+Instance           Reference     Type        Pin     Net                  Time         Slack  
+                   Clock                                                                      
+----------------------------------------------------------------------------------------------
+r_idle_cnt[23]     rootClk       FD1P3DX     D       r_idle_cnt_s[23]     249.894      238.463
+r_idle_cnt[21]     rootClk       FD1P3DX     D       r_idle_cnt_s[21]     249.894      238.606
+r_idle_cnt[22]     rootClk       FD1P3DX     D       r_idle_cnt_s[22]     249.894      238.606
+r_idle_cnt[19]     rootClk       FD1P3DX     D       r_idle_cnt_s[19]     249.894      238.749
+r_idle_cnt[20]     rootClk       FD1P3DX     D       r_idle_cnt_s[20]     249.894      238.749
+r_duty_cnt[23]     rootClk       FD1P3DX     D       r_duty_cnt_s[23]     249.894      238.755
+r_idle_cnt[17]     rootClk       FD1P3DX     D       r_idle_cnt_s[17]     249.894      238.892
+r_idle_cnt[18]     rootClk       FD1P3DX     D       r_idle_cnt_s[18]     249.894      238.892
+r_duty_cnt[21]     rootClk       FD1P3DX     D       r_duty_cnt_s[21]     249.894      238.898
+r_duty_cnt[22]     rootClk       FD1P3DX     D       r_duty_cnt_s[22]     249.894      238.898
+==============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      250.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         249.894
+
+    - Propagation time:                      11.431
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     238.463
+
+    Number of logic level(s):                18
+    Starting point:                          r_idle[5] / Q
+    Ending point:                            r_idle_cnt[23] / D
+    The start point is clocked by            rootClk [rising] (rise=0.000 fall=125.000 period=250.000) on pin CK
+    The end   point is clocked by            rootClk [rising] (rise=0.000 fall=125.000 period=250.000) on pin CK
+
+Instance / Net                        Pin      Pin               Arrival      No. of    
+Name                     Type         Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------
+r_idle[5]                FD1P3DX      Q        Out     1.044     1.044 r      -         
+r_idle[5]                Net          -        -       -         -            2         
+r_state_ns_a2_10[2]      ORCALUT4     A        In      0.000     1.044 r      -         
+r_state_ns_a2_10[2]      ORCALUT4     Z        Out     1.017     2.061 f      -         
+r_state_ns_a2_10[2]      Net          -        -       -         -            1         
+r_state_ns_a2_14[2]      ORCALUT4     D        In      0.000     2.061 f      -         
+r_state_ns_a2_14[2]      ORCALUT4     Z        Out     1.017     3.077 f      -         
+r_state_ns_a2_14[2]      Net          -        -       -         -            1         
+r_state_ns_a2[2]         ORCALUT4     D        In      0.000     3.077 f      -         
+r_state_ns_a2[2]         ORCALUT4     Z        Out     1.193     4.270 f      -         
+N_152                    Net          -        -       -         -            4         
+c_idle_phase_en_i        ORCALUT4     C        In      0.000     4.270 f      -         
+c_idle_phase_en_i        ORCALUT4     Z        Out     1.153     5.423 f      -         
+N_97                     Net          -        -       -         -            3         
+r_idle_cnt15_i           ORCALUT4     A        In      0.000     5.423 f      -         
+r_idle_cnt15_i           ORCALUT4     Z        Out     1.344     6.767 f      -         
+r_idle_cnt               Net          -        -       -         -            25        
+r_idle_cnt_cry_0[0]      CCU2D        A1       In      0.000     6.767 f      -         
+r_idle_cnt_cry_0[0]      CCU2D        COUT     Out     1.544     8.312 r      -         
+r_idle_cnt_cry[0]        Net          -        -       -         -            1         
+r_idle_cnt_cry_0[1]      CCU2D        CIN      In      0.000     8.312 r      -         
+r_idle_cnt_cry_0[1]      CCU2D        COUT     Out     0.143     8.454 r      -         
+r_idle_cnt_cry[2]        Net          -        -       -         -            1         
+r_idle_cnt_cry_0[3]      CCU2D        CIN      In      0.000     8.454 r      -         
+r_idle_cnt_cry_0[3]      CCU2D        COUT     Out     0.143     8.597 r      -         
+r_idle_cnt_cry[4]        Net          -        -       -         -            1         
+r_idle_cnt_cry_0[5]      CCU2D        CIN      In      0.000     8.597 r      -         
+r_idle_cnt_cry_0[5]      CCU2D        COUT     Out     0.143     8.740 r      -         
+r_idle_cnt_cry[6]        Net          -        -       -         -            1         
+r_idle_cnt_cry_0[7]      CCU2D        CIN      In      0.000     8.740 r      -         
+r_idle_cnt_cry_0[7]      CCU2D        COUT     Out     0.143     8.883 r      -         
+r_idle_cnt_cry[8]        Net          -        -       -         -            1         
+r_idle_cnt_cry_0[9]      CCU2D        CIN      In      0.000     8.883 r      -         
+r_idle_cnt_cry_0[9]      CCU2D        COUT     Out     0.143     9.025 r      -         
+r_idle_cnt_cry[10]       Net          -        -       -         -            1         
+r_idle_cnt_cry_0[11]     CCU2D        CIN      In      0.000     9.025 r      -         
+r_idle_cnt_cry_0[11]     CCU2D        COUT     Out     0.143     9.168 r      -         
+r_idle_cnt_cry[12]       Net          -        -       -         -            1         
+r_idle_cnt_cry_0[13]     CCU2D        CIN      In      0.000     9.168 r      -         
+r_idle_cnt_cry_0[13]     CCU2D        COUT     Out     0.143     9.311 r      -         
+r_idle_cnt_cry[14]       Net          -        -       -         -            1         
+r_idle_cnt_cry_0[15]     CCU2D        CIN      In      0.000     9.311 r      -         
+r_idle_cnt_cry_0[15]     CCU2D        COUT     Out     0.143     9.454 r      -         
+r_idle_cnt_cry[16]       Net          -        -       -         -            1         
+r_idle_cnt_cry_0[17]     CCU2D        CIN      In      0.000     9.454 r      -         
+r_idle_cnt_cry_0[17]     CCU2D        COUT     Out     0.143     9.597 r      -         
+r_idle_cnt_cry[18]       Net          -        -       -         -            1         
+r_idle_cnt_cry_0[19]     CCU2D        CIN      In      0.000     9.597 r      -         
+r_idle_cnt_cry_0[19]     CCU2D        COUT     Out     0.143     9.739 r      -         
+r_idle_cnt_cry[20]       Net          -        -       -         -            1         
+r_idle_cnt_cry_0[21]     CCU2D        CIN      In      0.000     9.739 r      -         
+r_idle_cnt_cry_0[21]     CCU2D        COUT     Out     0.143     9.882 r      -         
+r_idle_cnt_cry[22]       Net          -        -       -         -            1         
+r_idle_cnt_s_0[23]       CCU2D        CIN      In      0.000     9.882 r      -         
+r_idle_cnt_s_0[23]       CCU2D        S0       Out     1.549     11.431 r     -         
+r_idle_cnt_s[23]         Net          -        -       -         -            1         
+r_idle_cnt[23]           FD1P3DX      D        In      0.000     11.431 r     -         
+========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":51:0:51:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":52:0:52:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":53:0:53:0|Timing constraint (from [get_clocks rootClk] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":54:0:54:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks rootClk]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":55:0:55:0|Timing constraint (from [get_clocks ck_sw1_a] to [get_clocks ck_sw2_a]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":56:0:56:0|Timing constraint (from [get_clocks ck_sw2_a] to [get_clocks ck_sw1_a]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":57:0:57:0|Timing constraint (from [get_clocks ck_div4] to [get_clocks ck_cg_fsm]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 184MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 184MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_2000ze-1
+
+Register bits: 163 of 2112 (8%)
+PIC Latch:       0
+I/O cells:       17
+
+
+Details:
+CCU2D:          74
+FD1P3AY:        2
+FD1P3DX:        108
+FD1S3BX:        13
+FD1S3DX:        39
+GSR:            1
+IB:             9
+INV:            3
+OB:             8
+OFS1P3DX:       1
+ORCALUT4:       114
+OSCH:           1
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 68MB peak: 184MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Mon Aug 22 15:31:59 2022
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
 edif2ngd  -l "MachXO2" -d LCMXO2-2000ZE -path "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/impl1" -path "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work"   "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/impl1/common_impl1.edi" "common_impl1.ngo"   
 edif2ngd:  version Diamond (64-bit) 3.12.1.454
 
@@ -11,7 +724,7 @@ Writing the design to common_impl1.ngo...
 
 Total CPU Time: 0 secs  
 Total REAL Time: 0 secs  
-Peak Memory Usage: 11 MB
+Peak Memory Usage: 12 MB
 
 
 ngdbuild  -a "MachXO2" -d LCMXO2-2000ZE  -p "C:/lscc/diamond/3.12/ispfpga/xo2c00/data"  -p "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/impl1" -p "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work"  "common_impl1.ngo" "common_impl1.ngd"  	
@@ -35,12 +748,12 @@ Running DRC...
     <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
 
 Design Results:
-    129 blocks expanded
+    375 blocks expanded
 Complete the first expansion.
 Writing 'common_impl1.ngd' ...
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 18 MB
+Peak Memory Usage: 20 MB
 
 
 map -a "MachXO2" -p LCMXO2-2000ZE -t TQFP100 -s 1 -oc Commercial   "common_impl1.ngd" -o "common_impl1_map.ncd" -pr "common_impl1.prf" -mp "common_impl1.mrp" -lpf "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/impl1/common_impl1_synplify.lpf" -lpf "C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/common.lpf"  -c 0           
@@ -73,24 +786,26 @@ Removing unused logic...
 
 Optimizing...
 
+5 CCU2 constant inputs absorbed.
+
     <postMsg mid="52101117" type="Warning" dynamic="5" navigation="0" arg0="OSCH" arg1="internal_osc" arg2="4.00" arg3="2.08,2.15,2.22,2.29,2.38,2.46,2.56,2.66,2.77,2.89,3.02,3.17,3.33,3.50,3.69,3.91,4.16,4.29,4.43,4.59,4.75,4.93,5.12,5.32,5.54,5.78,6.05,6.33,6.65,7.00,7.39,7.82,8.31,8.58,8.87,9.17,9.50,9.85,10.23,10.64,11.08,11.57,12.09,12.67,13.30,14.00,14.78,15.65,16.63,17.73,19.00,20.46,22.17,24.18,26.60,29.56,33.25,38.00,44.33,53.20,66.50,88.67,133.00" arg4="3.33"  />
 
 
 
 Design Summary:
-   Number of registers:     47 out of  2352 (2%)
-      PFU registers:           46 out of  2112 (2%)
+   Number of registers:    163 out of  2352 (7%)
+      PFU registers:          162 out of  2112 (8%)
       PIO registers:            1 out of   240 (0%)
-   Number of SLICEs:        48 out of  1056 (5%)
-      SLICEs as Logic/ROM:     48 out of  1056 (5%)
+   Number of SLICEs:       134 out of  1056 (13%)
+      SLICEs as Logic/ROM:    134 out of  1056 (13%)
       SLICEs as RAM:            0 out of   792 (0%)
-      SLICEs as Carry:         24 out of  1056 (2%)
-   Number of LUT4s:         95 out of  2112 (4%)
-      Number used as logic LUTs:         47
+      SLICEs as Carry:         74 out of  1056 (7%)
+   Number of LUT4s:        265 out of  2112 (13%)
+      Number used as logic LUTs:        117
       Number used as distributed RAM:     0
-      Number used as ripple logic:       48
+      Number used as ripple logic:      148
       Number used as shift registers:     0
-   Number of PIO sites used: 6 + 4(JTAG) out of 80 (13%)
+   Number of PIO sites used: 17 + 4(JTAG) out of 80 (26%)
    Number of block RAMs:  0 out of 8 (0%)
    Number of GSRs:        1 out of 1 (100%)
    EFB used :        No
@@ -114,24 +829,33 @@ Design Summary:
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
    Number of clocks:  1
-     Net w_clk: 32 loads, 32 rising, 0 falling (Driver: internal_osc )
-   Number of Clock Enables:  2
-     Net i_rst_n_c: 1 loads, 0 LSLICEs
-     Net un1_cnt_alto21: 12 loads, 12 LSLICEs
-   Number of local set/reset loads for net i_rst_n_c merged into GSR:  46
+     Net w_clk: 93 loads, 93 rising, 0 falling (Driver: internal_osc )
+   Number of Clock Enables:  11
+     Net i_rst_n_c: 2 loads, 2 LSLICEs
+     Net un1_w_anode_phase_end_en: 1 loads, 1 LSLICEs
+     Net r_cathod_phase_RNO: 1 loads, 1 LSLICEs
+     Net un1_r_led_g8: 1 loads, 1 LSLICEs
+     Net r_interphase_cnte: 13 loads, 13 LSLICEs
+     Net r_interphase_cnt15: 1 loads, 1 LSLICEs
+     Net un1_r_led_g8_3_i: 16 loads, 16 LSLICEs
+     Net r_idle_cnte: 13 loads, 13 LSLICEs
+     Net un1_w_idle_tmout_1: 1 loads, 1 LSLICEs
+     Net r_duty_cnte: 13 loads, 13 LSLICEs
+     Net r_duty_cnt16: 1 loads, 1 LSLICEs
+   Number of local set/reset loads for net i_rst_n_c merged into GSR:  161
    Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net un1_cnt_alto21: 26 loads
-     Net cnt_c: 24 loads
-     Net cnt_a[10]: 4 loads
-     Net cnt_a[11]: 4 loads
-     Net cnt_a[19]: 3 loads
-     Net cnt_a[20]: 3 loads
-     Net cnt_a[21]: 3 loads
-     Net cnt_c[21]: 3 loads
-     Net un9lt4: 3 loads
-     Net un9lto4: 3 loads
+     Net i_stop_btn_c: 34 loads
+     Net r_duty_cnt: 25 loads
+     Net r_idle_cnt: 25 loads
+     Net r_interphase_cnt: 25 loads
+     Net i_duty_c[1]: 20 loads
+     Net i_duty_c[0]: 18 loads
+     Net i_idle_c[0]: 18 loads
+     Net i_idle_c[1]: 18 loads
+     Net i_idle_c[2]: 18 loads
+     Net i_duty_c[2]: 16 loads
  
 
    Number of warnings:  1
@@ -141,7 +865,7 @@ Design Summary:
 
 Total CPU Time: 0 secs  
 Total REAL Time: 0 secs  
-Peak Memory Usage: 43 MB
+Peak Memory Usage: 45 MB
 
 Dumping design to file common_impl1_map.ncd.
 
@@ -168,7 +892,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
-Fri Jul 22 10:26:21 2022
+Mon Aug 22 15:32:02 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -197,11 +921,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 8154 paths, 1 nets, and 334 connections (99.70% coverage)
+Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
-Fri Jul 22 10:26:21 2022
+Mon Aug 22 15:32:02 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -230,7 +954,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 8154 paths, 1 nets, and 334 connections (99.70% coverage)
+Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
 
 
 
@@ -246,7 +970,7 @@ Cumulative negative slack: 0 (0+0)
 
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 50 MB
+Peak Memory Usage: 51 MB
 
 
 ldbanno "common_impl1_map.ncd" -n Verilog -o "common_impl1_mapvo.vo" -w -neg
@@ -276,7 +1000,7 @@ Writing SDF timing to file common_impl1_mapvo.sdf
     <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 43 MB
+Peak Memory Usage: 46 MB
 
 mpartrce -p "common_impl1.p2t" -f "common_impl1.p3t" -tf "common_impl1.pt" "common_impl1_map.ncd" "common_impl1.ncd"
 
@@ -285,7 +1009,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "common_impl1_map.ncd"
-Fri Jul 22 10:26:22 2022
+Mon Aug 22 15:32:03 2022
 
 PAR: Place And Route Diamond (64-bit) 3.12.1.454.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 common_impl1_map.ncd common_impl1.dir/5_1.ncd common_impl1.prf
@@ -309,44 +1033,46 @@ License checked out.
 Ignore Preference Error(s):  True
 Device utilization summary:
 
-   PIO (prelim)    6+4(JTAG)/216     5% used
-                   6+4(JTAG)/80      13% bonded
+   PIO (prelim)   17+4(JTAG)/216     10% used
+                  17+4(JTAG)/80      26% bonded
    IOLOGIC            1/216          <1% used
 
-   SLICE             48/1056          4% used
+   SLICE            134/1056         12% used
 
    GSR                1/1           100% used
    OSC                1/1           100% used
 
 
-Number of Signals: 162
-Number of Connections: 335
+Number of Signals: 445
+Number of Connections: 1032
 
 Pin Constraint Summary:
-   3 out of 6 pins locked (50% locked).
+   17 out of 17 pins locked (100% locked).
 
 The following 1 signal is selected to use the primary clock routing resources:
-    w_clk (driver: internal_osc, clk load #: 32)
+    w_clk (driver: internal_osc, clk load #: 93)
 
 
-The following 1 signal is selected to use the secondary clock routing resources:
-    un1_cnt_alto21 (driver: SLICE_33, clk load #: 0, sr load #: 0, ce load #: 12)
+The following 4 signals are selected to use the secondary clock routing resources:
+    un1_r_led_g8_3_i (driver: SLICE_78, clk load #: 0, sr load #: 0, ce load #: 16)
+    r_interphase_cnte (driver: SLICE_121, clk load #: 0, sr load #: 0, ce load #: 13)
+    r_idle_cnte (driver: SLICE_120, clk load #: 0, sr load #: 0, ce load #: 13)
+    r_duty_cnte (driver: SLICE_122, clk load #: 0, sr load #: 0, ce load #: 13)
 
 Signal i_rst_n_c is selected as Global Set/Reset.
-.
 Starting Placer Phase 0.
-.......
+.........
 Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
-..................
-Placer score = 9448.
-Finished Placer Phase 1.  REAL time: 3 secs 
+...................
+Placer score = 37122.
+Finished Placer Phase 1.  REAL time: 4 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  9448
-Finished Placer Phase 2.  REAL time: 3 secs 
+Placer score =  36884
+Finished Placer Phase 2.  REAL time: 4 secs 
 
 
 ------------------ Clock Report ------------------
@@ -358,11 +1084,14 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Global Clocks:
-  PRIMARY "w_clk" from OSC on comp "internal_osc" on site "OSC", clk load = 32
-  SECONDARY "un1_cnt_alto21" from F1 on comp "SLICE_33" on site "R9C15D", clk load = 0, ce load = 12, sr load = 0
+  PRIMARY "w_clk" from OSC on comp "internal_osc" on site "OSC", clk load = 93
+  SECONDARY "un1_r_led_g8_3_i" from F1 on comp "SLICE_78" on site "R9C13C", clk load = 0, ce load = 16, sr load = 0
+  SECONDARY "r_interphase_cnte" from F0 on comp "SLICE_121" on site "R9C15A", clk load = 0, ce load = 13, sr load = 0
+  SECONDARY "r_idle_cnte" from F0 on comp "SLICE_120" on site "R9C13B", clk load = 0, ce load = 13, sr load = 0
+  SECONDARY "r_duty_cnte" from F0 on comp "SLICE_122" on site "R9C15C", clk load = 0, ce load = 13, sr load = 0
 
   PRIMARY  : 1 out of 8 (12%)
-  SECONDARY: 1 out of 8 (12%)
+  SECONDARY: 4 out of 8 (50%)
 
 Edge Clocks:
   No edge clock selected.
@@ -371,33 +1100,33 @@ Edge Clocks:
 
 
 I/O Usage Summary (final):
-   6 + 4(JTAG) out of 216 (4.6%) PIO sites used.
-   6 + 4(JTAG) out of 80 (12.5%) bonded PIO sites used.
-   Number of PIO comps: 6; differential: 0.
+   17 + 4(JTAG) out of 216 (9.7%) PIO sites used.
+   17 + 4(JTAG) out of 80 (26.3%) bonded PIO sites used.
+   Number of PIO comps: 17; differential: 0.
    Number of Vref pins used: 0.
 
 I/O Bank Usage Summary:
 +----------+---------------+------------+-----------+
 | I/O Bank | Usage         | Bank Vccio | Bank Vref |
 +----------+---------------+------------+-----------+
-| 0        | 1 / 19 (  5%) | 3.3V       | -         |
-| 1        | 5 / 21 ( 23%) | 3.3V       | -         |
-| 2        | 0 / 20 (  0%) | -          | -         |
+| 0        | 9 / 19 ( 47%) | 1.2V       | -         |
+| 1        | 0 / 21 (  0%) | -          | -         |
+| 2        | 5 / 20 ( 25%) | 1.8V       | -         |
 | 3        | 0 / 6 (  0%)  | -          | -         |
-| 4        | 0 / 6 (  0%)  | -          | -         |
+| 4        | 3 / 6 ( 50%)  | 3.3V       | -         |
 | 5        | 0 / 8 (  0%)  | -          | -         |
 +----------+---------------+------------+-----------+
 
-Total placer CPU time: 2 secs 
+Total placer CPU time: 3 secs 
 
 Dumping design to file common_impl1.dir/5_1.ncd.
 
-0 connections routed; 335 unrouted.
+0 connections routed; 1032 unrouted.
 Starting router resource preassignment
 
 Completed router resource preassignment. Real time: 4 secs 
 
-Start NBR router at 10:26:26 07/22/22
+Start NBR router at 15:32:07 08/22/22
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -412,35 +1141,38 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 10:26:26 07/22/22
+Start NBR special constraint process at 15:32:07 08/22/22
 
-Start NBR section for initial routing at 10:26:26 07/22/22
+Start NBR section for initial routing at 15:32:07 08/22/22
 Level 4, iteration 1
-15(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.831ns/0.000ns; real time: 4 secs 
+23(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 10:26:26 07/22/22
+Start NBR section for normal routing at 15:32:08 08/22/22
 Level 4, iteration 1
-10(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 4 secs 
+19(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 Level 4, iteration 2
-6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 4 secs 
+12(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 Level 4, iteration 3
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
+Level 4, iteration 4
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 4 secs 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 10:26:26 07/22/22
+Start NBR section for setup/hold timing optimization with effort level 3 at 15:32:08 08/22/22
 
-Start NBR section for re-routing at 10:26:26 07/22/22
+Start NBR section for re-routing at 15:32:08 08/22/22
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 263.367ns/0.000ns; real time: 4 secs 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 
-Start NBR section for post-routing at 10:26:26 07/22/22
+Start NBR section for post-routing at 15:32:08 08/22/22
 
 End NBR router with 0 unrouted connection
 
@@ -448,17 +1180,17 @@ NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
   Number of connections with timing violations : 0 (0.00%)
-  Estimated worst slack<setup> : 263.367ns
+  Estimated worst slack<setup> : 271.460ns
   Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-Total CPU time 3 secs 
-Total REAL time: 4 secs 
+Total CPU time 4 secs 
+Total REAL time: 5 secs 
 Completely routed.
-End of route.  335 routed (100.00%); 0 unrouted.
+End of route.  1032 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
@@ -469,14 +1201,14 @@ Dumping design to file common_impl1.dir/5_1.ncd.
 
 PAR_SUMMARY::Run status = Completed
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = 263.367
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 271.460
 PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
 PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.857
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 3 secs 
-Total REAL time to completion: 4 secs 
+Total CPU  time to completion: 4 secs 
+Total REAL time to completion: 5 secs 
 
 par done!
 
@@ -513,7 +1245,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
-Fri Jul 22 10:26:27 2022
+Mon Aug 22 15:32:09 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -542,11 +1274,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 8154 paths, 1 nets, and 334 connections (99.70% coverage)
+Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
-Fri Jul 22 10:26:27 2022
+Mon Aug 22 15:32:09 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -575,7 +1307,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 8154 paths, 1 nets, and 334 connections (99.70% coverage)
+Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
 
 
 
@@ -591,7 +1323,7 @@ Cumulative negative slack: 0 (0+0)
 
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 50 MB
+Peak Memory Usage: 52 MB
 
 
 iotiming  "common_impl1.ncd" "common_impl1.prf"
@@ -694,7 +1426,7 @@ Writing SDF timing to file common_impl1_vo.sdf
     <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 45 MB
+Peak Memory Usage: 49 MB
 
 tmcheck -par "common_impl1.par" 
 
@@ -782,5 +1514,5 @@ Available General Purpose Flash Memory:  639 Pages (Page 0 to Page 638).
 Initialized UFM Pages:                     0 Page.
  
 Total CPU Time: 1 secs 
-Total REAL Time: 0 secs 
+Total REAL Time: 2 secs 
 Peak Memory Usage: 260 MB
