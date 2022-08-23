@@ -6,18 +6,18 @@ Performance Grade:      1
 PACKAGE:          TQFP100
 Package Status:                     Final          Version 1.44
 
-Tue Aug 23 10:42:30 2022
+Tue Aug 23 15:47:39 2022
 
 Pinout by Port Name:
 +-------------+----------+--------------+-------+-----------+-----------+----------------------+
 | Port Name   | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties           |
 +-------------+----------+--------------+-------+-----------+-----------+----------------------+
-| i_duty[0]   | 97/0     | LVCMOS12_IN  | PT11A |           |           | PULL:UP CLAMP:ON     |
-| i_duty[1]   | 98/0     | LVCMOS12_IN  | PT9B  |           |           | PULL:UP CLAMP:ON     |
-| i_duty[2]   | 99/0     | LVCMOS12_IN  | PT9A  |           |           | PULL:UP CLAMP:ON     |
-| i_idle[0]   | 87/0     | LVCMOS12_IN  | PT17B |           |           | PULL:UP CLAMP:ON     |
-| i_idle[1]   | 88/0     | LVCMOS12_IN  | PT17A |           |           | PULL:UP CLAMP:ON     |
-| i_idle[2]   | 96/0     | LVCMOS12_IN  | PT11B |           |           | PULL:UP CLAMP:ON     |
+| i_duty[0]   | 97/0     | LVCMOS12_IN  | PT11A |           |           | PULL:DOWN CLAMP:ON   |
+| i_duty[1]   | 98/0     | LVCMOS12_IN  | PT9B  |           |           | PULL:DOWN CLAMP:ON   |
+| i_duty[2]   | 99/0     | LVCMOS12_IN  | PT9A  |           |           | PULL:DOWN CLAMP:ON   |
+| i_idle[0]   | 87/0     | LVCMOS12_IN  | PT17B |           |           | PULL:DOWN CLAMP:ON   |
+| i_idle[1]   | 88/0     | LVCMOS12_IN  | PT17A |           |           | PULL:DOWN CLAMP:ON   |
+| i_idle[2]   | 96/0     | LVCMOS12_IN  | PT11B |           |           | PULL:DOWN CLAMP:ON   |
 | i_rst_n     | 78/0     | LVCMOS12_IN  | PT22A |           |           | PULL:UP CLAMP:ON     |
 | i_start_btn | 77/0     | LVCMOS12_IN  | PT24C |           |           | PULL:UP CLAMP:ON     |
 | i_stop_btn  | 76/0     | LVCMOS12_IN  | PT24D |           |           | PULL:UP CLAMP:ON     |
@@ -312,5 +312,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Aug 23 10:42:31 2022
+Tue Aug 23 15:47:39 2022
 

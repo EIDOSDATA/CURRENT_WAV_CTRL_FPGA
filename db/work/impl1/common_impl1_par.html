@@ -12,7 +12,7 @@ Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Aug 23 10:42:25 2022
+Tue Aug 23 15:47:35 2022
 
 C:/lscc/diamond/3.12/ispfpga\bin\nt64\par -f common_impl1.p2t
 common_impl1_map.ncd common_impl1.dir common_impl1.prf -gui -msgset
@@ -25,17 +25,17 @@ Preference file: common_impl1.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            271.460      0            0.857        0            08           Completed
+5_1   *      0            271.460      0            0.857        0            06           Completed
 * : Design saved.
 
-Total (real) run time for 1-seed: 8 secs 
+Total (real) run time for 1-seed: 6 secs 
 
 par done!
 
 Note: user must run &apos;Trace&apos; for timing closure signoff.
 
 Lattice Place and Route Report for Design &quot;common_impl1_map.ncd&quot;
-Tue Aug 23 10:42:25 2022
+Tue Aug 23 15:47:35 2022
 
 
 <A name="par_best"></A><B><U><big>Best Par Run</big></U></B>
@@ -91,17 +91,17 @@ The following 4 signals are selected to use the secondary clock routing resource
 Signal i_rst_n_c is selected as Global Set/Reset.
 Starting Placer Phase 0.
 .........
-Finished Placer Phase 0.  REAL time: 2 secs 
+Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
 ...................
 Placer score = 37122.
-Finished Placer Phase 1.  REAL time: 5 secs 
+Finished Placer Phase 1.  REAL time: 4 secs 
 
 Starting Placer Phase 2.
 .
 Placer score =  36884
-Finished Placer Phase 2.  REAL time: 5 secs 
+Finished Placer Phase 2.  REAL time: 4 secs 
 
 
 
@@ -147,16 +147,16 @@ I/O Bank Usage Summary:
 | 5        | 0 / 8 (  0%)  | -          | -         |
 +----------+---------------+------------+-----------+
 
-Total placer CPU time: 5 secs 
+Total placer CPU time: 3 secs 
 
 Dumping design to file common_impl1.dir/5_1.ncd.
 
 0 connections routed; 1032 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 7 secs 
+Completed router resource preassignment. Real time: 5 secs 
 
-Start NBR router at 10:42:32 08/23/22
+Start NBR router at 15:47:40 08/23/22
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -171,38 +171,38 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 10:42:32 08/23/22
+Start NBR special constraint process at 15:47:40 08/23/22
 
-Start NBR section for initial routing at 10:42:32 08/23/22
+Start NBR section for initial routing at 15:47:40 08/23/22
 Level 4, iteration 1
 23(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 5 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 10:42:32 08/23/22
+Start NBR section for normal routing at 15:47:40 08/23/22
 Level 4, iteration 1
 19(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 5 secs 
 Level 4, iteration 2
 12(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 5 secs 
 Level 4, iteration 3
 5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 5 secs 
 Level 4, iteration 4
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 5 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 10:42:32 08/23/22
+Start NBR section for setup/hold timing optimization with effort level 3 at 15:47:40 08/23/22
 
-Start NBR section for re-routing at 10:42:33 08/23/22
+Start NBR section for re-routing at 15:47:40 08/23/22
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 8 secs 
+Estimated worst slack/total negative slack&lt;setup&gt;: 271.460ns/0.000ns; real time: 5 secs 
 
-Start NBR section for post-routing at 10:42:33 08/23/22
+Start NBR section for post-routing at 15:47:40 08/23/22
 
 End NBR router with 0 unrouted connection
 
@@ -217,8 +217,8 @@ Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored
 
 
 
-Total CPU time 8 secs 
-Total REAL time: 8 secs 
+Total CPU time 5 secs 
+Total REAL time: 6 secs 
 Completely routed.
 End of route.  1032 routed (100.00%); 0 unrouted.
 
@@ -240,8 +240,8 @@ PAR_SUMMARY::Worst  slack&lt;hold /&lt;ns&gt;&gt; = 0.857
 PAR_SUMMARY::Timing score&lt;hold /&lt;ns&gt;&gt; = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 8 secs 
-Total REAL time to completion: 8 secs 
+Total CPU  time to completion: 5 secs 
+Total REAL time to completion: 6 secs 
 
 par done!
 

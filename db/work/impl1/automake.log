@@ -10,7 +10,7 @@ Lattice Diamond Version 3.12.1.454
 #OS: Windows 8 6.2
 #Hostname: TODOC-ECHO-LAPT
 
-# Tue Aug 23 10:42:07 2022
+# Tue Aug 23 15:47:23 2022
 
 #Implementation: impl1
 
@@ -89,7 +89,7 @@ Running optimization stage 1 on ci_stim_fpga_wrapper .......
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Optimizing register bit r_duty_val[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":215:1:215:6|Pruning register bits 23 to 22 of r_idle_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL279 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":261:1:261:6|Pruning register bits 23 to 12 of r_duty_val[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-Finished optimization stage 1 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+Finished optimization stage 1 on ci_stim_fpga_wrapper (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
 Running optimization stage 2 on ci_stim_fpga_wrapper .......
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":307:1:307:6|Optimizing register bit r_duty[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -132,12 +132,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 101MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 101MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Aug 23 10:42:08 2022
+# Tue Aug 23 15:47:23 2022
 
 ###########################################################]
 ###########################################################[
@@ -165,7 +165,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Aug 23 10:42:08 2022
+# Tue Aug 23 15:47:24 2022
 
 ###########################################################]
 
@@ -175,12 +175,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 24MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 24MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Aug 23 10:42:09 2022
+# Tue Aug 23 15:47:24 2022
 
 ###########################################################]
 ###########################################################[
@@ -208,10 +208,10 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Aug 23 10:42:10 2022
+# Tue Aug 23 15:47:25 2022
 
 ###########################################################]
-# Tue Aug 23 10:42:10 2022
+# Tue Aug 23 15:47:25 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -230,7 +230,7 @@ Implementation : impl1
 Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
 
 Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
@@ -268,10 +268,10 @@ original code -> new code
    110 -> 0100000
    111 -> 1000000
 
-Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
@@ -283,14 +283,14 @@ Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapse
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=8 on top level netlist ci_stim_fpga_wrapper 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
 
 
 
@@ -345,21 +345,21 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 91MB peak: 177MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 177MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Tue Aug 23 10:42:13 2022
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Aug 23 15:47:26 2022
 
 ###########################################################]
-# Tue Aug 23 10:42:13 2022
+# Tue Aug 23 15:47:26 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -408,70 +408,70 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 @N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":470:24:470:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
 @N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":474:24:474:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
 
-Starting factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 175MB peak: 175MB)
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 175MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 176MB peak: 176MB)
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 176MB peak: 176MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
 
 @N: FA113 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":462:7:462:49|Pipelining module un1_r_duty_val[12:0]. For more information, search for "pipelining" in Online Help.
 @N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":261:1:261:6|Pushed in register r_duty_val[7:0].
 @N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":261:1:261:6|Pushed in register r_duty_val[11:9].
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 177MB peak: 177MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 177MB peak: 177MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 177MB peak: 177MB)
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 177MB peak: 178MB)
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:04s		   238.21ns		 119 /       163
+   1		0h:00m:02s		   238.21ns		 119 /       163
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 178MB peak: 178MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 178MB peak: 178MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 142MB peak: 179MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 142MB peak: 179MB)
 
 Writing Analyst data base C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 179MB peak: 179MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 179MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 184MB peak: 184MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 184MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 184MB peak: 185MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 185MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 183MB peak: 185MB)
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 185MB)
 
 @N: MT615 |Found clock rootClk with period 250.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Aug 23 10:42:19 2022
+# Timing report written on Tue Aug 23 15:47:31 2022
 #
 
 
@@ -670,10 +670,10 @@ Timing exceptions that could not be applied
 @W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 184MB peak: 185MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 185MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 184MB peak: 185MB)
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 185MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -702,10 +702,10 @@ VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 68MB peak: 185MB)
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 68MB peak: 185MB)
 
-Process took 0h:00m:07s realtime, 0h:00m:06s cputime
-# Tue Aug 23 10:42:20 2022
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Tue Aug 23 15:47:31 2022
 
 ###########################################################]
 
@@ -892,7 +892,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
-Tue Aug 23 10:42:23 2022
+Tue Aug 23 15:47:34 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -925,7 +925,7 @@ Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
-Tue Aug 23 10:42:23 2022
+Tue Aug 23 15:47:34 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -998,8 +998,8 @@ Converting design common_impl1_map.ncd into .ldb format.
 Writing Verilog netlist to file common_impl1_mapvo.vo
 Writing SDF timing to file common_impl1_mapvo.sdf
     <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
-Total CPU Time: 1 secs 
-Total REAL Time: 2 secs 
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
 Peak Memory Usage: 46 MB
 
 mpartrce -p "common_impl1.p2t" -f "common_impl1.p3t" -tf "common_impl1.pt" "common_impl1_map.ncd" "common_impl1.ncd"
@@ -1009,7 +1009,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "common_impl1_map.ncd"
-Tue Aug 23 10:42:25 2022
+Tue Aug 23 15:47:35 2022
 
 PAR: Place And Route Diamond (64-bit) 3.12.1.454.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 common_impl1_map.ncd common_impl1.dir/5_1.ncd common_impl1.prf
@@ -1062,17 +1062,17 @@ The following 4 signals are selected to use the secondary clock routing resource
 Signal i_rst_n_c is selected as Global Set/Reset.
 Starting Placer Phase 0.
 .........
-Finished Placer Phase 0.  REAL time: 2 secs 
+Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
 ...................
 Placer score = 37122.
-Finished Placer Phase 1.  REAL time: 5 secs 
+Finished Placer Phase 1.  REAL time: 4 secs 
 
 Starting Placer Phase 2.
 .
 Placer score =  36884
-Finished Placer Phase 2.  REAL time: 5 secs 
+Finished Placer Phase 2.  REAL time: 4 secs 
 
 
 ------------------ Clock Report ------------------
@@ -1117,16 +1117,16 @@ I/O Bank Usage Summary:
 | 5        | 0 / 8 (  0%)  | -          | -         |
 +----------+---------------+------------+-----------+
 
-Total placer CPU time: 5 secs 
+Total placer CPU time: 3 secs 
 
 Dumping design to file common_impl1.dir/5_1.ncd.
 
 0 connections routed; 1032 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 7 secs 
+Completed router resource preassignment. Real time: 5 secs 
 
-Start NBR router at 10:42:32 08/23/22
+Start NBR router at 15:47:40 08/23/22
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -1141,38 +1141,38 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 10:42:32 08/23/22
+Start NBR special constraint process at 15:47:40 08/23/22
 
-Start NBR section for initial routing at 10:42:32 08/23/22
+Start NBR section for initial routing at 15:47:40 08/23/22
 Level 4, iteration 1
 23(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 10:42:32 08/23/22
+Start NBR section for normal routing at 15:47:40 08/23/22
 Level 4, iteration 1
 19(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 Level 4, iteration 2
 12(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 Level 4, iteration 3
 5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 Level 4, iteration 4
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 7 secs 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 10:42:32 08/23/22
+Start NBR section for setup/hold timing optimization with effort level 3 at 15:47:40 08/23/22
 
-Start NBR section for re-routing at 10:42:33 08/23/22
+Start NBR section for re-routing at 15:47:40 08/23/22
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 8 secs 
+Estimated worst slack/total negative slack<setup>: 271.460ns/0.000ns; real time: 5 secs 
 
-Start NBR section for post-routing at 10:42:33 08/23/22
+Start NBR section for post-routing at 15:47:40 08/23/22
 
 End NBR router with 0 unrouted connection
 
@@ -1187,8 +1187,8 @@ Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored
 
 
 
-Total CPU time 8 secs 
-Total REAL time: 8 secs 
+Total CPU time 5 secs 
+Total REAL time: 6 secs 
 Completely routed.
 End of route.  1032 routed (100.00%); 0 unrouted.
 
@@ -1207,8 +1207,8 @@ PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.857
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 8 secs 
-Total REAL time to completion: 8 secs 
+Total CPU  time to completion: 5 secs 
+Total REAL time to completion: 6 secs 
 
 par done!
 
@@ -1245,7 +1245,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
-Tue Aug 23 10:42:34 2022
+Tue Aug 23 15:47:41 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1278,7 +1278,7 @@ Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
-Tue Aug 23 10:42:34 2022
+Tue Aug 23 15:47:41 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1424,8 +1424,8 @@ Loading preferences from common_impl1.prf.
 Writing Verilog netlist to file common_impl1_vo.vo
 Writing SDF timing to file common_impl1_vo.sdf
     <postMsg mid="35400250" type="Info"    dynamic="1" navigation="0" arg0="0"  />
-Total CPU Time: 1 secs 
-Total REAL Time: 2 secs 
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
 Peak Memory Usage: 49 MB
 
 tmcheck -par "common_impl1.par" 
@@ -1513,6 +1513,6 @@ UFM Utilization: General Purpose Flash Memory.
 Available General Purpose Flash Memory:  639 Pages (Page 0 to Page 638).
 Initialized UFM Pages:                     0 Page.
  
-Total CPU Time: 2 secs 
-Total REAL Time: 3 secs 
+Total CPU Time: 1 secs 
+Total REAL Time: 2 secs 
 Peak Memory Usage: 260 MB

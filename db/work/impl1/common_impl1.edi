@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2022 8 23 10 42 19)
+      (timeStamp 2022 8 23 15 47 30)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "R-2021.03L-SP1, mapper map202103lat, Build 070R"))
      )
@@ -173,11 +173,11 @@
  )
            (port (array (rename i_duty "i_duty[2:0]") 3) (direction INPUT)
            (property IO_TYPE (string "LVCMOS12,LVCMOS12,LVCMOS12"))
-           (property PULLMODE (string "UP,UP,UP"))
+           (property PULLMODE (string "DOWN,DOWN,DOWN"))
  )
            (port (array (rename i_idle "i_idle[2:0]") 3) (direction INPUT)
            (property IO_TYPE (string "LVCMOS12,LVCMOS12,LVCMOS12"))
-           (property PULLMODE (string "UP,UP,UP"))
+           (property PULLMODE (string "DOWN,DOWN,DOWN"))
  )
            (port o_ano_top (direction OUTPUT)
            (property IO_TYPE (string "LVCMOS18"))

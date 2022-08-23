@@ -2,8 +2,8 @@
 // Verilog netlist produced by program ldbanno, Version Diamond (64-bit) 3.12.1.454
 
 // ldbanno -n Verilog -o common_impl1_mapvo.vo -w -neg -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml common_impl1_map.ncd 
-// Netlist created on Tue Aug 23 10:42:22 2022
-// Netlist written on Tue Aug 23 10:42:25 2022
+// Netlist created on Tue Aug 23 15:47:33 2022
+// Netlist written on Tue Aug 23 15:47:35 2022
 // Design is for device LCMXO2-2000ZE
 // Design is for package TQFP100
 // Design is for performance grade 1
@@ -5129,7 +5129,7 @@ endmodule
 
 module i_idle_2_ ( output PADDI, input iidle2 );
 
-  xo2iobuf0074 \i_idle_pad[2] ( .Z(PADDI), .PAD(iidle2));
+  xo2iobuf0076 \i_idle_pad[2] ( .Z(PADDI), .PAD(iidle2));
 
   specify
     (iidle2 => PADDI) = (0:0:0,0:0:0);
@@ -5139,9 +5139,14 @@ module i_idle_2_ ( output PADDI, input iidle2 );
 
 endmodule
 
+module xo2iobuf0076 ( output Z, input PAD );
+
+  IBPD INST1( .I(PAD), .O(Z));
+endmodule
+
 module i_idle_1_ ( output PADDI, input iidle1 );
 
-  xo2iobuf0074 \i_idle_pad[1] ( .Z(PADDI), .PAD(iidle1));
+  xo2iobuf0076 \i_idle_pad[1] ( .Z(PADDI), .PAD(iidle1));
 
   specify
     (iidle1 => PADDI) = (0:0:0,0:0:0);
@@ -5153,7 +5158,7 @@ endmodule
 
 module i_idle_0_ ( output PADDI, input iidle0 );
 
-  xo2iobuf0074 \i_idle_pad[0] ( .Z(PADDI), .PAD(iidle0));
+  xo2iobuf0076 \i_idle_pad[0] ( .Z(PADDI), .PAD(iidle0));
 
   specify
     (iidle0 => PADDI) = (0:0:0,0:0:0);
@@ -5165,7 +5170,7 @@ endmodule
 
 module i_duty_2_ ( output PADDI, input iduty2 );
 
-  xo2iobuf0074 \i_duty_pad[2] ( .Z(PADDI), .PAD(iduty2));
+  xo2iobuf0076 \i_duty_pad[2] ( .Z(PADDI), .PAD(iduty2));
 
   specify
     (iduty2 => PADDI) = (0:0:0,0:0:0);
@@ -5177,7 +5182,7 @@ endmodule
 
 module i_duty_1_ ( output PADDI, input iduty1 );
 
-  xo2iobuf0074 \i_duty_pad[1] ( .Z(PADDI), .PAD(iduty1));
+  xo2iobuf0076 \i_duty_pad[1] ( .Z(PADDI), .PAD(iduty1));
 
   specify
     (iduty1 => PADDI) = (0:0:0,0:0:0);
@@ -5189,7 +5194,7 @@ endmodule
 
 module i_duty_0_ ( output PADDI, input iduty0 );
 
-  xo2iobuf0074 \i_duty_pad[0] ( .Z(PADDI), .PAD(iduty0));
+  xo2iobuf0076 \i_duty_pad[0] ( .Z(PADDI), .PAD(iduty0));
 
   specify
     (iduty0 => PADDI) = (0:0:0,0:0:0);

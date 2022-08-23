@@ -81,8 +81,8 @@ module ci_stim_fpga_wrapper (
 	input i_rst_n/* synthesis LOC="78" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
 	input i_start_btn/* synthesis LOC="77" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
 	input i_stop_btn/* synthesis LOC="76" IO_TYPE="LVCMOS12" PULLMODE="UP" */;
-	input [2:0] i_duty/* synthesis LOC="99,98,97" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="UP,UP,UP" */;
-	input [2:0] i_idle/* synthesis LOC="96,88,87" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="UP,UP,UP" */;
+	input [2:0] i_duty/* synthesis LOC="99,98,97" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="DOWN,DOWN,DOWN" */;
+	input [2:0] i_idle/* synthesis LOC="96,88,87" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="DOWN,DOWN,DOWN" */;
 	// EOF INPUT PORTS
 	/* OUTPUT PORTS */
 	output o_ano_top/* synthesis LOC="39" IO_TYPE="LVCMOS18" PULLMODE="NONE" */; // output [3:0] o_ano_top
