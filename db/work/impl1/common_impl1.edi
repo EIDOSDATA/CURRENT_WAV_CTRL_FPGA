@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2022 8 22 15 31 59)
+      (timeStamp 2022 8 23 10 42 19)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "R-2021.03L-SP1, mapper map202103lat, Build 070R"))
      )
@@ -1508,15 +1508,6 @@
            (portRef D (instanceRef r_cathod_phase_RNO))
            (portRef B (instanceRef r_state_RNO_6))
           ))
-          (net r_idle_phase (joined
-           (portRef Q (instanceRef r_idle_phase))
-           (portRef A (instanceRef r_state_ns_a3_0_0_1))
-           (portRef A (instanceRef r_state_ns_a3_4))
-           (portRef B (instanceRef r_state_ns_i_a3_3))
-           (portRef B (instanceRef un1_w_idle_tmout_1))
-           (portRef B (instanceRef c_idle_phase_en_i_RNI3GL41))
-           (portRef D (instanceRef r_state_RNO_4))
-          ))
           (net (rename r_interphase_cnt_0 "r_interphase_cnt[0]") (joined
            (portRef Q (instanceRef r_interphase_cnt_0))
            (portRef B1 (instanceRef r_interphase_cnt_cry_0_0))
@@ -1617,20 +1608,20 @@
            (portRef B0 (instanceRef r_interphase_cnt_s_0_23))
            (portRef D (instanceRef w_interphase_tmout_16))
           ))
+          (net (rename r_idle_9 "r_idle[9]") (joined
+           (portRef Q (instanceRef r_idle_9))
+           (portRef B1 (instanceRef w_idle_tmout_0_I_27_0))
+           (portRef B (instanceRef r_state_ns_a2_11_2))
+          ))
+          (net (rename r_idle_20 "r_idle[20]") (joined
+           (portRef Q (instanceRef r_idle_20))
+           (portRef D1 (instanceRef w_idle_tmout_0_I_57_0))
+           (portRef C (instanceRef r_state_ns_a2_14_2))
+          ))
           (net (rename r_idle_17 "r_idle[17]") (joined
            (portRef Q (instanceRef r_idle_17))
            (portRef B1 (instanceRef w_idle_tmout_0_I_21_0))
            (portRef C (instanceRef r_state_ns_a2_13_2))
-          ))
-          (net (rename r_idle_12 "r_idle[12]") (joined
-           (portRef Q (instanceRef r_idle_12))
-           (portRef D1 (instanceRef w_idle_tmout_0_I_33_0))
-           (portRef A (instanceRef r_state_ns_a2_12_2))
-          ))
-          (net (rename r_idle_7 "r_idle[7]") (joined
-           (portRef Q (instanceRef r_idle_7))
-           (portRef B0 (instanceRef w_idle_tmout_0_I_27_0))
-           (portRef C (instanceRef r_state_ns_a2_10_2))
           ))
           (net (rename r_idle_1 "r_idle[1]") (joined
            (portRef Q (instanceRef r_idle_1))
@@ -1638,25 +1629,45 @@
            (portRef B0 (instanceRef w_idle_tmout_0_I_9_0))
            (portRef A (instanceRef r_state_ns_a2_13_2))
           ))
+          (net (rename r_idle_11 "r_idle[11]") (joined
+           (portRef Q (instanceRef r_idle_11))
+           (portRef B0 (instanceRef w_idle_tmout_0_I_33_0))
+           (portRef D (instanceRef r_state_ns_a2_11_2))
+          ))
+          (net (rename r_idle_12 "r_idle[12]") (joined
+           (portRef Q (instanceRef r_idle_12))
+           (portRef D1 (instanceRef w_idle_tmout_0_I_33_0))
+           (portRef A (instanceRef r_state_ns_a2_12_2))
+          ))
+          (net (rename r_idle_13 "r_idle[13]") (joined
+           (portRef Q (instanceRef r_idle_13))
+           (portRef B1 (instanceRef w_idle_tmout_0_I_33_0))
+           (portRef B (instanceRef r_state_ns_a2_12_2))
+          ))
           (net (rename r_idle_16 "r_idle[16]") (joined
            (portRef Q (instanceRef r_idle_16))
            (portRef D1 (instanceRef w_idle_tmout_0_I_21_0))
            (portRef B (instanceRef r_state_ns_a2_13_2))
           ))
-          (net (rename r_idle_11 "r_idle[11]") (joined
-           (portRef Q (instanceRef r_idle_11))
-           (portRef B0 (instanceRef w_idle_tmout_0_I_33_0))
-           (portRef D (instanceRef r_state_ns_a2_11_2))
+          (net (rename r_idle_19 "r_idle[19]") (joined
+           (portRef Q (instanceRef r_idle_19))
+           (portRef B0 (instanceRef w_idle_tmout_0_I_57_0))
+           (portRef B (instanceRef r_state_ns_a2_14_2))
+          ))
+          (net (rename r_idle_6 "r_idle[6]") (joined
+           (portRef Q (instanceRef r_idle_6))
+           (portRef D0 (instanceRef w_idle_tmout_0_I_27_0))
+           (portRef B (instanceRef r_state_ns_a2_10_2))
           ))
           (net (rename r_idle_14 "r_idle[14]") (joined
            (portRef Q (instanceRef r_idle_14))
            (portRef D0 (instanceRef w_idle_tmout_0_I_21_0))
            (portRef C (instanceRef r_state_ns_a2_12_2))
           ))
-          (net (rename r_idle_19 "r_idle[19]") (joined
-           (portRef Q (instanceRef r_idle_19))
-           (portRef B0 (instanceRef w_idle_tmout_0_I_57_0))
-           (portRef B (instanceRef r_state_ns_a2_14_2))
+          (net (rename r_idle_21 "r_idle[21]") (joined
+           (portRef Q (instanceRef r_idle_21))
+           (portRef B1 (instanceRef w_idle_tmout_0_I_57_0))
+           (portRef D (instanceRef r_state_ns_a2_10_2))
           ))
           (net (rename r_idle_8 "r_idle[8]") (joined
            (portRef Q (instanceRef r_idle_8))
@@ -1673,15 +1684,15 @@
            (portRef B0 (instanceRef w_idle_tmout_0_I_21_0))
            (portRef D (instanceRef r_state_ns_a2_12_2))
           ))
+          (net (rename r_idle_7 "r_idle[7]") (joined
+           (portRef Q (instanceRef r_idle_7))
+           (portRef B0 (instanceRef w_idle_tmout_0_I_27_0))
+           (portRef C (instanceRef r_state_ns_a2_10_2))
+          ))
           (net (rename r_idle_10 "r_idle[10]") (joined
            (portRef Q (instanceRef r_idle_10))
            (portRef D0 (instanceRef w_idle_tmout_0_I_33_0))
            (portRef C (instanceRef r_state_ns_a2_11_2))
-          ))
-          (net (rename r_idle_21 "r_idle[21]") (joined
-           (portRef Q (instanceRef r_idle_21))
-           (portRef B1 (instanceRef w_idle_tmout_0_I_57_0))
-           (portRef D (instanceRef r_state_ns_a2_10_2))
           ))
           (net (rename r_idle_0 "r_idle[0]") (joined
            (portRef Q (instanceRef r_idle_0))
@@ -1689,26 +1700,6 @@
            (portRef D1 (instanceRef w_idle_tmout_0_I_9_0))
            (portRef D0 (instanceRef w_idle_tmout_0_I_9_0))
            (portRef A (instanceRef r_state_ns_a2_14_2))
-          ))
-          (net (rename r_idle_9 "r_idle[9]") (joined
-           (portRef Q (instanceRef r_idle_9))
-           (portRef B1 (instanceRef w_idle_tmout_0_I_27_0))
-           (portRef B (instanceRef r_state_ns_a2_11_2))
-          ))
-          (net (rename r_idle_13 "r_idle[13]") (joined
-           (portRef Q (instanceRef r_idle_13))
-           (portRef B1 (instanceRef w_idle_tmout_0_I_33_0))
-           (portRef B (instanceRef r_state_ns_a2_12_2))
-          ))
-          (net (rename r_idle_20 "r_idle[20]") (joined
-           (portRef Q (instanceRef r_idle_20))
-           (portRef D1 (instanceRef w_idle_tmout_0_I_57_0))
-           (portRef C (instanceRef r_state_ns_a2_14_2))
-          ))
-          (net (rename r_idle_6 "r_idle[6]") (joined
-           (portRef Q (instanceRef r_idle_6))
-           (portRef D0 (instanceRef w_idle_tmout_0_I_27_0))
-           (portRef B (instanceRef r_state_ns_a2_10_2))
           ))
           (net (rename r_idle_18 "r_idle[18]") (joined
            (portRef Q (instanceRef r_idle_18))
@@ -1881,14 +1872,6 @@
            (portRef SCLK (instanceRef r_led_r_0io))
            (portRef OSC (instanceRef internal_osc))
           ))
-          (net (rename r_state_3 "r_state[3]") (joined
-           (portRef Q (instanceRef r_state_3))
-           (portRef B (instanceRef r_state_ns_a3_0_0_1))
-           (portRef C (instanceRef r_state_ns_a3_4))
-           (portRef D (instanceRef r_state_ns_i_a3_3))
-           (portRef C (instanceRef r_state_RNO_3))
-           (portRef B (instanceRef r_state_RNO_4))
-          ))
           (net (rename r_state_4 "r_state[4]") (joined
            (portRef Q (instanceRef r_state_4))
            (portRef B (instanceRef c_ano_top_1_sqmuxa_0_a3))
@@ -1902,6 +1885,15 @@
            (portRef B (instanceRef c_idle_phase_en_i_o2))
            (portRef D (instanceRef r_state_RNO_3))
            (portRef D (instanceRef r_idle_phase_RNO))
+          ))
+          (net r_idle_phase (joined
+           (portRef Q (instanceRef r_idle_phase))
+           (portRef A (instanceRef r_state_ns_a3_0_0_1))
+           (portRef A (instanceRef r_state_ns_a3_4))
+           (portRef B (instanceRef r_state_ns_i_a3_3))
+           (portRef B (instanceRef un1_w_idle_tmout_1))
+           (portRef B (instanceRef c_idle_phase_en_i_RNI3GL41))
+           (portRef D (instanceRef r_state_RNO_4))
           ))
           (net r_idle_val29 (joined
            (portRef Z (instanceRef r_idle_val_2_21_9__r_idle_val29))
@@ -2155,6 +2147,14 @@
           (net (rename r_idle_val_21 "r_idle_val[21]") (joined
            (portRef Q (instanceRef r_idle_val_21))
            (portRef B (instanceRef r_idle_3_21))
+          ))
+          (net (rename r_state_3 "r_state[3]") (joined
+           (portRef Q (instanceRef r_state_3))
+           (portRef B (instanceRef r_state_ns_a3_0_0_1))
+           (portRef C (instanceRef r_state_ns_a3_4))
+           (portRef D (instanceRef r_state_ns_i_a3_3))
+           (portRef C (instanceRef r_state_RNO_3))
+           (portRef B (instanceRef r_state_RNO_4))
           ))
           (net (rename r_interphase_cnt_1 "r_interphase_cnt[1]") (joined
            (portRef Q (instanceRef r_interphase_cnt_1))

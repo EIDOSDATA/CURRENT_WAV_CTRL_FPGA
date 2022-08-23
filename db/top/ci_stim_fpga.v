@@ -1,14 +1,14 @@
 `timescale 1ns/10ps
 // FSM1 STATUS
-`define ST_INIT			(3'd0) /* 000 */
-`define ST_NORMAL		(3'd1) /* 001 */
-`define ST_RUN			(3'd2) /* 010 */
-`define ST_ERROR		(3'd3) /* 011 */
+`define ST_INIT				(3'd0) /* 000 */
+`define ST_NORMAL			(3'd1) /* 001 */
+`define ST_RUN				(3'd2) /* 010 */
+`define ST_ERROR			(3'd3) /* 011 */
 // FSM2 STATUS >> PULSE
-`define ST_PULSE_IDLE	(3'd4) /* 100 */
-`define ST_ANODE_LV		(3'd5) /* 101 */
-`define ST_CATHODE_LV	(3'd6) /* 110 */
-`define ST_INTERPHASE	(3'd7) /* 111 */
+`define ST_PULSE_IDLE		(3'd4) /* 100 */
+`define ST_ANODE_LV			(3'd5) /* 101 */
+`define ST_CATHODE_LV		(3'd6) /* 110 */
+`define ST_INTERPHASE		(3'd7) /* 111 */
 
 `define IDLE_TIME_50MS			(3'b000) /* 000 */
 `define IDLE_TIME_100MS			(3'b001) /* 001 */
@@ -554,7 +554,6 @@ module ci_stim_fpga_wrapper (
 				begin
 					// VALUE CHECK
 					if (r_idle != 0) begin
-						//c_run_phase_en = 0;
 						c_idle_phase_en = 1;
 						c_next_state = `ST_PULSE_IDLE;
 					end
@@ -567,8 +566,7 @@ module ci_stim_fpga_wrapper (
 			/* START PULSE GENERATE */
 			`ST_PULSE_IDLE:
 				begin
-					if (r_idle_phase) begin
-						c_idle_phase_en = 0;						
+					if (r_idle_phase) begin						
 						c_next_state = `ST_PULSE_IDLE;
 					end
 					
@@ -586,8 +584,7 @@ module ci_stim_fpga_wrapper (
 				end
 			`ST_ANODE_LV:
 				begin
-					if (r_anode_phase) begin
-						//c_anode_phase_en = 0;
+					if (r_anode_phase) begin						
 						c_ano_top = 1;
 						c_ano_bot = 1;				
 						c_next_state = `ST_ANODE_LV;
@@ -614,8 +611,7 @@ module ci_stim_fpga_wrapper (
 				end
 			`ST_CATHODE_LV:
 				begin
-					if (r_cathod_phase) begin
-						c_cathod_phase_en = 0;
+					if (r_cathod_phase) begin						
 						c_cat_top = 1;
 						c_cat_bot = 1;
 						c_next_state = `ST_CATHODE_LV;
