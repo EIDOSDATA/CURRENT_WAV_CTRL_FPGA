@@ -1,2 +1,4 @@
-@E: CL123 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\top\ci_stim_fpga.v":104:4:104:9|Logic for cnt_c[21:0] does not match a standard flip-flop
+@E: CS153 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":513:20:513:20|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":601:24:601:24|Can't mix blocking and non-blocking assignments to a variable
+@E: CL172 :"C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v":144:5:144:21|Only one always block can assign a given variable c_cathod_phase_en
 

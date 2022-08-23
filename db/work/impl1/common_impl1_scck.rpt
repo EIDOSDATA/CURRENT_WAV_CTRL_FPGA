@@ -13,10 +13,10 @@ Hostname: TODOC-ECHO-LAPT
 
 Implementation : impl1
 
-# Written on Thu Jul 21 18:26:05 2022
+# Written on Mon Aug 22 15:31:53 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
-Constraint File(s):      "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\sdc\common.sdc"
+Constraint File(s):      "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc"
 
 #Run constraint checker to find more issues with constraints.
 #########################################################################
@@ -33,15 +33,15 @@ Clock Summary
           Start       Requested     Requested     Clock        Clock                Clock
 Level     Clock       Frequency     Period        Type         Group                Load 
 -----------------------------------------------------------------------------------------
-0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     47   
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     150  
 =========================================================================================
 
 
 Clock Load Summary
 ******************
 
-            Clock     Source                     Clock Pin         Non-clock Pin     Non-clock Pin
-Clock       Load      Pin                        Seq Example       Seq Example       Comb Example 
---------------------------------------------------------------------------------------------------
-rootClk     47        internal_osc.OSC(OSCH)     out_sw1_sig.C     -                 -            
-==================================================================================================
+            Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------
+rootClk     150       internal_osc.OSC(OSCH)     r_led_r.C       -                 -            
+================================================================================================

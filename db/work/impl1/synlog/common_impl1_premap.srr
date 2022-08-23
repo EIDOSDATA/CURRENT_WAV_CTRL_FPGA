@@ -1,4 +1,4 @@
-# Thu Jul 21 18:26:05 2022
+# Mon Aug 22 15:31:53 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -22,48 +22,62 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 
 Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
 
-Reading constraint file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\sdc\common.sdc
-@L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_scck.rpt 
-See clock summary report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_scck.rpt"
+Reading constraint file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
+@L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt 
+See clock summary report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 131MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 131MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
+@W: BN287 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":499:1:499:6|Register r_led_r with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "0" on instance r_run_state.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "1" on instance r_led_b.
+@N: FX493 |Applying initial value "1" on instance r_led_g.
+Encoding state machine r_state[6:0] (in view: work.ci_stim_fpga_wrapper(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   100 -> 0001000
+   101 -> 0010000
+   110 -> 0100000
+   111 -> 1000000
 
-Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
-@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/project/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":6:0:6:0|Source for clock ck_cg_fsm not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":12:0:12:0|Source for clock ck_div4 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":18:0:18:0|Source for clock ck_div64 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":24:0:24:0|Source for clock ck_div64x64 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":30:0:30:0|Source for clock ck_db not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":36:0:36:0|Source for clock ck_div64x4 not found in netlist.
+@W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":42:0:42:0|Source for clock ck_slow not found in netlist.
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=8 on top level netlist ci_stim_fpga_wrapper 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
 
 
 
@@ -73,7 +87,7 @@ Clock Summary
           Start       Requested     Requested     Clock        Clock                Clock
 Level     Clock       Frequency     Period        Type         Group                Load 
 -----------------------------------------------------------------------------------------
-0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     47   
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     150  
 =========================================================================================
 
 
@@ -81,11 +95,11 @@ Level     Clock       Frequency     Period        Type         Group            
 Clock Load Summary
 ***********************
 
-            Clock     Source                     Clock Pin         Non-clock Pin     Non-clock Pin
-Clock       Load      Pin                        Seq Example       Seq Example       Comb Example 
---------------------------------------------------------------------------------------------------
-rootClk     47        internal_osc.OSC(OSCH)     out_sw1_sig.C     -                 -            
-==================================================================================================
+            Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------
+rootClk     150       internal_osc.OSC(OSCH)     r_led_r.C       -                 -            
+================================================================================================
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -99,14 +113,14 @@ For details review file gcc_ICG_report.rpt
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 47 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 150 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ============================ Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
 ----------------------------------------------------------------------------------------
-@KP:ckid0_0       internal_osc.OSC     OSCH                   47         cnt_a[21:0]    
+@KP:ckid0_0       internal_osc.OSC     OSCH                   150        r_state[6]     
 ========================================================================================
 
 
@@ -115,20 +129,20 @@ Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
 
-@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\Project\db\work\impl1\common_impl1_cck.rpt" .
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 89MB peak: 175MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 177MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Jul 21 18:26:06 2022
+# Mon Aug 22 15:31:54 2022
 
 ###########################################################]
