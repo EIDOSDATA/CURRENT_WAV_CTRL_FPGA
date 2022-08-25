@@ -19,7 +19,7 @@
 `define IDLE_TIME_800MS			(3'b110) /* 110 */
 `define IDLE_TIME_1000MS		(3'b111) /* 111 */
 
-`define DUTY_TIME_20US			(3'b000) /* 000 */
+`define DUTY_TIME_10US			(3'b000) /* 000 */
 `define DUTY_TIME_100US			(3'b001) /* 001 */
 `define DUTY_TIME_200US			(3'b010) /* 010 */
 `define DUTY_TIME_300US			(3'b011) /* 011 */
@@ -287,37 +287,37 @@ module ci_stim_fpga_wrapper (
 		
 		else begin
 			case (i_duty)
-				`DUTY_TIME_20US:
+				`DUTY_TIME_10US:
 					begin
-						r_duty_val <= 66 + `CURRENT_SOURCE_INTERVAL_TIME;
+						r_duty_val <= 33 + (`CURRENT_SOURCE_INTERVAL_TIME * 2);
 					end
 				`DUTY_TIME_100US:
 					begin
-						r_duty_val <= 333 + `CURRENT_SOURCE_INTERVAL_TIME;
+						r_duty_val <= 333 + (`CURRENT_SOURCE_INTERVAL_TIME * 2);
 					end
 				`DUTY_TIME_200US:
 					begin
-						r_duty_val <= 666 + `CURRENT_SOURCE_INTERVAL_TIME;
+						r_duty_val <= 666 + (`CURRENT_SOURCE_INTERVAL_TIME * 2);
 					end
 				`DUTY_TIME_300US:
 					begin
-						r_duty_val <= 999 + `CURRENT_SOURCE_INTERVAL_TIME;
+						r_duty_val <= 999 + (`CURRENT_SOURCE_INTERVAL_TIME * 2);
 					end
 				`DUTY_TIME_400US:
 					begin
-						r_duty_val <= 1333 + `CURRENT_SOURCE_INTERVAL_TIME;
+						r_duty_val <= 1333 + (`CURRENT_SOURCE_INTERVAL_TIME * 2);
 					end
 				`DUTY_TIME_600US:
 					begin
-						r_duty_val <= 1999 + `CURRENT_SOURCE_INTERVAL_TIME; // 1999.998
+						r_duty_val <= 1999 + (`CURRENT_SOURCE_INTERVAL_TIME * 2); // 1999.998
 					end
 				`DUTY_TIME_800US:
 					begin
-						r_duty_val <= 2666 + `CURRENT_SOURCE_INTERVAL_TIME;
+						r_duty_val <= 2666 + (`CURRENT_SOURCE_INTERVAL_TIME * 2);
 					end
 				`DUTY_TIME_1000US:
 					begin
-						r_duty_val <= 3333 + `CURRENT_SOURCE_INTERVAL_TIME;
+						r_duty_val <= 3333 + (`CURRENT_SOURCE_INTERVAL_TIME * 2);
 					end
 				default:;
 			endcase

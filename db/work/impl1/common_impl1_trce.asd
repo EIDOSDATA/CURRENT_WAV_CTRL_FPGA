@@ -1,6 +1,6 @@
 [ActiveSupport TRCE]
 ; Setup Analysis
-Fmax_0 = 31.063 MHz (3.330 MHz);
+Fmax_0 = 30.855 MHz (3.330 MHz);
 Failed = 0 (Total 1);
 Clock_ports = 0;
 Clock_nets = 1;

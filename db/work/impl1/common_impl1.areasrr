@@ -13,13 +13,13 @@ I/O cells:       17
                             FD1S3DX       36       100.0
                                 GSR        1       100.0
                                  IB        9       100.0
-                                INV        4       100.0
+                                INV        6       100.0
                                  OB        8       100.0
                            OFS1P3DX        1       100.0
-                           ORCALUT4      131       100.0
+                           ORCALUT4      123       100.0
                                OSCH        1       100.0
                                 PUR        1       100.0
                                 VHI        1       100.0
                                 VLO        1       100.0
                             
-                         TOTAL           406           
+                         TOTAL           400           

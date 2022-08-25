@@ -1,4 +1,4 @@
-# Thu Aug 25 14:50:03 2022
+# Thu Aug 25 15:51:29 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -82,7 +82,7 @@ Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:0
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:03s		   238.21ns		 136 /       164
+   1		0h:00m:03s		   238.21ns		 131 /       164
 
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 179MB)
 
@@ -104,16 +104,16 @@ Writing EDIF Netlist and constraint files
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 185MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 186MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 185MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 186MB)
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 185MB)
 
 @N: MT615 |Found clock rootClk with period 250.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Aug 25 14:50:09 2022
+# Timing report written on Thu Aug 25 15:51:34 2022
 #
 
 
@@ -312,10 +312,10 @@ Timing exceptions that could not be applied
 @W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 186MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 185MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 186MB)
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 185MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -334,19 +334,19 @@ FD1S3BX:        13
 FD1S3DX:        36
 GSR:            1
 IB:             9
-INV:            4
+INV:            6
 OB:             8
 OFS1P3DX:       1
-ORCALUT4:       131
+ORCALUT4:       123
 OSCH:           1
 PUR:            1
 VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 68MB peak: 186MB)
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 68MB peak: 185MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
-# Thu Aug 25 14:50:09 2022
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Thu Aug 25 15:51:34 2022
 
 ###########################################################]

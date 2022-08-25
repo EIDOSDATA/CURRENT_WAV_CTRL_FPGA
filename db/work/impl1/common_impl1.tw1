@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
-Thu Aug 25 14:50:12 2022
+Thu Aug 25 15:51:38 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -53,27 +53,27 @@ Passed: The following path meets requirements by 276.123ns
 
  Constraint Details:
 
-     23.745ns physical path delay SLICE_107 to SLICE_47 meets
+     23.745ns physical path delay SLICE_106 to SLICE_47 meets
     300.300ns delay constraint less
       0.432ns DIN_SET requirement (totaling 299.868ns) by 276.123ns
 
  Physical Path Details:
 
-      Data path SLICE_107 to SLICE_47:
+      Data path SLICE_106 to SLICE_47:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.955  SLICE_107.CLK to   SLICE_107.Q0 SLICE_107 (from w_clk)
-ROUTE         2   e 1.905   SLICE_107.Q0 to   SLICE_129.A1 r_idle[4]
-CTOF_DEL    ---     0.923   SLICE_129.A1 to   SLICE_129.F1 SLICE_129
-ROUTE         1   e 1.905   SLICE_129.F1 to   SLICE_139.D0 r_state_ns_a2_14[2]
-CTOF_DEL    ---     0.923   SLICE_139.D0 to   SLICE_139.F0 SLICE_139
-ROUTE         1   e 1.905   SLICE_139.F0 to   SLICE_117.D1 r_state_ns_a2_18[2]
-CTOF_DEL    ---     0.923   SLICE_117.D1 to   SLICE_117.F1 SLICE_117
-ROUTE         4   e 1.905   SLICE_117.F1 to   SLICE_133.C1 N_166
-CTOF_DEL    ---     0.923   SLICE_133.C1 to   SLICE_133.F1 SLICE_133
-ROUTE         3   e 1.905   SLICE_133.F1 to   SLICE_144.A0 N_103
-CTOF_DEL    ---     0.923   SLICE_144.A0 to   SLICE_144.F0 SLICE_144
-ROUTE        25   e 1.905   SLICE_144.F0 to    SLICE_59.B0 r_idle_cnt
+REG_DEL     ---     0.955  SLICE_106.CLK to   SLICE_106.Q0 SLICE_106 (from w_clk)
+ROUTE         2   e 1.905   SLICE_106.Q0 to   SLICE_128.A1 r_idle[4]
+CTOF_DEL    ---     0.923   SLICE_128.A1 to   SLICE_128.F1 SLICE_128
+ROUTE         1   e 1.905   SLICE_128.F1 to   SLICE_138.D0 r_state_ns_a2_14[2]
+CTOF_DEL    ---     0.923   SLICE_138.D0 to   SLICE_138.F0 SLICE_138
+ROUTE         1   e 1.905   SLICE_138.F0 to   SLICE_116.D1 r_state_ns_a2_18[2]
+CTOF_DEL    ---     0.923   SLICE_116.D1 to   SLICE_116.F1 SLICE_116
+ROUTE         4   e 1.905   SLICE_116.F1 to   SLICE_132.C1 N_166
+CTOF_DEL    ---     0.923   SLICE_132.C1 to   SLICE_132.F1 SLICE_132
+ROUTE         3   e 1.905   SLICE_132.F1 to   SLICE_142.A0 N_103
+CTOF_DEL    ---     0.923   SLICE_142.A0 to   SLICE_142.F0 SLICE_142
+ROUTE        25   e 1.905   SLICE_142.F0 to    SLICE_59.B0 r_idle_cnt
 C0TOFCO_DE  ---     2.064    SLICE_59.B0 to   SLICE_59.FCO SLICE_59
 ROUTE         1   e 0.001   SLICE_59.FCO to   SLICE_58.FCI r_idle_cnt_cry[0]
 FCITOFCO_D  ---     0.317   SLICE_58.FCI to   SLICE_58.FCO SLICE_58
@@ -134,11 +134,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 49220 paths, 1 nets, and 914 connections (80.81% coverage)
+Constraints cover 49220 paths, 1 nets, and 914 connections (81.97% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
-Thu Aug 25 14:50:12 2022
+Thu Aug 25 15:51:38 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -223,7 +223,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 49220 paths, 1 nets, and 914 connections (80.81% coverage)
+Constraints cover 49220 paths, 1 nets, and 914 connections (81.97% coverage)
 
 
 
