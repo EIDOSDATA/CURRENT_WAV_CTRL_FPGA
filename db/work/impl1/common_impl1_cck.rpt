@@ -13,7 +13,7 @@ Hostname: TODOC-ECHO-LAPT
 
 Implementation : impl1
 
-# Written on Tue Aug 23 15:47:26 2022
+# Written on Thu Aug 25 11:56:05 2022
 
 ##### DESIGN INFO #######################################################
 
@@ -55,10 +55,10 @@ p:i_idle[2]
 p:i_rst_n
 p:i_start_btn
 p:i_stop_btn
-p:o_ano_bot
-p:o_ano_top
-p:o_cat_bot
-p:o_cat_top
+p:o_ano_bot_p
+p:o_ano_top_n
+p:o_cat_bot_p
+p:o_cat_top_n
 p:o_curr_ena
 p:o_led_b
 p:o_led_g

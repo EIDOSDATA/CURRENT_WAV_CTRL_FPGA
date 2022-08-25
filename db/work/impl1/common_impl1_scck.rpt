@@ -13,7 +13,7 @@ Hostname: TODOC-ECHO-LAPT
 
 Implementation : impl1
 
-# Written on Tue Aug 23 15:47:25 2022
+# Written on Thu Aug 25 11:56:04 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc"
@@ -33,7 +33,7 @@ Clock Summary
           Start       Requested     Requested     Clock        Clock                Clock
 Level     Clock       Frequency     Period        Type         Group                Load 
 -----------------------------------------------------------------------------------------
-0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     150  
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     153  
 =========================================================================================
 
 
@@ -43,5 +43,5 @@ Clock Load Summary
             Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
 Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
 ------------------------------------------------------------------------------------------------
-rootClk     150       internal_osc.OSC(OSCH)     r_led_r.C       -                 -            
+rootClk     153       internal_osc.OSC(OSCH)     r_led_r.C       -                 -            
 ================================================================================================

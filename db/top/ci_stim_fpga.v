@@ -10,7 +10,7 @@
 `define ST_CATHODE_LV		(3'd6) /* 110 */
 `define ST_INTERPHASE		(3'd7) /* 111 */
 
-`define IDLE_TIME_50MS			(3'b000) /* 000 */
+`define IDLE_TIME_20MS			(3'b000) /* 000 */
 `define IDLE_TIME_100MS			(3'b001) /* 001 */
 `define IDLE_TIME_200MS			(3'b010) /* 010 */
 `define IDLE_TIME_300MS			(3'b011) /* 011 */
@@ -63,12 +63,29 @@ module ci_stim_fpga_wrapper (
 	
 	/* OUTPUT PORTS */
 	// PULSE OUTPUT
-	o_ano_top,
-	o_ano_bot,
-	o_cat_top,
-	o_cat_bot,
+	o_ano_top_n, // Negative ON
+	o_ano_bot_p, // Positive ON
+	o_cat_top_n, // Negative ON
+	o_cat_bot_p, // Positive ON
 	o_curr_ena, // CURRENT SOURCE CONTROL
 	
+	/*	
+	ano top : PMOS: G=1 >> OFF / G=0 >> ON
+	cat top : PMOS: G=1 >> OFF / G=0 >> ON
+	ano bot : NMOS: G=0 >> OFF / G=1 >> ON
+	cat bot : NMOS: G=0 >> OFF / G=1 >> ON
+
+	H-BRIDGE
+	ano top			cat top
+		|			|
+		|			|
+		|____* *____|
+		|			|
+		|			|
+		|			|
+	cat bot			ano bot
+	
+	*/	
 	// LED OUTPUT
 	o_led_r,
 	o_led_g,
@@ -85,10 +102,10 @@ module ci_stim_fpga_wrapper (
 	input [2:0] i_idle/* synthesis LOC="96,88,87" IO_TYPE="LVCMOS12,LVCMOS12,LVCMOS12" PULLMODE="DOWN,DOWN,DOWN" */;
 	// EOF INPUT PORTS
 	/* OUTPUT PORTS */
-	output o_ano_top/* synthesis LOC="39" IO_TYPE="LVCMOS18" PULLMODE="NONE" */; // output [3:0] o_ano_top
-	output o_ano_bot/* synthesis LOC="40" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
-	output o_cat_top/* synthesis LOC="41" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
-	output o_cat_bot/* synthesis LOC="42" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
+	output o_ano_top_n/* synthesis LOC="39" IO_TYPE="LVCMOS18" PULLMODE="NONE" */; // output [3:0] o_ano_top_n
+	output o_ano_bot_p/* synthesis LOC="40" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
+	output o_cat_top_n/* synthesis LOC="41" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
+	output o_cat_bot_p/* synthesis LOC="42" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
 	output o_curr_ena/* synthesis LOC="43" IO_TYPE="LVCMOS18" PULLMODE="NONE" */;
 	output o_led_r/* synthesis LOC="12" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
 	output o_led_g/* synthesis LOC="13" IO_TYPE="LVCMOS33" PULLMODE="NONE" */;
@@ -96,20 +113,20 @@ module ci_stim_fpga_wrapper (
 	// EOF OUTPUT PORTS
 	
 	/* OUTPUT PORT */
-	reg r_ano_top;
-	reg r_ano_bot;
-	reg r_cat_top;
-	reg r_cat_bot;
+	reg r_ano_top_n;
+	reg r_ano_bot_p;
+	reg r_cat_top_n;
+	reg r_cat_bot_p;
 	reg r_curr_ena;
 	reg r_led_r = 1;
 	reg r_led_g = 1;
 	reg r_led_b = 1;
 	
 	/* Combinational Logic to Flip-Flop */
-	reg c_ano_top;
-	reg c_ano_bot;
-	reg c_cat_top;
-	reg c_cat_bot;
+	reg c_ano_top_n;
+	reg c_ano_bot_p;
+	reg c_cat_top_n;
+	reg c_cat_bot_p;
 	reg c_curr_ena;	
 	// EOF OUTPUT PORT
 	
@@ -150,10 +167,14 @@ module ci_stim_fpga_wrapper (
 	
 	/* TIMEOUT */
 	wire w_idle_tmout;	
-	wire w_duty_tmout;
+	wire w_idle_done;
+	
 	wire w_interphase_tmout;
-	wire w_anode_phase_end_en;
-	wire w_cathod_phase_end_en;	
+	wire w_interphase_done;
+	
+	wire w_duty_tmout;	
+	wire w_anode_phase_done;
+	wire w_cathod_phase_done;	
 	// EOF TIMEOUT
 
 	/*------------------------------------------------------------------------------*/
@@ -162,10 +183,10 @@ module ci_stim_fpga_wrapper (
 	//assign o_debug_led = {w_bcg_fsm_start,w_rate_tmout,r_cathod_phase,r_interphase,r_anode_phase,r_state};
 	//assign o_debug_led = r_search_disabled_channel | (r_search_disabled_channel_phase << 7) | c_map_cathod_channel;
 	//assign o_debug_led = {r_search_disabled_channel_phase,w_search_disabled_channel_phase_end_p,r_stim_bcg1_sel,c_disabled_dac_sel};
-	assign o_ano_top = r_ano_top;
-	assign o_ano_bot = r_ano_bot;
-	assign o_cat_top = r_cat_top;
-	assign o_cat_bot = r_cat_bot;
+	assign o_ano_top_n = r_ano_top_n;
+	assign o_ano_bot_p = r_ano_bot_p;
+	assign o_cat_top_n = r_cat_top_n;
+	assign o_cat_bot_p = r_cat_bot_p;
 	assign o_curr_ena = r_curr_ena;
 	assign o_led_r = r_led_r;
 	assign o_led_g = r_led_g;
@@ -220,9 +241,9 @@ module ci_stim_fpga_wrapper (
 		
 		else begin
 			case (i_idle)
-				`IDLE_TIME_50MS:
+				`IDLE_TIME_20MS:
 					begin
-						r_idle_val <= 166666;
+						r_idle_val <= 66666;
 					end
 				`IDLE_TIME_100MS:
 					begin
@@ -268,35 +289,35 @@ module ci_stim_fpga_wrapper (
 			case (i_duty)
 				`DUTY_TIME_50US:
 					begin
-						r_duty_val <= 166;
+						r_duty_val <= 166 + `CURRENT_SOURCE_INTERVAL_TIME;
 					end
 				`DUTY_TIME_100US:
 					begin
-						r_duty_val <= 333;
+						r_duty_val <= 333 + `CURRENT_SOURCE_INTERVAL_TIME;
 					end
 				`DUTY_TIME_200US:
 					begin
-						r_duty_val <= 666;
+						r_duty_val <= 666 + `CURRENT_SOURCE_INTERVAL_TIME;
 					end
 				`DUTY_TIME_300US:
 					begin
-						r_duty_val <= 999;
+						r_duty_val <= 999 + `CURRENT_SOURCE_INTERVAL_TIME;
 					end
 				`DUTY_TIME_400US:
 					begin
-						r_duty_val <= 1333;
+						r_duty_val <= 1333 + `CURRENT_SOURCE_INTERVAL_TIME;
 					end
 				`DUTY_TIME_600US:
 					begin
-						r_duty_val <= 1999; // 1999.998
+						r_duty_val <= 1999 + `CURRENT_SOURCE_INTERVAL_TIME; // 1999.998
 					end
 				`DUTY_TIME_800US:
 					begin
-						r_duty_val <= 2666;
+						r_duty_val <= 2666 + `CURRENT_SOURCE_INTERVAL_TIME;
 					end
 				`DUTY_TIME_1000US:
 					begin
-						r_duty_val <= 3333;
+						r_duty_val <= 3333 + `CURRENT_SOURCE_INTERVAL_TIME;
 					end
 				default:;
 			endcase
@@ -330,7 +351,7 @@ module ci_stim_fpga_wrapper (
 		end		
 		// RUN 상태에선 값을 세팅한다.
 		else if(r_run_state)begin
-			r_idle <= r_idle_val; // r_idle <= r_idle_val - (`INTERPHASE_TIME + (r_duty_val*2));
+			r_idle <= r_idle_val - (`INTERPHASE_TIME + (r_duty_val*2)); // r_idle <= r_idle_val;
 			r_duty <= r_duty_val;
 		end
 	end 
@@ -348,7 +369,7 @@ module ci_stim_fpga_wrapper (
 			r_idle_phase <= 1;			
 		end
 		// TIME OUT
-		else if(w_idle_tmout && r_idle_phase) begin
+		else if(w_idle_done) begin
 			r_idle_phase <= 0;			
 		end
 	end
@@ -383,7 +404,7 @@ module ci_stim_fpga_wrapper (
 			r_interphase <= 1;
 		end
 		// INTERPHASE TIMEOUT
-		else if (w_interphase_tmout && r_interphase)begin
+		else if (w_interphase_done)begin
 			r_interphase <= 0;
 		end
 	end	
@@ -418,7 +439,7 @@ module ci_stim_fpga_wrapper (
 			r_anode_phase <= 1;
 		end
 		// TIME OUT
-		else if(w_anode_phase_end_en) begin
+		else if(w_anode_phase_done) begin
 			r_anode_phase <= 0;
 		end
 	end
@@ -435,7 +456,7 @@ module ci_stim_fpga_wrapper (
 			r_cathod_phase <= 1;
 		end
 		// CATHOD DISABLE
-		else if(w_cathod_phase_end_en) begin
+		else if(w_cathod_phase_done) begin
 			r_cathod_phase <= 0;
 		end
 	end
@@ -466,12 +487,17 @@ module ci_stim_fpga_wrapper (
 	end
 	/* EOF DUTY COUNTER */
 	
-	/* TIME OUT */
+	/* TIME OUT */	
+	
 	assign w_idle_tmout = (r_idle == r_idle_cnt);
-	assign w_interphase_tmout = (`INTERPHASE_TIME == r_interphase_cnt);
-	assign w_anode_phase_end_en = w_duty_tmout && r_anode_phase;
-	assign w_cathod_phase_end_en = w_duty_tmout && r_cathod_phase;
+	assign w_idle_done = w_idle_tmout && r_idle_phase;	
+	
+	assign w_interphase_tmout = (`INTERPHASE_TIME == r_interphase_cnt);	
+	assign w_interphase_done = w_interphase_tmout && r_interphase;
+	
 	assign w_duty_tmout = (r_duty == r_duty_cnt);
+	assign w_anode_phase_done = w_duty_tmout && r_anode_phase;
+	assign w_cathod_phase_done = w_duty_tmout && r_cathod_phase;
 	/* EOF TIME OUT */
 
 /*----------FSM INIT----------*/
@@ -479,17 +505,17 @@ module ci_stim_fpga_wrapper (
 	always @(posedge w_clk or negedge i_rst_n)
 	begin
 		if (~i_rst_n) begin
-			r_ano_top <= 0;
-			r_ano_bot <= 0;
-			r_cat_top <= 0;
-			r_cat_bot <= 0;
+			r_ano_top_n <= 0;
+			r_ano_bot_p <= 0;
+			r_cat_top_n <= 0;
+			r_cat_bot_p <= 0;
 			//r_curr_ena <= 0;
 		end
 		else begin
-			r_ano_top <= c_ano_top;
-			r_ano_bot <= c_ano_bot;
-			r_cat_top <= c_cat_top;
-			r_cat_bot <= c_cat_bot;	
+			r_ano_top_n <= c_ano_top_n;
+			r_ano_bot_p <= c_ano_bot_p;
+			r_cat_top_n <= c_cat_top_n;
+			r_cat_bot_p <= c_cat_bot_p;	
 			//r_curr_ena <= c_curr_ena;
 		end
 	end
@@ -521,21 +547,21 @@ module ci_stim_fpga_wrapper (
 		
 		c_next_state = r_state;
 		
-		c_ano_top = 0;
-		c_ano_bot = 0;
-		c_cat_top = 0;
-		c_cat_bot = 0;
+		c_ano_top_n = 0;
+		c_ano_bot_p = 0;
+		c_cat_top_n = 0;
+		c_cat_bot_p = 0;
 		c_curr_ena = 0;
 		
 		case (r_state)
 			`ST_INIT:
 				begin
-					if (!r_init_ok) begin
-						c_next_state = `ST_INIT;
+					if (r_init_ok) begin
+						c_next_state = `ST_NORMAL;						
 					end
 					
 					else begin
-						c_next_state = `ST_NORMAL;
+						c_next_state = `ST_INIT;
 					end
 				end
 			`ST_NORMAL:
@@ -585,8 +611,11 @@ module ci_stim_fpga_wrapper (
 			`ST_ANODE_LV:
 				begin
 					if (r_anode_phase) begin						
-						c_ano_top = 1;
-						c_ano_bot = 1;				
+						c_ano_top_n = 0;
+						c_ano_bot_p = 1;
+						
+						c_cat_top_n = 1;
+						c_cat_bot_p = 0;
 						c_next_state = `ST_ANODE_LV;
 					end
 					
@@ -612,8 +641,11 @@ module ci_stim_fpga_wrapper (
 			`ST_CATHODE_LV:
 				begin
 					if (r_cathod_phase) begin						
-						c_cat_top = 1;
-						c_cat_bot = 1;
+						c_ano_top_n = 1;
+						c_ano_bot_p = 0;
+						
+						c_cat_top_n = 0;
+						c_cat_bot_p = 1;
 						c_next_state = `ST_CATHODE_LV;
 					end
 					

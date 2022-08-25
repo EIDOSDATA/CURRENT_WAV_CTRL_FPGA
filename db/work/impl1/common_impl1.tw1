@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
-Tue Aug 23 15:47:34 2022
+Thu Aug 25 11:56:13 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -42,68 +42,68 @@ Preference: FREQUENCY NET "w_clk" 3.330000 MHz ;
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 277.286ns
+Passed: The following path meets requirements by 276.123ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              r_idle[21]  (from w_clk +)
+   Source:         FF         Q              r_idle[4]  (from w_clk +)
    Destination:    FF         Data in        r_idle_cnt[23]  (to w_clk +)
 
-   Delay:              22.582ns  (54.5% logic, 45.5% route), 19 logic levels.
+   Delay:              23.745ns  (51.8% logic, 48.2% route), 19 logic levels.
 
  Constraint Details:
 
-     22.582ns physical path delay SLICE_102 to SLICE_36 meets
+     23.745ns physical path delay SLICE_107 to SLICE_47 meets
     300.300ns delay constraint less
-      0.432ns DIN_SET requirement (totaling 299.868ns) by 277.286ns
+      0.432ns DIN_SET requirement (totaling 299.868ns) by 276.123ns
 
  Physical Path Details:
 
-      Data path SLICE_102 to SLICE_36:
+      Data path SLICE_107 to SLICE_47:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.955  SLICE_102.CLK to   SLICE_102.Q0 SLICE_102 (from w_clk)
-ROUTE         2   e 1.905   SLICE_102.Q0 to   SLICE_125.D1 r_idle[21]
-CTOF_DEL    ---     0.923   SLICE_125.D1 to   SLICE_125.F1 SLICE_125
-ROUTE         1   e 0.742   SLICE_125.F1 to   SLICE_125.D0 r_state_ns_a2_10[2]
-CTOF_DEL    ---     0.923   SLICE_125.D0 to   SLICE_125.F0 SLICE_125
-ROUTE         1   e 1.905   SLICE_125.F0 to   SLICE_103.D1 r_state_ns_a2_14[2]
-CTOF_DEL    ---     0.923   SLICE_103.D1 to   SLICE_103.F1 SLICE_103
-ROUTE         4   e 1.905   SLICE_103.F1 to   SLICE_120.C1 N_152
-CTOF_DEL    ---     0.923   SLICE_120.C1 to   SLICE_120.F1 SLICE_120
-ROUTE         3   e 1.905   SLICE_120.F1 to   SLICE_128.A0 N_97
-CTOF_DEL    ---     0.923   SLICE_128.A0 to   SLICE_128.F0 SLICE_128
-ROUTE        25   e 1.905   SLICE_128.F0 to    SLICE_48.B0 r_idle_cnt
-C0TOFCO_DE  ---     2.064    SLICE_48.B0 to   SLICE_48.FCO SLICE_48
-ROUTE         1   e 0.001   SLICE_48.FCO to   SLICE_47.FCI r_idle_cnt_cry[0]
-FCITOFCO_D  ---     0.317   SLICE_47.FCI to   SLICE_47.FCO SLICE_47
-ROUTE         1   e 0.001   SLICE_47.FCO to   SLICE_46.FCI r_idle_cnt_cry[2]
-FCITOFCO_D  ---     0.317   SLICE_46.FCI to   SLICE_46.FCO SLICE_46
-ROUTE         1   e 0.001   SLICE_46.FCO to   SLICE_45.FCI r_idle_cnt_cry[4]
-FCITOFCO_D  ---     0.317   SLICE_45.FCI to   SLICE_45.FCO SLICE_45
-ROUTE         1   e 0.001   SLICE_45.FCO to   SLICE_44.FCI r_idle_cnt_cry[6]
-FCITOFCO_D  ---     0.317   SLICE_44.FCI to   SLICE_44.FCO SLICE_44
-ROUTE         1   e 0.001   SLICE_44.FCO to   SLICE_43.FCI r_idle_cnt_cry[8]
-FCITOFCO_D  ---     0.317   SLICE_43.FCI to   SLICE_43.FCO SLICE_43
-ROUTE         1   e 0.001   SLICE_43.FCO to   SLICE_42.FCI r_idle_cnt_cry[10]
-FCITOFCO_D  ---     0.317   SLICE_42.FCI to   SLICE_42.FCO SLICE_42
-ROUTE         1   e 0.001   SLICE_42.FCO to   SLICE_41.FCI r_idle_cnt_cry[12]
-FCITOFCO_D  ---     0.317   SLICE_41.FCI to   SLICE_41.FCO SLICE_41
-ROUTE         1   e 0.001   SLICE_41.FCO to   SLICE_40.FCI r_idle_cnt_cry[14]
-FCITOFCO_D  ---     0.317   SLICE_40.FCI to   SLICE_40.FCO SLICE_40
-ROUTE         1   e 0.001   SLICE_40.FCO to   SLICE_39.FCI r_idle_cnt_cry[16]
-FCITOFCO_D  ---     0.317   SLICE_39.FCI to   SLICE_39.FCO SLICE_39
-ROUTE         1   e 0.001   SLICE_39.FCO to   SLICE_38.FCI r_idle_cnt_cry[18]
-FCITOFCO_D  ---     0.317   SLICE_38.FCI to   SLICE_38.FCO SLICE_38
-ROUTE         1   e 0.001   SLICE_38.FCO to   SLICE_37.FCI r_idle_cnt_cry[20]
-FCITOFCO_D  ---     0.317   SLICE_37.FCI to   SLICE_37.FCO SLICE_37
-ROUTE         1   e 0.001   SLICE_37.FCO to   SLICE_36.FCI r_idle_cnt_cry[22]
-FCITOF0_DE  ---     1.181   SLICE_36.FCI to    SLICE_36.F0 SLICE_36
-ROUTE         1   e 0.001    SLICE_36.F0 to   SLICE_36.DI0 r_idle_cnt_s[23] (to w_clk)
+REG_DEL     ---     0.955  SLICE_107.CLK to   SLICE_107.Q0 SLICE_107 (from w_clk)
+ROUTE         2   e 1.905   SLICE_107.Q0 to   SLICE_129.A1 r_idle[4]
+CTOF_DEL    ---     0.923   SLICE_129.A1 to   SLICE_129.F1 SLICE_129
+ROUTE         1   e 1.905   SLICE_129.F1 to   SLICE_139.D0 r_state_ns_a2_14[2]
+CTOF_DEL    ---     0.923   SLICE_139.D0 to   SLICE_139.F0 SLICE_139
+ROUTE         1   e 1.905   SLICE_139.F0 to   SLICE_117.D1 r_state_ns_a2_18[2]
+CTOF_DEL    ---     0.923   SLICE_117.D1 to   SLICE_117.F1 SLICE_117
+ROUTE         4   e 1.905   SLICE_117.F1 to   SLICE_133.C1 N_166
+CTOF_DEL    ---     0.923   SLICE_133.C1 to   SLICE_133.F1 SLICE_133
+ROUTE         3   e 1.905   SLICE_133.F1 to   SLICE_143.A0 N_103
+CTOF_DEL    ---     0.923   SLICE_143.A0 to   SLICE_143.F0 SLICE_143
+ROUTE        25   e 1.905   SLICE_143.F0 to    SLICE_59.B0 r_idle_cnt
+C0TOFCO_DE  ---     2.064    SLICE_59.B0 to   SLICE_59.FCO SLICE_59
+ROUTE         1   e 0.001   SLICE_59.FCO to   SLICE_58.FCI r_idle_cnt_cry[0]
+FCITOFCO_D  ---     0.317   SLICE_58.FCI to   SLICE_58.FCO SLICE_58
+ROUTE         1   e 0.001   SLICE_58.FCO to   SLICE_57.FCI r_idle_cnt_cry[2]
+FCITOFCO_D  ---     0.317   SLICE_57.FCI to   SLICE_57.FCO SLICE_57
+ROUTE         1   e 0.001   SLICE_57.FCO to   SLICE_56.FCI r_idle_cnt_cry[4]
+FCITOFCO_D  ---     0.317   SLICE_56.FCI to   SLICE_56.FCO SLICE_56
+ROUTE         1   e 0.001   SLICE_56.FCO to   SLICE_55.FCI r_idle_cnt_cry[6]
+FCITOFCO_D  ---     0.317   SLICE_55.FCI to   SLICE_55.FCO SLICE_55
+ROUTE         1   e 0.001   SLICE_55.FCO to   SLICE_54.FCI r_idle_cnt_cry[8]
+FCITOFCO_D  ---     0.317   SLICE_54.FCI to   SLICE_54.FCO SLICE_54
+ROUTE         1   e 0.001   SLICE_54.FCO to   SLICE_53.FCI r_idle_cnt_cry[10]
+FCITOFCO_D  ---     0.317   SLICE_53.FCI to   SLICE_53.FCO SLICE_53
+ROUTE         1   e 0.001   SLICE_53.FCO to   SLICE_52.FCI r_idle_cnt_cry[12]
+FCITOFCO_D  ---     0.317   SLICE_52.FCI to   SLICE_52.FCO SLICE_52
+ROUTE         1   e 0.001   SLICE_52.FCO to   SLICE_51.FCI r_idle_cnt_cry[14]
+FCITOFCO_D  ---     0.317   SLICE_51.FCI to   SLICE_51.FCO SLICE_51
+ROUTE         1   e 0.001   SLICE_51.FCO to   SLICE_50.FCI r_idle_cnt_cry[16]
+FCITOFCO_D  ---     0.317   SLICE_50.FCI to   SLICE_50.FCO SLICE_50
+ROUTE         1   e 0.001   SLICE_50.FCO to   SLICE_49.FCI r_idle_cnt_cry[18]
+FCITOFCO_D  ---     0.317   SLICE_49.FCI to   SLICE_49.FCO SLICE_49
+ROUTE         1   e 0.001   SLICE_49.FCO to   SLICE_48.FCI r_idle_cnt_cry[20]
+FCITOFCO_D  ---     0.317   SLICE_48.FCI to   SLICE_48.FCO SLICE_48
+ROUTE         1   e 0.001   SLICE_48.FCO to   SLICE_47.FCI r_idle_cnt_cry[22]
+FCITOF0_DE  ---     1.181   SLICE_47.FCI to    SLICE_47.F0 SLICE_47
+ROUTE         1   e 0.001    SLICE_47.F0 to   SLICE_47.DI0 r_idle_cnt_s[23] (to w_clk)
                   --------
-                   22.582   (54.5% logic, 45.5% route), 19 logic levels.
+                   23.745   (51.8% logic, 48.2% route), 19 logic levels.
 
-Report:   43.452MHz is the maximum frequency for this preference.
+Report:   41.362MHz is the maximum frequency for this preference.
 
 Report Summary
 --------------
@@ -111,7 +111,7 @@ Report Summary
 Preference                              |   Constraint|       Actual|Levels
 ----------------------------------------------------------------------------
                                         |             |             |
-FREQUENCY NET "w_clk" 3.330000 MHz ;    |    3.330 MHz|   43.452 MHz|  19  
+FREQUENCY NET "w_clk" 3.330000 MHz ;    |    3.330 MHz|   41.362 MHz|  19  
                                         |             |             |
 ----------------------------------------------------------------------------
 
@@ -124,7 +124,7 @@ Clock Domains Analysis
 
 Found 1 clocks:
 
-Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 93
+Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 95
    Covered under: FREQUENCY NET "w_clk" 3.330000 MHz ;
 
 
@@ -134,11 +134,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
+Constraints cover 49220 paths, 1 nets, and 917 connections (81.44% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
-Tue Aug 23 15:47:34 2022
+Thu Aug 25 11:56:13 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -213,7 +213,7 @@ Clock Domains Analysis
 
 Found 1 clocks:
 
-Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 93
+Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 95
    Covered under: FREQUENCY NET "w_clk" 3.330000 MHz ;
 
 
@@ -223,7 +223,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
+Constraints cover 49220 paths, 1 nets, and 917 connections (81.44% coverage)
 
 
 

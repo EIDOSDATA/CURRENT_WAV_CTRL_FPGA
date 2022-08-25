@@ -6,7 +6,7 @@ Performance Grade:      1
 PACKAGE:          TQFP100
 Package Status:                     Final          Version 1.44
 
-Tue Aug 23 15:47:39 2022
+Thu Aug 25 11:56:18 2022
 
 Pinout by Port Name:
 +-------------+----------+--------------+-------+-----------+-----------+----------------------+
@@ -21,10 +21,10 @@ Pinout by Port Name:
 | i_rst_n     | 78/0     | LVCMOS12_IN  | PT22A |           |           | PULL:UP CLAMP:ON     |
 | i_start_btn | 77/0     | LVCMOS12_IN  | PT24C |           |           | PULL:UP CLAMP:ON     |
 | i_stop_btn  | 76/0     | LVCMOS12_IN  | PT24D |           |           | PULL:UP CLAMP:ON     |
-| o_ano_bot   | 40/2     | LVCMOS18_OUT | PB18A |           |           | DRIVE:8mA SLEW:SLOW  |
-| o_ano_top   | 39/2     | LVCMOS18_OUT | PB16B |           |           | DRIVE:8mA SLEW:SLOW  |
-| o_cat_bot   | 42/2     | LVCMOS18_OUT | PB21A |           |           | DRIVE:8mA SLEW:SLOW  |
-| o_cat_top   | 41/2     | LVCMOS18_OUT | PB18B |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_ano_bot_p | 40/2     | LVCMOS18_OUT | PB18A |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_ano_top_n | 39/2     | LVCMOS18_OUT | PB16B |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_cat_bot_p | 42/2     | LVCMOS18_OUT | PB21A |           |           | DRIVE:8mA SLEW:SLOW  |
+| o_cat_top_n | 41/2     | LVCMOS18_OUT | PB18B |           |           | DRIVE:8mA SLEW:SLOW  |
 | o_curr_ena  | 43/2     | LVCMOS18_OUT | PB21B |           |           | DRIVE:8mA SLEW:SLOW  |
 | o_led_b     | 14/4     | LVCMOS33_OUT | PL9A  |           |           | DRIVE:8mA SLEW:SLOW  |
 | o_led_g     | 13/4     | LVCMOS33_OUT | PL7D  |           |           | DRIVE:8mA SLEW:SLOW  |
@@ -81,10 +81,10 @@ Pinout by Pin Number:
 | 36/2     |     unused, PULL:DOWN |            |              | PB12A |               |           |           |
 | 37/2     |     unused, PULL:DOWN |            |              | PB12B |               |           |           |
 | 38/2     |     unused, PULL:DOWN |            |              | PB16A | PCLKT2_1      |           |           |
-| 39/2     | o_ano_top             | LOCATED    | LVCMOS18_OUT | PB16B | PCLKC2_1      |           |           |
-| 40/2     | o_ano_bot             | LOCATED    | LVCMOS18_OUT | PB18A |               |           |           |
-| 41/2     | o_cat_top             | LOCATED    | LVCMOS18_OUT | PB18B |               |           |           |
-| 42/2     | o_cat_bot             | LOCATED    | LVCMOS18_OUT | PB21A |               |           |           |
+| 39/2     | o_ano_top_n           | LOCATED    | LVCMOS18_OUT | PB16B | PCLKC2_1      |           |           |
+| 40/2     | o_ano_bot_p           | LOCATED    | LVCMOS18_OUT | PB18A |               |           |           |
+| 41/2     | o_cat_top_n           | LOCATED    | LVCMOS18_OUT | PB18B |               |           |           |
+| 42/2     | o_cat_bot_p           | LOCATED    | LVCMOS18_OUT | PB21A |               |           |           |
 | 43/2     | o_curr_ena            | LOCATED    | LVCMOS18_OUT | PB21B |               |           |           |
 | 45/2     |     unused, PULL:DOWN |            |              | PB22A |               |           |           |
 | 47/2     |     unused, PULL:DOWN |            |              | PB22B |               |           |           |
@@ -293,10 +293,10 @@ LOCATE  COMP  "i_idle[2]"  SITE  "96";
 LOCATE  COMP  "i_rst_n"  SITE  "78";
 LOCATE  COMP  "i_start_btn"  SITE  "77";
 LOCATE  COMP  "i_stop_btn"  SITE  "76";
-LOCATE  COMP  "o_ano_bot"  SITE  "40";
-LOCATE  COMP  "o_ano_top"  SITE  "39";
-LOCATE  COMP  "o_cat_bot"  SITE  "42";
-LOCATE  COMP  "o_cat_top"  SITE  "41";
+LOCATE  COMP  "o_ano_bot_p"  SITE  "40";
+LOCATE  COMP  "o_ano_top_n"  SITE  "39";
+LOCATE  COMP  "o_cat_bot_p"  SITE  "42";
+LOCATE  COMP  "o_cat_top_n"  SITE  "41";
 LOCATE  COMP  "o_curr_ena"  SITE  "43";
 LOCATE  COMP  "o_led_b"  SITE  "14";
 LOCATE  COMP  "o_led_g"  SITE  "13";
@@ -312,5 +312,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Aug 23 15:47:39 2022
+Thu Aug 25 11:56:19 2022
 

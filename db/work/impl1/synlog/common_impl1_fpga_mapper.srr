@@ -1,4 +1,4 @@
-# Tue Aug 23 15:47:26 2022
+# Thu Aug 25 11:56:06 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -32,7 +32,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
 
 
 
@@ -41,11 +41,11 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
 
-@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":358:1:358:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_idle_cnt[23:0] 
-@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":445:1:445:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_duty_cnt[23:0] 
-@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":393:1:393:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_interphase_cnt[23:0] 
-@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":470:24:470:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
-@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":474:24:474:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":379:1:379:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_idle_cnt[23:0] 
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":466:1:466:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_duty_cnt[23:0] 
+@N: MO231 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":414:1:414:6|Found counter in view:work.ci_stim_fpga_wrapper(verilog) instance r_interphase_cnt[23:0] 
+@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":492:24:492:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
+@N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":498:24:498:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
 
 Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 175MB)
 
@@ -59,58 +59,60 @@ Available hyper_sources - for debug and ip models
 
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
 
-@N: FA113 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":462:7:462:49|Pipelining module un1_r_duty_val[12:0]. For more information, search for "pipelining" in Online Help.
-@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":261:1:261:6|Pushed in register r_duty_val[7:0].
-@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":261:1:261:6|Pushed in register r_duty_val[11:9].
+@N: FA113 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":354:13:354:61|Pipelining module un6_r_idle[21:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[1:0].
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[6].
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[21:9].
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":282:1:282:6|Pushed in register r_duty_val[11:0].
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:02s		   238.21ns		 119 /       163
+   1		0h:00m:03s		   238.21ns		 131 /       166
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 179MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 179MB)
 
 
 Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 142MB peak: 179MB)
 
 Writing Analyst data base C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 179MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 180MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 184MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 185MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 185MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 185MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 185MB)
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 185MB)
 
 @N: MT615 |Found clock rootClk with period 250.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Aug 23 15:47:31 2022
+# Timing report written on Thu Aug 25 11:56:11 2022
 #
 
 
@@ -174,21 +176,21 @@ Detailed Report for Clock: rootClk
 Starting Points with Worst Slack
 ********************************
 
-                  Starting                                            Arrival            
-Instance          Reference     Type        Pin     Net               Time        Slack  
-                  Clock                                                                  
------------------------------------------------------------------------------------------
-r_idle[5]         rootClk       FD1P3DX     Q       r_idle[5]         1.044       238.463
-r_idle[6]         rootClk       FD1P3DX     Q       r_idle[6]         1.044       238.463
-r_idle[7]         rootClk       FD1P3DX     Q       r_idle[7]         1.044       238.463
-r_idle[21]        rootClk       FD1P3DX     Q       r_idle[21]        1.044       238.463
-r_duty_cnt[0]     rootClk       FD1P3DX     Q       r_duty_cnt[0]     1.148       238.755
-r_duty_cnt[1]     rootClk       FD1P3DX     Q       r_duty_cnt[1]     1.148       238.755
-r_idle[0]         rootClk       FD1P3DX     Q       r_idle[0]         1.148       238.795
-r_idle[1]         rootClk       FD1P3DX     Q       r_idle[1]         1.108       238.835
-r_duty[0]         rootClk       FD1P3DX     Q       r_duty[0]         1.044       238.859
-r_duty_cnt[2]     rootClk       FD1P3DX     Q       r_duty_cnt[2]     1.148       238.898
-=========================================================================================
+               Starting                                         Arrival            
+Instance       Reference     Type        Pin     Net            Time        Slack  
+               Clock                                                               
+-----------------------------------------------------------------------------------
+r_idle[2]      rootClk       FD1P3DX     Q       r_idle[2]      1.044       238.463
+r_idle[3]      rootClk       FD1P3DX     Q       r_idle[3]      1.044       238.463
+r_idle[4]      rootClk       FD1P3DX     Q       r_idle[4]      1.044       238.463
+r_idle[5]      rootClk       FD1P3DX     Q       r_idle[5]      1.044       238.463
+r_idle[6]      rootClk       FD1P3DX     Q       r_idle[6]      1.044       238.463
+r_idle[7]      rootClk       FD1P3DX     Q       r_idle[7]      1.044       238.463
+r_idle[18]     rootClk       FD1P3DX     Q       r_idle[18]     1.044       238.463
+r_idle[19]     rootClk       FD1P3DX     Q       r_idle[19]     1.044       238.463
+r_idle[20]     rootClk       FD1P3DX     Q       r_idle[20]     1.044       238.463
+r_idle[21]     rootClk       FD1P3DX     Q       r_idle[21]     1.044       238.463
+===================================================================================
 
 
 Ending Points with Worst Slack
@@ -227,7 +229,7 @@ Path information for path number 1:
     = Slack (critical) :                     238.463
 
     Number of logic level(s):                18
-    Starting point:                          r_idle[5] / Q
+    Starting point:                          r_idle[2] / Q
     Ending point:                            r_idle_cnt[23] / D
     The start point is clocked by            rootClk [rising] (rise=0.000 fall=125.000 period=250.000) on pin CK
     The end   point is clocked by            rootClk [rising] (rise=0.000 fall=125.000 period=250.000) on pin CK
@@ -235,20 +237,20 @@ Path information for path number 1:
 Instance / Net                        Pin      Pin               Arrival      No. of    
 Name                     Type         Name     Dir     Delay     Time         Fan Out(s)
 ----------------------------------------------------------------------------------------
-r_idle[5]                FD1P3DX      Q        Out     1.044     1.044 r      -         
-r_idle[5]                Net          -        -       -         -            2         
-r_state_ns_a2_10[2]      ORCALUT4     A        In      0.000     1.044 r      -         
-r_state_ns_a2_10[2]      ORCALUT4     Z        Out     1.017     2.061 f      -         
-r_state_ns_a2_10[2]      Net          -        -       -         -            1         
-r_state_ns_a2_14[2]      ORCALUT4     D        In      0.000     2.061 f      -         
-r_state_ns_a2_14[2]      ORCALUT4     Z        Out     1.017     3.077 f      -         
-r_state_ns_a2_14[2]      Net          -        -       -         -            1         
+r_idle[2]                FD1P3DX      Q        Out     1.044     1.044 r      -         
+r_idle[2]                Net          -        -       -         -            2         
+r_state_ns_a2_4[2]       ORCALUT4     A        In      0.000     1.044 r      -         
+r_state_ns_a2_4[2]       ORCALUT4     Z        Out     1.017     2.061 f      -         
+r_state_ns_a2_4[2]       Net          -        -       -         -            1         
+r_state_ns_a2_18[2]      ORCALUT4     C        In      0.000     2.061 f      -         
+r_state_ns_a2_18[2]      ORCALUT4     Z        Out     1.017     3.077 f      -         
+r_state_ns_a2_18[2]      Net          -        -       -         -            1         
 r_state_ns_a2[2]         ORCALUT4     D        In      0.000     3.077 f      -         
 r_state_ns_a2[2]         ORCALUT4     Z        Out     1.193     4.270 f      -         
-N_152                    Net          -        -       -         -            4         
+N_166                    Net          -        -       -         -            4         
 c_idle_phase_en_i        ORCALUT4     C        In      0.000     4.270 f      -         
 c_idle_phase_en_i        ORCALUT4     Z        Out     1.153     5.423 f      -         
-N_97                     Net          -        -       -         -            3         
+N_103                    Net          -        -       -         -            3         
 r_idle_cnt15_i           ORCALUT4     A        In      0.000     5.423 f      -         
 r_idle_cnt15_i           ORCALUT4     Z        Out     1.344     6.767 f      -         
 r_idle_cnt               Net          -        -       -         -            25        
@@ -309,32 +311,32 @@ Timing exceptions that could not be applied
 @W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 185MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 185MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 185MB)
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 185MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lcmxo2_2000ze-1
 
-Register bits: 163 of 2112 (8%)
+Register bits: 166 of 2112 (8%)
 PIC Latch:       0
 I/O cells:       17
 
 
 Details:
-CCU2D:          74
+CCU2D:          85
 FD1P3AY:        2
-FD1P3DX:        108
+FD1P3DX:        113
 FD1S3BX:        13
-FD1S3DX:        39
+FD1S3DX:        37
 GSR:            1
 IB:             9
 INV:            3
 OB:             8
 OFS1P3DX:       1
-ORCALUT4:       114
+ORCALUT4:       126
 OSCH:           1
 PUR:            1
 VHI:            1
@@ -343,7 +345,7 @@ Mapper successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 68MB peak: 185MB)
 
-Process took 0h:00m:04s realtime, 0h:00m:04s cputime
-# Tue Aug 23 15:47:31 2022
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Thu Aug 25 11:56:11 2022
 
 ###########################################################]
