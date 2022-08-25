@@ -19,7 +19,7 @@
 `define IDLE_TIME_800MS			(3'b110) /* 110 */
 `define IDLE_TIME_1000MS		(3'b111) /* 111 */
 
-`define DUTY_TIME_50US			(3'b000) /* 000 */
+`define DUTY_TIME_20US			(3'b000) /* 000 */
 `define DUTY_TIME_100US			(3'b001) /* 001 */
 `define DUTY_TIME_200US			(3'b010) /* 010 */
 `define DUTY_TIME_300US			(3'b011) /* 011 */
@@ -287,9 +287,9 @@ module ci_stim_fpga_wrapper (
 		
 		else begin
 			case (i_duty)
-				`DUTY_TIME_50US:
+				`DUTY_TIME_20US:
 					begin
-						r_duty_val <= 166 + `CURRENT_SOURCE_INTERVAL_TIME;
+						r_duty_val <= 66 + `CURRENT_SOURCE_INTERVAL_TIME;
 					end
 				`DUTY_TIME_100US:
 					begin

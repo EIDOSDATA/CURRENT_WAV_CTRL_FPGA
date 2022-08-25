@@ -473,6 +473,18 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:282:1:282:6|Pruning register bit 9 of r_duty_val[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>282</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>282</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Pruning register bit 9 of r_duty_val[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
             <Dynamic>CL279 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:236:1:236:6|Pruning register bits 5 to 2 of r_idle_val[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
@@ -505,6 +517,18 @@
             <Navigation>328</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Pruning register bit 23 of r_idle[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v&quot;:328:1:328:6|Pruning register bit 9 of r_duty[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v</Navigation>
+            <Navigation>328</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>328</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Pruning register bit 9 of r_duty[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>

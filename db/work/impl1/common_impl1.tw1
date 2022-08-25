@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
-Thu Aug 25 11:56:13 2022
+Thu Aug 25 14:50:12 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -71,9 +71,9 @@ ROUTE         1   e 1.905   SLICE_139.F0 to   SLICE_117.D1 r_state_ns_a2_18[2]
 CTOF_DEL    ---     0.923   SLICE_117.D1 to   SLICE_117.F1 SLICE_117
 ROUTE         4   e 1.905   SLICE_117.F1 to   SLICE_133.C1 N_166
 CTOF_DEL    ---     0.923   SLICE_133.C1 to   SLICE_133.F1 SLICE_133
-ROUTE         3   e 1.905   SLICE_133.F1 to   SLICE_143.A0 N_103
-CTOF_DEL    ---     0.923   SLICE_143.A0 to   SLICE_143.F0 SLICE_143
-ROUTE        25   e 1.905   SLICE_143.F0 to    SLICE_59.B0 r_idle_cnt
+ROUTE         3   e 1.905   SLICE_133.F1 to   SLICE_144.A0 N_103
+CTOF_DEL    ---     0.923   SLICE_144.A0 to   SLICE_144.F0 SLICE_144
+ROUTE        25   e 1.905   SLICE_144.F0 to    SLICE_59.B0 r_idle_cnt
 C0TOFCO_DE  ---     2.064    SLICE_59.B0 to   SLICE_59.FCO SLICE_59
 ROUTE         1   e 0.001   SLICE_59.FCO to   SLICE_58.FCI r_idle_cnt_cry[0]
 FCITOFCO_D  ---     0.317   SLICE_58.FCI to   SLICE_58.FCO SLICE_58
@@ -124,7 +124,7 @@ Clock Domains Analysis
 
 Found 1 clocks:
 
-Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 95
+Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 94
    Covered under: FREQUENCY NET "w_clk" 3.330000 MHz ;
 
 
@@ -134,11 +134,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 49220 paths, 1 nets, and 917 connections (81.44% coverage)
+Constraints cover 49220 paths, 1 nets, and 914 connections (80.81% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
-Thu Aug 25 11:56:13 2022
+Thu Aug 25 14:50:12 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -213,7 +213,7 @@ Clock Domains Analysis
 
 Found 1 clocks:
 
-Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 95
+Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 94
    Covered under: FREQUENCY NET "w_clk" 3.330000 MHz ;
 
 
@@ -223,7 +223,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 49220 paths, 1 nets, and 917 connections (81.44% coverage)
+Constraints cover 49220 paths, 1 nets, and 914 connections (80.81% coverage)
 
 
 

@@ -10,7 +10,8 @@
 @N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[1:0].
 @N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[6].
 @N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[21:9].
-@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":282:1:282:6|Pushed in register r_duty_val[11:0].
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":282:1:282:6|Pushed in register r_duty_val[8:0].
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":282:1:282:6|Pushed in register r_duty_val[11:10].
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 

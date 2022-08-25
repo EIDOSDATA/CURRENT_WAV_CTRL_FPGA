@@ -1,4 +1,4 @@
-# Thu Aug 25 11:56:06 2022
+# Thu Aug 25 14:50:03 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -36,7 +36,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
 
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
@@ -47,31 +47,32 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 @N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":492:24:492:44|Found 24 by 24 bit equality operator ('==') w_idle_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
 @N: MF179 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":498:24:498:44|Found 24 by 24 bit equality operator ('==') w_duty_tmout (in view: work.ci_stim_fpga_wrapper(verilog))
 
-Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 175MB)
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 175MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 176MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
 
 @N: FA113 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":354:13:354:61|Pipelining module un6_r_idle[21:0]. For more information, search for "pipelining" in Online Help.
 @N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[1:0].
 @N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[6].
 @N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":236:1:236:6|Pushed in register r_idle_val[21:9].
-@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":282:1:282:6|Pushed in register r_duty_val[11:0].
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":282:1:282:6|Pushed in register r_duty_val[8:0].
+@N: MF169 :"c:\users\eidos\github\current_wav_ctrl_fpga\db\top\ci_stim_fpga.v":282:1:282:6|Pushed in register r_duty_val[11:10].
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
 
 
 Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
@@ -81,20 +82,20 @@ Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:0
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:03s		   238.21ns		 131 /       166
+   1		0h:00m:03s		   238.21ns		 136 /       164
 
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 179MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 179MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 179MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 142MB peak: 179MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 142MB peak: 179MB)
 
 Writing Analyst data base C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\synwork\common_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 180MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 180MB peak: 180MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1.edi
@@ -103,16 +104,16 @@ Writing EDIF Netlist and constraint files
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 185MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 185MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 186MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 185MB)
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 186MB)
 
 @N: MT615 |Found clock rootClk with period 250.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Aug 25 11:56:11 2022
+# Timing report written on Thu Aug 25 14:50:09 2022
 #
 
 
@@ -311,16 +312,16 @@ Timing exceptions that could not be applied
 @W: MT447 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":58:0:58:0|Timing constraint (from [get_clocks ck_cg_fsm] to [get_clocks ck_div4]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 185MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 186MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 185MB)
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 186MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lcmxo2_2000ze-1
 
-Register bits: 166 of 2112 (8%)
+Register bits: 164 of 2112 (8%)
 PIC Latch:       0
 I/O cells:       17
 
@@ -328,24 +329,24 @@ I/O cells:       17
 Details:
 CCU2D:          85
 FD1P3AY:        2
-FD1P3DX:        113
+FD1P3DX:        112
 FD1S3BX:        13
-FD1S3DX:        37
+FD1S3DX:        36
 GSR:            1
 IB:             9
-INV:            3
+INV:            4
 OB:             8
 OFS1P3DX:       1
-ORCALUT4:       126
+ORCALUT4:       131
 OSCH:           1
 PUR:            1
 VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 68MB peak: 185MB)
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 68MB peak: 186MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:04s cputime
-# Thu Aug 25 11:56:11 2022
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Thu Aug 25 14:50:09 2022
 
 ###########################################################]

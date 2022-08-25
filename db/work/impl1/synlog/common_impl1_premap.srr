@@ -1,4 +1,4 @@
-# Thu Aug 25 11:56:04 2022
+# Thu Aug 25 14:50:02 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -87,7 +87,7 @@ Clock Summary
           Start       Requested     Requested     Clock        Clock                Clock
 Level     Clock       Frequency     Period        Type         Group                Load 
 -----------------------------------------------------------------------------------------
-0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     153  
+0 -       rootClk     4.0 MHz       250.000       declared     default_clkgroup     151  
 =========================================================================================
 
 
@@ -98,7 +98,7 @@ Clock Load Summary
             Clock     Source                     Clock Pin       Non-clock Pin     Non-clock Pin
 Clock       Load      Pin                        Seq Example     Seq Example       Comb Example 
 ------------------------------------------------------------------------------------------------
-rootClk     153       internal_osc.OSC(OSCH)     r_led_r.C       -                 -            
+rootClk     151       internal_osc.OSC(OSCH)     r_led_r.C       -                 -            
 ================================================================================================
 
 ICG Latch Removal Summary:
@@ -113,14 +113,14 @@ For details review file gcc_ICG_report.rpt
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 153 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 151 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ============================ Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
 ----------------------------------------------------------------------------------------
-@KP:ckid0_0       internal_osc.OSC     OSCH                   153        r_state[6]     
+@KP:ckid0_0       internal_osc.OSC     OSCH                   151        r_state[6]     
 ========================================================================================
 
 
@@ -143,6 +143,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 178MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Aug 25 11:56:06 2022
+# Thu Aug 25 14:50:03 2022
 
 ###########################################################]

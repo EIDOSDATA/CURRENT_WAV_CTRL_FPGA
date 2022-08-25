@@ -13,6 +13,7 @@ r_idle_cnt_cry_0_S0[0]
 N_3
 r_idle_cnt_s_0_S1[23]
 r_idle_cnt_s_0_COUT[23]
+un1_r_duty_val_1_cry_0_0_S1
 un1_r_duty_val_1_cry_0_0_S0
 N_4
 un1_r_duty_val_1_cry_11_0_COUT
@@ -22,7 +23,7 @@ N_5
 un6_r_idle_cry_19_0_COUT
 r_curr_ena15_cry_0_0_S1
 r_curr_ena15_cry_0_0_S0
-N_6
+N_14
 r_curr_ena15_cry_1_0_S1
 r_curr_ena15_cry_1_0_S0
 r_curr_ena15_cry_3_0_S1
@@ -51,7 +52,7 @@ r_curr_ena15_cry_24_0_S1
 r_curr_ena15_cry_24_0_COUT
 w_duty_tmout_0_I_1_0_S1
 w_duty_tmout_0_I_1_0_S0
-N_14
+N_15
 w_duty_tmout_0_I_9_0_S1
 w_duty_tmout_0_I_9_0_S0
 w_duty_tmout_0_I_27_0_S1
@@ -66,7 +67,7 @@ w_duty_tmout_0_I_45_0_S0
 w_duty_tmout_0_I_45_0_COUT
 w_idle_tmout_0_I_1_0_S1
 w_idle_tmout_0_I_1_0_S0
-N_15
+N_17
 w_idle_tmout_0_I_9_0_S1
 w_idle_tmout_0_I_9_0_S0
 w_idle_tmout_0_I_27_0_S1
@@ -88,7 +89,7 @@ w_clk 3.33
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.1.454 -- WARNING: Map write only section -- Thu Aug 25 11:56:13 2022
+# map:  version Diamond (64-bit) 3.12.1.454 -- WARNING: Map write only section -- Thu Aug 25 14:50:12 2022
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
 LOCATE COMP "o_ano_top_n" SITE "39" ;
