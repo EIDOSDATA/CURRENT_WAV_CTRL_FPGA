@@ -610,12 +610,14 @@ module ci_stim_fpga_wrapper (
 				end
 			`ST_ANODE_LV:
 				begin
-					if (r_anode_phase) begin						
-						c_ano_top_n = 0;
-						c_ano_bot_p = 1;
+					if (r_anode_phase) begin
+						//c_ano_top_n = 1;
+						//c_ano_bot_p = 1;
+						c_ano_top_n = 0; // PMOS ON
+						c_ano_bot_p = 1; // NMOS ON
 						
-						c_cat_top_n = 1;
-						c_cat_bot_p = 0;
+						c_cat_top_n = 1; // PMOS OFF
+						c_cat_bot_p = 0; // NMOS OFF
 						c_next_state = `ST_ANODE_LV;
 					end
 					
@@ -641,11 +643,14 @@ module ci_stim_fpga_wrapper (
 			`ST_CATHODE_LV:
 				begin
 					if (r_cathod_phase) begin						
-						c_ano_top_n = 1;
-						c_ano_bot_p = 0;
+						c_ano_top_n = 1; // PMOS OFF
+						c_ano_bot_p = 0; // NMOS OFF
 						
-						c_cat_top_n = 0;
-						c_cat_bot_p = 1;
+						c_cat_top_n = 0; // PMOS ON
+						c_cat_bot_p = 1; // NMOS ON
+						
+						//c_cat_top_n = 1; // PMOS ON
+						//c_cat_bot_p = 1; // NMOS ON
 						c_next_state = `ST_CATHODE_LV;
 					end
 					

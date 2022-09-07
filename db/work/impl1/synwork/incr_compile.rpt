@@ -16,13 +16,13 @@ Synopsys HDL compiler and linker, Version comp202103synp2, Build 093R, Built Aug
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-17       C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (2022-08-25 15:35:28, 2022-08-25 15:51:18)
+17       C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (2022-08-25 17:04:51, 2022-08-25 17:09:20)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
 1        work.ci_stim_fpga_wrapper.verilog may have changed because the following files changed:
-                        C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (2022-08-25 15:35:28, 2022-08-25 15:51:18) <-- (module definition)
+                        C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\top\ci_stim_fpga.v (2022-08-25 17:04:51, 2022-08-25 17:09:20) <-- (module definition)
 
 *******************************************************************
 Unmodified files: 6

@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/impl1/common_impl1.jed</File>
-			<FileTime>08/25/22 15:35:58</FileTime>
-			<JedecChecksum>0x662A</JedecChecksum>
+			<FileTime>08/25/22 17:09:47</FileTime>
+			<JedecChecksum>0x80CD</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>

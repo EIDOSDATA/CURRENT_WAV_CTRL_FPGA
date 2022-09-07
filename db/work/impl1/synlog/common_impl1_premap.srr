@@ -1,4 +1,4 @@
-# Thu Aug 25 15:51:27 2022
+# Thu Aug 25 17:09:26 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -17,10 +17,10 @@ Implementation : impl1
 Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 070R, Built Oct  6 2021 11:12:38, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
 
 Reading constraint file: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\sdc\common.sdc
 @L: C:\Users\eidos\GitHub\CURRENT_WAV_CTRL_FPGA\db\work\impl1\common_impl1_scck.rpt 
@@ -58,7 +58,7 @@ original code -> new code
 Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":3:0:3:0|Source for clock ck_sw1_a not found in netlist.
 @W: MT548 :"c:/users/eidos/github/current_wav_ctrl_fpga/db/sdc/common.sdc":4:0:4:0|Source for clock ck_sw2_a not found in netlist.
@@ -140,9 +140,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 178MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 177MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Aug 25 15:51:28 2022
+# Thu Aug 25 17:09:27 2022
 
 ###########################################################]

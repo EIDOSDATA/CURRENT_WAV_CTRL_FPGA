@@ -2,8 +2,8 @@
 // Verilog netlist produced by program ldbanno, Version Diamond (64-bit) 3.12.1.454
 
 // ldbanno -n Verilog -o common_impl1_mapvo.vo -w -neg -gui -msgset C:/Users/eidos/GitHub/CURRENT_WAV_CTRL_FPGA/db/work/promote.xml common_impl1_map.ncd 
-// Netlist created on Thu Aug 25 15:51:37 2022
-// Netlist written on Thu Aug 25 15:51:39 2022
+// Netlist created on Thu Aug 25 17:09:34 2022
+// Netlist written on Thu Aug 25 17:09:36 2022
 // Design is for device LCMXO2-2000ZE
 // Design is for package TQFP100
 // Design is for performance grade 1

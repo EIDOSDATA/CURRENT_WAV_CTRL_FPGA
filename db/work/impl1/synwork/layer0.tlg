@@ -1,7 +1,7 @@
 Selecting top level module ci_stim_fpga_wrapper
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
 Running optimization stage 1 on GSR .......
-Finished optimization stage 1 on GSR (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on GSR (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
 Running optimization stage 1 on OSCH .......
 Finished optimization stage 1 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
