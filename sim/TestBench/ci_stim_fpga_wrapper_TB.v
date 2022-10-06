@@ -51,8 +51,8 @@ module ci_stim_fpga_wrapper_tb;
 		r_idle_val = 3'd0;
 		#(1000);
 		r_start_btn = 1;
-		r_duty_val = 3'd7;
-		r_idle_val = 3'd7;
+		r_duty_val = 3'd0;
+		r_idle_val = 3'd0;
 	end
 
 	// simulation time

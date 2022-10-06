@@ -22,7 +22,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454</big></U></B>
-Mon Aug 22 15:32:02 2022
+Thu Oct 06 11:22:18 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -42,7 +42,7 @@ Report level:    verbose report, limited to 1 item per preference
 <A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
 
 <LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "w_clk" 3.330000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
-Report:   43.452MHz is the maximum frequency for this preference.
+Report:   49.539MHz is the maximum frequency for this preference.
 
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
@@ -56,38 +56,36 @@ BLOCK RESETPATHS
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 277.286ns
+Passed: The following path meets requirements by 280.114ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              r_idle[21]  (from w_clk +)
+   Source:         FF         Q              r_idle[13]  (from w_clk +)
    Destination:    FF         Data in        r_idle_cnt[23]  (to w_clk +)
 
-   Delay:              22.582ns  (54.5% logic, 45.5% route), 19 logic levels.
+   Delay:              19.754ns  (57.6% logic, 42.4% route), 18 logic levels.
 
  Constraint Details:
 
-     22.582ns physical path delay SLICE_102 to SLICE_36 meets
+     19.754ns physical path delay SLICE_98 to SLICE_36 meets
     300.300ns delay constraint less
-      0.432ns DIN_SET requirement (totaling 299.868ns) by 277.286ns
+      0.432ns DIN_SET requirement (totaling 299.868ns) by 280.114ns
 
  Physical Path Details:
 
-      Data path SLICE_102 to SLICE_36:
+      Data path SLICE_98 to SLICE_36:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.955  SLICE_102.CLK to   SLICE_102.Q0 SLICE_102 (from w_clk)
-ROUTE         2   e 1.905   SLICE_102.Q0 to   SLICE_125.D1 r_idle[21]
-CTOF_DEL    ---     0.923   SLICE_125.D1 to   SLICE_125.F1 SLICE_125
-ROUTE         1   e 0.742   SLICE_125.F1 to   SLICE_125.D0 r_state_ns_a2_10[2]
-CTOF_DEL    ---     0.923   SLICE_125.D0 to   SLICE_125.F0 SLICE_125
-ROUTE         1   e 1.905   SLICE_125.F0 to   SLICE_103.D1 r_state_ns_a2_14[2]
-CTOF_DEL    ---     0.923   SLICE_103.D1 to   SLICE_103.F1 SLICE_103
-ROUTE         4   e 1.905   SLICE_103.F1 to   SLICE_120.C1 N_152
-CTOF_DEL    ---     0.923   SLICE_120.C1 to   SLICE_120.F1 SLICE_120
-ROUTE         3   e 1.905   SLICE_120.F1 to   SLICE_128.A0 N_97
-CTOF_DEL    ---     0.923   SLICE_128.A0 to   SLICE_128.F0 SLICE_128
-ROUTE        25   e 1.905   SLICE_128.F0 to    SLICE_48.B0 r_idle_cnt
+REG_DEL     ---     0.955   SLICE_98.CLK to    SLICE_98.Q0 SLICE_98 (from w_clk)
+ROUTE         2   e 1.905    SLICE_98.Q0 to   SLICE_117.A1 r_idle[13]
+CTOF_DEL    ---     0.923   SLICE_117.A1 to   SLICE_117.F1 SLICE_117
+ROUTE         1   e 1.905   SLICE_117.F1 to   SLICE_128.D0 r_state_ns_a3_13[2]
+CTOF_DEL    ---     0.923   SLICE_128.D0 to   SLICE_128.F0 SLICE_128
+ROUTE         1   e 1.905   SLICE_128.F0 to   SLICE_122.D1 r_state_ns_a3_16[2]
+CTOF_DEL    ---     0.923   SLICE_122.D1 to   SLICE_122.F1 SLICE_122
+ROUTE         6   e 0.742   SLICE_122.F1 to   SLICE_122.B0 N_122
+CTOF_DEL    ---     0.923   SLICE_122.B0 to   SLICE_122.F0 SLICE_122
+ROUTE        25   e 1.905   SLICE_122.F0 to    SLICE_48.B0 r_idle_cnt
 C0TOFCO_DE  ---     2.064    SLICE_48.B0 to   SLICE_48.FCO SLICE_48
 ROUTE         1   e 0.001   SLICE_48.FCO to   SLICE_47.FCI r_idle_cnt_cry[0]
 FCITOFCO_D  ---     0.317   SLICE_47.FCI to   SLICE_47.FCO SLICE_47
@@ -115,9 +113,9 @@ ROUTE         1   e 0.001   SLICE_37.FCO to   SLICE_36.FCI r_idle_cnt_cry[22]
 FCITOF0_DE  ---     1.181   SLICE_36.FCI to    SLICE_36.F0 SLICE_36
 ROUTE         1   e 0.001    SLICE_36.F0 to   SLICE_36.DI0 r_idle_cnt_s[23] (to w_clk)
                   --------
-                   22.582   (54.5% logic, 45.5% route), 19 logic levels.
+                   19.754   (57.6% logic, 42.4% route), 18 logic levels.
 
-Report:   43.452MHz is the maximum frequency for this preference.
+Report:   49.539MHz is the maximum frequency for this preference.
 
 <A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
 --------------
@@ -125,7 +123,7 @@ Report:   43.452MHz is the maximum frequency for this preference.
 Preference                              |   Constraint|       Actual|Levels
 ----------------------------------------------------------------------------
                                         |             |             |
-FREQUENCY NET "w_clk" 3.330000 MHz ;    |    3.330 MHz|   43.452 MHz|  19  
+FREQUENCY NET "w_clk" 3.330000 MHz ;    |    3.330 MHz|   49.539 MHz|  18  
                                         |             |             |
 ----------------------------------------------------------------------------
 
@@ -138,7 +136,7 @@ All preferences were met.
 
 Found 1 clocks:
 
-Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 93
+Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 94
    Covered under: FREQUENCY NET "w_clk" 3.330000 MHz ;
 
 
@@ -148,11 +146,11 @@ Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 93
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
+Constraints cover 52000 paths, 1 nets, and 844 connections (80.53% coverage)
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454</big></U></B>
-Mon Aug 22 15:32:02 2022
+Thu Oct 06 11:22:19 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -231,7 +229,7 @@ All preferences were met.
 
 Found 1 clocks:
 
-Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 93
+Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 94
    Covered under: FREQUENCY NET "w_clk" 3.330000 MHz ;
 
 
@@ -241,7 +239,7 @@ Clock Domain: w_clk   Source: internal_osc.OSC   Loads: 93
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 46885 paths, 1 nets, and 828 connections (80.23% coverage)
+Constraints cover 52000 paths, 1 nets, and 844 connections (80.53% coverage)
 
 
 

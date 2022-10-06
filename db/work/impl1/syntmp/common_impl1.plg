@@ -1,13 +1,13 @@
-@P:  Worst Slack : 238.463
-@P:  rootClk - Estimated Frequency : 86.7 MHz
+@P:  Worst Slack : 238.755
+@P:  rootClk - Estimated Frequency : 88.9 MHz
 @P:  rootClk - Requested Frequency : 4.0 MHz
-@P:  rootClk - Estimated Period : 11.537
+@P:  rootClk - Estimated Period : 11.245
 @P:  rootClk - Requested Period : 250.000
-@P:  rootClk - Slack : 238.463
+@P:  rootClk - Slack : 238.755
 @P:  System - Estimated Frequency : NA
 @P:  System - Requested Frequency : 100.0 MHz
 @P:  System - Estimated Period : NA
 @P:  System - Requested Period : 10.000
 @P:  System - Slack : NA
-@P:  Total Area : 117.0
-@P:  CPU Time : 0h:00m:04s
+@P:  Total Area : 122.0
+@P:  CPU Time : 0h:00m:01s

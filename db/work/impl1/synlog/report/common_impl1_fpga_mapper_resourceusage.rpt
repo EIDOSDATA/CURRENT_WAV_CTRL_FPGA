@@ -1,7 +1,7 @@
 Resource Usage Report
 Part: lcmxo2_2000ze-1
 
-Register bits: 163 of 2112 (8%)
+Register bits: 164 of 2112 (8%)
 PIC Latch:       0
 I/O cells:       17
 
@@ -10,13 +10,13 @@ CCU2D:          74
 FD1P3AY:        2
 FD1P3DX:        108
 FD1S3BX:        13
-FD1S3DX:        39
+FD1S3DX:        40
 GSR:            1
 IB:             9
 INV:            3
 OB:             8
 OFS1P3DX:       1
-ORCALUT4:       114
+ORCALUT4:       119
 OSCH:           1
 PUR:            1
 VHI:            1

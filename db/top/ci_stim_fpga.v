@@ -1,10 +1,15 @@
 `timescale 1ns/10ps
-// FSM1 STATUS
+
+// PULSE PHASE STATUS
+`define PULSE_NON_REVERSE		(1'd0) /* 0 */
+`define PULSE_REVERSE			(1'd1) /* 1 */
+
+// DEVICE STATUS
 `define ST_INIT			(3'd0) /* 000 */
 `define ST_NORMAL		(3'd1) /* 001 */
 `define ST_RUN			(3'd2) /* 010 */
 `define ST_ERROR		(3'd3) /* 011 */
-// FSM2 STATUS >> PULSE
+// PULSE OUTPUT STATUS
 `define ST_PULSE_IDLE	(3'd4) /* 100 */
 `define ST_ANODE_LV		(3'd5) /* 101 */
 `define ST_CATHODE_LV	(3'd6) /* 110 */
@@ -124,6 +129,7 @@ module ci_stim_fpga_wrapper (
 	/* STATE & TIME */
 	reg [2:0] r_state;
 	reg [2:0] c_next_state;
+	reg r_phase_reverse;
 	// EOF STATE & TIME
 	
 	/* STATE SIGNAL */
@@ -140,6 +146,8 @@ module ci_stim_fpga_wrapper (
 	reg c_anode_phase_en;
 	reg c_cathod_phase_en;
 	reg c_interphase_en;
+	reg [1:0] c_phase_reverse;
+	reg [1:0] c_reverse_val;
 	// EOF STATE SIGNAL
 	
 	/* COUNTER */
@@ -482,15 +490,13 @@ module ci_stim_fpga_wrapper (
 			r_ano_top <= 0;
 			r_ano_bot <= 0;
 			r_cat_top <= 0;
-			r_cat_bot <= 0;
-			//r_curr_ena <= 0;
+			r_cat_bot <= 0;			
 		end
 		else begin
 			r_ano_top <= c_ano_top;
 			r_ano_bot <= c_ano_bot;
 			r_cat_top <= c_cat_top;
-			r_cat_bot <= c_cat_bot;	
-			//r_curr_ena <= c_curr_ena;
+			r_cat_bot <= c_cat_bot;				
 		end
 	end
 	/* EOF OUTPUT INIT */
@@ -501,10 +507,12 @@ module ci_stim_fpga_wrapper (
 		if (~i_rst_n) begin
 			r_led_r <= 0; // LED_OFF : 1 / LED_ON : 0
 			r_state <= `ST_INIT;
+			r_phase_reverse <= `PULSE_NON_REVERSE;
 		end
 		else begin
 			r_led_r <= 1;
 			r_state <= c_next_state;
+			r_phase_reverse <= c_phase_reverse;
 		end
 	end
 	/* EOF FSM START POINT */
@@ -519,6 +527,7 @@ module ci_stim_fpga_wrapper (
 		c_cathod_phase_en = 0;
 		c_interphase_en = 0;
 		
+		c_phase_reverse = r_phase_reverse; // 반전		
 		c_next_state = r_state;
 		
 		c_ano_top = 0;
@@ -554,7 +563,6 @@ module ci_stim_fpga_wrapper (
 				begin
 					// VALUE CHECK
 					if (r_idle != 0) begin
-						//c_run_phase_en = 0;
 						c_idle_phase_en = 1;
 						c_next_state = `ST_PULSE_IDLE;
 					end
@@ -573,58 +581,88 @@ module ci_stim_fpga_wrapper (
 					end
 					
 					// STOP 버튼이 눌릴 경우 바이폴라가펄스가 1번 출력 후 IDLE에서 멈춤
-					else if (!r_run_state) begin
-						//c_run_phase_en = 0; // VALUE SETTING SINGNAL
+					else if (!r_run_state) begin						
 						c_next_state = `ST_NORMAL;
 					end
 					
-					// IDLE 끝나면 ANODE로 넘어간다
+					// IDLE 끝나면 ANODE 또는 CATHODE로 넘어간다
 					else begin
-						c_anode_phase_en = 1;
-						c_next_state = `ST_ANODE_LV;
-					end
+						if (!r_phase_reverse) begin
+							c_anode_phase_en = 1;
+							c_next_state = `ST_ANODE_LV;
+						end
+						
+						else if (r_phase_reverse) begin
+							c_cathod_phase_en = 1;
+							c_next_state = `ST_CATHODE_LV;
+						end
+					end					
 				end
 			`ST_ANODE_LV:
 				begin
 					if (r_anode_phase) begin
-						//c_anode_phase_en = 0;
 						c_ano_top = 1;
 						c_ano_bot = 1;				
 						c_next_state = `ST_ANODE_LV;
 					end
 					
-					else begin						
-						// ANODE 끝나면 INTERPHASE로 넘어간다
-						c_interphase_en = 1;
-						c_next_state = `ST_INTERPHASE;
+					else begin
+						if (!r_phase_reverse) begin
+							// ANODE 끝나면 INTERPHASE로 넘어간다
+							c_interphase_en = 1;
+							c_next_state = `ST_INTERPHASE;
+						end
+						
+						else if (r_phase_reverse) begin
+							// ANODE 끝나면 IDLE로 넘어간다
+							c_idle_phase_en = 1;
+							c_next_state = `ST_PULSE_IDLE;
+							c_phase_reverse = `PULSE_NON_REVERSE;
+						end
 					end
 				end
 			`ST_INTERPHASE:
 				begin
 					if (r_interphase) begin
-						//c_interphase_en = 0;
 						c_next_state = `ST_INTERPHASE;
 					end
 					
 					else begin 
-						// INTERPHASE 끝나면 CATHODE로 넘어간다
-						c_cathod_phase_en = 1;
-						c_next_state = `ST_CATHODE_LV;
+						
+						if (!r_phase_reverse) begin
+							// INTERPHASE 끝나면 CATHODE로 넘어간다
+							c_cathod_phase_en = 1;
+							c_next_state = `ST_CATHODE_LV;
+						end
+						
+						else if (r_phase_reverse) begin
+							// INTERPHASE 끝나면 ANODE로 넘어간다
+							c_anode_phase_en = 1;
+							c_next_state = `ST_ANODE_LV;
+						end
 					end
 				end
 			`ST_CATHODE_LV:
 				begin
-					if (r_cathod_phase) begin
-						c_cathod_phase_en = 0;
+					if (r_cathod_phase) begin						
 						c_cat_top = 1;
 						c_cat_bot = 1;
 						c_next_state = `ST_CATHODE_LV;
 					end
 					
-					else begin						
-						// CATHODE 끝나면 IDLE로 넘어간다
-						c_idle_phase_en = 1;
-						c_next_state = `ST_PULSE_IDLE;
+					else begin
+						if (!r_phase_reverse) begin
+							// CATHODE 끝나면 IDLE로 넘어간다
+							c_idle_phase_en = 1;
+							c_next_state = `ST_PULSE_IDLE;
+							c_phase_reverse = `PULSE_REVERSE;
+						end
+						
+						else if (r_phase_reverse) begin
+							// CATHODE 끝나면 INTERPHASE로 넘어간다
+							c_interphase_en = 1;
+							c_next_state = `ST_INTERPHASE;
+						end						
 					end
 				end
 				/* EOF START PULSE GENERATE */				

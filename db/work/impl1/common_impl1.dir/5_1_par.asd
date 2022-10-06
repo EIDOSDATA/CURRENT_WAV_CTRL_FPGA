@@ -4,7 +4,7 @@ GLOBAL_PRIMARY_USED = 1;
 ; Global primary clock #0
 GLOBAL_PRIMARY_0_SIGNALNAME = w_clk;
 GLOBAL_PRIMARY_0_DRIVERTYPE = OSC;
-GLOBAL_PRIMARY_0_LOADNUM = 93;
+GLOBAL_PRIMARY_0_LOADNUM = 94;
 ; # of global secondary clocks
 GLOBAL_SECONDARY_USED = 4;
 ; Global secondary clock #0
